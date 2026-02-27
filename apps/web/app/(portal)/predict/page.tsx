@@ -1,10 +1,12 @@
 import { TrendingUp, Clock, Users, BarChart3 } from "lucide-react";
 import PredictClient from "./PredictClient";
-import seedPredictions from "@/data/seed/tariff-predictions.json";
+import { getPredictions } from "@/lib/data";
 
-export default function PredictPage() {
-  const activePredictions = seedPredictions.filter((p) => p.status === "active");
-  const totalPool = seedPredictions.reduce(
+export default async function PredictPage() {
+  const predictions = await getPredictions();
+
+  const activePredictions = predictions.filter((p) => p.status === "active");
+  const totalPool = predictions.reduce(
     (sum, p) => sum + p.yesPool + p.noPool,
     0
   );
@@ -77,7 +79,7 @@ export default function PredictPage() {
       </div>
 
       {/* Prediction Cards */}
-      <PredictClient predictions={seedPredictions as any} />
+      <PredictClient predictions={predictions as any} />
     </div>
   );
 }

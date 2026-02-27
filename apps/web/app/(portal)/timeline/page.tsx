@@ -1,20 +1,20 @@
 import { Calendar } from "lucide-react";
 import InteractiveTimeline from "@/components/timeline/InteractiveTimeline";
-import seedEvents from "@/data/seed/tariff-events.json";
-import seedLinks from "@/data/seed/tariff-links.json";
+import { getEvents, getLinks } from "@/lib/data";
 
-// Assign sides based on Korean vs US actions
-const eventsWithSides = seedEvents.map((e) => ({
-  ...e,
-  status: e.status as "verified" | "disputed" | "unverified" | "false",
-  side: (["evt-001"].includes(e.id)
-    ? undefined
-    : ["evt-002", "evt-003"].includes(e.id)
-      ? "top"
-      : "bottom") as "top" | "bottom" | undefined,
-}));
+export default async function TimelinePage() {
+  const [events, links] = await Promise.all([getEvents(), getLinks()]);
 
-export default function TimelinePage() {
+  // Assign sides based on Korean vs US actions
+  const eventsWithSides = events.map((e) => ({
+    ...e,
+    status: e.status as "verified" | "disputed" | "unverified" | "false",
+    side: (["evt-001"].includes(e.id)
+      ? undefined
+      : ["evt-002", "evt-003"].includes(e.id)
+        ? "top"
+        : "bottom") as "top" | "bottom" | undefined,
+  }));
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
@@ -33,13 +33,13 @@ export default function TimelinePage() {
             <span className="text-sm font-medium text-foreground">한미 관세 분쟁 타임라인</span>
           </div>
           <span className="text-xs text-muted">
-            2025.01 - 2025.06 · {seedEvents.length}개 이벤트
+            2025.01 - 2025.06 · {events.length}개 이벤트
           </span>
         </div>
         <div className="p-4">
           <InteractiveTimeline
             events={eventsWithSides}
-            links={seedLinks}
+            links={links}
             className="h-[400px]"
           />
         </div>
@@ -79,7 +79,7 @@ export default function TimelinePage() {
       <div className="mt-8">
         <h2 className="text-lg font-semibold text-foreground mb-4">이벤트 상세</h2>
         <div className="space-y-3">
-          {seedEvents.map((event, i) => (
+          {events.map((event, i) => (
             <a
               key={event.id}
               href={`/events/${event.id}`}

@@ -15,6 +15,14 @@ class NarrativeCreate(BaseModel):
     tags: list[str] = Field(default_factory=list)
 
 
+class NarrativeClaim(BaseModel):
+    """A claim embedded within a narrative."""
+
+    text: str
+    status: str = "unverified"
+    confidence: int = 0
+
+
 class NarrativeResponse(BaseModel):
     """Full narrative representation."""
 
@@ -24,5 +32,11 @@ class NarrativeResponse(BaseModel):
     event_ids: list[UUID] = Field(default_factory=list)
     tags: list[str] = Field(default_factory=list)
     author_id: UUID | None = None
+    source_name: str | None = None
+    source_type: str | None = None
+    framing: str | None = None
+    claims: list[NarrativeClaim] = Field(default_factory=list)
+    missing_context: list[str] = Field(default_factory=list)
+    source_refs: list[str] = Field(default_factory=list)
     created_at: datetime
     updated_at: datetime

@@ -1,17 +1,17 @@
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 import EventCard from "@/components/shared/EventCard";
-import seedEvents from "@/data/seed/tariff-events.json";
-import seedLinks from "@/data/seed/tariff-links.json";
+import { getEvents, getLinks } from "@/lib/data";
 
-function getLinkCount(eventId: string): number {
-  return seedLinks.filter(
-    (l) => l.source === eventId || l.target === eventId
-  ).length;
-}
+export default async function EventsPage() {
+  const [events, links] = await Promise.all([getEvents(), getLinks()]);
 
-const categories = ["전체", ...new Set(seedEvents.map((e) => e.category))];
+  function getLinkCount(eventId: string): number {
+    return links.filter(
+      (l) => l.source === eventId || l.target === eventId
+    ).length;
+  }
 
-export default function EventsPage() {
+  const categories = ["전체", ...new Set(events.map((e) => e.category))];
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
@@ -60,7 +60,7 @@ export default function EventsPage() {
 
       {/* Events Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {seedEvents.map((event) => (
+        {events.map((event) => (
           <EventCard
             key={event.id}
             id={event.id}
@@ -78,7 +78,7 @@ export default function EventsPage() {
       {/* Summary */}
       <div className="mt-8 text-center">
         <p className="text-muted text-sm">
-          {seedEvents.length}개 이벤트 · {seedLinks.length}개 인과관계 링크
+          {events.length}개 이벤트 · {links.length}개 인과관계 링크
         </p>
       </div>
     </div>

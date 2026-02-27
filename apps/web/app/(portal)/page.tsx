@@ -8,10 +8,7 @@ import {
   Shield,
 } from "lucide-react";
 
-import seedEvents from "@/data/seed/tariff-events.json";
-import seedLinks from "@/data/seed/tariff-links.json";
-import seedClaims from "@/data/seed/tariff-claims.json";
-import seedPredictions from "@/data/seed/tariff-predictions.json";
+import { getEvents, getLinks, getClaims, getPredictions } from "@/lib/data";
 
 const features = [
   {
@@ -58,14 +55,20 @@ const features = [
   },
 ];
 
-const stats = [
-  { label: "추적 이벤트", value: seedEvents.length },
-  { label: "인과 연결", value: seedLinks.length },
-  { label: "검증된 주장", value: seedClaims.filter((c) => c.status === "verified").length },
-  { label: "활성 예측", value: seedPredictions.filter((p) => p.status === "active").length },
-];
+export default async function HomePage() {
+  const [events, links, claims, predictions] = await Promise.all([
+    getEvents(),
+    getLinks(),
+    getClaims(),
+    getPredictions(),
+  ]);
 
-export default function HomePage() {
+  const stats = [
+    { label: "추적 이벤트", value: events.length },
+    { label: "인과 연결", value: links.length },
+    { label: "검증된 주장", value: claims.filter((c) => c.status === "verified").length },
+    { label: "활성 예측", value: predictions.filter((p) => p.status === "active").length },
+  ];
   return (
     <div>
       {/* Hero Section */}

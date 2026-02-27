@@ -13,12 +13,14 @@ import {
 } from "lucide-react";
 import EventDetailClient from "./EventDetailClient";
 
-import seedEvents from "@/data/seed/tariff-events.json";
-import seedLinks from "@/data/seed/tariff-links.json";
-import seedAgreement from "@/data/seed/tariff-agreement.json";
-import seedPredictions from "@/data/seed/tariff-predictions.json";
-import seedNarratives from "@/data/seed/tariff-narratives.json";
-import seedClaims from "@/data/seed/tariff-claims.json";
+import {
+  getEvents,
+  getLinks,
+  getAgreement,
+  getPredictions,
+  getNarratives,
+  getClaims,
+} from "@/lib/data";
 
 export default async function EventDetailPage({
   params,
@@ -27,8 +29,18 @@ export default async function EventDetailPage({
 }) {
   const { id } = await params;
 
-  const event = seedEvents.find((e) => e.id === id);
-  const relatedLinks = seedLinks.filter(
+  const [allEvents, allLinks, agreement, predictions, narratives, claims] =
+    await Promise.all([
+      getEvents(),
+      getLinks(),
+      getAgreement(),
+      getPredictions(),
+      getNarratives(),
+      getClaims(),
+    ]);
+
+  const event = allEvents.find((e) => e.id === id);
+  const relatedLinks = allLinks.filter(
     (l) => l.source === id || l.target === id
   );
 
@@ -39,7 +51,7 @@ export default async function EventDetailPage({
     connectedIds.add(link.source);
     connectedIds.add(link.target);
   }
-  const connectedEvents = seedEvents.filter((e) => connectedIds.has(e.id));
+  const connectedEvents = allEvents.filter((e) => connectedIds.has(e.id));
 
   const statusColor: Record<string, { bg: string; text: string; border: string; label: string }> = {
     verified: { bg: "bg-success/10", text: "text-success", border: "border-success/20", label: "검증됨" },
@@ -95,8 +107,8 @@ export default async function EventDetailPage({
               <EventDetailClient
                 events={connectedEvents as any}
                 links={relatedLinks as any}
-                agreement={seedAgreement as any}
-                predictions={seedPredictions as any}
+                agreement={agreement as any}
+                predictions={predictions as any}
                 currentEventId={id}
               />
             </div>
@@ -113,8 +125,8 @@ export default async function EventDetailPage({
             <EventDetailClient
               events={connectedEvents as any}
               links={relatedLinks as any}
-              agreement={seedAgreement as any}
-              predictions={seedPredictions as any}
+              agreement={agreement as any}
+              predictions={predictions as any}
               currentEventId={id}
               section="agreement"
             />
@@ -131,8 +143,8 @@ export default async function EventDetailPage({
             <EventDetailClient
               events={connectedEvents as any}
               links={relatedLinks as any}
-              agreement={seedAgreement as any}
-              predictions={seedPredictions as any}
+              agreement={agreement as any}
+              predictions={predictions as any}
               currentEventId={id}
               section="predictions"
             />
@@ -149,10 +161,10 @@ export default async function EventDetailPage({
             <EventDetailClient
               events={connectedEvents as any}
               links={relatedLinks as any}
-              agreement={seedAgreement as any}
-              predictions={seedPredictions as any}
-              narratives={seedNarratives as any}
-              claims={seedClaims as any}
+              agreement={agreement as any}
+              predictions={predictions as any}
+              narratives={narratives as any}
+              claims={claims as any}
               currentEventId={id}
               section="narratives"
             />
@@ -169,10 +181,10 @@ export default async function EventDetailPage({
             <EventDetailClient
               events={connectedEvents as any}
               links={relatedLinks as any}
-              agreement={seedAgreement as any}
-              predictions={seedPredictions as any}
-              narratives={seedNarratives as any}
-              claims={seedClaims as any}
+              agreement={agreement as any}
+              predictions={predictions as any}
+              narratives={narratives as any}
+              claims={claims as any}
               currentEventId={id}
               section="scorecard"
             />
@@ -241,10 +253,10 @@ export default async function EventDetailPage({
             </h3>
             <div className="grid grid-cols-2 gap-3">
               {[
-                { label: "이벤트", value: seedEvents.length },
-                { label: "인과 링크", value: seedLinks.length },
-                { label: "의무 조항", value: seedAgreement.obligations.length },
-                { label: "예측 시장", value: seedPredictions.length },
+                { label: "이벤트", value: allEvents.length },
+                { label: "인과 링크", value: allLinks.length },
+                { label: "의무 조항", value: agreement.obligations.length },
+                { label: "예측 시장", value: predictions.length },
               ].map((stat) => (
                 <div key={stat.label} className="p-3 rounded-lg bg-background/50 border border-border/50 text-center">
                   <div className="text-lg font-bold text-accent">{stat.value}</div>

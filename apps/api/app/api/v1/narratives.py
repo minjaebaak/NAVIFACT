@@ -1,11 +1,12 @@
 """Narrative endpoints — curated storylines of linked events."""
 
+import json
 from uuid import UUID
 
 from fastapi import APIRouter, HTTPException, Query, status
 
 from app.db.neo4j import execute_query
-from app.models.narrative import NarrativeCreate, NarrativeResponse
+from app.models.narrative import NarrativeClaim, NarrativeCreate, NarrativeResponse
 
 router = APIRouter()
 
@@ -74,6 +75,14 @@ async def create_narrative(payload: NarrativeCreate) -> NarrativeResponse:
 
 def _node_to_narrative(node: dict) -> NarrativeResponse:
     props = dict(node)
+    # Neo4j stores claims as JSON string; parse it back
+    claims_data = props.get("claims_json", props.get("claims", "[]"))
+    if isinstance(claims_data, str):
+        claims_data = json.loads(claims_data) if claims_data else []
+    claims = [
+        NarrativeClaim(**c) if isinstance(c, dict) else c
+        for c in claims_data
+    ]
     return NarrativeResponse(
         id=props["id"],
         title=props["title"],
@@ -81,6 +90,12 @@ def _node_to_narrative(node: dict) -> NarrativeResponse:
         event_ids=props.get("event_ids", []),
         tags=props.get("tags", []),
         author_id=props.get("author_id"),
+        source_name=props.get("source_name"),
+        source_type=props.get("source_type"),
+        framing=props.get("framing"),
+        claims=claims,
+        missing_context=props.get("missing_context", []),
+        source_refs=props.get("source_refs", []),
         created_at=props["created_at"],
         updated_at=props["updated_at"],
     )
