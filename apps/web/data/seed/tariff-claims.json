@@ -1,0 +1,42 @@
+[
+  {
+    "id": "clm-001",
+    "text": "미국이 배신했다",
+    "status": "misleading",
+    "confidence": 15,
+    "sourcesFor": 1,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "clm-002",
+    "text": "한국이 협정을 지켰다",
+    "status": "false",
+    "confidence": 8,
+    "sourcesFor": 0,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "clm-003",
+    "text": "관세 인상은 미국의 일방 결정",
+    "status": "partly_true",
+    "confidence": 22,
+    "sourcesFor": 1,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "clm-004",
+    "text": "한국이 협정을 위반했다",
+    "status": "verified",
+    "confidence": 92,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "clm-005",
+    "text": "미국은 사전 경고를 보냈다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 0
+  }
+]

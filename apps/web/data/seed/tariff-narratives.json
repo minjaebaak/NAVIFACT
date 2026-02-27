@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nar-001",
+    "title": "미국이 배신했다",
+    "source": "한국 언론 A",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      { "text": "미국이 약속을 어기고 25% 관세를 부과했다", "status": "misleading", "confidence": 15 },
+      { "text": "관세 인상은 미국의 일방 결정", "status": "partly_true", "confidence": 22 }
+    ],
+    "missingContext": [
+      "한국의 협정 미이행 (반도체 관세 X% 이하 미유지)",
+      "미국의 사전 경고 통보 (2025.05)",
+      "한국의 이행 검토 회의 불참 (2025.04)"
+    ]
+  },
+  {
+    "id": "nar-002",
+    "title": "사실 체인: 협정 위반 → 대응 조치",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      { "text": "한국이 협정 3개 조항 중 2개를 이행하지 않았다", "status": "verified", "confidence": 92 },
+      { "text": "미국은 공식 경고 후 관세를 발동했다", "status": "verified", "confidence": 90 },
+      { "text": "협정에 미이행 시 대응 조치 조항이 포함되어 있다", "status": "verified", "confidence": 95 }
+    ],
+    "sources": [
+      "한미 관세 협정문 원본 (2025.01.15)",
+      "분기별 이행 검토 회의록",
+      "USTR 공식 서한 (2025.05.20)",
+      "한국 관세청 수출입 데이터"
+    ]
+  }
+]

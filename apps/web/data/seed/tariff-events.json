@@ -1,0 +1,47 @@
+[
+  {
+    "id": "evt-001",
+    "title": "한미 관세 협정 체결",
+    "description": "한국과 미국이 반도체, 농산물, 자동차 분야의 관세 상호 조정에 합의. 양국의 이행 의무와 분기별 검토 조항 포함.",
+    "date": "2025-01-15",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "evt-002",
+    "title": "한국, 반도체 관세 미조정",
+    "description": "협정상 한국은 반도체 수출 관세를 X% 이하로 유지해야 하나, 기한(2025년 3월)까지 조정하지 않음.",
+    "date": "2025-03-01",
+    "category": "경제",
+    "confidence": 88,
+    "status": "verified"
+  },
+  {
+    "id": "evt-003",
+    "title": "한국, 이행 검토 회의 불참",
+    "description": "협정에 따른 분기별 이행 검토 회의에 한국 대표단이 불참. 미국 측은 '심각한 우려'를 표명.",
+    "date": "2025-04-10",
+    "category": "외교",
+    "confidence": 82,
+    "status": "verified"
+  },
+  {
+    "id": "evt-004",
+    "title": "미국, 한국에 공식 경고 통보",
+    "description": "미국 무역대표부(USTR)가 한국에 서한을 보내 협정 미이행에 대한 공식 경고 및 시정 요구.",
+    "date": "2025-05-20",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "evt-005",
+    "title": "미국, 25% 관세 발동",
+    "description": "한국의 협정 미이행에 대한 대응 조치로, 미국이 한국산 제품에 대해 25% 관세를 부과.",
+    "date": "2025-06-15",
+    "category": "경제",
+    "confidence": 97,
+    "status": "verified"
+  }
+]

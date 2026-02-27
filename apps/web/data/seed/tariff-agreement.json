@@ -1,0 +1,57 @@
+{
+  "id": "agr-001",
+  "title": "한미 관세 협정",
+  "date": "2025-01-15",
+  "summary": "한국과 미국 간 반도체·농산물·자동차 분야의 관세 상호 조정 합의",
+  "status": "partially_violated",
+  "parties": [
+    { "id": "actor-kr", "name": "한국", "flag": "🇰🇷" },
+    { "id": "actor-us", "name": "미국", "flag": "🇺🇸" }
+  ],
+  "obligations": [
+    {
+      "id": "obl-001",
+      "description": "반도체 수출 관세 X% 이하 유지",
+      "deadline": "2025-03-01",
+      "status": "violated",
+      "assignedTo": { "id": "actor-kr", "name": "한국", "flag": "🇰🇷" },
+      "consequenceEventId": "evt-005"
+    },
+    {
+      "id": "obl-002",
+      "description": "분기별 이행 검토 회의 참석",
+      "deadline": "매 분기",
+      "status": "violated",
+      "assignedTo": { "id": "actor-kr", "name": "한국", "flag": "🇰🇷" },
+      "consequenceEventId": "evt-004"
+    },
+    {
+      "id": "obl-003",
+      "description": "기술 이전 협력 프로그램 참여",
+      "deadline": "2025-06-30",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-kr", "name": "한국", "flag": "🇰🇷" }
+    },
+    {
+      "id": "obl-004",
+      "description": "농산물 관세 Y% 이하 유지",
+      "deadline": "2025-03-01",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-us", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "obl-005",
+      "description": "자동차 관세 동결",
+      "deadline": "2025-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-us", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "obl-006",
+      "description": "분기별 이행 검토 회의 참석",
+      "deadline": "매 분기",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-us", "name": "미국", "flag": "🇺🇸" }
+    }
+  ]
+}

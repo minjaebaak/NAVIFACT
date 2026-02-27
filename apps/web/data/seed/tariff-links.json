@@ -1,0 +1,42 @@
+[
+  {
+    "id": "link-001",
+    "source": "evt-001",
+    "target": "evt-002",
+    "confidence": 85,
+    "mechanism": "협정 의무 미이행",
+    "causalType": "enabling"
+  },
+  {
+    "id": "link-002",
+    "source": "evt-002",
+    "target": "evt-003",
+    "confidence": 70,
+    "mechanism": "이행 압박 회피",
+    "causalType": "contributing"
+  },
+  {
+    "id": "link-003",
+    "source": "evt-003",
+    "target": "evt-004",
+    "confidence": 90,
+    "mechanism": "미이행 누적 대응",
+    "causalType": "direct"
+  },
+  {
+    "id": "link-004",
+    "source": "evt-004",
+    "target": "evt-005",
+    "confidence": 95,
+    "mechanism": "경고 후 보복 조치",
+    "causalType": "direct"
+  },
+  {
+    "id": "link-005",
+    "source": "evt-002",
+    "target": "evt-005",
+    "confidence": 75,
+    "mechanism": "근본 원인",
+    "causalType": "indirect"
+  }
+]

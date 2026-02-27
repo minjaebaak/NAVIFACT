@@ -1,0 +1,111 @@
+services:
+  # =============================================================
+  # Neo4j - Graph Database (THE core of NAVIFACT)
+  # Knowledge graph: Events, Actors, Claims, Evidence, Relations
+  # =============================================================
+  neo4j:
+    image: neo4j:5-community
+    container_name: navifact-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474" # Browser UI
+      - "7687:7687" # Bolt protocol
+    environment:
+      NEO4J_AUTH: neo4j/navifact_dev
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+    networks:
+      - navifact-network
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "navifact_dev", "RETURN 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # =============================================================
+  # PostgreSQL - Relational Database
+  # Users, Fact Checks, Contributions, Prediction Markets, Bets
+  # =============================================================
+  postgres:
+    image: postgres:17-alpine
+    container_name: navifact-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: navifact
+      POSTGRES_PASSWORD: navifact_dev
+      POSTGRES_DB: navifact
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - navifact-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U navifact -d navifact"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # =============================================================
+  # Redis - Cache & Message Broker
+  # Session cache, pub/sub for real-time updates, rate limiting
+  # =============================================================
+  redis:
+    image: redis:7-alpine
+    container_name: navifact-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - navifact-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  # =============================================================
+  # Meilisearch - Full-Text Search Engine
+  # Search across events, claims, actors, sources
+  # =============================================================
+  meilisearch:
+    image: getmeili/meilisearch:v1.12
+    container_name: navifact-meilisearch
+    restart: unless-stopped
+    ports:
+      - "7700:7700"
+    environment:
+      MEILI_MASTER_KEY: navifact_dev_key
+      MEILI_ENV: development
+    volumes:
+      - meilisearch_data:/meili_data
+    networks:
+      - navifact-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7700/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  neo4j_data:
+    name: navifact_neo4j_data
+  postgres_data:
+    name: navifact_postgres_data
+  redis_data:
+    name: navifact_redis_data
+  meilisearch_data:
+    name: navifact_meilisearch_data
+
+networks:
+  navifact-network:
+    name: navifact-network
+    driver: bridge

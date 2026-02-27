@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pred-001",
+    "question": "한국이 2025년 3분기까지 관세 협정을 재이행할까?",
+    "yesPool": 12340,
+    "noPool": 17200,
+    "deadline": "2025-09-30",
+    "status": "active",
+    "settlementCriteria": "외교부 공식 발표 + 관세청 데이터 기반 판정"
+  },
+  {
+    "id": "pred-002",
+    "question": "미국이 2025년 내 추가 관세 보복 조치를 취할까?",
+    "yesPool": 8900,
+    "noPool": 6100,
+    "deadline": "2025-12-31",
+    "status": "active",
+    "settlementCriteria": "USTR 공식 발표 또는 행정명령 기준"
+  }
+]
