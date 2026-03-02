@@ -7,12 +7,21 @@
  * seed JSON files (same data, zero downtime).
  */
 
+// Tariff scenario seed data
 import seedEvents from "@/data/seed/tariff-events.json";
 import seedLinks from "@/data/seed/tariff-links.json";
 import seedAgreement from "@/data/seed/tariff-agreement.json";
 import seedPredictions from "@/data/seed/tariff-predictions.json";
 import seedNarratives from "@/data/seed/tariff-narratives.json";
 import seedClaims from "@/data/seed/tariff-claims.json";
+
+// Iran scenario seed data
+import iranEvents from "@/data/seed/iran-events.json";
+import iranLinks from "@/data/seed/iran-links.json";
+import iranAgreement from "@/data/seed/iran-agreement.json";
+import iranPredictions from "@/data/seed/iran-predictions.json";
+import iranNarratives from "@/data/seed/iran-narratives.json";
+import iranClaims from "@/data/seed/iran-claims.json";
 
 // ---------------------------------------------------------------------------
 // Types (matching seed JSON shapes)
@@ -99,6 +108,72 @@ export interface SeedClaim {
 }
 
 // ---------------------------------------------------------------------------
+// Scenario system
+// ---------------------------------------------------------------------------
+
+export type ScenarioId = "tariff" | "iran";
+
+export interface Scenario {
+  id: ScenarioId;
+  title: string;
+  flag: string;
+  description: string;
+  dateRange: string;
+}
+
+export const SCENARIOS: Scenario[] = [
+  {
+    id: "tariff",
+    title: "한미 관세 분쟁",
+    flag: "🇰🇷🇺🇸",
+    description: "한미 관세 협정 위반과 보복 조치",
+    dateRange: "2025.01 - 2025.06",
+  },
+  {
+    id: "iran",
+    title: "이란-이스라엘 갈등",
+    flag: "🇮🇷🇮🇱",
+    description: "하마스 10.7 공격부터 하메네이 사살까지",
+    dateRange: "2023.10 - 2026.03",
+  },
+];
+
+interface ScenarioSeedData {
+  events: SeedEvent[];
+  links: SeedLink[];
+  agreement: SeedAgreement;
+  predictions: SeedPrediction[];
+  narratives: SeedNarrative[];
+  claims: SeedClaim[];
+}
+
+const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
+  tariff: {
+    events: seedEvents as SeedEvent[],
+    links: seedLinks as SeedLink[],
+    agreement: seedAgreement as SeedAgreement,
+    predictions: seedPredictions as SeedPrediction[],
+    narratives: seedNarratives as SeedNarrative[],
+    claims: seedClaims as SeedClaim[],
+  },
+  iran: {
+    events: iranEvents as SeedEvent[],
+    links: iranLinks as SeedLink[],
+    agreement: iranAgreement as SeedAgreement,
+    predictions: iranPredictions as SeedPrediction[],
+    narratives: iranNarratives as SeedNarrative[],
+    claims: iranClaims as SeedClaim[],
+  },
+};
+
+export function detectScenario(eventId: string): ScenarioId {
+  if (eventId.startsWith("ievt-") || eventId.startsWith("ilink-") || eventId.startsWith("ipred-") || eventId.startsWith("inar-") || eventId.startsWith("iclm-") || eventId.startsWith("agr-iran")) {
+    return "iran";
+  }
+  return "tariff";
+}
+
+// ---------------------------------------------------------------------------
 // API URL
 // ---------------------------------------------------------------------------
 
@@ -115,6 +190,7 @@ const UUID_NAMESPACE = "a1b2c3d4-e5f6-7890-abcd-ef1234567890";
 
 // Pre-build mappings from all seed data short IDs
 const allShortIds = [
+  // Tariff scenario
   ...seedEvents.map((e) => e.id),
   ...seedLinks.map((l) => l.id),
   seedAgreement.id,
@@ -123,6 +199,15 @@ const allShortIds = [
   ...seedPredictions.map((p) => p.id),
   ...seedNarratives.map((n) => n.id),
   ...seedClaims.map((c) => c.id),
+  // Iran scenario
+  ...iranEvents.map((e) => e.id),
+  ...iranLinks.map((l) => l.id),
+  iranAgreement.id,
+  ...iranAgreement.parties.map((p) => p.id),
+  ...iranAgreement.obligations.map((o) => o.id),
+  ...iranPredictions.map((p) => p.id),
+  ...iranNarratives.map((n) => n.id),
+  ...iranClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -267,7 +352,71 @@ function transformApiClaim(apiClaim: Record<string, unknown>): SeedClaim {
 }
 
 // ---------------------------------------------------------------------------
-// Data fetching functions
+// Scenario-aware data fetching
+// ---------------------------------------------------------------------------
+
+export async function getEventsForScenario(scenarioId: ScenarioId): Promise<SeedEvent[]> {
+  try {
+    const res = await fetch(`${API_URL}/events?page_size=100`, {
+      next: { revalidate: 60 },
+    });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const data = await res.json();
+    const items = data.items || data;
+    if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
+    const all = items.map(transformApiEvent);
+    return all.filter((e) => detectScenario(e.id) === scenarioId);
+  } catch {
+    return SEED_DATA[scenarioId].events;
+  }
+}
+
+export async function getLinksForScenario(scenarioId: ScenarioId): Promise<SeedLink[]> {
+  try {
+    const res = await fetch(`${API_URL}/events/links?page_size=100`, {
+      next: { revalidate: 60 },
+    });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const data = await res.json();
+    const items = data.items || data;
+    if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
+    const all = items.map(transformApiLink);
+    return all.filter((l) => detectScenario(l.source) === scenarioId);
+  } catch {
+    return SEED_DATA[scenarioId].links;
+  }
+}
+
+export async function getAgreementForScenario(scenarioId: ScenarioId): Promise<SeedAgreement> {
+  return SEED_DATA[scenarioId].agreement;
+}
+
+export async function getPredictionsForScenario(scenarioId: ScenarioId): Promise<SeedPrediction[]> {
+  try {
+    const res = await fetch(`${API_URL}/predictions`, {
+      next: { revalidate: 60 },
+    });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const data = await res.json();
+    const items = data.items || data;
+    if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
+    const all = items.map(transformApiPrediction);
+    return all.filter((p) => detectScenario(p.id) === scenarioId);
+  } catch {
+    return SEED_DATA[scenarioId].predictions;
+  }
+}
+
+export async function getNarrativesForScenario(scenarioId: ScenarioId): Promise<SeedNarrative[]> {
+  return SEED_DATA[scenarioId].narratives;
+}
+
+export async function getClaimsForScenario(scenarioId: ScenarioId): Promise<SeedClaim[]> {
+  return SEED_DATA[scenarioId].claims;
+}
+
+// ---------------------------------------------------------------------------
+// Backward-compatible data fetching (all scenarios combined)
 // ---------------------------------------------------------------------------
 
 export async function getEvents(): Promise<SeedEvent[]> {
@@ -281,12 +430,13 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return seedEvents as SeedEvent[];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[])];
   }
 }
 
 export async function getEvent(id: string): Promise<SeedEvent | undefined> {
-  const events = await getEvents();
+  const scenarioId = detectScenario(id);
+  const events = await getEventsForScenario(scenarioId);
   return events.find((e) => e.id === id);
 }
 
@@ -301,13 +451,14 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return seedLinks as SeedLink[];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[])];
   }
 }
 
 export async function getLinksForEvent(eventId: string): Promise<SeedLink[]> {
-  const allLinks = await getLinks();
-  return allLinks.filter(
+  const scenarioId = detectScenario(eventId);
+  const links = await getLinksForScenario(scenarioId);
+  return links.filter(
     (l) => l.source === eventId || l.target === eventId
   );
 }
@@ -321,7 +472,6 @@ export async function getAgreement(): Promise<SeedAgreement> {
     const data = await res.json();
     const items = data.items || data;
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
-    // Return the first agreement (our tariff scenario)
     return items[0] as SeedAgreement;
   } catch {
     return seedAgreement as SeedAgreement;
@@ -339,7 +489,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return seedPredictions as SeedPrediction[];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[])];
   }
 }
 
@@ -354,7 +504,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return seedNarratives as SeedNarrative[];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[])];
   }
 }
 
@@ -369,6 +519,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return seedClaims as SeedClaim[];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[])];
   }
 }

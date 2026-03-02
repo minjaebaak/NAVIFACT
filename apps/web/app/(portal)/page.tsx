@@ -8,7 +8,7 @@ import {
   Shield,
 } from "lucide-react";
 
-import { getEvents, getLinks, getClaims, getPredictions } from "@/lib/data";
+import { getEvents, getLinks, getClaims, getPredictions, SCENARIOS } from "@/lib/data";
 
 const features = [
   {
@@ -102,6 +102,38 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Scenarios Section */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground">
+            추적 중인 시나리오
+          </h2>
+          <p className="mt-3 text-muted">
+            각 시나리오의 인과관계를 탐색해보세요
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {SCENARIOS.map((scenario) => (
+            <Link
+              key={scenario.id}
+              href={`/events?scenario=${scenario.id}`}
+              className="group p-6 rounded-xl border border-border bg-card hover:border-accent/30 hover:bg-card/80 transition-all"
+            >
+              <div className="text-3xl mb-3">{scenario.flag}</div>
+              <h3 className="text-lg font-semibold text-foreground mb-1">
+                {scenario.title}
+              </h3>
+              <p className="text-sm text-muted mb-3">
+                {scenario.description}
+              </p>
+              <span className="text-xs text-accent">
+                {scenario.dateRange}
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -88,6 +88,12 @@ NAVIFACT/
 
 ## /autonomous Phase 확장 설정
 
+### Phase 0 확장: NotebookLM
+
+- 프로필: `myriorama` (ceo.myriorama@gmail.com)
+- 자동 전환: `.envrc` + direnv (`NLM_PROFILE=myriorama`)
+- 노트북 alias: (설정 후 여기에 기록)
+
 ### Phase 0 확장: 기술문서
 
 | 문서 | 경로 | 용도 |

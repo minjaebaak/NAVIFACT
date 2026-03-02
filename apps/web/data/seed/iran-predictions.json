@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ipred-001",
+    "question": "이란이 2026년 6월까지 이스라엘에 대규모 보복 공격을 감행할까?",
+    "yesPool": 22000,
+    "noPool": 18000,
+    "deadline": "2026-06-30",
+    "status": "active",
+    "settlementCriteria": "이란 정부/혁명수비대 공식 발표 + 국제 언론 확인 기준"
+  },
+  {
+    "id": "ipred-002",
+    "question": "이란에서 2026년 내 체제 전환(정권 교체)이 발생할까?",
+    "yesPool": 15000,
+    "noPool": 25000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "새 최고지도자 선출 또는 혁명적 정권 변화 공식 확인"
+  },
+  {
+    "id": "ipred-003",
+    "question": "호르무즈 해협이 2026년 상반기 내 실제로 봉쇄될까?",
+    "yesPool": 8000,
+    "noPool": 32000,
+    "deadline": "2026-06-30",
+    "status": "active",
+    "settlementCriteria": "해상 통행 차단 확인 (선박 억류 또는 기뢰 부설 등)"
+  },
+  {
+    "id": "ipred-004",
+    "question": "이란이 2026년 내 핵무기 보유를 공식 선언할까?",
+    "yesPool": 5000,
+    "noPool": 35000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "이란 정부 공식 발표 또는 IAEA 확인 기준"
+  },
+  {
+    "id": "ipred-005",
+    "question": "이란-이스라엘 간 공식 휴전/평화 협정이 2026년 내 체결될까?",
+    "yesPool": 3000,
+    "noPool": 37000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "양국 정부 서명 및 UN 등록 기준"
+  }
+]

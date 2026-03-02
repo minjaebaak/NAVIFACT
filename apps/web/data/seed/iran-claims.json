@@ -1,0 +1,58 @@
+[
+  {
+    "id": "iclm-001",
+    "text": "하마스 10.7 공격은 이란이 배후 지시했다",
+    "status": "disputed",
+    "confidence": 45,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "iclm-002",
+    "text": "이란 핵시설 공습은 국제법 위반이다",
+    "status": "disputed",
+    "confidence": 55,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "iclm-003",
+    "text": "하메네이 사살은 미국/이스라엘 합동 작전이다",
+    "status": "verified",
+    "confidence": 88,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "iclm-004",
+    "text": "이란 체제는 하메네이 없이 붕괴할 것이다",
+    "status": "unverified",
+    "confidence": 35,
+    "sourcesFor": 1,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "iclm-005",
+    "text": "호르무즈 해협 봉쇄는 실행 불가능하다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 2,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "iclm-006",
+    "text": "이스라엘의 행동은 자위권 행사이다",
+    "status": "disputed",
+    "confidence": 50,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "iclm-007",
+    "text": "이란은 이미 핵무기 보유 직전 단계였다",
+    "status": "partly_true",
+    "confidence": 72,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  }
+]

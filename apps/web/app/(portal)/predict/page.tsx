@@ -1,9 +1,23 @@
 import { TrendingUp, Clock, Users, BarChart3 } from "lucide-react";
 import PredictClient from "./PredictClient";
-import { getPredictions } from "@/lib/data";
+import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import {
+  getPredictionsForScenario,
+  type ScenarioId,
+  SCENARIOS,
+} from "@/lib/data";
 
-export default async function PredictPage() {
-  const predictions = await getPredictions();
+export default async function PredictPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ scenario?: string }>;
+}) {
+  const { scenario: scenarioParam } = await searchParams;
+  const scenarioId: ScenarioId =
+    scenarioParam === "iran" ? "iran" : "tariff";
+
+  const predictions = await getPredictionsForScenario(scenarioId);
+  const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;
 
   const activePredictions = predictions.filter((p) => p.status === "active");
   const totalPool = predictions.reduce(
@@ -21,6 +35,9 @@ export default async function PredictPage() {
           커뮤니티의 집단 지성으로 미래 사건의 가능성을 예측합니다.
         </p>
       </div>
+
+      {/* Scenario Selector */}
+      <ScenarioSelector current={scenarioId} />
 
       {/* Stats Overview */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -60,22 +77,11 @@ export default async function PredictPage() {
         })}
       </div>
 
-      {/* Category Tabs */}
-      <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
-        {["전체", "정치", "경제", "국제", "기술", "사회"].map(
-          (category, i) => (
-            <button
-              key={category}
-              className={`whitespace-nowrap px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                i === 0
-                  ? "bg-accent text-accent-foreground"
-                  : "bg-card border border-border text-muted hover:text-foreground hover:bg-white/5"
-              }`}
-            >
-              {category}
-            </button>
-          )
-        )}
+      {/* Scenario Info */}
+      <div className="mb-6 p-3 rounded-lg bg-accent/5 border border-accent/10">
+        <span className="text-sm text-muted">
+          {currentScenario.flag} <span className="font-medium text-foreground">{currentScenario.title}</span> · {currentScenario.dateRange}
+        </span>
       </div>
 
       {/* Prediction Cards */}

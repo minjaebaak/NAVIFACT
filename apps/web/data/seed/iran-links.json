@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ilink-001",
+    "source": "ievt-001",
+    "target": "ievt-002",
+    "confidence": 95,
+    "mechanism": "하마스 기습 공격 → 이스라엘 군사 대응",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-002",
+    "source": "ievt-002",
+    "target": "ievt-003",
+    "confidence": 70,
+    "mechanism": "가자 전쟁 확전 → 이란 프록시 네트워크 표적화",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ilink-003",
+    "source": "ievt-003",
+    "target": "ievt-004",
+    "confidence": 92,
+    "mechanism": "이란 영사관 공습 → 이란 직접 보복 공격",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-004",
+    "source": "ievt-004",
+    "target": "ievt-005",
+    "confidence": 65,
+    "mechanism": "이란 직접 공격 → 이스라엘 대이란 공세 확대",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ilink-005",
+    "source": "ievt-005",
+    "target": "ievt-006",
+    "confidence": 60,
+    "mechanism": "하니예 암살 → 프록시 지도부 체계적 제거 전략",
+    "causalType": "indirect"
+  },
+  {
+    "id": "ilink-006",
+    "source": "ievt-006",
+    "target": "ievt-007",
+    "confidence": 88,
+    "mechanism": "나스랄라 사살 → 이란 2차 직접 보복",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-007",
+    "source": "ievt-007",
+    "target": "ievt-008",
+    "confidence": 90,
+    "mechanism": "이란 미사일 공격 → 이스라엘 이란 본토 직접 타격",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-008",
+    "source": "ievt-008",
+    "target": "ievt-009",
+    "confidence": 75,
+    "mechanism": "군사시설 타격 성공 → 핵시설 공습으로 확전",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ilink-009",
+    "source": "ievt-009",
+    "target": "ievt-010",
+    "confidence": 70,
+    "mechanism": "핵시설 파괴 → 체제 약화 → 내부 시위 격화",
+    "causalType": "indirect"
+  },
+  {
+    "id": "ilink-010",
+    "source": "ievt-010",
+    "target": "ievt-011",
+    "confidence": 65,
+    "mechanism": "체제 불안정 → 군 지휘부 표적 작전 가능",
+    "causalType": "enabling"
+  },
+  {
+    "id": "ilink-011",
+    "source": "ievt-011",
+    "target": "ievt-012",
+    "confidence": 85,
+    "mechanism": "IRGC 지휘관 제거 → 방어 약화 → 하메네이 타격 가능",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-012",
+    "source": "ievt-012",
+    "target": "ievt-013",
+    "confidence": 95,
+    "mechanism": "최고지도자 사살 → 즉각 보복 선언",
+    "causalType": "direct"
+  }
+]

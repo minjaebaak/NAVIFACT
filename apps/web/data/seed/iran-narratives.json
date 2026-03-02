@@ -1,0 +1,56 @@
+[
+  {
+    "id": "inar-001",
+    "title": "이스라엘은 제국주의적 침략자",
+    "source": "이란 국영 미디어 / 중동 언론",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      { "text": "이스라엘이 주권 국가를 일방적으로 공격했다", "status": "partly_true", "confidence": 55 },
+      { "text": "하메네이 사살은 국제법 위반 암살이다", "status": "disputed", "confidence": 50 },
+      { "text": "미국은 이스라엘의 전쟁 범죄를 방조했다", "status": "partly_true", "confidence": 45 }
+    ],
+    "missingContext": [
+      "이란의 프록시 조직(하마스, 헤즈볼라)을 통한 대리전 수행",
+      "이란의 JCPOA 핵합의 위반 및 고농축 우라늄 생산",
+      "이란의 이스라엘에 대한 직접 미사일 공격 (2024.04, 2024.10)"
+    ]
+  },
+  {
+    "id": "inar-002",
+    "title": "이란 핵 위협 제거를 위한 정당방위",
+    "source": "이스라엘/미국 정부 + 서방 언론",
+    "sourceType": "media",
+    "framing": "defensive",
+    "claims": [
+      { "text": "이란은 핵무기 개발 직전 단계였다", "status": "partly_true", "confidence": 72 },
+      { "text": "하마스 10.7 공격의 배후에 이란이 있다", "status": "disputed", "confidence": 45 },
+      { "text": "이스라엘의 행동은 자위권 행사이다", "status": "disputed", "confidence": 50 }
+    ],
+    "missingContext": [
+      "이스라엘의 영사관 공습이 이란 직접 공격을 촉발한 점",
+      "민간인 피해 규모와 비례성 원칙 위반 논란",
+      "JCPOA에서 미국이 먼저 탈퇴한 배경 (2018)"
+    ]
+  },
+  {
+    "id": "inar-003",
+    "title": "사실 체인: 프록시 전쟁 → 직접 충돌 → 체제 위기",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      { "text": "이란은 하마스·헤즈볼라 등 프록시 조직을 수십 년간 지원해왔다", "status": "verified", "confidence": 95 },
+      { "text": "이스라엘은 영사관 공습으로 이란-이스라엘 직접 충돌을 촉발했다", "status": "verified", "confidence": 90 },
+      { "text": "양측 모두 상대방의 도발에 대한 보복으로 군사행동을 정당화했다", "status": "verified", "confidence": 92 },
+      { "text": "JCPOA 붕괴가 핵 위기 심화의 근본 원인 중 하나이다", "status": "verified", "confidence": 88 }
+    ],
+    "sources": [
+      "UN 안보리 결의안 및 IAEA 보고서",
+      "미국 국방부 공식 브리핑",
+      "이란 혁명수비대 공식 성명",
+      "이스라엘 IDF 작전 기록",
+      "국제위기그룹(ICG) 분석 보고서"
+    ]
+  }
+]

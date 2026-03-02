@@ -1,20 +1,72 @@
 import { Calendar } from "lucide-react";
 import InteractiveTimeline from "@/components/timeline/InteractiveTimeline";
-import { getEvents, getLinks } from "@/lib/data";
+import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import {
+  getEventsForScenario,
+  getLinksForScenario,
+  type ScenarioId,
+  SCENARIOS,
+} from "@/lib/data";
 
-export default async function TimelinePage() {
-  const [events, links] = await Promise.all([getEvents(), getLinks()]);
+// Side assignment per scenario
+const SIDE_CONFIG: Record<ScenarioId, {
+  topIds: string[];
+  centerIds: string[];
+  topLabel: string;
+  bottomLabel: string;
+}> = {
+  tariff: {
+    topIds: ["evt-002", "evt-003"],
+    centerIds: ["evt-001"],
+    topLabel: "한국측 행동",
+    bottomLabel: "미국측 행동",
+  },
+  iran: {
+    topIds: ["ievt-001", "ievt-004", "ievt-007", "ievt-010", "ievt-013"],
+    centerIds: [],
+    topLabel: "이란/프록시 행동",
+    bottomLabel: "이스라엘/미국 행동",
+  },
+};
 
-  // Assign sides based on Korean vs US actions
+export default async function TimelinePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ scenario?: string }>;
+}) {
+  const { scenario: scenarioParam } = await searchParams;
+  const scenarioId: ScenarioId =
+    scenarioParam === "iran" ? "iran" : "tariff";
+
+  const [events, links] = await Promise.all([
+    getEventsForScenario(scenarioId),
+    getLinksForScenario(scenarioId),
+  ]);
+
+  const config = SIDE_CONFIG[scenarioId];
+  const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;
+
   const eventsWithSides = events.map((e) => ({
     ...e,
     status: e.status as "verified" | "disputed" | "unverified" | "false",
-    side: (["evt-001"].includes(e.id)
+    side: (config.centerIds.includes(e.id)
       ? undefined
-      : ["evt-002", "evt-003"].includes(e.id)
+      : config.topIds.includes(e.id)
         ? "top"
         : "bottom") as "top" | "bottom" | undefined,
   }));
+
+  // Category colors per scenario
+  const categoryLegend = scenarioId === "iran"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+      ]
+    : [
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-green-500", label: "경제" },
+      ];
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
@@ -25,15 +77,20 @@ export default async function TimelinePage() {
         </p>
       </div>
 
+      {/* Scenario Selector */}
+      <ScenarioSelector current={scenarioId} />
+
       {/* Timeline Visualization */}
       <div className="rounded-xl border border-border bg-card overflow-hidden">
         <div className="px-6 py-3 border-b border-border flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium text-foreground">한미 관세 분쟁 타임라인</span>
+            <span className="text-sm font-medium text-foreground">
+              {currentScenario.flag} {currentScenario.title} 타임라인
+            </span>
           </div>
           <span className="text-xs text-muted">
-            2025.01 - 2025.06 · {events.length}개 이벤트
+            {currentScenario.dateRange} · {events.length}개 이벤트
           </span>
         </div>
         <div className="p-4">
@@ -63,10 +120,7 @@ export default async function TimelinePage() {
         </div>
         <div className="flex flex-wrap gap-4 text-xs text-muted">
           <span className="font-medium text-foreground">카테고리:</span>
-          {[
-            { color: "bg-blue-500", label: "외교" },
-            { color: "bg-green-500", label: "경제" },
-          ].map((item) => (
+          {categoryLegend.map((item) => (
             <div key={item.label} className="flex items-center gap-1.5">
               <div className={`h-2.5 w-2.5 rounded-full ${item.color}`} />
               <span>{item.label}</span>

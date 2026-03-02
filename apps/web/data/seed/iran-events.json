@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ievt-001",
+    "title": "하마스, 이스라엘 기습 공격 (10.7)",
+    "description": "하마스가 가자 지구에서 이스라엘 남부를 기습 침공. 약 1,200명 사망, 250명 인질. 이스라엘 건국 이래 최대 피해.",
+    "date": "2023-10-07",
+    "category": "군사",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-002",
+    "title": "이스라엘, 가자 지상 작전 개시",
+    "description": "이스라엘군(IDF)이 하마스 소탕을 명분으로 가자 지구 대규모 지상 작전 개시. 대규모 민간인 피해 발생.",
+    "date": "2023-10-27",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-003",
+    "title": "이스라엘, 시리아 이란 영사관 공습",
+    "description": "이스라엘이 다마스쿠스의 이란 영사관을 공습. IRGC 쿠드스군 고위 장성 모하마드 레자 자헤디 등 7명 사망.",
+    "date": "2024-04-01",
+    "category": "군사",
+    "confidence": 92,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-004",
+    "title": "이란, 이스라엘에 드론·미사일 직접 공격",
+    "description": "이란이 이스라엘 본토에 드론 170대, 순항미사일 30발, 탄도미사일 120발 발사. 이란의 역사상 최초 이스라엘 직접 공격.",
+    "date": "2024-04-13",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-005",
+    "title": "이스라엘, 하마스 지도자 하니예 테헤란 암살",
+    "description": "하마스 정치국장 이스마일 하니예가 이란 테헤란 방문 중 암살. 이란 혁명수비대 게스트하우스에서 폭발.",
+    "date": "2024-07-31",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-006",
+    "title": "이스라엘, 헤즈볼라 수장 나스랄라 공습 사살",
+    "description": "이스라엘이 레바논 베이루트 지하 벙커를 벙커버스터로 공습. 헤즈볼라 사무총장 하산 나스랄라 사망.",
+    "date": "2024-09-27",
+    "category": "군사",
+    "confidence": 93,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-007",
+    "title": "이란, 이스라엘에 200발 탄도미사일 발사",
+    "description": "이란이 이스라엘에 약 200발의 탄도미사일 발사 (2차 직접 공격). 나스랄라 사살과 하니예 암살에 대한 보복.",
+    "date": "2024-10-01",
+    "category": "군사",
+    "confidence": 94,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-008",
+    "title": "이스라엘, 이란 군사시설 직접 타격",
+    "description": "이스라엘이 이란 본토의 방공 시스템 및 미사일 생산 시설을 직접 공습. 이스라엘의 최초 공식 대이란 본토 타격.",
+    "date": "2024-10-26",
+    "category": "군사",
+    "confidence": 88,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-009",
+    "title": "이스라엘/미국, 이란 핵시설 공습",
+    "description": "이스라엘과 미국이 합동으로 이란의 포르도, 나탄즈 등 주요 핵시설을 공습. 이란 핵 프로그램에 심각한 타격.",
+    "date": "2025-06-15",
+    "category": "군사",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-010",
+    "title": "이란 반정부 시위 격화",
+    "description": "핵시설 파괴와 경제 제재 심화로 이란 국내에서 대규모 반정부 시위 발생. 체제 불안정 가속.",
+    "date": "2025-12-01",
+    "category": "외교",
+    "confidence": 78,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-011",
+    "title": "이스라엘, IRGC 고위 지휘관 연쇄 제거",
+    "description": "이스라엘 모사드의 특수 작전으로 IRGC(이란 혁명수비대) 핵심 지휘관 다수가 연쇄 제거. 이란 군 지휘 체계 약화.",
+    "date": "2026-01-15",
+    "category": "군사",
+    "confidence": 82,
+    "status": "verified"
+  },
+  {
+    "id": "ievt-012",
+    "title": "이스라엘/미국, 하메네이 사살",
+    "description": "이스라엘과 미국의 합동 작전으로 이란 최고지도자 알리 하메네이 사살. 이란 이슬람 체제의 최고 권력자 제거.",
+    "date": "2026-02-28",
+    "category": "군사",
+    "confidence": 90,
+    "status": "disputed"
+  },
+  {
+    "id": "ievt-013",
+    "title": "이란, 보복 선언 및 호르무즈 봉쇄 위협",
+    "description": "이란 혁명수비대가 하메네이 사살에 대한 전면 보복을 선언. 호르무즈 해협 봉쇄 위협으로 국제 유가 급등.",
+    "date": "2026-03-01",
+    "category": "군사",
+    "confidence": 85,
+    "status": "verified"
+  }
+]

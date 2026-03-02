@@ -1,0 +1,59 @@
+{
+  "id": "agr-iran-001",
+  "title": "이란 핵합의 (JCPOA)",
+  "date": "2015-07-14",
+  "summary": "이란의 핵 프로그램 제한을 대가로 경제 제재를 해제하는 국제 합의. 2018년 미국 탈퇴 후 사실상 붕괴.",
+  "status": "collapsed",
+  "parties": [
+    { "id": "actor-iran", "name": "이란", "flag": "🇮🇷" },
+    { "id": "actor-us-iran", "name": "미국", "flag": "🇺🇸" },
+    { "id": "actor-israel", "name": "이스라엘", "flag": "🇮🇱" },
+    { "id": "actor-eu", "name": "EU", "flag": "🇪🇺" }
+  ],
+  "obligations": [
+    {
+      "id": "iobl-001",
+      "description": "우라늄 농축 3.67% 이하 제한",
+      "deadline": "무기한 (합의 존속 중)",
+      "status": "violated",
+      "assignedTo": { "id": "actor-iran", "name": "이란", "flag": "🇮🇷" }
+    },
+    {
+      "id": "iobl-002",
+      "description": "원심분리기 5,060대 이하 운용",
+      "deadline": "무기한 (합의 존속 중)",
+      "status": "violated",
+      "assignedTo": { "id": "actor-iran", "name": "이란", "flag": "🇮🇷" }
+    },
+    {
+      "id": "iobl-003",
+      "description": "IAEA 핵사찰단 접근 허용",
+      "deadline": "무기한 (합의 존속 중)",
+      "status": "violated",
+      "assignedTo": { "id": "actor-iran", "name": "이란", "flag": "🇮🇷" }
+    },
+    {
+      "id": "iobl-004",
+      "description": "이란에 대한 경제 제재 해제",
+      "deadline": "2016-01-16",
+      "status": "violated",
+      "assignedTo": { "id": "actor-us-iran", "name": "미국", "flag": "🇺🇸" },
+      "consequenceEventId": "ievt-009"
+    },
+    {
+      "id": "iobl-005",
+      "description": "이란과의 무역 정상화",
+      "deadline": "단계적 이행",
+      "status": "partial",
+      "assignedTo": { "id": "actor-eu", "name": "EU", "flag": "🇪🇺" }
+    },
+    {
+      "id": "iobl-006",
+      "description": "이란에 대한 군사적 위협 자제",
+      "deadline": "무기한 (합의 존속 중)",
+      "status": "violated",
+      "assignedTo": { "id": "actor-israel", "name": "이스라엘", "flag": "🇮🇱" },
+      "consequenceEventId": "ievt-003"
+    }
+  ]
+}

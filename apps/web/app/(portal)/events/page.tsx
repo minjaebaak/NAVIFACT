@@ -1,9 +1,26 @@
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 import EventCard from "@/components/shared/EventCard";
-import { getEvents, getLinks } from "@/lib/data";
+import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import {
+  getEventsForScenario,
+  getLinksForScenario,
+  type ScenarioId,
+  SCENARIOS,
+} from "@/lib/data";
 
-export default async function EventsPage() {
-  const [events, links] = await Promise.all([getEvents(), getLinks()]);
+export default async function EventsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ scenario?: string }>;
+}) {
+  const { scenario: scenarioParam } = await searchParams;
+  const scenarioId: ScenarioId =
+    scenarioParam === "iran" ? "iran" : "tariff";
+
+  const [events, links] = await Promise.all([
+    getEventsForScenario(scenarioId),
+    getLinksForScenario(scenarioId),
+  ]);
 
   function getLinkCount(eventId: string): number {
     return links.filter(
@@ -12,6 +29,8 @@ export default async function EventsPage() {
   }
 
   const categories = ["전체", ...new Set(events.map((e) => e.category))];
+  const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
@@ -21,6 +40,9 @@ export default async function EventsPage() {
           역사적 사건을 검색하고, 인과관계를 탐색합니다.
         </p>
       </div>
+
+      {/* Scenario Selector */}
+      <ScenarioSelector current={scenarioId} />
 
       {/* Search & Filter Bar */}
       <div className="flex flex-col sm:flex-row gap-3 mb-8">
@@ -78,7 +100,7 @@ export default async function EventsPage() {
       {/* Summary */}
       <div className="mt-8 text-center">
         <p className="text-muted text-sm">
-          {events.length}개 이벤트 · {links.length}개 인과관계 링크
+          {currentScenario.flag} {currentScenario.title} · {events.length}개 이벤트 · {links.length}개 인과관계 링크
         </p>
       </div>
     </div>

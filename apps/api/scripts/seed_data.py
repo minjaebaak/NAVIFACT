@@ -1,8 +1,10 @@
-"""Seed the Neo4j database with tariff scenario data from frontend JSON files.
+"""Seed the Neo4j database with scenario data from frontend JSON files.
 
-Reads the 6 seed JSON files used by the frontend and inserts them into Neo4j
+Reads the seed JSON files used by the frontend and inserts them into Neo4j
 with deterministic UUID mapping so that frontend short IDs (e.g. 'evt-001')
 can be round-tripped to/from UUIDs.
+
+Supports multiple scenarios (tariff, iran).
 """
 
 import asyncio
@@ -26,6 +28,32 @@ CATEGORY_MAP = {
     "군사": "military",
     "법률": "legal",
 }
+
+# Scenario definitions
+SCENARIOS = [
+    {
+        "prefix": "tariff",
+        "files": {
+            "events": "tariff-events.json",
+            "links": "tariff-links.json",
+            "agreement": "tariff-agreement.json",
+            "predictions": "tariff-predictions.json",
+            "narratives": "tariff-narratives.json",
+            "claims": "tariff-claims.json",
+        },
+    },
+    {
+        "prefix": "iran",
+        "files": {
+            "events": "iran-events.json",
+            "links": "iran-links.json",
+            "agreement": "iran-agreement.json",
+            "predictions": "iran-predictions.json",
+            "narratives": "iran-narratives.json",
+            "claims": "iran-claims.json",
+        },
+    },
+]
 
 
 def short_to_uuid(short_id: str) -> str:
@@ -353,7 +381,7 @@ async def seed_claims(claims: list[dict]) -> None:
     print(f"  Created {len(claims)} claims.")
 
 
-async def seed_meilisearch(events: list[dict]) -> None:
+async def seed_meilisearch(all_events: list[dict]) -> None:
     """Index events in Meilisearch for full-text search."""
     try:
         import httpx
@@ -372,7 +400,7 @@ async def seed_meilisearch(events: list[dict]) -> None:
                 "category": e["category"],
                 "status": e["status"],
             }
-            for e in events
+            for e in all_events
         ]
 
         async with httpx.AsyncClient() as client:
@@ -396,23 +424,20 @@ async def seed_meilisearch(events: list[dict]) -> None:
         print(f"  Meilisearch indexing skipped: {e}")
 
 
-async def seed() -> None:
-    """Main seed function — loads all frontend JSON and inserts into Neo4j."""
-    await init_driver()
-    print(f"Seeding Neo4j at {settings.neo4j_uri} ...")
+async def seed_scenario(scenario: dict) -> dict:
+    """Seed a single scenario. Returns summary counts."""
+    prefix = scenario["prefix"]
+    files = scenario["files"]
 
-    # Clear existing data
-    await clear_database()
+    print(f"\n--- Scenario: {prefix} ---")
 
-    # Load frontend seed data
-    events = load_json("tariff-events.json")
-    links = load_json("tariff-links.json")
-    agreement = load_json("tariff-agreement.json")
-    predictions = load_json("tariff-predictions.json")
-    narratives = load_json("tariff-narratives.json")
-    claims = load_json("tariff-claims.json")
+    events = load_json(files["events"])
+    links = load_json(files["links"])
+    agreement = load_json(files["agreement"])
+    predictions = load_json(files["predictions"])
+    narratives = load_json(files["narratives"])
+    claims = load_json(files["claims"])
 
-    # Seed in order (events first, then relationships)
     await seed_events(events)
     await seed_links(links)
     await seed_agreement(agreement)
@@ -420,17 +445,52 @@ async def seed() -> None:
     await seed_narratives(narratives)
     await seed_claims(claims)
 
-    # Index in Meilisearch
-    await seed_meilisearch(events)
+    return {
+        "prefix": prefix,
+        "events": len(events),
+        "links": len(links),
+        "obligations": len(agreement["obligations"]),
+        "predictions": len(predictions),
+        "narratives": len(narratives),
+        "claims": len(claims),
+        "raw_events": events,
+    }
+
+
+async def seed() -> None:
+    """Main seed function — loads all scenario JSON and inserts into Neo4j."""
+    await init_driver()
+    print(f"Seeding Neo4j at {settings.neo4j_uri} ...")
+
+    # Clear existing data
+    await clear_database()
+
+    # Seed all scenarios
+    all_events: list[dict] = []
+    summaries: list[dict] = []
+
+    for scenario in SCENARIOS:
+        result = await seed_scenario(scenario)
+        all_events.extend(result["raw_events"])
+        summaries.append(result)
+
+    # Index all events in Meilisearch
+    await seed_meilisearch(all_events)
 
     await close_driver()
-    print("\nDone! Seeded:")
-    print(f"  {len(events)} events")
-    print(f"  {len(links)} causal links")
-    print(f"  1 agreement with {len(agreement['obligations'])} obligations")
-    print(f"  {len(predictions)} prediction markets")
-    print(f"  {len(narratives)} narratives")
-    print(f"  {len(claims)} claims")
+
+    print("\n=== Done! ===")
+    for s in summaries:
+        print(f"\n[{s['prefix']}]")
+        print(f"  {s['events']} events")
+        print(f"  {s['links']} causal links")
+        print(f"  1 agreement with {s['obligations']} obligations")
+        print(f"  {s['predictions']} prediction markets")
+        print(f"  {s['narratives']} narratives")
+        print(f"  {s['claims']} claims")
+
+    total_events = sum(s["events"] for s in summaries)
+    print(f"\nTotal: {total_events} events across {len(summaries)} scenarios.")
 
 
 if __name__ == "__main__":

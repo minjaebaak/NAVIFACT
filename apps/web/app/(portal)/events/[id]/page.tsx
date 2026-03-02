@@ -12,14 +12,17 @@ import {
   BarChart3,
 } from "lucide-react";
 import EventDetailClient from "./EventDetailClient";
+import DiscussionThread from "@/components/discussion/DiscussionThread";
 
 import {
-  getEvents,
-  getLinks,
-  getAgreement,
-  getPredictions,
-  getNarratives,
-  getClaims,
+  getEventsForScenario,
+  getLinksForScenario,
+  getAgreementForScenario,
+  getPredictionsForScenario,
+  getNarrativesForScenario,
+  getClaimsForScenario,
+  detectScenario,
+  SCENARIOS,
 } from "@/lib/data";
 
 export default async function EventDetailPage({
@@ -28,15 +31,17 @@ export default async function EventDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
+  const scenarioId = detectScenario(id);
+  const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;
 
   const [allEvents, allLinks, agreement, predictions, narratives, claims] =
     await Promise.all([
-      getEvents(),
-      getLinks(),
-      getAgreement(),
-      getPredictions(),
-      getNarratives(),
-      getClaims(),
+      getEventsForScenario(scenarioId),
+      getLinksForScenario(scenarioId),
+      getAgreementForScenario(scenarioId),
+      getPredictionsForScenario(scenarioId),
+      getNarrativesForScenario(scenarioId),
+      getClaimsForScenario(scenarioId),
     ]);
 
   const event = allEvents.find((e) => e.id === id);
@@ -66,11 +71,11 @@ export default async function EventDetailPage({
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       {/* Back Link */}
       <Link
-        href="/events"
+        href={`/events?scenario=${scenarioId}`}
         className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors mb-6"
       >
         <ArrowLeft className="h-4 w-4" />
-        이벤트 목록으로
+        {currentScenario.flag} {currentScenario.title} 이벤트 목록으로
       </Link>
 
       {/* Event Header */}
@@ -189,6 +194,11 @@ export default async function EventDetailPage({
               section="scorecard"
             />
           </section>
+
+          {/* Discussion */}
+          <section className="p-6 rounded-xl border border-border bg-card">
+            <DiscussionThread targetType="event" targetId={id} />
+          </section>
         </div>
 
         {/* Sidebar */}
@@ -249,7 +259,7 @@ export default async function EventDetailPage({
           {/* Quick Stats */}
           <section className="p-6 rounded-xl border border-border bg-card">
             <h3 className="text-sm font-semibold text-foreground mb-4">
-              전체 데이터
+              {currentScenario.flag} {currentScenario.title}
             </h3>
             <div className="grid grid-cols-2 gap-3">
               {[
