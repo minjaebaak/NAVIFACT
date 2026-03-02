@@ -1,0 +1,173 @@
+[
+  {
+    "id": "shop-001",
+    "name": "🔍 진실 탐구 이모지 팩",
+    "description": "진실을 향한 여정에 어울리는 이모지 5종 세트",
+    "category": "emoji",
+    "price": 50,
+    "rarity": "common",
+    "emoji_code": "truth_seeker_pack"
+  },
+  {
+    "id": "shop-002",
+    "name": "⚖️ 공정 심판 이모지 팩",
+    "description": "균형 잡힌 시각을 표현하는 이모지 5종 세트",
+    "category": "emoji",
+    "price": 80,
+    "rarity": "rare",
+    "emoji_code": "fair_judge_pack"
+  },
+  {
+    "id": "shop-003",
+    "name": "🛡️ 팩트체커 이모지 팩",
+    "description": "사실 검증의 최전선에서 사용하는 프리미엄 이모지 5종",
+    "category": "emoji",
+    "price": 120,
+    "rarity": "epic",
+    "emoji_code": "factchecker_pack"
+  },
+  {
+    "id": "shop-004",
+    "name": "🦅 선견지명 이모지 팩",
+    "description": "미래를 내다보는 예측가를 위한 한정판 이모지",
+    "category": "emoji",
+    "price": 200,
+    "rarity": "legendary",
+    "emoji_code": "oracle_pack"
+  },
+  {
+    "id": "shop-010",
+    "name": "블루 테두리",
+    "description": "깔끔한 파란색 프로필 테두리",
+    "category": "profile_border",
+    "price": 100,
+    "rarity": "common",
+    "preview_url": "/shop/borders/blue.svg"
+  },
+  {
+    "id": "shop-011",
+    "name": "그린 테두리",
+    "description": "검증된 사실처럼 신뢰감을 주는 초록색 테두리",
+    "category": "profile_border",
+    "price": 100,
+    "rarity": "common",
+    "preview_url": "/shop/borders/green.svg"
+  },
+  {
+    "id": "shop-012",
+    "name": "골드 테두리",
+    "description": "황금빛으로 빛나는 프리미엄 테두리",
+    "category": "profile_border",
+    "price": 300,
+    "rarity": "rare",
+    "preview_url": "/shop/borders/gold.svg"
+  },
+  {
+    "id": "shop-013",
+    "name": "불꽃 테두리",
+    "description": "타오르는 진실의 불꽃! 레전더리 등급 테두리",
+    "category": "profile_border",
+    "price": 500,
+    "rarity": "legendary",
+    "preview_url": "/shop/borders/flame.svg"
+  },
+  {
+    "id": "shop-020",
+    "name": "우주 배경",
+    "description": "광활한 우주처럼 넓은 시야를 가진 당신을 위해",
+    "category": "profile_background",
+    "price": 150,
+    "rarity": "rare",
+    "preview_url": "/shop/backgrounds/space.svg"
+  },
+  {
+    "id": "shop-021",
+    "name": "네온 그라데이션",
+    "description": "미래지향적 네온 색상의 그라데이션 배경",
+    "category": "profile_background",
+    "price": 200,
+    "rarity": "rare",
+    "preview_url": "/shop/backgrounds/neon.svg"
+  },
+  {
+    "id": "shop-022",
+    "name": "인과관계 맵 배경",
+    "description": "배경에 은은한 인과관계 그래프 패턴이 흐르는 NAVIFACT 전용 배경",
+    "category": "profile_background",
+    "price": 350,
+    "rarity": "epic",
+    "preview_url": "/shop/backgrounds/causal-map.svg"
+  },
+  {
+    "id": "shop-030",
+    "name": "노란 강조 효과",
+    "description": "댓글에 은은한 노란 배경을 추가하여 눈에 띄게",
+    "category": "comment_effect",
+    "price": 100,
+    "rarity": "common"
+  },
+  {
+    "id": "shop-031",
+    "name": "그라데이션 강조 효과",
+    "description": "댓글 좌측에 그라데이션 바가 생기는 스타일리시한 효과",
+    "category": "comment_effect",
+    "price": 180,
+    "rarity": "rare"
+  },
+  {
+    "id": "shop-032",
+    "name": "빛나는 댓글 효과",
+    "description": "댓글이 살짝 빛나는 프리미엄 효과. 시선 집중!",
+    "category": "comment_effect",
+    "price": 250,
+    "rarity": "epic"
+  },
+  {
+    "id": "shop-040",
+    "name": "칭호 배경 - 레드",
+    "description": "칭호 뱃지를 붉은색으로 강조",
+    "category": "badge_style",
+    "price": 150,
+    "rarity": "common"
+  },
+  {
+    "id": "shop-041",
+    "name": "칭호 배경 - 퍼플",
+    "description": "신비로운 보라색 칭호 배경",
+    "category": "badge_style",
+    "price": 150,
+    "rarity": "common"
+  },
+  {
+    "id": "shop-042",
+    "name": "칭호 배경 - 홀로그램",
+    "description": "각도에 따라 색이 변하는 듯한 홀로그래픽 칭호 배경",
+    "category": "badge_style",
+    "price": 400,
+    "rarity": "legendary"
+  },
+  {
+    "id": "shop-050",
+    "name": "미드나잇 블루 테마",
+    "description": "깊은 밤하늘 같은 다크 블루 톤 테마",
+    "category": "theme",
+    "price": 300,
+    "rarity": "rare"
+  },
+  {
+    "id": "shop-051",
+    "name": "선셋 오렌지 테마",
+    "description": "따뜻한 석양빛 오렌지 톤 테마",
+    "category": "theme",
+    "price": 300,
+    "rarity": "rare"
+  },
+  {
+    "id": "shop-052",
+    "name": "오로라 테마",
+    "description": "북극 오로라처럼 은은하게 변하는 색상 테마",
+    "category": "theme",
+    "price": 500,
+    "rarity": "legendary"
+  }
+]

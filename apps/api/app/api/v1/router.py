@@ -15,6 +15,7 @@ from app.api.v1.graph import router as graph_router
 from app.api.v1.narratives import router as narratives_router
 from app.api.v1.predictions import router as predictions_router
 from app.api.v1.search import router as search_router
+from app.api.v1.shop import router as shop_router
 
 v1_router = APIRouter()
 
@@ -31,3 +32,4 @@ v1_router.include_router(leaderboard_router, prefix="/leaderboard", tags=["leade
 v1_router.include_router(points_router, prefix="/points", tags=["points"])
 v1_router.include_router(titles_router, prefix="/titles", tags=["titles"])
 v1_router.include_router(users_router, prefix="/users", tags=["users"])
+v1_router.include_router(shop_router, prefix="/shop", tags=["shop"])

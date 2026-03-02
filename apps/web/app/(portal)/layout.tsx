@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Search,
   Users,
+  ShoppingBag,
   LogIn,
   Menu,
   X,
@@ -19,6 +20,7 @@ const navLinks = [
   { href: "/events", label: "이벤트", icon: Compass },
   { href: "/timeline", label: "타임라인", icon: Calendar },
   { href: "/predict", label: "예측시장", icon: TrendingUp },
+  { href: "/shop", label: "상점", icon: ShoppingBag },
   { href: "/community", label: "커뮤니티", icon: Users },
   { href: "/search", label: "검색", icon: Search },
 ];
