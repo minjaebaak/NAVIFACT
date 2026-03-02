@@ -1,10 +1,14 @@
 """Auth endpoints — registration and login."""
 
+from uuid import UUID
+
 from fastapi import APIRouter, HTTPException, status
 
 from app.core.auth import create_access_token, hash_password, verify_password
 from app.db.neo4j import execute_query
 from app.models.user import LoginRequest, TokenPair, UserCreate, UserResponse
+from app.services.activity_service import log_activity
+from app.services.point_service import add_points
 
 router = APIRouter()
 
@@ -45,12 +49,18 @@ async def register(payload: UserCreate) -> UserResponse:
         },
     )
     props = dict(records[0]["u"])
+    user_id = UUID(props["id"]) if isinstance(props["id"], str) else props["id"]
+
+    # Signup bonus: +100 points
+    await add_points(user_id, 100, "signup_bonus")
+    await log_activity(user_id, "signup", f"{payload.username} 가입")
+
     return UserResponse(
         id=props["id"],
         email=props["email"],
         username=props["username"],
         role=props.get("role", "viewer"),
-        points=props.get("points", 0),
+        points=100,
         created_at=props["created_at"],
     )
 

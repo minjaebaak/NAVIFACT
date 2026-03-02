@@ -1,3 +1,5 @@
+import { getToken } from './auth';
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
 interface RequestOptions extends RequestInit {
@@ -21,13 +23,22 @@ class ApiClient {
     return url.toString();
   }
 
+  private getHeaders(): Record<string, string> {
+    const headers: Record<string, string> = {
+      'Content-Type': 'application/json',
+    };
+    const token = getToken();
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`;
+    }
+    return headers;
+  }
+
   async get<T>(path: string, options?: RequestOptions): Promise<T> {
     const { params, ...fetchOptions } = options || {};
     const response = await fetch(this.buildUrl(path, params), {
       method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.getHeaders(),
       ...fetchOptions,
     });
 
@@ -42,9 +53,7 @@ class ApiClient {
     const { params, ...fetchOptions } = options || {};
     const response = await fetch(this.buildUrl(path, params), {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.getHeaders(),
       body: body ? JSON.stringify(body) : undefined,
       ...fetchOptions,
     });
@@ -60,9 +69,7 @@ class ApiClient {
     const { params, ...fetchOptions } = options || {};
     const response = await fetch(this.buildUrl(path, params), {
       method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.getHeaders(),
       body: body ? JSON.stringify(body) : undefined,
       ...fetchOptions,
     });
@@ -78,9 +85,7 @@ class ApiClient {
     const { params, ...fetchOptions } = options || {};
     const response = await fetch(this.buildUrl(path, params), {
       method: 'DELETE',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.getHeaders(),
       ...fetchOptions,
     });
 

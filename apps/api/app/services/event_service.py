@@ -92,6 +92,24 @@ async def create_event(payload: EventCreate) -> EventResponse:
     return _node_to_event(records[0]["e"])
 
 
+def _neo4j_to_python_datetime(val):
+    """Convert Neo4j Date/DateTime to Python datetime."""
+    from datetime import datetime, timezone
+    if val is None:
+        return None
+    if hasattr(val, 'to_native'):
+        native = val.to_native()
+        if isinstance(native, datetime):
+            if native.tzinfo is None:
+                return native.replace(tzinfo=timezone.utc)
+            return native
+        # neo4j.time.Date → date object, wrap as datetime
+        return datetime(native.year, native.month, native.day, tzinfo=timezone.utc)
+    if isinstance(val, str):
+        return datetime.fromisoformat(val)
+    return val
+
+
 def _node_to_event(node: dict) -> EventResponse:
     """Map a Neo4j node dict to an EventResponse."""
     props = dict(node)
@@ -99,12 +117,12 @@ def _node_to_event(node: dict) -> EventResponse:
         id=props["id"],
         title=props["title"],
         description=props["description"],
-        date=props["date"],
+        date=_neo4j_to_python_datetime(props["date"]),
         location=props.get("location"),
         category=props["category"],
         source_urls=props.get("source_urls", []),
         tags=props.get("tags", []),
         credibility_score=props.get("credibility_score", 0.0),
-        created_at=props["created_at"],
-        updated_at=props["updated_at"],
+        created_at=_neo4j_to_python_datetime(props["created_at"]),
+        updated_at=_neo4j_to_python_datetime(props["updated_at"]),
     )

@@ -7,15 +7,19 @@ import {
   Calendar,
   TrendingUp,
   Search,
+  Users,
+  LogIn,
   Menu,
   X,
 } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/lib/auth-context";
 
 const navLinks = [
   { href: "/events", label: "이벤트", icon: Compass },
   { href: "/timeline", label: "타임라인", icon: Calendar },
   { href: "/predict", label: "예측시장", icon: TrendingUp },
+  { href: "/community", label: "커뮤니티", icon: Users },
   { href: "/search", label: "검색", icon: Search },
 ];
 
@@ -25,6 +29,7 @@ export default function PortalLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const { user, isAuthenticated, logout } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -70,6 +75,32 @@ export default function PortalLayout({
               })}
             </nav>
 
+            {/* Auth Buttons */}
+            <div className="hidden md:flex items-center gap-2">
+              {isAuthenticated && user ? (
+                <div className="flex items-center gap-3">
+                  <span className="text-sm text-accent font-semibold">
+                    {user.points.toLocaleString()} P
+                  </span>
+                  <span className="text-sm text-foreground">{user.username}</span>
+                  <button
+                    onClick={logout}
+                    className="text-sm text-muted hover:text-foreground transition-colors"
+                  >
+                    로그아웃
+                  </button>
+                </div>
+              ) : (
+                <Link
+                  href="/login"
+                  className="flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-accent-foreground hover:bg-accent/90 transition-colors"
+                >
+                  <LogIn className="h-4 w-4" />
+                  로그인
+                </Link>
+              )}
+            </div>
+
             {/* Mobile Menu Button */}
             <button
               className="md:hidden p-2 rounded-lg text-muted hover:text-foreground hover:bg-white/5 transition-colors"
@@ -107,6 +138,34 @@ export default function PortalLayout({
                     </Link>
                   );
                 })}
+                {/* Mobile Auth */}
+                <div className="border-t border-border mt-2 pt-2">
+                  {isAuthenticated && user ? (
+                    <div className="flex items-center justify-between px-4 py-3">
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-foreground">{user.username}</span>
+                        <span className="text-sm text-accent font-semibold">
+                          {user.points.toLocaleString()} P
+                        </span>
+                      </div>
+                      <button
+                        onClick={() => { logout(); setMobileMenuOpen(false); }}
+                        className="text-sm text-muted hover:text-foreground"
+                      >
+                        로그아웃
+                      </button>
+                    </div>
+                  ) : (
+                    <Link
+                      href="/login"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-accent"
+                    >
+                      <LogIn className="h-4 w-4" />
+                      로그인
+                    </Link>
+                  )}
+                </div>
               </div>
             </nav>
           )}

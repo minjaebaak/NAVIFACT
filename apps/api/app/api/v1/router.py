@@ -4,6 +4,11 @@ from fastapi import APIRouter
 
 from app.api.v1.agreements import router as agreements_router
 from app.api.v1.auth import router as auth_router
+from app.api.v1.discussions import router as discussions_router
+from app.api.v1.leaderboard import router as leaderboard_router
+from app.api.v1.points import router as points_router
+from app.api.v1.titles import router as titles_router
+from app.api.v1.users import router as users_router
 from app.api.v1.claims import router as claims_router
 from app.api.v1.events import router as events_router
 from app.api.v1.graph import router as graph_router
@@ -21,3 +26,8 @@ v1_router.include_router(graph_router, prefix="/graph", tags=["graph"])
 v1_router.include_router(predictions_router, prefix="/predictions", tags=["predictions"])
 v1_router.include_router(search_router, prefix="/search", tags=["search"])
 v1_router.include_router(auth_router, prefix="/auth", tags=["auth"])
+v1_router.include_router(discussions_router, prefix="/discussions", tags=["discussions"])
+v1_router.include_router(leaderboard_router, prefix="/leaderboard", tags=["leaderboard"])
+v1_router.include_router(points_router, prefix="/points", tags=["points"])
+v1_router.include_router(titles_router, prefix="/titles", tags=["titles"])
+v1_router.include_router(users_router, prefix="/users", tags=["users"])

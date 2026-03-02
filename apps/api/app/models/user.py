@@ -29,7 +29,33 @@ class UserResponse(BaseModel):
     username: str
     role: UserRole = UserRole.VIEWER
     points: int = Field(ge=0, default=0)
+    bio: str | None = None
+    active_title: str | None = None
+    accuracy_rate: float | None = None
+    total_bets: int = 0
+    correct_bets: int = 0
     created_at: datetime
+
+
+class UserPublicProfile(BaseModel):
+    """Public profile (no email)."""
+
+    id: UUID
+    username: str
+    role: UserRole = UserRole.VIEWER
+    points: int = 0
+    bio: str | None = None
+    active_title: str | None = None
+    accuracy_rate: float | None = None
+    total_bets: int = 0
+    correct_bets: int = 0
+    created_at: datetime
+
+
+class UserProfileUpdate(BaseModel):
+    """Update profile fields."""
+
+    bio: str | None = None
 
 
 class TokenPair(BaseModel):

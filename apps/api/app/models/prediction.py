@@ -69,4 +69,6 @@ class PointTransaction(BaseModel):
     user_id: UUID
     amount: int
     reason: str
+    reference_id: UUID | None = None
+    balance_after: int | None = None
     created_at: datetime
