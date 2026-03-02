@@ -46,6 +46,7 @@ class EventResponse(BaseModel):
     """Full event representation returned by the API."""
 
     id: UUID
+    short_id: str | None = None
     title: str
     description: str
     date: datetime
@@ -54,6 +55,7 @@ class EventResponse(BaseModel):
     source_urls: list[str] = Field(default_factory=list)
     tags: list[str] = Field(default_factory=list)
     credibility_score: float = Field(ge=0, le=1, default=0.0)
+    status: str | None = None
     created_at: datetime
     updated_at: datetime
 

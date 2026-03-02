@@ -66,11 +66,13 @@ async def get_causal_chain(
             events.append(
                 EventResponse(
                     id=props["id"],
+                    short_id=props.get("short_id"),
                     title=props.get("title", ""),
                     description=props.get("description", ""),
                     date=props.get("date"),
                     category=props.get("category", "political"),
                     credibility_score=props.get("credibility_score", 0.0),
+                    status=props.get("status"),
                     created_at=props.get("created_at"),
                     updated_at=props.get("updated_at"),
                 )

@@ -23,6 +23,7 @@ import {
   getClaimsForScenario,
   detectScenario,
   SCENARIOS,
+  type ScenarioId,
 } from "@/lib/data";
 
 export default async function EventDetailPage({
@@ -31,7 +32,30 @@ export default async function EventDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const scenarioId = detectScenario(id);
+  let scenarioId = detectScenario(id);
+
+  // If id looks like a UUID (not a short ID), try resolving via API
+  const isUuid = id.length > 20 && id.includes("-");
+  let resolvedShortId: string | null = null;
+
+  if (isUuid) {
+    try {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+      const res = await fetch(`${apiUrl}/events/${id}`, {
+        next: { revalidate: 60 },
+      });
+      if (res.ok) {
+        const apiEvt = await res.json();
+        resolvedShortId = apiEvt.short_id || null;
+        if (resolvedShortId) {
+          scenarioId = detectScenario(resolvedShortId);
+        }
+      }
+    } catch {
+      // API unavailable — will try matching by UUID against loaded data
+    }
+  }
+
   const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;
 
   const [allEvents, allLinks, agreement, predictions, narratives, claims] =
@@ -44,14 +68,22 @@ export default async function EventDetailPage({
       getClaimsForScenario(scenarioId),
     ]);
 
-  const event = allEvents.find((e) => e.id === id);
+  // Find event — try direct match, then resolved short ID
+  const effectiveId = resolvedShortId || id;
+  let event = allEvents.find((e) => e.id === effectiveId);
+  if (!event) {
+    // Fallback: try the original id (covers UUID-in-data case)
+    event = allEvents.find((e) => e.id === id);
+  }
+
+  const matchId = event?.id ?? effectiveId;
   const relatedLinks = allLinks.filter(
-    (l) => l.source === id || l.target === id
+    (l) => l.source === matchId || l.target === matchId
   );
 
   // Gather all event IDs connected to this event
   const connectedIds = new Set<string>();
-  connectedIds.add(id);
+  connectedIds.add(matchId);
   for (const link of relatedLinks) {
     connectedIds.add(link.source);
     connectedIds.add(link.target);
@@ -114,7 +146,7 @@ export default async function EventDetailPage({
                 links={relatedLinks as any}
                 agreement={agreement as any}
                 predictions={predictions as any}
-                currentEventId={id}
+                currentEventId={matchId}
               />
             </div>
           </section>
@@ -132,7 +164,7 @@ export default async function EventDetailPage({
               links={relatedLinks as any}
               agreement={agreement as any}
               predictions={predictions as any}
-              currentEventId={id}
+              currentEventId={matchId}
               section="agreement"
             />
           </section>
@@ -150,7 +182,7 @@ export default async function EventDetailPage({
               links={relatedLinks as any}
               agreement={agreement as any}
               predictions={predictions as any}
-              currentEventId={id}
+              currentEventId={matchId}
               section="predictions"
             />
           </section>
@@ -170,7 +202,7 @@ export default async function EventDetailPage({
               predictions={predictions as any}
               narratives={narratives as any}
               claims={claims as any}
-              currentEventId={id}
+              currentEventId={matchId}
               section="narratives"
             />
           </section>
@@ -190,7 +222,7 @@ export default async function EventDetailPage({
               predictions={predictions as any}
               narratives={narratives as any}
               claims={claims as any}
-              currentEventId={id}
+              currentEventId={matchId}
               section="scorecard"
             />
           </section>
@@ -236,7 +268,7 @@ export default async function EventDetailPage({
             </h3>
             <div className="space-y-2">
               {connectedEvents
-                .filter((e) => e.id !== id)
+                .filter((e) => e.id !== matchId)
                 .map((e) => {
                   const esc = statusColor[e.status] ?? statusColor.unverified;
                   return (

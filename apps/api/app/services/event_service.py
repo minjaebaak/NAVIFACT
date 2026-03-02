@@ -115,6 +115,7 @@ def _node_to_event(node: dict) -> EventResponse:
     props = dict(node)
     return EventResponse(
         id=props["id"],
+        short_id=props.get("short_id"),
         title=props["title"],
         description=props["description"],
         date=_neo4j_to_python_datetime(props["date"]),
@@ -123,6 +124,7 @@ def _node_to_event(node: dict) -> EventResponse:
         source_urls=props.get("source_urls", []),
         tags=props.get("tags", []),
         credibility_score=props.get("credibility_score", 0.0),
+        status=props.get("status"),
         created_at=_neo4j_to_python_datetime(props["created_at"]),
         updated_at=_neo4j_to_python_datetime(props["updated_at"]),
     )
