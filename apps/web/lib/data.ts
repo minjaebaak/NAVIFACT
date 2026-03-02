@@ -365,7 +365,9 @@ export async function getEventsForScenario(scenarioId: ScenarioId): Promise<Seed
     const items = data.items || data;
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     const all = items.map(transformApiEvent);
-    return all.filter((e) => detectScenario(e.id) === scenarioId);
+    const filtered = all.filter((e) => detectScenario(e.id) === scenarioId);
+    if (filtered.length === 0) throw new Error("no events for scenario");
+    return filtered;
   } catch {
     return SEED_DATA[scenarioId].events;
   }
@@ -381,7 +383,9 @@ export async function getLinksForScenario(scenarioId: ScenarioId): Promise<SeedL
     const items = data.items || data;
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     const all = items.map(transformApiLink);
-    return all.filter((l) => detectScenario(l.source) === scenarioId);
+    const filtered = all.filter((l) => detectScenario(l.source) === scenarioId);
+    if (filtered.length === 0) throw new Error("no links for scenario");
+    return filtered;
   } catch {
     return SEED_DATA[scenarioId].links;
   }
@@ -401,7 +405,9 @@ export async function getPredictionsForScenario(scenarioId: ScenarioId): Promise
     const items = data.items || data;
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     const all = items.map(transformApiPrediction);
-    return all.filter((p) => detectScenario(p.id) === scenarioId);
+    const filtered = all.filter((p) => detectScenario(p.id) === scenarioId);
+    if (filtered.length === 0) throw new Error("no predictions for scenario");
+    return filtered;
   } catch {
     return SEED_DATA[scenarioId].predictions;
   }
