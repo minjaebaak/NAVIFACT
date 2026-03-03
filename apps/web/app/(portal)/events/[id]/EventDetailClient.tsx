@@ -5,6 +5,7 @@ import ObligationChecklist from "@/components/agreement/ObligationChecklist";
 import PredictionCard from "@/components/prediction/PredictionCard";
 import NarrativeComparison from "@/components/narrative/NarrativeComparison";
 import TruthScorecard from "@/components/scorecard/TruthScorecard";
+import MarketImpactPanel from "@/components/market-impact/MarketImpactPanel";
 
 interface EventDetailClientProps {
   events: Array<{
@@ -68,8 +69,28 @@ interface EventDetailClientProps {
     sourcesFor?: number;
     sourcesAgainst?: number;
   }>;
+  marketImpacts?: Array<{
+    id: string;
+    eventId: string;
+    summary: string;
+    analysisDate: string;
+    sectors: Array<{
+      sector: string;
+      direction: "positive" | "negative" | "neutral";
+      magnitude: "high" | "medium" | "low";
+      reasoning: string;
+      region: "KR" | "US" | "GLOBAL";
+      stocks: Array<{
+        ticker: string;
+        name: string;
+        exchange: string;
+        direction: "positive" | "negative" | "neutral";
+        reasoning: string;
+      }>;
+    }>;
+  }>;
   currentEventId: string;
-  section?: "graph" | "agreement" | "predictions" | "narratives" | "scorecard";
+  section?: "graph" | "agreement" | "predictions" | "narratives" | "scorecard" | "market-impact";
 }
 
 export default function EventDetailClient({
@@ -79,6 +100,7 @@ export default function EventDetailClient({
   predictions,
   narratives,
   claims,
+  marketImpacts,
   currentEventId,
   section,
 }: EventDetailClientProps) {
@@ -116,6 +138,10 @@ export default function EventDetailClient({
 
   if (section === "narratives" && narratives) {
     return <NarrativeComparison narratives={narratives} />;
+  }
+
+  if (section === "market-impact") {
+    return <MarketImpactPanel marketImpacts={marketImpacts || []} />;
   }
 
   if (section === "scorecard" && claims) {

@@ -23,6 +23,10 @@ import iranPredictions from "@/data/seed/iran-predictions.json";
 import iranNarratives from "@/data/seed/iran-narratives.json";
 import iranClaims from "@/data/seed/iran-claims.json";
 
+// Market impact seed data
+import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
+import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
+
 // ---------------------------------------------------------------------------
 // Types (matching seed JSON shapes)
 // ---------------------------------------------------------------------------
@@ -107,6 +111,31 @@ export interface SeedClaim {
   sourcesAgainst?: number;
 }
 
+export interface SeedStockImpact {
+  ticker: string;
+  name: string;
+  exchange: string;
+  direction: "positive" | "negative" | "neutral";
+  reasoning: string;
+}
+
+export interface SeedSectorImpact {
+  sector: string;
+  direction: "positive" | "negative" | "neutral";
+  magnitude: "high" | "medium" | "low";
+  reasoning: string;
+  region: "KR" | "US" | "GLOBAL";
+  stocks: SeedStockImpact[];
+}
+
+export interface SeedMarketImpact {
+  id: string;
+  eventId: string;
+  summary: string;
+  analysisDate: string;
+  sectors: SeedSectorImpact[];
+}
+
 // ---------------------------------------------------------------------------
 // Scenario system
 // ---------------------------------------------------------------------------
@@ -145,6 +174,7 @@ interface ScenarioSeedData {
   predictions: SeedPrediction[];
   narratives: SeedNarrative[];
   claims: SeedClaim[];
+  marketImpacts: SeedMarketImpact[];
 }
 
 const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
@@ -155,6 +185,7 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     predictions: seedPredictions as SeedPrediction[],
     narratives: seedNarratives as SeedNarrative[],
     claims: seedClaims as SeedClaim[],
+    marketImpacts: seedMarketImpacts as SeedMarketImpact[],
   },
   iran: {
     events: iranEvents as SeedEvent[],
@@ -163,11 +194,12 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     predictions: iranPredictions as SeedPrediction[],
     narratives: iranNarratives as SeedNarrative[],
     claims: iranClaims as SeedClaim[],
+    marketImpacts: iranMarketImpacts as SeedMarketImpact[],
   },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
-  if (eventId.startsWith("ievt-") || eventId.startsWith("ilink-") || eventId.startsWith("ipred-") || eventId.startsWith("inar-") || eventId.startsWith("iclm-") || eventId.startsWith("agr-iran")) {
+  if (eventId.startsWith("ievt-") || eventId.startsWith("ilink-") || eventId.startsWith("ipred-") || eventId.startsWith("inar-") || eventId.startsWith("iclm-") || eventId.startsWith("agr-iran") || eventId.startsWith("imi-")) {
     return "iran";
   }
   return "tariff";
@@ -419,6 +451,29 @@ export async function getNarrativesForScenario(scenarioId: ScenarioId): Promise<
 
 export async function getClaimsForScenario(scenarioId: ScenarioId): Promise<SeedClaim[]> {
   return SEED_DATA[scenarioId].claims;
+}
+
+export async function getMarketImpactsForScenario(scenarioId: ScenarioId): Promise<SeedMarketImpact[]> {
+  try {
+    const res = await fetch(`${API_URL}/market-impacts?page_size=100`, {
+      next: { revalidate: 60 },
+    });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const data = await res.json();
+    const items = data.items || data;
+    if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
+    const filtered = items.filter((mi: SeedMarketImpact) => detectScenario(mi.id) === scenarioId);
+    if (filtered.length === 0) throw new Error("no market impacts for scenario");
+    return filtered;
+  } catch {
+    return SEED_DATA[scenarioId].marketImpacts;
+  }
+}
+
+export async function getMarketImpactsForEvent(eventId: string): Promise<SeedMarketImpact[]> {
+  const scenarioId = detectScenario(eventId);
+  const all = await getMarketImpactsForScenario(scenarioId);
+  return all.filter((mi) => mi.eventId === eventId);
 }
 
 // ---------------------------------------------------------------------------

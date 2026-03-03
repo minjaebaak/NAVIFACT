@@ -10,6 +10,7 @@ import {
   Target,
   Newspaper,
   BarChart3,
+  LineChart,
 } from "lucide-react";
 import EventDetailClient from "./EventDetailClient";
 import DiscussionThread from "@/components/discussion/DiscussionThread";
@@ -21,6 +22,7 @@ import {
   getPredictionsForScenario,
   getNarrativesForScenario,
   getClaimsForScenario,
+  getMarketImpactsForEvent,
   detectScenario,
   SCENARIOS,
   type ScenarioId,
@@ -77,6 +79,7 @@ export default async function EventDetailPage({
   }
 
   const matchId = event?.id ?? effectiveId;
+  const marketImpacts = await getMarketImpactsForEvent(matchId);
   const relatedLinks = allLinks.filter(
     (l) => l.source === matchId || l.target === matchId
   );
@@ -184,6 +187,25 @@ export default async function EventDetailPage({
               predictions={predictions as any}
               currentEventId={matchId}
               section="predictions"
+            />
+          </section>
+
+          {/* Market Impact */}
+          <section>
+            <div className="flex items-center gap-2 mb-4">
+              <LineChart className="h-5 w-5 text-accent" />
+              <h2 className="text-lg font-semibold text-foreground">
+                시장 영향 분석
+              </h2>
+            </div>
+            <EventDetailClient
+              events={connectedEvents as any}
+              links={relatedLinks as any}
+              agreement={agreement as any}
+              predictions={predictions as any}
+              marketImpacts={marketImpacts as any}
+              currentEventId={matchId}
+              section="market-impact"
             />
           </section>
 

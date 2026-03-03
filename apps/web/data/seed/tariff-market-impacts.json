@@ -1,0 +1,183 @@
+[
+  {
+    "id": "mi-001",
+    "eventId": "evt-001",
+    "summary": "한미 관세 협정 체결로 반도체, 자동차, 농업 분야 수출 호조 전망",
+    "analysisDate": "2025-01-16",
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "관세 인하 합의로 대미 반도체 수출 경쟁력 강화. 메모리·파운드리 동시 수혜.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005930", "name": "삼성전자", "exchange": "KOSPI", "direction": "positive", "reasoning": "메모리 반도체 대미 수출 1위. 관세 인하 최대 수혜주." },
+          { "ticker": "000660", "name": "SK하이닉스", "exchange": "KOSPI", "direction": "positive", "reasoning": "HBM 수출 증가 기대. AI 반도체 수요와 관세 인하 동시 수혜." }
+        ]
+      },
+      {
+        "sector": "자동차",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "완성차 관세 상호 조정으로 현대·기아의 미국 시장 가격 경쟁력 개선.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005380", "name": "현대자동차", "exchange": "KOSPI", "direction": "positive", "reasoning": "미국 판매 비중 30%+. 관세 인하로 가격 경쟁력 개선." },
+          { "ticker": "000270", "name": "기아", "exchange": "KOSPI", "direction": "positive", "reasoning": "SUV·EV 라인업의 미국 시장 확대 기대." }
+        ]
+      },
+      {
+        "sector": "농산물·식품",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "미국산 농산물 관세 조정으로 수입 원재료 단가 하락, 식품업체 원가 절감.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "097950", "name": "CJ제일제당", "exchange": "KOSPI", "direction": "positive", "reasoning": "미국산 원재료 수입 비중 높은 식품업체. 원가 절감 효과." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi-002",
+    "eventId": "evt-002",
+    "summary": "한국의 반도체 관세 미조정으로 반도체·장비 섹터 불확실성 증가",
+    "analysisDate": "2025-03-02",
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "협정 이행 불발로 미국의 보복 관세 가능성 대두. 수출 불확실성 급증.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005930", "name": "삼성전자", "exchange": "KOSPI", "direction": "negative", "reasoning": "미국향 메모리 수출에 추가 관세 부과 우려." },
+          { "ticker": "000660", "name": "SK하이닉스", "exchange": "KOSPI", "direction": "negative", "reasoning": "HBM 등 고부가 제품도 관세 리스크 노출." }
+        ]
+      },
+      {
+        "sector": "반도체장비",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "한국 반도체 투자 축소 우려로 장비 수주 감소 전망.",
+        "region": "GLOBAL",
+        "stocks": [
+          { "ticker": "ASML", "name": "ASML", "exchange": "NASDAQ", "direction": "negative", "reasoning": "한국 파운드리·메모리 투자 감소 시 EUV 장비 수요 영향." },
+          { "ticker": "058470", "name": "리노공업", "exchange": "KOSDAQ", "direction": "negative", "reasoning": "반도체 테스트 소켓 기업. 생산 축소 영향." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi-004",
+    "eventId": "evt-004",
+    "summary": "이행 검토 회의 불참으로 외교 리스크 고조, 방산주 관심 증가",
+    "analysisDate": "2025-04-16",
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "한미 관계 불확실성으로 자주국방 투자 확대 기대감.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "지정학적 긴장 시 방산 수혜 대장주." },
+          { "ticker": "047810", "name": "한국항공우주", "exchange": "KOSPI", "direction": "positive", "reasoning": "KF-21 등 국방 프로젝트 수혜 기대." }
+        ]
+      },
+      {
+        "sector": "수출주 전반",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "협정 이행 파탄 시 전면 관세 전쟁 우려. 수출 의존 기업 타격.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005930", "name": "삼성전자", "exchange": "KOSPI", "direction": "negative", "reasoning": "미국향 수출 비중 높은 대표 수출주." },
+          { "ticker": "051910", "name": "LG화학", "exchange": "KOSPI", "direction": "negative", "reasoning": "배터리 소재 수출에 관세 리스크." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi-005",
+    "eventId": "evt-005",
+    "summary": "미국 25% 보복 관세 발동으로 수출주 급락, 내수·방산 반사 수혜",
+    "analysisDate": "2025-05-16",
+    "sectors": [
+      {
+        "sector": "철강·소재",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "25% 관세 직격탄. 대미 철강 수출 사실상 중단 수준.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005490", "name": "POSCO홀딩스", "exchange": "KOSPI", "direction": "negative", "reasoning": "대미 철강 수출 비중 높은 대표 철강주." },
+          { "ticker": "004020", "name": "현대제철", "exchange": "KOSPI", "direction": "negative", "reasoning": "자동차용 강판 수출 감소 우려." }
+        ]
+      },
+      {
+        "sector": "자동차",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "완성차·부품 관세 인상으로 미국 시장 가격 경쟁력 상실.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005380", "name": "현대자동차", "exchange": "KOSPI", "direction": "negative", "reasoning": "미국 판매 비중 30%+. 관세 25% 직격." },
+          { "ticker": "000270", "name": "기아", "exchange": "KOSPI", "direction": "negative", "reasoning": "Telluride 등 미국 인기 모델 가격 경쟁력 약화." }
+        ]
+      },
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "지정학적 긴장 고조로 방산 예산 확대 기대.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "무역 분쟁 = 안보 불확실성. 방산 수혜." },
+          { "ticker": "079550", "name": "LIG넥스원", "exchange": "KOSPI", "direction": "positive", "reasoning": "미사일·유도무기 체계 수요 증가 기대." }
+        ]
+      },
+      {
+        "sector": "내수·유통",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "수출 타격 → 정부 내수 진작 정책 기대감.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "004170", "name": "신세계", "exchange": "KOSPI", "direction": "positive", "reasoning": "내수 소비 진작 정책 수혜 기대." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi-006",
+    "eventId": "evt-006",
+    "summary": "한국 보복 관세로 미국 농업주 하락, 한국 식품·농업 반사 수혜",
+    "analysisDate": "2025-06-02",
+    "sectors": [
+      {
+        "sector": "미국 농업",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "한국의 미국산 농산물 보복 관세로 수출 감소.",
+        "region": "US",
+        "stocks": [
+          { "ticker": "ADM", "name": "Archer-Daniels-Midland", "exchange": "NYSE", "direction": "negative", "reasoning": "곡물 수출 대한국 비중 감소." },
+          { "ticker": "BG", "name": "Bunge Global", "exchange": "NYSE", "direction": "negative", "reasoning": "대두 등 대한국 수출 타격." }
+        ]
+      },
+      {
+        "sector": "한국 식품",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "미국산 수입 감소 → 국내 농산물·대체 수입처 전환 → 국내 식품업체 수혜.",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "097950", "name": "CJ제일제당", "exchange": "KOSPI", "direction": "neutral", "reasoning": "원재료 단가 상승 부담 vs 국산 전환 수혜. 영향 혼재." },
+          { "ticker": "271560", "name": "오리온", "exchange": "KOSPI", "direction": "positive", "reasoning": "내수 중심 식품. 미국 수입 의존도 낮아 상대적 수혜." }
+        ]
+      }
+    ]
+  }
+]

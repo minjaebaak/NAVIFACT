@@ -40,6 +40,7 @@ SCENARIOS = [
             "predictions": "tariff-predictions.json",
             "narratives": "tariff-narratives.json",
             "claims": "tariff-claims.json",
+            "market_impacts": "tariff-market-impacts.json",
         },
     },
     {
@@ -51,6 +52,7 @@ SCENARIOS = [
             "predictions": "iran-predictions.json",
             "narratives": "iran-narratives.json",
             "claims": "iran-claims.json",
+            "market_impacts": "iran-market-impacts.json",
         },
     },
 ]
@@ -381,6 +383,45 @@ async def seed_claims(claims: list[dict]) -> None:
     print(f"  Created {len(claims)} claims.")
 
 
+async def seed_market_impacts(market_impacts: list[dict]) -> None:
+    """Create MarketImpact nodes and link to events."""
+    for mi in market_impacts:
+        uid = short_to_uuid(mi["id"])
+        event_uid = short_to_uuid(mi["eventId"])
+        sectors_json = json.dumps(mi["sectors"], ensure_ascii=False)
+        await execute_query(
+            """
+            CREATE (mi:MarketImpact {
+                id: $id,
+                short_id: $short_id,
+                event_id: $event_short_id,
+                summary: $summary,
+                analysis_date: $analysis_date,
+                sectors_json: $sectors_json,
+                created_at: datetime(),
+                updated_at: datetime()
+            })
+            """,
+            {
+                "id": uid,
+                "short_id": mi["id"],
+                "event_short_id": mi["eventId"],
+                "summary": mi["summary"],
+                "analysis_date": mi["analysisDate"],
+                "sectors_json": sectors_json,
+            },
+        )
+        # Link Event -> MarketImpact
+        await execute_query(
+            """
+            MATCH (e:Event {id: $event_id}), (mi:MarketImpact {id: $mi_id})
+            CREATE (e)-[:HAS_MARKET_IMPACT]->(mi)
+            """,
+            {"event_id": event_uid, "mi_id": uid},
+        )
+    print(f"  Created {len(market_impacts)} market impacts.")
+
+
 async def seed_meilisearch(all_events: list[dict]) -> None:
     """Index events in Meilisearch for full-text search."""
     try:
@@ -437,6 +478,7 @@ async def seed_scenario(scenario: dict) -> dict:
     predictions = load_json(files["predictions"])
     narratives = load_json(files["narratives"])
     claims = load_json(files["claims"])
+    market_impacts = load_json(files["market_impacts"])
 
     await seed_events(events)
     await seed_links(links)
@@ -444,6 +486,7 @@ async def seed_scenario(scenario: dict) -> dict:
     await seed_predictions(predictions)
     await seed_narratives(narratives)
     await seed_claims(claims)
+    await seed_market_impacts(market_impacts)
 
     return {
         "prefix": prefix,
@@ -453,6 +496,7 @@ async def seed_scenario(scenario: dict) -> dict:
         "predictions": len(predictions),
         "narratives": len(narratives),
         "claims": len(claims),
+        "market_impacts": len(market_impacts),
         "raw_events": events,
     }
 
@@ -488,6 +532,7 @@ async def seed() -> None:
         print(f"  {s['predictions']} prediction markets")
         print(f"  {s['narratives']} narratives")
         print(f"  {s['claims']} claims")
+        print(f"  {s['market_impacts']} market impacts")
 
     total_events = sum(s["events"] for s in summaries)
     print(f"\nTotal: {total_events} events across {len(summaries)} scenarios.")
