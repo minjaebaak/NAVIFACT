@@ -1,0 +1,90 @@
+[
+  {
+    "id": "nklink-001",
+    "source": "nkevt-001",
+    "target": "nkevt-002",
+    "confidence": 97,
+    "mechanism": "3년간 전쟁 후 휴전 (종전이 아닌 정전). 한반도 분단 고착화.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-002",
+    "source": "nkevt-002",
+    "target": "nkevt-003",
+    "confidence": 80,
+    "mechanism": "정전 상태 지속 → 북핵 문제 대두 → 클린턴 행정부와 제네바 합의 체결.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nklink-003",
+    "source": "nkevt-003",
+    "target": "nkevt-004",
+    "confidence": 90,
+    "mechanism": "부시 행정부의 '악의 축' 지정 + 합의 이행 지연 → 북한 NPT 탈퇴 선언.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-004",
+    "source": "nkevt-004",
+    "target": "nkevt-005",
+    "confidence": 92,
+    "mechanism": "NPT 탈퇴로 인한 핵 위기 해결을 위해 6자회담 개시, 9.19 공동성명 채택.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-005",
+    "source": "nkevt-005",
+    "target": "nkevt-006",
+    "confidence": 88,
+    "mechanism": "9.19 공동성명 이행 실패 (BDA 금융제재 문제) → 북한 1차 핵실험 강행.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-006",
+    "source": "nkevt-006",
+    "target": "nkevt-007",
+    "confidence": 85,
+    "mechanism": "1차 핵실험(플루토늄) 이후 지속적 핵 능력 고도화, 6차 실험에서 수소폭탄 주장.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-007",
+    "source": "nkevt-007",
+    "target": "nkevt-008",
+    "confidence": 90,
+    "mechanism": "핵탄두 소형화 성공 + 화성-15 ICBM으로 미국 전역 타격 가능. '국가 핵무력 완성' 선언.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-008",
+    "source": "nkevt-008",
+    "target": "nkevt-009",
+    "confidence": 85,
+    "mechanism": "화성-15 ICBM의 미 본토 위협에 따른 트럼프 대통령의 대화 전환.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-009",
+    "source": "nkevt-009",
+    "target": "nkevt-010",
+    "confidence": 93,
+    "mechanism": "싱가포르 합의의 구체적 이행 방안 부재 → 하노이 2차 회담 결렬.",
+    "causalType": "direct"
+  },
+  {
+    "id": "nklink-010",
+    "source": "nkevt-010",
+    "target": "nkevt-011",
+    "confidence": 75,
+    "mechanism": "하노이 결렬 후 외교 중단 → 고체연료 ICBM 화성-18 개발로 투발수단 질적 도약.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "nklink-011",
+    "source": "nkevt-010",
+    "target": "nkevt-012",
+    "confidence": 70,
+    "mechanism": "비핵화 협상 완전 중단 → 한국을 '적대적 국가'로 규정, 70년 통일 정책 공식 폐기.",
+    "causalType": "contributing"
+  }
+]

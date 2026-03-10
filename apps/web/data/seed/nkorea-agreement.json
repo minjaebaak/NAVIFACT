@@ -1,0 +1,53 @@
+{
+  "id": "agr-nkorea-001",
+  "title": "6자회담 9.19 공동성명",
+  "date": "2005-09-19",
+  "summary": "한국, 북한, 미국, 중국, 일본, 러시아 6개국이 '한반도 비핵화'에 합의한 공동성명. 북한의 핵 포기, 에너지 지원, 북미 관계 정상화 등을 포함했으나, BDA 금융제재 문제와 이행 실패로 사실상 붕괴.",
+  "status": "collapsed",
+  "parties": [
+    { "id": "actor-kr", "name": "한국", "flag": "🇰🇷" },
+    { "id": "actor-nk", "name": "북한", "flag": "🇰🇵" },
+    { "id": "actor-us", "name": "미국", "flag": "🇺🇸" },
+    { "id": "actor-cn", "name": "중국", "flag": "🇨🇳" },
+    { "id": "actor-jp", "name": "일본", "flag": "🇯🇵" },
+    { "id": "actor-ru", "name": "러시아", "flag": "🇷🇺" }
+  ],
+  "obligations": [
+    {
+      "id": "nkobl-001",
+      "description": "모든 핵무기 및 기존 핵 프로그램 포기",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-nk", "name": "북한", "flag": "🇰🇵" },
+      "consequenceEventId": "nkevt-006"
+    },
+    {
+      "id": "nkobl-002",
+      "description": "NPT 및 IAEA 안전조치 복귀",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-nk", "name": "북한", "flag": "🇰🇵" }
+    },
+    {
+      "id": "nkobl-003",
+      "description": "한반도 비핵화를 검증 가능한 방식으로 이행",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-all", "name": "전체 당사국", "flag": "🌐" }
+    },
+    {
+      "id": "nkobl-004",
+      "description": "북한에 대한 에너지 지원 (경수로 제공 논의)",
+      "deadline": "미정",
+      "status": "partial",
+      "assignedTo": { "id": "actor-us", "name": "미국/한국/일본", "flag": "🇺🇸" }
+    },
+    {
+      "id": "nkobl-005",
+      "description": "북미 관계 정상화 조치",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-us", "name": "미국", "flag": "🇺🇸" }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "nkclm-001",
+    "text": "북한은 핵무기를 포기할 의사가 있었다",
+    "status": "misleading",
+    "confidence": 20,
+    "sourcesFor": 2,
+    "sourcesAgainst": 8
+  },
+  {
+    "id": "nkclm-002",
+    "text": "유엔 제재가 북한 핵개발을 억제할 수 있다",
+    "status": "false",
+    "confidence": 15,
+    "sourcesFor": 1,
+    "sourcesAgainst": 9
+  },
+  {
+    "id": "nkclm-003",
+    "text": "북한 ICBM이 미국 본토를 타격할 수 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 9,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "nkclm-004",
+    "text": "6자회담이 비핵화의 유효한 틀이었다",
+    "status": "partly_true",
+    "confidence": 45,
+    "sourcesFor": 4,
+    "sourcesAgainst": 5
+  },
+  {
+    "id": "nkclm-005",
+    "text": "트럼프-김정은 회담이 비핵화 진전을 가져왔다",
+    "status": "misleading",
+    "confidence": 20,
+    "sourcesFor": 2,
+    "sourcesAgainst": 7
+  },
+  {
+    "id": "nkclm-006",
+    "text": "북한 핵보유가 한국 자체 핵무장을 촉발할 것이다",
+    "status": "unverified",
+    "confidence": 50,
+    "sourcesFor": 5,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "nkclm-007",
+    "text": "중국이 북한 핵 문제의 열쇠를 쥐고 있다",
+    "status": "partly_true",
+    "confidence": 55,
+    "sourcesFor": 5,
+    "sourcesAgainst": 4
+  }
+]

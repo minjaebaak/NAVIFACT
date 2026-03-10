@@ -14,7 +14,7 @@ export default async function PredictPage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : "tariff";
 
   const predictions = await getPredictionsForScenario(scenarioId);
   const currentScenario = SCENARIOS.find((s) => s.id === scenarioId)!;

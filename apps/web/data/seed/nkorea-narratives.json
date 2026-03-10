@@ -1,0 +1,60 @@
+[
+  {
+    "id": "nknar-001",
+    "title": "생존을 위한 핵무장",
+    "source": "북한 관영 매체 및 일부 분석가",
+    "sourceType": "media",
+    "framing": "analytical",
+    "claims": [
+      {
+        "text": "미국의 군사 위협이 핵 개발의 근본 원인이다",
+        "status": "partly_true",
+        "confidence": 50
+      },
+      {
+        "text": "리비아·이라크 사례가 핵 포기 불가의 교훈을 줬다",
+        "status": "partly_true",
+        "confidence": 60
+      },
+      {
+        "text": "체제 보장 없이 비핵화는 불가능하다",
+        "status": "partly_true",
+        "confidence": 55
+      }
+    ],
+    "missingContext": [
+      "북한의 핵 개발은 체제 유지와 협상 레버리지 확보를 위한 복합적 동기",
+      "리비아·이라크 이전부터 핵 프로그램이 진행되었음",
+      "북한이 실제로 체제 보장만으로 비핵화할 의지가 있는지 미검증"
+    ]
+  },
+  {
+    "id": "nknar-002",
+    "title": "비핵화 실패의 구조적 원인",
+    "source": "국제 안보 전문가 및 학술 연구",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "북한은 모든 비핵화 합의를 최종적으로 위반했다",
+        "status": "verified",
+        "confidence": 92
+      },
+      {
+        "text": "제재만으로는 핵 개발을 막지 못했다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "북한의 핵보유 의지는 체제 존속과 불가분이다",
+        "status": "verified",
+        "confidence": 88
+      }
+    ],
+    "sources": [
+      "IAEA 보고서",
+      "UN 안보리 전문가 패널 보고서",
+      "SIPRI 연감"
+    ]
+  }
+]

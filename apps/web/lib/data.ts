@@ -39,11 +39,20 @@ import techwarPredictions from "@/data/seed/techwar-predictions.json";
 import techwarNarratives from "@/data/seed/techwar-narratives.json";
 import techwarClaims from "@/data/seed/techwar-claims.json";
 
+// North Korea scenario seed data
+import nkoreaEvents from "@/data/seed/nkorea-events.json";
+import nkoreaLinks from "@/data/seed/nkorea-links.json";
+import nkoreaAgreement from "@/data/seed/nkorea-agreement.json";
+import nkoreaPredictions from "@/data/seed/nkorea-predictions.json";
+import nkoreaNarratives from "@/data/seed/nkorea-narratives.json";
+import nkoreaClaims from "@/data/seed/nkorea-claims.json";
+
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
 import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
 import ukraineMarketImpacts from "@/data/seed/ukraine-market-impacts.json";
 import techwarMarketImpacts from "@/data/seed/techwar-market-impacts.json";
+import nkoreaMarketImpacts from "@/data/seed/nkorea-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -172,7 +181,7 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea";
 
 export interface Scenario {
   id: ScenarioId;
@@ -210,6 +219,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇺🇸🇨🇳",
     description: "WTO 가입부터 DeepSeek 충격까지의 반도체·AI 패권 경쟁",
     dateRange: "2001.12 - 2025.01",
+  },
+  {
+    id: "nkorea",
+    title: "북한 핵 위기",
+    flag: "🇰🇷🇰🇵",
+    description: "한국전쟁부터 적대적 2국가 선언까지 70년 핵 위기의 인과관계",
+    dateRange: "1950.06 - 2024.01",
   },
 ];
 
@@ -260,6 +276,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: techwarClaims as SeedClaim[],
     marketImpacts: techwarMarketImpacts as SeedMarketImpact[],
   },
+  nkorea: {
+    events: nkoreaEvents as SeedEvent[],
+    links: nkoreaLinks as SeedLink[],
+    agreement: nkoreaAgreement as SeedAgreement,
+    predictions: nkoreaPredictions as SeedPrediction[],
+    narratives: nkoreaNarratives as SeedNarrative[],
+    claims: nkoreaClaims as SeedClaim[],
+    marketImpacts: nkoreaMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -271,6 +296,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("twevt-") || eventId.startsWith("twlink-") || eventId.startsWith("twpred-") || eventId.startsWith("twnar-") || eventId.startsWith("twclm-") || eventId.startsWith("agr-techwar") || eventId.startsWith("twmi-") || eventId.startsWith("twobl-")) {
     return "techwar";
+  }
+  if (eventId.startsWith("nkevt-") || eventId.startsWith("nklink-") || eventId.startsWith("nkpred-") || eventId.startsWith("nknar-") || eventId.startsWith("nkclm-") || eventId.startsWith("agr-nkorea") || eventId.startsWith("nkmi-") || eventId.startsWith("nkobl-")) {
+    return "nkorea";
   }
   return "tariff";
 }
@@ -328,6 +356,15 @@ const allShortIds = [
   ...techwarPredictions.map((p) => p.id),
   ...techwarNarratives.map((n) => n.id),
   ...techwarClaims.map((c) => c.id),
+  // North Korea scenario
+  ...nkoreaEvents.map((e) => e.id),
+  ...nkoreaLinks.map((l) => l.id),
+  nkoreaAgreement.id,
+  ...nkoreaAgreement.parties.map((p) => p.id),
+  ...nkoreaAgreement.obligations.map((o) => o.id),
+  ...nkoreaPredictions.map((p) => p.id),
+  ...nkoreaNarratives.map((n) => n.id),
+  ...nkoreaClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -584,7 +621,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[])];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[]), ...(nkoreaEvents as SeedEvent[])];
   }
 }
 
@@ -606,7 +643,7 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[])];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[]), ...(nkoreaLinks as SeedLink[])];
   }
 }
 
@@ -646,7 +683,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[])];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[]), ...(nkoreaPredictions as SeedPrediction[])];
   }
 }
 
@@ -662,7 +699,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[])];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[]), ...(nkoreaNarratives as SeedNarrative[])];
   }
 }
 
@@ -678,6 +715,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[])];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[]), ...(nkoreaClaims as SeedClaim[])];
   }
 }

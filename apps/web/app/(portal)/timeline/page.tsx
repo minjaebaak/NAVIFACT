@@ -39,6 +39,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "중국측 행동",
     bottomLabel: "미국측 행동",
   },
+  nkorea: {
+    topIds: ["nkevt-001", "nkevt-006", "nkevt-007", "nkevt-008", "nkevt-011"],
+    centerIds: ["nkevt-005"],
+    topLabel: "북한 행동",
+    bottomLabel: "국제사회/미국 행동",
+  },
 };
 
 export default async function TimelinePage({
@@ -48,7 +54,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -84,6 +90,11 @@ export default async function TimelinePage({
     ? [
         { color: "bg-cyan-500", label: "기술" },
         { color: "bg-green-500", label: "경제" },
+        { color: "bg-blue-500", label: "외교" },
+      ]
+    : scenarioId === "nkorea"
+    ? [
+        { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
       ]
     : [

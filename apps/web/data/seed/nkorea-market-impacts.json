@@ -1,0 +1,284 @@
+[
+  {
+    "id": "nkmi-001",
+    "eventId": "nkevt-006",
+    "summary": "북한의 첫 핵실험으로 한국 증시 급락, 방산주 상승. 한반도 리스크 프리미엄 급등.",
+    "analysisDate": "2006-10-09",
+    "actualSummary": "KOSPI 급락 -2.9%, 외국인 3,200억원 순매도. 방산주 강세.",
+    "actualDate": "2006-11-09",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "한국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "북한 핵실험 충격으로 KOSPI 급락, 외국인 매도 확대",
+        "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "KOSPI 1,328→1,290 (-2.9%), 외국인 3,200억원 순매도",
+        "stocks": [
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "한반도 리스크 프리미엄 급등으로 대형주 하락",
+            "actualChange": -3.0,
+            "actualPeriod": "1일",
+            "actualReasoning": "외국인 투매로 급락"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "한반도 위기 고조로 방산주 상승",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "한화에어로 +4.5%, 록히드마틴 +2%",
+        "stocks": [
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "한국 방산 기업 직접 수혜",
+            "actualChange": 4.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "국방비 증강 기대감"
+          },
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "글로벌 방산 수요 증가 기대",
+            "actualChange": 2.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "MD 시스템 수요 증가 전망"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nkmi-002",
+    "eventId": "nkevt-007",
+    "summary": "역대 최강 6차 핵실험으로 한국 증시 급락, 원화 약세. 방산·금 안전자산 급등.",
+    "analysisDate": "2017-09-03",
+    "actualSummary": "KOSPI -1.7%, 원/달러 1,140원 돌파. 방산주 급등, 금 가격 상승.",
+    "actualDate": "2017-10-03",
+    "predictionAccuracy": 90,
+    "sectors": [
+      {
+        "sector": "한국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "역대 최강 핵실험으로 KOSPI 급락, 원/달러 환율 급등",
+        "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "KOSPI 2,363→2,322 (-1.7%), 원/달러 1,140원 돌파",
+        "stocks": [
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "한반도 리스크 최고조로 대형주 매도",
+            "actualChange": -2.5,
+            "actualPeriod": "1일",
+            "actualReasoning": "외국인 대량 매도"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "한반도 위기 최고조, 방산주 급등",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "한화에어로 +8%, 록히드마틴 +5%",
+        "stocks": [
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "한국 방산 수혜 극대화",
+            "actualChange": 8.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "THAAD 배치 + 국방비 증강"
+          },
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "미사일 방어 시스템 수요 급증",
+            "actualChange": 5.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "THAAD·패트리엇 수출 기대"
+          }
+        ]
+      },
+      {
+        "sector": "금/안전자산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "안전자산 수요 급증, 금 가격 상승",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "금 현물 1,340달러 돌파",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "지정학적 리스크에 따른 안전자산 수요",
+            "actualChange": 1.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "안전자산 선호 심리 강화"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nkmi-003",
+    "eventId": "nkevt-009",
+    "summary": "사상 첫 북미 정상회담으로 한국 증시 반등, 경협주 급등. 방산주는 평화 기대감에 소폭 하락.",
+    "analysisDate": "2018-06-12",
+    "actualSummary": "KOSPI 소폭 상승, 남북 경협주 상한가. 방산주 소폭 하락.",
+    "actualDate": "2018-07-12",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "한국 증시/경협주",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "북미 정상회담 성공으로 경협 기대감 급등",
+        "region": "KR",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "현대아산·이화전기 등 경협주 상한가",
+        "stocks": [
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "한반도 리스크 완화, 외국인 매수 전환",
+            "actualChange": 1.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "한반도 평화 기대감"
+          },
+          {
+            "ticker": "000270",
+            "name": "기아",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "남북 경협 기대로 자동차 수출 전망 개선",
+            "actualChange": 3.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "경협 수혜 기대"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "평화 기대감으로 방산 수요 감소 전망",
+        "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "한화에어로 -1.5%, 단기 조정",
+        "stocks": [
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "평화 무드로 방산 예산 감소 우려",
+            "actualChange": -1.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "평화 기대감에 따른 소폭 하락"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nkmi-004",
+    "eventId": "nkevt-012",
+    "summary": "통일 정책 공식 폐기 선언이나 시장 영향은 제한적. 방산주는 국방비 증강 기대로 상승.",
+    "analysisDate": "2024-01-15",
+    "actualSummary": "KOSPI 소폭 하락, 한반도 리스크 이미 시장에 내재화. 방산주 강세.",
+    "actualDate": "2024-02-15",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "한국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "시장에 이미 반영된 리스크, 제한적 영향",
+        "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "KOSPI 소폭 하락, 한반도 리스크 이미 내재화",
+        "stocks": [
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "한반도 지정학 리스크 재부각",
+            "actualChange": -0.5,
+            "actualPeriod": "1일",
+            "actualReasoning": "제한적 영향, 이미 프라이싱된 리스크"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "한국 방산 수출 확대 + 국방비 증강 기대",
+        "region": "KR",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "한화에어로 +3%, 한국항공우주 +2.5%",
+        "stocks": [
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "한국 방산 수출 호조 + 국방비 증가",
+            "actualChange": 3.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "폴란드 등 방산 수출 계약 확대"
+          },
+          {
+            "ticker": "047810",
+            "name": "한국항공우주",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "KF-21 개발 + 수출 기대감",
+            "actualChange": 2.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "국방비 증강 수혜 기대"
+          }
+        ]
+      }
+    ]
+  }
+]
