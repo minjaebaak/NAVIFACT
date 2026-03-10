@@ -23,9 +23,20 @@ import iranPredictions from "@/data/seed/iran-predictions.json";
 import iranNarratives from "@/data/seed/iran-narratives.json";
 import iranClaims from "@/data/seed/iran-claims.json";
 
+// Ukraine scenario seed data
+import ukraineEvents from "@/data/seed/ukraine-events.json";
+import ukraineLinks from "@/data/seed/ukraine-links.json";
+import ukraineAgreement from "@/data/seed/ukraine-agreement.json";
+import ukrainePredictions from "@/data/seed/ukraine-predictions.json";
+import ukraineNarratives from "@/data/seed/ukraine-narratives.json";
+import ukraineClaims from "@/data/seed/ukraine-claims.json";
+
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
 import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
+import ukraineMarketImpacts from "@/data/seed/ukraine-market-impacts.json";
+
+const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
 // ---------------------------------------------------------------------------
 // Types (matching seed JSON shapes)
@@ -117,6 +128,10 @@ export interface SeedStockImpact {
   exchange: string;
   direction: "positive" | "negative" | "neutral";
   reasoning: string;
+  // Actual outcome
+  actualChange?: number;
+  actualPeriod?: string;
+  actualReasoning?: string;
 }
 
 export interface SeedSectorImpact {
@@ -126,6 +141,10 @@ export interface SeedSectorImpact {
   reasoning: string;
   region: "KR" | "US" | "GLOBAL";
   stocks: SeedStockImpact[];
+  // Actual outcome
+  actualDirection?: "positive" | "negative" | "neutral";
+  actualMagnitude?: "high" | "medium" | "low";
+  actualReasoning?: string;
 }
 
 export interface SeedMarketImpact {
@@ -134,13 +153,17 @@ export interface SeedMarketImpact {
   summary: string;
   analysisDate: string;
   sectors: SeedSectorImpact[];
+  // Actual outcome
+  actualSummary?: string;
+  actualDate?: string;
+  predictionAccuracy?: number;
 }
 
 // ---------------------------------------------------------------------------
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran";
+export type ScenarioId = "tariff" | "iran" | "ukraine";
 
 export interface Scenario {
   id: ScenarioId;
@@ -164,6 +187,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇮🇷🇮🇱",
     description: "하마스 10.7 공격부터 하메네이 사살까지",
     dateRange: "2023.10 - 2026.03",
+  },
+  {
+    id: "ukraine",
+    title: "러시아-우크라이나 전쟁",
+    flag: "🇺🇦🇷🇺",
+    description: "부다페스트 각서부터 전면 침공까지의 인과관계",
+    dateRange: "1994.12 - 2024.06",
   },
 ];
 
@@ -196,11 +226,23 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: iranClaims as SeedClaim[],
     marketImpacts: iranMarketImpacts as SeedMarketImpact[],
   },
+  ukraine: {
+    events: ukraineEvents as SeedEvent[],
+    links: ukraineLinks as SeedLink[],
+    agreement: ukraineAgreement as SeedAgreement,
+    predictions: ukrainePredictions as SeedPrediction[],
+    narratives: ukraineNarratives as SeedNarrative[],
+    claims: ukraineClaims as SeedClaim[],
+    marketImpacts: ukraineMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
   if (eventId.startsWith("ievt-") || eventId.startsWith("ilink-") || eventId.startsWith("ipred-") || eventId.startsWith("inar-") || eventId.startsWith("iclm-") || eventId.startsWith("agr-iran") || eventId.startsWith("imi-")) {
     return "iran";
+  }
+  if (eventId.startsWith("uevt-") || eventId.startsWith("ulink-") || eventId.startsWith("upred-") || eventId.startsWith("unar-") || eventId.startsWith("uclm-") || eventId.startsWith("agr-ukraine") || eventId.startsWith("umi-") || eventId.startsWith("uobl-")) {
+    return "ukraine";
   }
   return "tariff";
 }
@@ -240,6 +282,15 @@ const allShortIds = [
   ...iranPredictions.map((p) => p.id),
   ...iranNarratives.map((n) => n.id),
   ...iranClaims.map((c) => c.id),
+  // Ukraine scenario
+  ...ukraineEvents.map((e) => e.id),
+  ...ukraineLinks.map((l) => l.id),
+  ukraineAgreement.id,
+  ...ukraineAgreement.parties.map((p) => p.id),
+  ...ukraineAgreement.obligations.map((o) => o.id),
+  ...ukrainePredictions.map((p) => p.id),
+  ...ukraineNarratives.map((n) => n.id),
+  ...ukraineClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -391,6 +442,7 @@ export async function getEventsForScenario(scenarioId: ScenarioId): Promise<Seed
   try {
     const res = await fetch(`${API_URL}/events?page_size=100`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -409,6 +461,7 @@ export async function getLinksForScenario(scenarioId: ScenarioId): Promise<SeedL
   try {
     const res = await fetch(`${API_URL}/events/links?page_size=100`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -431,6 +484,7 @@ export async function getPredictionsForScenario(scenarioId: ScenarioId): Promise
   try {
     const res = await fetch(`${API_URL}/predictions`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -457,6 +511,7 @@ export async function getMarketImpactsForScenario(scenarioId: ScenarioId): Promi
   try {
     const res = await fetch(`${API_URL}/market-impacts?page_size=100`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -484,6 +539,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
   try {
     const res = await fetch(`${API_URL}/events?page_size=100`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -491,7 +547,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[])];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[])];
   }
 }
 
@@ -505,6 +561,7 @@ export async function getLinks(): Promise<SeedLink[]> {
   try {
     const res = await fetch(`${API_URL}/events/links?page_size=100`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -512,7 +569,7 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[])];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[])];
   }
 }
 
@@ -528,6 +585,7 @@ export async function getAgreement(): Promise<SeedAgreement> {
   try {
     const res = await fetch(`${API_URL}/agreements`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -543,6 +601,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
   try {
     const res = await fetch(`${API_URL}/predictions`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -550,7 +609,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[])];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[])];
   }
 }
 
@@ -558,6 +617,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
   try {
     const res = await fetch(`${API_URL}/narratives`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -565,7 +625,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[])];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[])];
   }
 }
 
@@ -573,6 +633,7 @@ export async function getClaims(): Promise<SeedClaim[]> {
   try {
     const res = await fetch(`${API_URL}/claims`, {
       next: { revalidate: 60 },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`${res.status}`);
     const data = await res.json();
@@ -580,6 +641,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[])];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[])];
   }
 }

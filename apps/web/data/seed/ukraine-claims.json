@@ -1,0 +1,58 @@
+[
+  {
+    "id": "uclm-001",
+    "text": "나토가 러시아에 '동쪽으로 확장하지 않겠다'고 약속했다",
+    "status": "misleading",
+    "confidence": 25,
+    "sourcesFor": 2,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "uclm-002",
+    "text": "러시아의 우크라이나 침공은 국제법 위반이다",
+    "status": "verified",
+    "confidence": 97,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "uclm-003",
+    "text": "크림반도 주민투표는 국제 기준에 부합했다",
+    "status": "false",
+    "confidence": 8,
+    "sourcesFor": 1,
+    "sourcesAgainst": 5
+  },
+  {
+    "id": "uclm-004",
+    "text": "민스크 협정은 양측 모두 이행하지 않았다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "uclm-005",
+    "text": "서방의 무기 지원이 전쟁을 장기화시켰다",
+    "status": "partly_true",
+    "confidence": 45,
+    "sourcesFor": 3,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "uclm-006",
+    "text": "러시아군이 부차에서 민간인을 학살했다",
+    "status": "verified",
+    "confidence": 96,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "uclm-007",
+    "text": "우크라이나가 협상을 거부하고 있다",
+    "status": "misleading",
+    "confidence": 20,
+    "sourcesFor": 2,
+    "sourcesAgainst": 4
+  }
+]

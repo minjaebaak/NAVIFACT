@@ -27,6 +27,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "이란/프록시 행동",
     bottomLabel: "이스라엘/미국 행동",
   },
+  ukraine: {
+    topIds: ["uevt-002", "uevt-004", "uevt-005", "uevt-008", "uevt-012"],
+    centerIds: ["uevt-001", "uevt-003"],
+    topLabel: "우크라이나/서방 행동",
+    bottomLabel: "러시아 행동",
+  },
 };
 
 export default async function TimelinePage({
@@ -36,7 +42,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -61,6 +67,12 @@ export default async function TimelinePage({
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
+      ]
+    : scenarioId === "ukraine"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
       ]
     : [
         { color: "bg-blue-500", label: "외교" },

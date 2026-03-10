@@ -1,0 +1,59 @@
+{
+  "id": "agr-ukraine-001",
+  "title": "민스크 II 협정",
+  "date": "2015-02-12",
+  "summary": "프랑스·독일 중재하에 우크라이나와 러시아가 합의한 13개 조항의 휴전 및 평화 프로세스. 즉각 휴전, 중화기 철수, 포로 교환, 돈바스 특별지위 부여 등 포함.",
+  "status": "collapsed",
+  "parties": [
+    { "id": "actor-ukraine", "name": "우크라이나", "flag": "🇺🇦" },
+    { "id": "actor-russia", "name": "러시아", "flag": "🇷🇺" },
+    { "id": "actor-france", "name": "프랑스", "flag": "🇫🇷" },
+    { "id": "actor-germany", "name": "독일", "flag": "🇩🇪" }
+  ],
+  "obligations": [
+    {
+      "id": "uobl-001",
+      "description": "즉각적이고 포괄적인 휴전 실시",
+      "deadline": "2015-02-15",
+      "status": "violated",
+      "assignedTo": { "id": "actor-russia", "name": "러시아", "flag": "🇷🇺" },
+      "consequenceEventId": "uevt-010"
+    },
+    {
+      "id": "uobl-002",
+      "description": "접촉선으로부터 중화기 철수",
+      "deadline": "2015-03-01",
+      "status": "partial",
+      "assignedTo": { "id": "actor-ukraine", "name": "우크라이나", "flag": "🇺🇦" }
+    },
+    {
+      "id": "uobl-003",
+      "description": "OSCE 감시단의 무제한 접근 보장",
+      "deadline": "2015-02-15",
+      "status": "violated",
+      "assignedTo": { "id": "actor-russia", "name": "러시아", "flag": "🇷🇺" }
+    },
+    {
+      "id": "uobl-004",
+      "description": "돈바스 지역에 특별자치 지위 부여 (헌법 개정)",
+      "deadline": "2015-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "actor-ukraine", "name": "우크라이나", "flag": "🇺🇦" }
+    },
+    {
+      "id": "uobl-005",
+      "description": "모든 외국 무장세력, 군사장비, 용병 철수",
+      "deadline": "2015-03-01",
+      "status": "violated",
+      "assignedTo": { "id": "actor-russia", "name": "러시아", "flag": "🇷🇺" }
+    },
+    {
+      "id": "uobl-006",
+      "description": "우크라이나의 국경 통제권 완전 회복",
+      "deadline": "2015-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "actor-russia", "name": "러시아", "flag": "🇷🇺" },
+      "consequenceEventId": "uevt-010"
+    }
+  ]
+}

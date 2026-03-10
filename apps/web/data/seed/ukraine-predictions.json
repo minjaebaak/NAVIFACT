@@ -1,0 +1,38 @@
+[
+  {
+    "id": "upred-001",
+    "question": "러시아-우크라이나 전쟁이 2025년 내에 공식 휴전에 도달할까?",
+    "yesPool": 8200,
+    "noPool": 15800,
+    "deadline": "2025-12-31",
+    "status": "active",
+    "settlementCriteria": "양측 정부의 공식 휴전 선언 또는 UN 안보리 결의 기준"
+  },
+  {
+    "id": "upred-002",
+    "question": "크림반도가 우크라이나에 반환될까?",
+    "yesPool": 3100,
+    "noPool": 21900,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "국제적으로 인정된 협정 또는 UN 결의에 의한 영토 변경 기준"
+  },
+  {
+    "id": "upred-003",
+    "question": "우크라이나가 2026년까지 나토 정식 가입 초청을 받을까?",
+    "yesPool": 6500,
+    "noPool": 13500,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "나토 정상회의 공식 초청장 발부 기준"
+  },
+  {
+    "id": "upred-004",
+    "question": "러시아에 대한 서방 경제제재가 2025년 내 완화될까?",
+    "yesPool": 4200,
+    "noPool": 16800,
+    "deadline": "2025-12-31",
+    "status": "active",
+    "settlementCriteria": "EU 또는 미국의 공식 제재 완화/해제 발표 기준"
+  }
+]

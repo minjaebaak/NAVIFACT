@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ulink-001",
+    "source": "uevt-001",
+    "target": "uevt-006",
+    "confidence": 75,
+    "mechanism": "핵 포기 → 안보 보장 약속 불이행 → 러시아의 군사적 침략에 대한 억제력 부재",
+    "causalType": "enabling"
+  },
+  {
+    "id": "ulink-002",
+    "source": "uevt-002",
+    "target": "uevt-003",
+    "confidence": 80,
+    "mechanism": "오렌지 혁명으로 친서방 정권 수립 → 나토 가입 추진 가속화",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ulink-003",
+    "source": "uevt-003",
+    "target": "uevt-009",
+    "confidence": 85,
+    "mechanism": "나토 확대 약속 → 러시아의 안보 위협 인식 지속 → 최후통첩 발표",
+    "causalType": "enabling"
+  },
+  {
+    "id": "ulink-004",
+    "source": "uevt-004",
+    "target": "uevt-005",
+    "confidence": 95,
+    "mechanism": "EU 협정 거부 → 시민 분노 폭발 → 유로마이단 시위 → 정권 전복",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-005",
+    "source": "uevt-005",
+    "target": "uevt-006",
+    "confidence": 92,
+    "mechanism": "친러 대통령 축출 → 러시아가 '러시아어 사용 주민 보호' 명분으로 크림 병합",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-006",
+    "source": "uevt-006",
+    "target": "uevt-007",
+    "confidence": 90,
+    "mechanism": "크림 병합 성공 → 돈바스 지역 분리주의 세력 고무 → 무장봉기",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-007",
+    "source": "uevt-007",
+    "target": "uevt-008",
+    "confidence": 88,
+    "mechanism": "돈바스 전쟁 격화 → 국제 중재 필요성 → 민스크 II 협정 체결",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-008",
+    "source": "uevt-008",
+    "target": "uevt-009",
+    "confidence": 82,
+    "mechanism": "민스크 협정 이행 교착 → 외교 해결 실패 인식 → 러시아 군사적 해결 모색",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ulink-009",
+    "source": "uevt-009",
+    "target": "uevt-010",
+    "confidence": 93,
+    "mechanism": "나토 최후통첩 거부 → 외교적 옵션 소진 → 전면 침공 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-010",
+    "source": "uevt-010",
+    "target": "uevt-011",
+    "confidence": 88,
+    "mechanism": "전면 침공 후 점령지 확보 → 기정사실화를 위한 병합 선언",
+    "causalType": "direct"
+  },
+  {
+    "id": "ulink-011",
+    "source": "uevt-010",
+    "target": "uevt-012",
+    "confidence": 85,
+    "mechanism": "전쟁 장기화 → 국제사회 평화 해결 모색 → 정상회의 개최",
+    "causalType": "contributing"
+  }
+]

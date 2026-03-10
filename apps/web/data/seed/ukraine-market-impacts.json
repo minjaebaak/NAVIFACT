@@ -1,0 +1,234 @@
+[
+  {
+    "id": "umi-001",
+    "eventId": "uevt-006",
+    "summary": "크림반도 병합으로 러시아 제재 시작, 유럽 에너지 안보 우려 부상, 방산주 상승",
+    "analysisDate": "2014-03-19",
+    "actualSummary": "러시아 RTS 지수 12% 급락, 유럽 천연가스 가격 15% 상승, 글로벌 방산주 강세",
+    "actualDate": "2014-03-25",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "유럽의 러시아 에너지 의존도 우려, 가스 공급 불안정",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "단기 에너지 가격 급등, 이후 대체 공급원 확보로 안정",
+        "stocks": [
+          {
+            "ticker": "GAZP",
+            "name": "가즈프롬",
+            "exchange": "MOEX",
+            "direction": "negative",
+            "reasoning": "서방 제재로 투자·기술 접근 제한",
+            "actualChange": -18.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "제재 + 자본 유출로 급락"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "나토 회원국 군비 증강 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유럽 방위비 증액 논의 시작",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "나토 군비 증강 수혜",
+            "actualChange": 8.2,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유럽 방위 투자 기대감"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "umi-002",
+    "eventId": "uevt-010",
+    "summary": "전면 침공으로 글로벌 에너지·곡물 가격 폭등, 유럽 경제 충격, 방산주 급등 예상",
+    "analysisDate": "2022-02-25",
+    "actualSummary": "브렌트유 130달러 돌파, 밀 가격 사상 최고치, 유럽 천연가스 10배 상승, 글로벌 방산주 30%+ 급등",
+    "actualDate": "2022-03-15",
+    "predictionAccuracy": 92,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "러시아 원유·가스 공급 차질, 유럽 에너지 위기",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "브렌트유 100→130달러, 유럽 가스 가격 10배 상승",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "유가 상승 수혜",
+            "actualChange": 25.3,
+            "actualPeriod": "3개월",
+            "actualReasoning": "유가 급등으로 사상 최대 실적"
+          },
+          {
+            "ticker": "096770",
+            "name": "SK이노베이션",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "정유사 마진 확대",
+            "actualChange": 15.7,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유가 급등에 따른 정제마진 확대"
+          }
+        ]
+      },
+      {
+        "sector": "곡물·식품",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "우크라이나·러시아는 세계 밀 수출의 30% 차지, 흑해 항로 차단",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "밀 선물 사상 최고치, 글로벌 식량 위기 우려",
+        "stocks": [
+          {
+            "ticker": "ADM",
+            "name": "아처 대니얼스 미들랜드",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "곡물 트레이딩 수익 증가",
+            "actualChange": 18.4,
+            "actualPeriod": "3개월",
+            "actualReasoning": "곡물 가격 급등으로 트레이딩 수익 사상 최대"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "나토 회원국 군비 대폭 증강, 우크라이나 무기 지원",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "독일 GDP 2% 방위비, 한국 방산 수출 역대 최대",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "재블린 미사일 등 우크라이나 무기 지원 수혜",
+            "actualChange": 33.1,
+            "actualPeriod": "6개월",
+            "actualReasoning": "수주 잔고 역대 최대"
+          },
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "유럽 방산 수출 확대 기대",
+            "actualChange": 42.5,
+            "actualPeriod": "6개월",
+            "actualReasoning": "폴란드 K9 자주포 대량 수출 계약"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "umi-003",
+    "eventId": "uevt-011",
+    "summary": "4개주 병합 선언으로 협상 여지 축소, 전쟁 장기화 전망 강화",
+    "analysisDate": "2022-10-01",
+    "actualSummary": "시장은 이미 장기전을 반영, 유럽 에너지 전환 가속화, 방산주 추가 상승",
+    "actualDate": "2022-10-15",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "노르드스트림 파손과 결합, 유럽 에너지 위기 심화",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유럽 LNG 인프라 투자 가속, 재생에너지 전환 촉진",
+        "stocks": [
+          {
+            "ticker": "ENPH",
+            "name": "엔페이즈 에너지",
+            "exchange": "NASDAQ",
+            "direction": "positive",
+            "reasoning": "유럽 태양광 수요 급증",
+            "actualChange": 12.3,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유럽 에너지 전환 수혜"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "umi-004",
+    "eventId": "uevt-012",
+    "summary": "평화 정상회의 개최로 종전 기대감, 그러나 러시아 불참으로 실질적 진전 제한적",
+    "analysisDate": "2024-06-16",
+    "sectors": [
+      {
+        "sector": "방산",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "평화 기대감이 방산주에 소폭 부정적",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "neutral",
+            "reasoning": "러시아 불참으로 실질적 종전 가능성 낮아 영향 제한"
+          },
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "neutral",
+            "reasoning": "유럽 방산 수출은 장기 계약으로 단기 영향 미미"
+          }
+        ]
+      },
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "종전 기대 시 에너지 가격 안정화 전망",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "neutral",
+            "reasoning": "평화 협상 진전 제한적, 유가에 실질 영향 미미"
+          }
+        ]
+      }
+    ]
+  }
+]

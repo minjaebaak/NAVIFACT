@@ -1,0 +1,66 @@
+[
+  {
+    "id": "unar-001",
+    "title": "나토 확장이 전쟁을 유발했다",
+    "source": "러시아 관영 매체",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "나토의 동진이 러시아의 안보를 직접 위협하여 전쟁이 불가피했다",
+        "status": "misleading",
+        "confidence": 30
+      },
+      {
+        "text": "우크라이나 정부는 네오나치가 장악하고 있다",
+        "status": "false",
+        "confidence": 5
+      },
+      {
+        "text": "돈바스에서 러시아어 사용 주민에 대한 '제노사이드'가 진행 중이었다",
+        "status": "false",
+        "confidence": 8
+      }
+    ],
+    "missingContext": [
+      "우크라이나는 나토 가입 신청을 하지 않은 상태였음",
+      "러시아가 부다페스트 각서에서 우크라이나 영토 보전을 보장했음",
+      "젤렌스키 대통령은 유대인 출신으로 민주적 선거로 당선됨"
+    ],
+    "sources": [
+      "부다페스트 각서 원문 (1994)",
+      "나토 부쿠레슈티 정상회의 선언문 (2008)",
+      "2019 우크라이나 대선 결과 (국제감시단 인증)"
+    ]
+  },
+  {
+    "id": "unar-002",
+    "title": "러시아의 제국주의적 침략",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "러시아는 2022년 2월 24일 주권 국가 우크라이나를 일방적으로 침공했다",
+        "status": "verified",
+        "confidence": 99
+      },
+      {
+        "text": "침공은 국제법(UN 헌장 제2조 4항)을 명백히 위반한다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "러시아 점령지 주민투표는 자유롭고 공정한 투표가 아니었다",
+        "status": "verified",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [],
+    "sources": [
+      "UN 총회 결의 ES-11/1 (2022.03.02, 141개국 찬성)",
+      "국제사법재판소(ICJ) 잠정조치 명령 (2022.03.16)",
+      "OSCE 선거감시단 보고서"
+    ]
+  }
+]
