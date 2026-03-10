@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tailink-001",
+    "source": "taievt-001",
+    "target": "taievt-002",
+    "confidence": 95,
+    "mechanism": "국공내전 분단 → 양안 군사 대치 지속. 중국이 대만 통일 의지를 군사력으로 과시, 823 포전 발발.",
+    "causalType": "direct"
+  },
+  {
+    "id": "tailink-002",
+    "source": "taievt-002",
+    "target": "taievt-003",
+    "confidence": 80,
+    "mechanism": "해협 교착 상태 지속 → 미국의 대중국 관계 재편. 닉슨 방중 → 카터 정부의 미중 수교 + 대만관계법.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "tailink-003",
+    "source": "taievt-003",
+    "target": "taievt-004",
+    "confidence": 78,
+    "mechanism": "미중 수교로 양안 간 비공식 접촉 가능해짐 → 해협양안관계협회-해협교류기금회 채널로 92합의 도출.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "tailink-004",
+    "source": "taievt-004",
+    "target": "taievt-005",
+    "confidence": 85,
+    "mechanism": "92합의의 모호성 → 리덩후이 '대만은 별개의 국가' 주장 + 미국 방문 → 중국 미사일 시험 → 미 항모 파견.",
+    "causalType": "direct"
+  },
+  {
+    "id": "tailink-005",
+    "source": "taievt-005",
+    "target": "taievt-006",
+    "confidence": 75,
+    "mechanism": "3차 위기에서 대만 독립 움직임의 위험성 인식 → 법적으로 무력 사용 근거 마련 (반분열법).",
+    "causalType": "contributing"
+  },
+  {
+    "id": "tailink-006",
+    "source": "taievt-006",
+    "target": "taievt-007",
+    "confidence": 70,
+    "mechanism": "반분열법으로 양안 긴장 고조 → 대만 민주화 심화 + 대만 정체성 강화 → 민진당 차이잉원 당선.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "tailink-007",
+    "source": "taievt-007",
+    "target": "taievt-008",
+    "confidence": 85,
+    "mechanism": "차이잉원의 92합의 거부 → 미국이 대만 관계를 실질적으로 격상하는 대만여행법 서명.",
+    "causalType": "direct"
+  },
+  {
+    "id": "tailink-008",
+    "source": "taievt-008",
+    "target": "taievt-009",
+    "confidence": 75,
+    "mechanism": "미대만 고위급 교류 확대 추세 → 하원의장 펠로시의 대만 방문 + 중국의 사상 최대 군사 대응.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "tailink-009",
+    "source": "taievt-009",
+    "target": "taievt-010",
+    "confidence": 88,
+    "mechanism": "펠로시 방문 대응 군사훈련으로 강경 노선 강화 → 시진핑, 20차 당대회에서 무력통일 불포기 재천명.",
+    "causalType": "direct"
+  },
+  {
+    "id": "tailink-010",
+    "source": "taievt-010",
+    "target": "taievt-011",
+    "confidence": 65,
+    "mechanism": "중국의 강경 압박에도 불구하고 대만 유권자들이 독립 성향 라이칭더를 선택, 민진당 3연속 집권.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "tailink-011",
+    "source": "taievt-011",
+    "target": "taievt-012",
+    "confidence": 90,
+    "mechanism": "역대 가장 독립 성향 강한 라이칭더 취임 → 중국, 연합이검-2024B 대만 봉쇄 군사훈련으로 경고.",
+    "causalType": "direct"
+  }
+]

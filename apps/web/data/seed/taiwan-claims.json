@@ -1,0 +1,58 @@
+[
+  {
+    "id": "taiclm-001",
+    "text": "중국은 2027년까지 대만 침공 능력을 갖출 것이다",
+    "status": "unverified",
+    "confidence": 50,
+    "sourcesFor": 5,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "taiclm-002",
+    "text": "미국은 대만 방어에 군사적으로 개입할 것이다",
+    "status": "unverified",
+    "confidence": 55,
+    "sourcesFor": 6,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "taiclm-003",
+    "text": "대만 침공은 세계 반도체 공급망을 붕괴시킬 것이다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 9,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "taiclm-004",
+    "text": "92합의는 실질적으로 사문화되었다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 6,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "taiclm-005",
+    "text": "중국의 군사훈련은 실전 침공 리허설이다",
+    "status": "partly_true",
+    "confidence": 55,
+    "sourcesFor": 5,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "taiclm-006",
+    "text": "대만 국민 대다수가 독립을 원한다",
+    "status": "misleading",
+    "confidence": 25,
+    "sourcesFor": 2,
+    "sourcesAgainst": 7
+  },
+  {
+    "id": "taiclm-007",
+    "text": "TSMC를 지키기 위해 미국이 군사 개입할 것이다",
+    "status": "unverified",
+    "confidence": 45,
+    "sourcesFor": 4,
+    "sourcesAgainst": 5
+  }
+]

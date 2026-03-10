@@ -1,0 +1,60 @@
+[
+  {
+    "id": "tainar-001",
+    "title": "대만은 중국의 일부",
+    "source": "중국 관영 매체 (신화통신, 환구시보)",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "대만 문제는 중국의 내정이며 외부 개입은 주권 침해이다",
+        "status": "partly_true",
+        "confidence": 40
+      },
+      {
+        "text": "대만 독립 선언은 전쟁을 의미한다",
+        "status": "partly_true",
+        "confidence": 55
+      },
+      {
+        "text": "미국의 대만 무기 판매가 양안 긴장의 근본 원인이다",
+        "status": "misleading",
+        "confidence": 30
+      }
+    ],
+    "missingContext": [
+      "대만은 1949년 이후 사실상 독립된 정부와 군대를 운영 중",
+      "대만 국민의 정치적 자기결정권 무시",
+      "중국의 일방적 무력 위협이 긴장의 주요 원인"
+    ]
+  },
+  {
+    "id": "tainar-002",
+    "title": "현상 유지가 최선의 전략",
+    "source": "국제 안보 전문가 및 학술 연구",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "대만해협 현상 변경은 글로벌 경제에 파국적 영향을 줄 것이다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "중국의 군사력이 대만 침공에 충분한 수준에 근접 중이다",
+        "status": "partly_true",
+        "confidence": 60
+      },
+      {
+        "text": "대만 국민 대다수는 독립도 통일도 아닌 현상 유지를 선호한다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ],
+    "sources": [
+      "RAND Corporation 보고서",
+      "대만 국립정치대학 선거연구센터 여론조사",
+      "IISS Military Balance"
+    ]
+  }
+]

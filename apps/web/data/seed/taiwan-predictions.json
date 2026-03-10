@@ -1,0 +1,38 @@
+[
+  {
+    "id": "taipred-001",
+    "question": "중국이 2030년까지 대만을 군사적으로 침공할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "중국 인민해방군의 대만 본토 상륙 작전 또는 대만해협 무력 봉쇄 공식 선언 기준"
+  },
+  {
+    "id": "taipred-002",
+    "question": "미국이 대만 방어에 직접 군사 개입 의사를 공식화할까?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "미국 대통령 또는 국방장관의 대만 방어 군사 개입 공식 선언, 또는 전략적 모호성 포기 선언 기준"
+  },
+  {
+    "id": "taipred-003",
+    "question": "TSMC가 대만 외 생산 비중을 50% 이상으로 확대할까?",
+    "yesPool": 5500,
+    "noPool": 14500,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "TSMC 연간 보고서 기준 대만 외 팹(미국 애리조나, 일본 구마모토 등) 생산량이 전체의 50% 초과 확인"
+  },
+  {
+    "id": "taipred-004",
+    "question": "양안 간 공식 대화가 2028년까지 재개될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "해협양안관계협회-해협교류기금회 간 공식 회담 재개 또는 양안 장관급 이상 공식 접촉 확인 기준"
+  }
+]

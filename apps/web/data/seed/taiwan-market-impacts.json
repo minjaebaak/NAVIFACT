@@ -1,0 +1,262 @@
+[
+  {
+    "id": "taimi-001",
+    "eventId": "taievt-005",
+    "summary": "3차 대만해협 위기로 대만 증시 급락, 아시아 반도체 공급 우려 확산.",
+    "analysisDate": "1996-03-08",
+    "actualSummary": "TAIEX 급락, 대만 자본 유출 가속. 미 항모 파견으로 위기 진정 후 반등.",
+    "actualDate": "1996-04-08",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "대만 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "중국 미사일 발사로 전쟁 공포 확산, 외국인 투자자 이탈",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "TAIEX 급락, 대만 자본 유출 가속",
+        "stocks": [
+          {
+            "ticker": "TSM",
+            "name": "TSMC",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "대만 반도체 공급 불안",
+            "actualChange": -8.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "지정학 리스크 프리미엄 급등"
+          }
+        ]
+      },
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "대만 반도체 공급 차질 우려",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "단기 공급 불안 후 위기 진정으로 회복",
+        "stocks": [
+          {
+            "ticker": "INTC",
+            "name": "인텔",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "아시아 반도체 공급망 불안",
+            "actualChange": -3.0,
+            "actualPeriod": "2주",
+            "actualReasoning": "위기 단기 영향 후 반등"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taimi-002",
+    "eventId": "taievt-009",
+    "summary": "펠로시 대만 방문으로 TSMC 급락, 한국 반도체 동반 하락. 방산주 상승.",
+    "analysisDate": "2022-08-02",
+    "actualSummary": "TSM -5%, 삼성전자·SK하이닉스 동반 하락. 방산주 강세.",
+    "actualDate": "2022-09-02",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "중국 군사훈련으로 TSMC 공급 불안, 글로벌 반도체 공급망 위험 부각",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "TSM -5%, 필라델피아 반도체 지수 하락",
+        "stocks": [
+          {
+            "ticker": "TSM",
+            "name": "TSMC",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "대만 봉쇄 시 세계 첨단 반도체의 90%+ 공급 차질",
+            "actualChange": -5.2,
+            "actualPeriod": "1주",
+            "actualReasoning": "군사훈련 기간 공급 불안 극대화"
+          },
+          {
+            "ticker": "NVDA",
+            "name": "엔비디아",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "TSMC 위탁생산 의존도 높은 팹리스 기업 리스크",
+            "actualChange": -4.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "TSMC 공급 리스크 + 대중국 수출 규제 우려"
+          }
+        ]
+      },
+      {
+        "sector": "한국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "대만 위기 시 한국 반도체도 동반 리스크, 동아시아 지정학 불안",
+        "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "삼성전자 -2%, SK하이닉스 -3%",
+        "stocks": [
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "동아시아 지정학 리스크 확대",
+            "actualChange": -2.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "외국인 매도 확대"
+          },
+          {
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "반도체 공급망 불안 확산",
+            "actualChange": -3.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "메모리 수요 둔화 우려 겹침"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "양안 군사 긴장 고조로 아시아-태평양 방산 수요 증가 전망",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "LMT +3%, 한화에어로 +2%",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "대만 무기 판매 + 인도태평양 방산 수요",
+            "actualChange": 3.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "대만 방어 무기 수요 증가 전망"
+          },
+          {
+            "ticker": "012450",
+            "name": "한화에어로스페이스",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "동아시아 안보 불안으로 한국 방산 수혜",
+            "actualChange": 2.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "아태 방산 수출 기대"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taimi-003",
+    "eventId": "taievt-011",
+    "summary": "라이칭더 취임으로 양안 긴장 재부각, 시장 영향은 제한적 (이미 반영).",
+    "analysisDate": "2024-05-20",
+    "actualSummary": "TAIEX 소폭 하락, TSM 제한적 영향. 시장이 선거 결과를 미리 반영.",
+    "actualDate": "2024-06-20",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "대만/반도체",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "독립 성향 총통 취임이지만, 선거 결과 발표 시점에 이미 시장 반영",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "TSM 소폭 하락 후 회복, TAIEX 단기 변동",
+        "stocks": [
+          {
+            "ticker": "TSM",
+            "name": "TSMC",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "양안 관계 경색 우려",
+            "actualChange": -1.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "이미 프라이싱된 리스크"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taimi-004",
+    "eventId": "taievt-012",
+    "summary": "연합이검-2024B 봉쇄 훈련으로 대만해협 봉쇄 시나리오 우려 재부각. 반도체 공급망 리스크.",
+    "analysisDate": "2024-10-14",
+    "actualSummary": "TSM -2%, 반도체 공급망 보험 수요 증가. 방산주 상승.",
+    "actualDate": "2024-11-14",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "대만 봉쇄 시나리오가 현실적 옵션으로 부상, 공급망 다변화 압력",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "TSM -2%, 공급망 다변화 논의 가속",
+        "stocks": [
+          {
+            "ticker": "TSM",
+            "name": "TSMC",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "봉쇄 시나리오 시 TSMC 생산 중단 위험",
+            "actualChange": -2.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "봉쇄 훈련으로 공급 불안 재부각"
+          },
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "동아시아 반도체 리스크 확산",
+            "actualChange": -1.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "지정학 리스크 확대"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "대만해협 긴장 고조로 인도태평양 방산 수요 증가",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "방산주 상승, 대만 방위비 증액 전망",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "대만 무기 판매 + 해상 방어 시스템 수요",
+            "actualChange": 2.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "인도태평양 방산 수출 기대"
+          }
+        ]
+      }
+    ]
+  }
+]

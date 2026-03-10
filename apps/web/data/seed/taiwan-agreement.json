@@ -1,0 +1,34 @@
+{
+  "id": "agr-taiwan-001",
+  "title": "92합의 (1992 Consensus)",
+  "date": "1992-11-01",
+  "summary": "중국 해협양안관계협회와 대만 해협교류기금회가 비공식 합의. '하나의 중국' 원칙에 동의하되 그 해석은 각자에게 맡긴다는 내용. 그러나 합의의 존재와 내용 자체가 양측 간 논쟁 대상. 국민당은 인정, 민진당은 부정.",
+  "status": "disputed",
+  "parties": [
+    { "id": "actor-cn", "name": "중화인민공화국", "flag": "🇨🇳" },
+    { "id": "actor-tw", "name": "중화민국(대만)", "flag": "🇹🇼" }
+  ],
+  "obligations": [
+    {
+      "id": "taiobl-001",
+      "description": "'하나의 중국' 원칙 인정",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-both", "name": "양측", "flag": "🌐" }
+    },
+    {
+      "id": "taiobl-002",
+      "description": "'각자 해석'(各自表述) 원칙 존중",
+      "deadline": "미정",
+      "status": "violated",
+      "assignedTo": { "id": "actor-both", "name": "양측", "flag": "🌐" }
+    },
+    {
+      "id": "taiobl-003",
+      "description": "양안 교류 시 무력 사용 자제",
+      "deadline": "미정",
+      "status": "partial",
+      "assignedTo": { "id": "actor-cn", "name": "중화인민공화국", "flag": "🇨🇳" }
+    }
+  ]
+}
