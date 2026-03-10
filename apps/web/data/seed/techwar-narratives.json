@@ -1,0 +1,66 @@
+[
+  {
+    "id": "twnar-001",
+    "title": "중국의 기술 도둑질",
+    "source": "미국 주류 매체",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "중국이 사이버 스파이, 인재 영입, 합작투자를 통해 체계적으로 미국 기술을 탈취했다",
+        "status": "partly_true",
+        "confidence": 55
+      },
+      {
+        "text": "화웨이 5G 장비에 중국 정부가 접근할 수 있는 백도어가 내장되어 있다",
+        "status": "unverified",
+        "confidence": 25
+      },
+      {
+        "text": "중국제조 2025는 서방 기술 패권을 탈취하기 위한 국가 차원의 계획이다",
+        "status": "misleading",
+        "confidence": 30
+      }
+    ],
+    "missingContext": [
+      "WTO 규정상 합법적인 기술이전·라이선싱도 상당 부분 포함",
+      "중국의 자체 R&D 투자는 세계 2위 (GDP 대비 2.4%)",
+      "미국도 PRISM 등으로 동맹국 포함 광범위한 기술 감시 수행 (스노든 폭로)"
+    ],
+    "sources": [
+      "FBI 중국 경제스파이 기소 통계 (2018-2023)",
+      "미국 무역대표부(USTR) 301조 보고서 (2018)",
+      "영국 HCSEC 화웨이 연례 보안 평가 보고서"
+    ]
+  },
+  {
+    "id": "twnar-002",
+    "title": "기술 봉쇄의 역설",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "미국은 자국 기술 우위를 유지하기 위해 수출통제를 전략적 도구로 활용하고 있다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "CHIPS Act는 자국 보조금 지원과 대중국 투자 금지를 결합한 양면 전략이다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "미국의 수출통제가 역설적으로 중국의 자체 기술 개발(SMIC 7nm, DeepSeek)을 가속화했다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ],
+    "missingContext": [],
+    "sources": [
+      "미국 상무부 BIS 수출통제 규칙 (2022.10.07 최종 규칙)",
+      "CHIPS and Science Act 전문 (Public Law 117-167)",
+      "반도체산업협회(SIA) 연례 보고서 (2024)"
+    ]
+  }
+]

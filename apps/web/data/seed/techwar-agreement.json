@@ -1,0 +1,49 @@
+{
+  "id": "agr-techwar-001",
+  "title": "미중 1단계 무역합의 (Phase One Trade Deal)",
+  "date": "2020-01-15",
+  "summary": "트럼프 대통령과 류허 부총리가 서명한 무역전쟁 휴전 협정. 중국의 미국산 상품 2000억 달러 추가 구매, 지식재산권 보호 강화, 기술이전 강요 중단 등을 합의했으나, 대부분의 조항이 이행되지 않음.",
+  "status": "partially_violated",
+  "parties": [
+    { "id": "actor-us", "name": "미국", "flag": "🇺🇸" },
+    { "id": "actor-china", "name": "중국", "flag": "🇨🇳" }
+  ],
+  "obligations": [
+    {
+      "id": "twobl-001",
+      "description": "미국산 상품 및 서비스 2000억 달러 추가 구매 (2020-2021)",
+      "deadline": "2021-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "actor-china", "name": "중국", "flag": "🇨🇳" }
+    },
+    {
+      "id": "twobl-002",
+      "description": "외국 기업에 대한 기술이전 강요 관행 중단",
+      "deadline": "2020-06-15",
+      "status": "partial",
+      "assignedTo": { "id": "actor-china", "name": "중국", "flag": "🇨🇳" }
+    },
+    {
+      "id": "twobl-003",
+      "description": "대중국 추가 관세 부과 유예 (기존 관세 단계적 철폐)",
+      "deadline": "2020-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "actor-us", "name": "미국", "flag": "🇺🇸" },
+      "consequenceEventId": "twevt-010"
+    },
+    {
+      "id": "twobl-004",
+      "description": "지식재산권 보호 법률 강화 및 집행 개선",
+      "deadline": "2020-06-15",
+      "status": "partial",
+      "assignedTo": { "id": "actor-china", "name": "중국", "flag": "🇨🇳" }
+    },
+    {
+      "id": "twobl-005",
+      "description": "금융 서비스 시장 개방 확대 (증권, 보험, 자산운용)",
+      "deadline": "2020-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-china", "name": "중국", "flag": "🇨🇳" }
+    }
+  ]
+}

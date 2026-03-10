@@ -1,0 +1,90 @@
+[
+  {
+    "id": "twlink-001",
+    "source": "twevt-001",
+    "target": "twevt-003",
+    "confidence": 75,
+    "mechanism": "WTO 가입으로 외국 기업의 기술 이전이 가속화되면서 중국이 자체 기술 자립 전략(중국제조 2025)을 수립할 산업 기반 확보",
+    "causalType": "enabling"
+  },
+  {
+    "id": "twlink-002",
+    "source": "twevt-002",
+    "target": "twevt-003",
+    "confidence": 70,
+    "mechanism": "NSA 글로벌 감시 폭로로 중국 지도부가 미국 기술 인프라 의존의 안보 위험성을 인식, 기술 자립 정책 추진 가속",
+    "causalType": "contributing"
+  },
+  {
+    "id": "twlink-003",
+    "source": "twevt-003",
+    "target": "twevt-005",
+    "confidence": 80,
+    "mechanism": "중국제조 2025의 반도체·AI 자급률 70% 목표가 미국의 기술 패권 위협으로 인식되어 무역전쟁 촉발의 핵심 요인",
+    "causalType": "contributing"
+  },
+  {
+    "id": "twlink-004",
+    "source": "twevt-004",
+    "target": "twevt-006",
+    "confidence": 85,
+    "mechanism": "ZTE 제재의 성공(14억 달러 벌금 + 경영진 교체)이 화웨이에 대한 더 강력한 제재의 직접적 전례가 됨",
+    "causalType": "direct"
+  },
+  {
+    "id": "twlink-005",
+    "source": "twevt-005",
+    "target": "twevt-006",
+    "confidence": 80,
+    "mechanism": "미중 무역전쟁이 관세 전쟁에서 기술 전쟁으로 확대되며 화웨이 Entity List 등재로 발전",
+    "causalType": "contributing"
+  },
+  {
+    "id": "twlink-006",
+    "source": "twevt-005",
+    "target": "twevt-007",
+    "confidence": 90,
+    "mechanism": "양국 관세 보복전의 경제적 피해가 누적되어 휴전 성격의 1단계 무역합의 체결",
+    "causalType": "direct"
+  },
+  {
+    "id": "twlink-007",
+    "source": "twevt-006",
+    "target": "twevt-008",
+    "confidence": 92,
+    "mechanism": "Entity List 등재만으로는 화웨이의 TSMC 위탁 생산을 차단할 수 없어, FDPR 확대로 완전 차단 조치",
+    "causalType": "direct"
+  },
+  {
+    "id": "twlink-008",
+    "source": "twevt-008",
+    "target": "twevt-009",
+    "confidence": 78,
+    "mechanism": "화웨이 반도체 차단 과정에서 미국 자체 반도체 제조 능력 부재가 드러나 CHIPS Act 입법 추진",
+    "causalType": "contributing"
+  },
+  {
+    "id": "twlink-009",
+    "source": "twevt-009",
+    "target": "twevt-010",
+    "confidence": 88,
+    "mechanism": "CHIPS Act의 가드레일 조항이 대중국 반도체 수출통제의 법적 기반과 산업적 정당성 제공",
+    "causalType": "direct"
+  },
+  {
+    "id": "twlink-010",
+    "source": "twevt-010",
+    "target": "twevt-011",
+    "confidence": 85,
+    "mechanism": "서방 반도체 장비·소재 접근 차단이 SMIC의 자체 7nm 공정 개발을 역설적으로 가속화",
+    "causalType": "direct"
+  },
+  {
+    "id": "twlink-011",
+    "source": "twevt-010",
+    "target": "twevt-012",
+    "confidence": 82,
+    "mechanism": "첨단 GPU(H100) 접근 차단이 제한된 컴퓨팅 자원으로 효율적 AI 모델을 개발하는 DeepSeek의 동기 부여",
+    "causalType": "contributing"
+  }
+]

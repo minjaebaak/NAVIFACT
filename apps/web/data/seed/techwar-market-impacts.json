@@ -1,0 +1,207 @@
+[
+  {
+    "id": "twmi-001",
+    "eventId": "twevt-006",
+    "summary": "화웨이 Entity List 등재로 글로벌 반도체·통신장비 공급망 재편, 화웨이 공급업체 주가 급락",
+    "analysisDate": "2019-05-16",
+    "actualSummary": "퀄컴·마이크론 등 화웨이 공급업체 급락, 삼성전자·노키아 등 대체 수혜주 상승",
+    "actualDate": "2019-06-15",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "화웨이 매출 의존도 높은 퀄컴, 마이크론 등 직격탄",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "퀄컴 -10%, 마이크론 -8%, 화웨이 대안 수요로 삼성 반등",
+        "stocks": [
+          {
+            "ticker": "QCOM",
+            "name": "퀄컴",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "화웨이 칩셋 매출 비중 약 15%",
+            "actualChange": -15.2,
+            "actualPeriod": "1개월",
+            "actualReasoning": "화웨이 거래 중단으로 매출 전망 하향"
+          },
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "화웨이 스마트폰 시장 점유율 흡수 기대",
+            "actualChange": 8.3,
+            "actualPeriod": "3개월",
+            "actualReasoning": "글로벌 스마트폰 점유율 상승 + DRAM 가격 반등"
+          }
+        ]
+      },
+      {
+        "sector": "통신장비",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "화웨이 5G 장비 배제 시 글로벌 통신 인프라 투자 지연",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "에릭슨·노키아가 화웨이 대체 수혜, 5G 투자 전체는 둔화",
+        "stocks": [
+          {
+            "ticker": "NOK",
+            "name": "노키아",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "화웨이 배제에 따른 5G 장비 대체 수요",
+            "actualChange": 12.1,
+            "actualPeriod": "3개월",
+            "actualReasoning": "유럽·아시아 통신사 화웨이 대체 주문 증가"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twmi-002",
+    "eventId": "twevt-009",
+    "summary": "CHIPS Act 서명으로 미국 내 반도체 투자 붐 예상, 장비·건설 수혜",
+    "analysisDate": "2022-08-10",
+    "actualSummary": "인텔·TSMC·삼성 미국 신규 팹 착공, 반도체 장비주 상승세",
+    "actualDate": "2022-09-30",
+    "predictionAccuracy": 88,
+    "sectors": [
+      {
+        "sector": "반도체",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "527억 달러 보조금으로 미국 내 반도체 제조 투자 가속",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "인텔 오하이오 팹 착공, TSMC 애리조나 팹 확장 발표",
+        "stocks": [
+          {
+            "ticker": "INTC",
+            "name": "인텔",
+            "exchange": "NASDAQ",
+            "direction": "positive",
+            "reasoning": "CHIPS Act 최대 수혜 기업, 보조금 100억 달러+ 예상",
+            "actualChange": 10.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "CHIPS Act 보조금 85억 달러 확보 + 110억 달러 대출"
+          },
+          {
+            "ticker": "005930",
+            "name": "삼성전자",
+            "exchange": "KOSPI",
+            "direction": "positive",
+            "reasoning": "텍사스 테일러 팹 보조금 수혜 기대",
+            "actualChange": 7.2,
+            "actualPeriod": "1개월",
+            "actualReasoning": "삼성전자 텍사스 신규 팹 64억 달러 보조금 확보"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twmi-003",
+    "eventId": "twevt-011",
+    "summary": "화웨이 자체 7nm 칩 성공으로 수출통제 실효성 의문, 반도체 장비주 하락 압력",
+    "analysisDate": "2023-08-30",
+    "actualSummary": "반도체 장비주 일시 하락, 수출통제 강화 우려 부각, SMIC 주가 급등",
+    "actualDate": "2023-09-15",
+    "predictionAccuracy": 82,
+    "sectors": [
+      {
+        "sector": "반도체장비",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "수출통제 무력화 시 추가 규제 강화 예상, 중국 매출 감소 우려",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "ASML, 도쿄일렉트론 등 중국향 장비 수출 추가 제한 발표",
+        "stocks": [
+          {
+            "ticker": "ASML",
+            "name": "ASML",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "중국 매출 비중 25%+, 추가 수출통제 리스크",
+            "actualChange": -5.3,
+            "actualPeriod": "1개월",
+            "actualReasoning": "DUV 장비까지 수출 제한 확대 우려"
+          },
+          {
+            "ticker": "LRCX",
+            "name": "램리서치",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "중국향 식각 장비 수출 제한 확대 리스크",
+            "actualChange": -8.1,
+            "actualPeriod": "1개월",
+            "actualReasoning": "중국 매출 전망 하향 조정"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twmi-004",
+    "eventId": "twevt-012",
+    "summary": "DeepSeek R1 공개로 AI 투자 전제 흔들림, GPU 수요 전망 급락, AI 인프라주 충격",
+    "analysisDate": "2025-01-21",
+    "sectors": [
+      {
+        "sector": "AI·반도체",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "저비용 AI 모델 가능성이 GPU 대규모 투자 필요성에 의문 제기",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "NVDA",
+            "name": "엔비디아",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "AI GPU 독점적 수요 전제가 흔들림, 시가총액 하루 6000억 달러 증발"
+          },
+          {
+            "ticker": "MSFT",
+            "name": "마이크로소프트",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "AI 인프라 투자(OpenAI 포함) 수익성 재검토 압력"
+          },
+          {
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "exchange": "KOSPI",
+            "direction": "negative",
+            "reasoning": "HBM(고대역폭메모리) 수요 전망 하향 우려"
+          }
+        ]
+      },
+      {
+        "sector": "에너지·인프라",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "AI 데이터센터 전력 수요 전망 하향 → 에너지 인프라 투자 축소 우려",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "VST",
+            "name": "비스트라",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "AI 전력수요 기대감으로 급등했던 주가 되돌림"
+          }
+        ]
+      }
+    ]
+  }
+]

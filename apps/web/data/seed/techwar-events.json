@@ -1,0 +1,110 @@
+[
+  {
+    "id": "twevt-001",
+    "title": "중국 WTO 가입",
+    "description": "중국이 세계무역기구(WTO)에 정식 가입하며 글로벌 무역 체제에 편입. 이후 외국 기업의 대중 투자와 기술 이전이 급속히 확대되어 중국 제조업의 도약 기반 마련.",
+    "date": "2001-12-11",
+    "category": "경제",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-002",
+    "title": "에드워드 스노든 NSA 감시 프로그램 폭로",
+    "description": "전 NSA 계약직원 에드워드 스노든이 미국의 글로벌 통신 감시 프로그램(PRISM)을 폭로. 중국은 이를 계기로 미국 기술 인프라에 대한 의존 탈피 필요성을 본격적으로 인식.",
+    "date": "2013-06-06",
+    "category": "기술",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-003",
+    "title": "중국제조 2025 발표",
+    "description": "중국 국무원이 '중국제조 2025' 산업 정책을 발표. 반도체, AI, 로봇 등 10대 핵심 산업에서 자급률 70% 달성 목표를 명시하며 기술 자립 의지를 천명.",
+    "date": "2015-05-08",
+    "category": "경제",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-004",
+    "title": "ZTE 미국 수출 제재",
+    "description": "미국 상무부가 ZTE의 이란·북한 제재 위반을 이유로 미국산 부품 수출을 금지. ZTE는 사실상 영업 중단 위기에 처했으나, 14억 달러 벌금 납부 후 합의.",
+    "date": "2018-04-16",
+    "category": "경제",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-005",
+    "title": "미중 무역전쟁 1차 관세 발동",
+    "description": "트럼프 행정부가 중국산 수입품 340억 달러 규모에 25% 관세를 부과하며 미중 무역전쟁이 본격 시작. 중국도 동일 규모 보복 관세로 대응.",
+    "date": "2018-07-06",
+    "category": "경제",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-006",
+    "title": "화웨이 Entity List 등재",
+    "description": "미국 상무부가 화웨이와 68개 계열사를 Entity List에 등재, 미국 기업의 화웨이 거래를 사실상 금지. 구글, 퀄컴 등이 화웨이와의 거래를 중단하며 글로벌 5G 시장 판도 변화.",
+    "date": "2019-05-15",
+    "category": "기술",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-007",
+    "title": "미중 1단계 무역합의 서명",
+    "description": "트럼프 대통령과 류허 부총리가 백악관에서 1단계 무역합의에 서명. 중국의 미국산 상품 2000억 달러 추가 구매, 지식재산권 보호 강화, 기술이전 강요 중단 등을 합의.",
+    "date": "2020-01-15",
+    "category": "외교",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-008",
+    "title": "화웨이 반도체 공급 완전 차단",
+    "description": "미국 상무부가 FDPR(해외직접생산품규칙)을 확대 적용, TSMC 등 전 세계 모든 파운드리의 화웨이 칩 생산을 금지. 화웨이의 고성능 스마트폰 사업이 사실상 마비.",
+    "date": "2020-05-15",
+    "category": "기술",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-009",
+    "title": "CHIPS and Science Act 서명",
+    "description": "바이든 대통령이 CHIPS and Science Act에 서명. 미국 내 반도체 제조에 527억 달러 보조금 지원 + 중국 내 첨단 반도체 시설 투자 시 보조금 반환 '가드레일' 조항 포함.",
+    "date": "2022-08-09",
+    "category": "경제",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-010",
+    "title": "대중국 반도체 수출통제 발동",
+    "description": "바이든 행정부가 첨단 반도체(14nm 이하), AI 가속기(A100/H100), 반도체 제조장비의 대중 수출을 전면 금지. 네덜란드(ASML)·일본(도쿄일렉트론)도 동참하며 삼중 봉쇄 형성.",
+    "date": "2022-10-07",
+    "category": "기술",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-011",
+    "title": "화웨이 Mate 60 Pro 출시 (SMIC 7nm 자체칩)",
+    "description": "화웨이가 SMIC 자체 생산 7nm 기린 9000s 칩을 탑재한 Mate 60 Pro를 기습 출시. 미국 수출통제에도 불구하고 중국이 자체 첨단 반도체 생산 능력을 확보했음을 입증.",
+    "date": "2023-08-29",
+    "category": "기술",
+    "confidence": 93,
+    "status": "verified"
+  },
+  {
+    "id": "twevt-012",
+    "title": "DeepSeek R1 공개",
+    "description": "중국 AI 스타트업 DeepSeek가 R1 추론 모델을 공개. 미국 수출통제로 제한된 GPU 환경에서도 OpenAI GPT-4 수준의 성능을 달성하며 AI 패권에 충격. NVIDIA 시가총액 하루 만에 6000억 달러 증발.",
+    "date": "2025-01-20",
+    "category": "기술",
+    "confidence": 95,
+    "status": "verified"
+  }
+]

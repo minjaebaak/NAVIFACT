@@ -31,10 +31,19 @@ import ukrainePredictions from "@/data/seed/ukraine-predictions.json";
 import ukraineNarratives from "@/data/seed/ukraine-narratives.json";
 import ukraineClaims from "@/data/seed/ukraine-claims.json";
 
+// Tech War scenario seed data
+import techwarEvents from "@/data/seed/techwar-events.json";
+import techwarLinks from "@/data/seed/techwar-links.json";
+import techwarAgreement from "@/data/seed/techwar-agreement.json";
+import techwarPredictions from "@/data/seed/techwar-predictions.json";
+import techwarNarratives from "@/data/seed/techwar-narratives.json";
+import techwarClaims from "@/data/seed/techwar-claims.json";
+
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
 import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
 import ukraineMarketImpacts from "@/data/seed/ukraine-market-impacts.json";
+import techwarMarketImpacts from "@/data/seed/techwar-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -163,7 +172,7 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar";
 
 export interface Scenario {
   id: ScenarioId;
@@ -194,6 +203,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇺🇦🇷🇺",
     description: "부다페스트 각서부터 전면 침공까지의 인과관계",
     dateRange: "1994.12 - 2024.06",
+  },
+  {
+    id: "techwar",
+    title: "미중 기술 패권 전쟁",
+    flag: "🇺🇸🇨🇳",
+    description: "WTO 가입부터 DeepSeek 충격까지의 반도체·AI 패권 경쟁",
+    dateRange: "2001.12 - 2025.01",
   },
 ];
 
@@ -235,6 +251,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: ukraineClaims as SeedClaim[],
     marketImpacts: ukraineMarketImpacts as SeedMarketImpact[],
   },
+  techwar: {
+    events: techwarEvents as SeedEvent[],
+    links: techwarLinks as SeedLink[],
+    agreement: techwarAgreement as SeedAgreement,
+    predictions: techwarPredictions as SeedPrediction[],
+    narratives: techwarNarratives as SeedNarrative[],
+    claims: techwarClaims as SeedClaim[],
+    marketImpacts: techwarMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -243,6 +268,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("uevt-") || eventId.startsWith("ulink-") || eventId.startsWith("upred-") || eventId.startsWith("unar-") || eventId.startsWith("uclm-") || eventId.startsWith("agr-ukraine") || eventId.startsWith("umi-") || eventId.startsWith("uobl-")) {
     return "ukraine";
+  }
+  if (eventId.startsWith("twevt-") || eventId.startsWith("twlink-") || eventId.startsWith("twpred-") || eventId.startsWith("twnar-") || eventId.startsWith("twclm-") || eventId.startsWith("agr-techwar") || eventId.startsWith("twmi-") || eventId.startsWith("twobl-")) {
+    return "techwar";
   }
   return "tariff";
 }
@@ -291,6 +319,15 @@ const allShortIds = [
   ...ukrainePredictions.map((p) => p.id),
   ...ukraineNarratives.map((n) => n.id),
   ...ukraineClaims.map((c) => c.id),
+  // Tech War scenario
+  ...techwarEvents.map((e) => e.id),
+  ...techwarLinks.map((l) => l.id),
+  techwarAgreement.id,
+  ...techwarAgreement.parties.map((p) => p.id),
+  ...techwarAgreement.obligations.map((o) => o.id),
+  ...techwarPredictions.map((p) => p.id),
+  ...techwarNarratives.map((n) => n.id),
+  ...techwarClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -547,7 +584,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[])];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[])];
   }
 }
 
@@ -569,7 +606,7 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[])];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[])];
   }
 }
 
@@ -609,7 +646,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[])];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[])];
   }
 }
 
@@ -625,7 +662,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[])];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[])];
   }
 }
 
@@ -641,6 +678,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[])];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[])];
   }
 }

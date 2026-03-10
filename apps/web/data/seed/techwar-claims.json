@@ -1,0 +1,58 @@
+[
+  {
+    "id": "twclm-001",
+    "text": "화웨이 5G 장비에 백도어가 있다",
+    "status": "unverified",
+    "confidence": 25,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "twclm-002",
+    "text": "중국이 미국 기술을 체계적으로 도둑질했다",
+    "status": "partly_true",
+    "confidence": 55,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "twclm-003",
+    "text": "CHIPS Act가 미국 반도체 패권을 회복시킬 것이다",
+    "status": "unverified",
+    "confidence": 40,
+    "sourcesFor": 3,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "twclm-004",
+    "text": "DeepSeek가 미국 AI 패권을 위협한다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "twclm-005",
+    "text": "중국은 자체 첨단 반도체 양산이 불가능하다",
+    "status": "false",
+    "confidence": 15,
+    "sourcesFor": 1,
+    "sourcesAgainst": 5
+  },
+  {
+    "id": "twclm-006",
+    "text": "미중 기술 디커플링은 양측 모두에게 해롭다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "twclm-007",
+    "text": "미국 수출통제가 중국 자체 기술 개발을 가속화했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  }
+]

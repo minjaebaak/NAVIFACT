@@ -1,0 +1,38 @@
+[
+  {
+    "id": "twpred-001",
+    "question": "중국이 2027년까지 5nm 이하 반도체를 자체 양산하는 데 성공할까?",
+    "yesPool": 7500,
+    "noPool": 12500,
+    "deadline": "2027-12-31",
+    "status": "active",
+    "settlementCriteria": "SMIC 또는 중국 기업이 5nm 이하 공정으로 상용 칩을 분기 100만 개 이상 생산한 공식 확인 기준"
+  },
+  {
+    "id": "twpred-002",
+    "question": "미국의 대중국 AI 수출통제가 2026년 내에 추가 강화될까?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "미국 상무부의 공식 수출통제 규칙 개정 또는 신규 행정명령 발표 기준"
+  },
+  {
+    "id": "twpred-003",
+    "question": "NVIDIA의 중국 매출 비중이 2025년 연간 기준 10% 이하로 하락할까?",
+    "yesPool": 9000,
+    "noPool": 11000,
+    "deadline": "2025-12-31",
+    "status": "active",
+    "settlementCriteria": "NVIDIA 연간 실적 발표(10-K)의 지역별 매출 기준"
+  },
+  {
+    "id": "twpred-004",
+    "question": "미중 기술 디커플링이 2030년까지 완전히 이루어질까?",
+    "yesPool": 4500,
+    "noPool": 15500,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "반도체, AI, 클라우드, 5G 4개 분야에서 양국 간 기술 거래가 2022년 대비 90% 이상 감소 기준"
+  }
+]
