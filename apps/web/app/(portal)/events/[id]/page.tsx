@@ -45,6 +45,7 @@ export default async function EventDetailPage({
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
       const res = await fetch(`${apiUrl}/events/${id}`, {
         next: { revalidate: 60 },
+        signal: AbortSignal.timeout(3_000),
       });
       if (res.ok) {
         const apiEvt = await res.json();

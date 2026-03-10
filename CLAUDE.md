@@ -92,7 +92,10 @@ NAVIFACT/
 
 - 프로필: `myriorama` (ceo.myriorama@gmail.com)
 - 자동 전환: `.envrc` + direnv (`NLM_PROFILE=myriorama`)
-- 노트북 alias: (설정 후 여기에 기록)
+- 노트북 alias:
+  - `nf-rules` → CLAUDE.md + 아키텍처 플랜 (규칙/설계)
+  - `nf-tech` → 코드베이스 스냅샷 repomix (코드 참조)
+  - `nf-conv` → 대화 이력 (세션 이력)
 
 ### Phase 0 확장: 기술문서
 

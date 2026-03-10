@@ -398,6 +398,9 @@ async def seed_market_impacts(market_impacts: list[dict]) -> None:
                 summary: $summary,
                 analysis_date: $analysis_date,
                 sectors_json: $sectors_json,
+                actual_summary: $actual_summary,
+                actual_date: $actual_date,
+                prediction_accuracy: $prediction_accuracy,
                 created_at: datetime(),
                 updated_at: datetime()
             })
@@ -409,6 +412,9 @@ async def seed_market_impacts(market_impacts: list[dict]) -> None:
                 "summary": mi["summary"],
                 "analysis_date": mi["analysisDate"],
                 "sectors_json": sectors_json,
+                "actual_summary": mi.get("actualSummary"),
+                "actual_date": mi.get("actualDate"),
+                "prediction_accuracy": mi.get("predictionAccuracy"),
             },
         )
         # Link Event -> MarketImpact

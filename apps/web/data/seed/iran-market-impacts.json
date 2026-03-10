@@ -4,6 +4,9 @@
     "eventId": "ievt-001",
     "summary": "하마스 기습 공격으로 유가·금·방산 급등, 항공·관광 급락",
     "analysisDate": "2023-10-08",
+    "actualSummary": "예측 대부분 적중. WTI +5.6%, 방산 +5~12%, 항공 -3~5%. 금은 예상보다 소폭 상승.",
+    "actualDate": "2023-10-15",
+    "predictionAccuracy": 92,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -11,9 +14,12 @@
         "magnitude": "high",
         "reasoning": "중동 지정학적 리스크 급등으로 원유 공급 불안 심화. WTI 급등.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI $83→$88 급등(+5.6%). 이란 개입 우려로 호르무즈 리스크 프리미엄 반영.",
         "stocks": [
-          { "ticker": "010950", "name": "S-Oil", "exchange": "KOSPI", "direction": "positive", "reasoning": "유가 상승 시 정제 마진 확대 수혜." },
-          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "글로벌 에너지 대장주. 유가 상승 직접 수혜." }
+          { "ticker": "010950", "name": "S-Oil", "exchange": "KOSPI", "direction": "positive", "reasoning": "유가 상승 시 정제 마진 확대 수혜.", "actualChange": 6.3, "actualPeriod": "1주", "actualReasoning": "유가 급등 + 정제 마진 확대. 연초 대비 최고치 기록." },
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "글로벌 에너지 대장주. 유가 상승 직접 수혜.", "actualChange": 3.8, "actualPeriod": "1주", "actualReasoning": "유가 상승분 주가에 즉각 반영. 3분기 실적 기대감 겹침." }
         ]
       },
       {
@@ -22,9 +28,12 @@
         "magnitude": "high",
         "reasoning": "중동 전쟁 발발로 글로벌 방산 수요 급증 기대.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "한화에어로 +11.8%, Lockheed +6.4%. 유럽·중동 방산 수주 기대감 폭발.",
         "stocks": [
-          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "K-방산 수출 확대. 중동 수주 기대감." },
-          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "F-35, 미사일 방어 체계 수요 급증." }
+          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "K-방산 수출 확대. 중동 수주 기대감.", "actualChange": 11.8, "actualPeriod": "1주", "actualReasoning": "K-방산 수혜 대장주. 폴란드 후속 수주 + 중동 신규 기대." },
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "F-35, 미사일 방어 체계 수요 급증.", "actualChange": 6.4, "actualPeriod": "1주", "actualReasoning": "Iron Dome 보충 수요 + F-35 이스라엘 추가 도입 기대." }
         ]
       },
       {
@@ -33,8 +42,11 @@
         "magnitude": "medium",
         "reasoning": "지정학적 불확실성으로 안전자산 선호 심리 강화.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "금값 소폭 상승(+1.8%). 예상보다 약한 반응 — 미 국채 금리 상승이 금 상승 억제.",
         "stocks": [
-          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 ETF 대표. 전쟁 리스크 = 금값 상승." }
+          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 ETF 대표. 전쟁 리스크 = 금값 상승.", "actualChange": 1.8, "actualPeriod": "1주", "actualReasoning": "안전자산 수요 있었으나 미 국채 금리 5% 돌파가 금 상승 억제." }
         ]
       },
       {
@@ -43,9 +55,12 @@
         "magnitude": "medium",
         "reasoning": "중동 노선 운항 중단, 유가 상승으로 항공유 비용 급증.",
         "region": "KR",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "대한항공·아시아나 동반 하락. 중동 노선 일부 운항 중단, 유가 부담.",
         "stocks": [
-          { "ticker": "003490", "name": "대한항공", "exchange": "KOSPI", "direction": "negative", "reasoning": "유가 급등 + 중동 노선 리스크." },
-          { "ticker": "020560", "name": "아시아나항공", "exchange": "KOSPI", "direction": "negative", "reasoning": "항공유 비용 부담 증가." }
+          { "ticker": "003490", "name": "대한항공", "exchange": "KOSPI", "direction": "negative", "reasoning": "유가 급등 + 중동 노선 리스크.", "actualChange": -3.2, "actualPeriod": "1주", "actualReasoning": "이스라엘 노선 운항 중단. 유가 부담으로 하락." },
+          { "ticker": "020560", "name": "아시아나항공", "exchange": "KOSPI", "direction": "negative", "reasoning": "항공유 비용 부담 증가.", "actualChange": -4.5, "actualPeriod": "1주", "actualReasoning": "항공유 비용 급등. 합병 불확실성도 겹쳐 대한항공보다 큰 폭 하락." }
         ]
       }
     ]
@@ -55,6 +70,9 @@
     "eventId": "ievt-004",
     "summary": "이란의 이스라엘 직접 공격으로 에너지·방산 폭등, 글로벌 증시 하락",
     "analysisDate": "2024-04-14",
+    "actualSummary": "에너지·방산 강세 적중. 해운 약세도 적중. 다만 시장은 '제한적 공격'으로 해석해 반등 빨랐음.",
+    "actualDate": "2024-04-21",
+    "predictionAccuracy": 88,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -62,9 +80,12 @@
         "magnitude": "high",
         "reasoning": "이란-이스라엘 직접 충돌로 호르무즈 해협 통행 리스크. 유가 급등.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유가 초기 급등 후 안정. 이란 공격이 '경고성'이었다는 해석에 프리미엄 축소.",
         "stocks": [
-          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유·E&P 사업. 유가 상승 수혜." },
-          { "ticker": "CVX", "name": "Chevron", "exchange": "NYSE", "direction": "positive", "reasoning": "글로벌 정유 대장주. 유가 상승 직접 수혜." }
+          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유·E&P 사업. 유가 상승 수혜.", "actualChange": 4.2, "actualPeriod": "1주", "actualReasoning": "유가 초기 급등에 동반 상승. 주 후반 차익 실현." },
+          { "ticker": "CVX", "name": "Chevron", "exchange": "NYSE", "direction": "positive", "reasoning": "글로벌 정유 대장주. 유가 상승 직접 수혜.", "actualChange": 2.8, "actualPeriod": "1주", "actualReasoning": "유가 상승 수혜. 다만 공격 제한적이라는 해석에 상승폭 축소." }
         ]
       },
       {
@@ -73,9 +94,12 @@
         "magnitude": "high",
         "reasoning": "이란 드론·미사일 요격 과정에서 Iron Dome 등 방어 체계 수요 입증.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "Iron Dome 99% 요격률 입증. Patriot·Arrow 시스템 수요 급증 확인.",
         "stocks": [
-          { "ticker": "RTX", "name": "RTX (Raytheon)", "exchange": "NYSE", "direction": "positive", "reasoning": "Patriot 미사일 제조사. 중동 미사일 방어 핵심 공급자." },
-          { "ticker": "047810", "name": "한국항공우주", "exchange": "KOSPI", "direction": "positive", "reasoning": "KF-21 + 방공 체계 수출 기대감." }
+          { "ticker": "RTX", "name": "RTX (Raytheon)", "exchange": "NYSE", "direction": "positive", "reasoning": "Patriot 미사일 제조사. 중동 미사일 방어 핵심 공급자.", "actualChange": 5.6, "actualPeriod": "1주", "actualReasoning": "Patriot 시스템 실전 성과. 중동·동유럽 수주 기대 급등." },
+          { "ticker": "047810", "name": "한국항공우주", "exchange": "KOSPI", "direction": "positive", "reasoning": "KF-21 + 방공 체계 수출 기대감.", "actualChange": 3.9, "actualPeriod": "1주", "actualReasoning": "천궁-II 중동 수출 기대감. 이란 미사일 위협이 수요 촉매." }
         ]
       },
       {
@@ -84,8 +108,11 @@
         "magnitude": "medium",
         "reasoning": "홍해·호르무즈 해협 위험 증가로 선박 보험료 급등, 우회 비용 증가.",
         "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "HMM 하락. 중동 항로 보험료 30% 인상. 아프리카 우회 비용 반영.",
         "stocks": [
-          { "ticker": "011200", "name": "HMM", "exchange": "KOSPI", "direction": "negative", "reasoning": "중동 경유 노선 보험료·연료비 급증." }
+          { "ticker": "011200", "name": "HMM", "exchange": "KOSPI", "direction": "negative", "reasoning": "중동 경유 노선 보험료·연료비 급증.", "actualChange": -3.8, "actualPeriod": "1주", "actualReasoning": "보험료 급등 + 우회 비용. 단기 운임 인상으로 일부 상쇄." }
         ]
       }
     ]
@@ -95,6 +122,9 @@
     "eventId": "ievt-005",
     "summary": "하니예 테헤란 암살로 이란 보복 우려 극대화. 유가·금 급등.",
     "analysisDate": "2024-08-01",
+    "actualSummary": "유가 상승 적중, 금 상승은 예측보다 약함. 시장은 이란의 보복 능력을 '제한적'으로 평가.",
+    "actualDate": "2024-08-08",
+    "predictionAccuracy": 80,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -102,8 +132,11 @@
         "magnitude": "high",
         "reasoning": "이란 본토에서의 암살 = 전면전 가능성 급등. 원유 공급 리스크 최고조.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유가 상승했으나 $100 미달. 이란 보복이 지연되며 프리미엄 축소.",
         "stocks": [
-          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 급등 수혜. 지정학 프리미엄 반영." }
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 급등 수혜. 지정학 프리미엄 반영.", "actualChange": 2.1, "actualPeriod": "1주", "actualReasoning": "유가 상승 수혜. 다만 이란 즉각 보복 없어 프리미엄 축소." }
         ]
       },
       {
@@ -112,9 +145,12 @@
         "magnitude": "high",
         "reasoning": "전면전 우려로 글로벌 안전자산 폭풍 매수.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "금값 소폭 상승(+1.2%). 시장은 이란 보복 능력 한계를 빠르게 반영.",
         "stocks": [
-          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 온스당 $2,500 돌파 전망." },
-          { "ticker": "GOLD", "name": "Barrick Gold", "exchange": "NYSE", "direction": "positive", "reasoning": "금광 기업. 금값 상승 시 이익 레버리지." }
+          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 온스당 $2,500 돌파 전망.", "actualChange": 1.2, "actualPeriod": "1주", "actualReasoning": "$2,500 미달. 연준 금리 인하 기대가 금 상승의 주 동력이었음." },
+          { "ticker": "GOLD", "name": "Barrick Gold", "exchange": "NYSE", "direction": "positive", "reasoning": "금광 기업. 금값 상승 시 이익 레버리지.", "actualChange": 0.8, "actualPeriod": "1주", "actualReasoning": "금값 소폭 상승에 제한적 반응. 생산 비용 상승도 부담." }
         ]
       },
       {
@@ -123,8 +159,11 @@
         "magnitude": "medium",
         "reasoning": "불확실성 급증으로 위험자산 회피 심리.",
         "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "S&P 500 소폭 하락 후 빠른 반등. AI 랠리가 지정학 리스크를 압도.",
         "stocks": [
-          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "전면전 우려로 미국 증시 하락 압력." }
+          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "전면전 우려로 미국 증시 하락 압력.", "actualChange": -0.9, "actualPeriod": "1주", "actualReasoning": "초기 하락 후 반등. NVDA 등 AI주가 시장 지지." }
         ]
       }
     ]
@@ -134,6 +173,9 @@
     "eventId": "ievt-007",
     "summary": "이란 200발 미사일 공격으로 에너지·방산 폭등, 보험 섹터 급락",
     "analysisDate": "2024-10-02",
+    "actualSummary": "에너지·방산 강세 적중. 보험 약세도 적중. 규모 대비 실제 피해 제한적이라 반등 빨랐음.",
+    "actualDate": "2024-10-09",
+    "predictionAccuracy": 85,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -141,8 +183,11 @@
         "magnitude": "high",
         "reasoning": "이란의 대규모 미사일 공격으로 중동 전쟁 전면화 우려. 유가 $100 전망.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유가 초기 급등($75→$80) 후 안정. 200발 중 다수 요격되어 실질 피해 제한적.",
         "stocks": [
-          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유 마진 극대화. 유가 $100 시대 수혜." }
+          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유 마진 극대화. 유가 $100 시대 수혜.", "actualChange": 3.5, "actualPeriod": "1주", "actualReasoning": "유가 상승 수혜. 주 후반 이익 실현 매물 출회." }
         ]
       },
       {
@@ -151,9 +196,12 @@
         "magnitude": "high",
         "reasoning": "미사일 200발 사용 = 방공·요격 시스템 수요 폭증.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "200발 요격 실전 경험이 방공 시스템 수요를 폭발시킴. 방산주 주간 랠리.",
         "stocks": [
-          { "ticker": "079550", "name": "LIG넥스원", "exchange": "KOSPI", "direction": "positive", "reasoning": "미사일·유도무기 전문. 수출 수주 급증 기대." },
-          { "ticker": "NOC", "name": "Northrop Grumman", "exchange": "NYSE", "direction": "positive", "reasoning": "미사일 방어 시스템, 군용 항공기 제조." }
+          { "ticker": "079550", "name": "LIG넥스원", "exchange": "KOSPI", "direction": "positive", "reasoning": "미사일·유도무기 전문. 수출 수주 급증 기대.", "actualChange": 7.2, "actualPeriod": "1주", "actualReasoning": "천궁-II 수출 기대 급등. UAE·사우디 협상 가속화 소식." },
+          { "ticker": "NOC", "name": "Northrop Grumman", "exchange": "NYSE", "direction": "positive", "reasoning": "미사일 방어 시스템, 군용 항공기 제조.", "actualChange": 4.5, "actualPeriod": "1주", "actualReasoning": "미사일 방어 시스템 수요 급증. 미 국방부 추가 발주 기대." }
         ]
       },
       {
@@ -162,8 +210,49 @@
         "magnitude": "medium",
         "reasoning": "전쟁 보험 청구 급증, 중동 지역 보험 인수 손실 확대.",
         "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "삼성화재 소폭 하락. 실제 보험 청구는 예상보다 적었음 (대부분 요격).",
         "stocks": [
-          { "ticker": "000810", "name": "삼성화재", "exchange": "KOSPI", "direction": "negative", "reasoning": "해외 재보험 손실 가능성." }
+          { "ticker": "000810", "name": "삼성화재", "exchange": "KOSPI", "direction": "negative", "reasoning": "해외 재보험 손실 가능성.", "actualChange": -1.5, "actualPeriod": "1주", "actualReasoning": "재보험 손실 우려 반영. 실제 청구 건수 제한적이어서 하락폭 작음." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "imi-008",
+    "eventId": "ievt-008",
+    "summary": "이스라엘의 이란 군사시설 타격으로 방산주 강세, 에너지 추가 상승",
+    "analysisDate": "2024-10-27",
+    "actualSummary": "방산 강세 적중. 에너지는 예상보다 약한 반응 — 이란 핵시설이 아닌 군사시설만 타격해 시장 안도.",
+    "actualDate": "2024-11-03",
+    "predictionAccuracy": 78,
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "이스라엘의 보복 타격 성공 → 정밀 타격 무기 수요 입증.",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "정밀 타격 성공으로 관련 방산주 강세. 한화시스템·Northrop 동반 상승.",
+        "stocks": [
+          { "ticker": "272210", "name": "한화시스템", "exchange": "KOSPI", "direction": "positive", "reasoning": "전자전·감시정찰 체계 수출 기대.", "actualChange": 3.4, "actualPeriod": "1주", "actualReasoning": "감시정찰 체계 수요 부각. 호주·UAE 수출 협의 진전." },
+          { "ticker": "NOC", "name": "Northrop Grumman", "exchange": "NYSE", "direction": "positive", "reasoning": "스텔스 항공기, 정밀 타격 시스템.", "actualChange": 2.9, "actualPeriod": "1주", "actualReasoning": "B-21 스텔스 폭격기 관련 기대감. 정밀 타격 실전 검증." }
+        ]
+      },
+      {
+        "sector": "에너지·유가",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "확전 우려 지속. 이란 보복 가능성으로 유가 하방 경직.",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "유가 소폭 상승에 그침. 핵시설 미타격으로 시장은 '절제된 보복'으로 해석. 안도 반응.",
+        "stocks": [
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "지정학 프리미엄 유지.", "actualChange": 0.7, "actualPeriod": "1주", "actualReasoning": "지정학 프리미엄 축소. 시장은 확전 시나리오를 낮게 평가." }
         ]
       }
     ]
@@ -173,6 +262,9 @@
     "eventId": "ievt-009",
     "summary": "이란 핵시설 공습으로 에너지 슈퍼사이클 진입, 우라늄주 급등",
     "analysisDate": "2025-06-16",
+    "actualSummary": "에너지·방산 강세 적중. 유가 $95까지 상승 후 $88 안정. 우라늄주 상승은 예측보다 약했으나 방향 적중. 해운 약세도 적중.",
+    "actualDate": "2025-06-23",
+    "predictionAccuracy": 82,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -180,9 +272,12 @@
         "magnitude": "high",
         "reasoning": "핵시설 파괴 = 이란 보복 최대 동기. 호르무즈 봉쇄 현실화 우려.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI $82→$95 급등 후 $88 안정. 이란 즉각 보복 없어 프리미엄 일부 축소.",
         "stocks": [
-          { "ticker": "CVX", "name": "Chevron", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 슈퍼사이클 시 최대 수혜." },
-          { "ticker": "010950", "name": "S-Oil", "exchange": "KOSPI", "direction": "positive", "reasoning": "정제 마진 극대화." }
+          { "ticker": "CVX", "name": "Chevron", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 슈퍼사이클 시 최대 수혜.", "actualChange": 7.2, "actualPeriod": "1주", "actualReasoning": "유가 급등 수혜. 연간 최고치 경신." },
+          { "ticker": "010950", "name": "S-Oil", "exchange": "KOSPI", "direction": "positive", "reasoning": "정제 마진 극대화.", "actualChange": 5.8, "actualPeriod": "1주", "actualReasoning": "정제 마진 급등. 국내 정유 섹터 전반 강세." }
         ]
       },
       {
@@ -191,8 +286,11 @@
         "magnitude": "medium",
         "reasoning": "이란 핵시설 파괴 → 글로벌 우라늄 공급 불안 → 대체 원전 투자 확대.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "Cameco 소폭 상승. 이란 핵시설은 농축용이라 실제 우라늄 공급 영향 제한적.",
         "stocks": [
-          { "ticker": "CCJ", "name": "Cameco", "exchange": "NYSE", "direction": "positive", "reasoning": "세계 최대 우라늄 생산 기업. 공급 불안 수혜." }
+          { "ticker": "CCJ", "name": "Cameco", "exchange": "NYSE", "direction": "positive", "reasoning": "세계 최대 우라늄 생산 기업. 공급 불안 수혜.", "actualChange": 2.1, "actualPeriod": "1주", "actualReasoning": "단기 매수세 유입 후 차익 실현. 실질 공급 영향 미미." }
         ]
       },
       {
@@ -201,9 +299,12 @@
         "magnitude": "high",
         "reasoning": "호르무즈 해협 통항 리스크 최대. 보험료·우회 비용 천문학적.",
         "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "보험료 50% 인상. 일부 선사 아프리카 우회 전환. 호르무즈 실제 봉쇄는 미발생.",
         "stocks": [
-          { "ticker": "011200", "name": "HMM", "exchange": "KOSPI", "direction": "negative", "reasoning": "중동 경유 물류 비용 급증. 운임 전가 한계." },
-          { "ticker": "028670", "name": "팬오션", "exchange": "KOSPI", "direction": "negative", "reasoning": "벌크 해운. 중동 항로 리스크 직접 노출." }
+          { "ticker": "011200", "name": "HMM", "exchange": "KOSPI", "direction": "negative", "reasoning": "중동 경유 물류 비용 급증. 운임 전가 한계.", "actualChange": -4.1, "actualPeriod": "1주", "actualReasoning": "보험료 급등 + 우회 비용 반영. 운임 인상으로 일부 상쇄." },
+          { "ticker": "028670", "name": "팬오션", "exchange": "KOSPI", "direction": "negative", "reasoning": "벌크 해운. 중동 항로 리스크 직접 노출.", "actualChange": -3.5, "actualPeriod": "1주", "actualReasoning": "벌크 운임 하락 + 중동 항로 리스크 이중 부담." }
         ]
       }
     ]
@@ -213,6 +314,9 @@
     "eventId": "ievt-012",
     "summary": "하메네이 사살로 에너지·금 역대 최고 수준, 글로벌 증시 패닉",
     "analysisDate": "2026-02-28",
+    "actualSummary": "에너지·금·방산 강세 모두 적중. 유가 $108 기록, 금 $2,950. 글로벌 증시 하락도 적중했으나 패닉 매도 규모는 예상보다 작았음.",
+    "actualDate": "2026-03-05",
+    "predictionAccuracy": 85,
     "sectors": [
       {
         "sector": "에너지·유가",
@@ -220,9 +324,12 @@
         "magnitude": "high",
         "reasoning": "최고지도자 사살 = 이란 체제 존립 위기. 보복 봉쇄 현실화로 유가 $120+ 전망.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI $108 기록. $120 미도달이나 역대 3년 내 최고치. 호르무즈 봉쇄 위협(ievt-013)이 추가 상승 동력.",
         "stocks": [
-          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 $120 시대 최대 수혜. 역대 최고 실적 전망." },
-          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유·E&P 이중 수혜. 유가 급등기 주가 상승." }
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 $120 시대 최대 수혜. 역대 최고 실적 전망.", "actualChange": 8.5, "actualPeriod": "1주", "actualReasoning": "유가 $108 반영. 1분기 실적 상향 기대감." },
+          { "ticker": "096770", "name": "SK이노베이션", "exchange": "KOSPI", "direction": "positive", "reasoning": "정유·E&P 이중 수혜. 유가 급등기 주가 상승.", "actualChange": 6.2, "actualPeriod": "1주", "actualReasoning": "정제 마진 급등 + E&P 수익 개선. 국내 정유주 전반 강세." }
         ]
       },
       {
@@ -231,9 +338,12 @@
         "magnitude": "high",
         "reasoning": "글로벌 패닉으로 안전자산 역대 최고 수요. 금 $3,000/oz 돌파.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "금 $2,950까지 상승. $3,000 미돌파 — 연준 금리 동결 기조가 추가 상승 억제.",
         "stocks": [
-          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 ETF 최대 유입. $3,000 돌파 시 사상 최고." },
-          { "ticker": "GOLD", "name": "Barrick Gold", "exchange": "NYSE", "direction": "positive", "reasoning": "금광 이익 레버리지. 금값 ×2 = 이익 ×4 구조." }
+          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "금 ETF 최대 유입. $3,000 돌파 시 사상 최고.", "actualChange": 4.2, "actualPeriod": "1주", "actualReasoning": "안전자산 수요 유입. $3,000 심리적 저항선에서 차익 실현." },
+          { "ticker": "GOLD", "name": "Barrick Gold", "exchange": "NYSE", "direction": "positive", "reasoning": "금광 이익 레버리지. 금값 ×2 = 이익 ×4 구조.", "actualChange": 5.8, "actualPeriod": "1주", "actualReasoning": "금값 상승 레버리지. 생산 비용 안정으로 마진 확대." }
         ]
       },
       {
@@ -242,9 +352,12 @@
         "magnitude": "high",
         "reasoning": "3차 세계대전 우려. 글로벌 위험자산 대규모 매도.",
         "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "S&P 500 -2.8%, KOSPI -3.5%. 예상(-5%)보다 낙폭 작음. AI 섹터가 시장 지지.",
         "stocks": [
-          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "미국 증시 5%+ 급락 전망." },
-          { "ticker": "069500", "name": "KODEX 200", "exchange": "KOSPI", "direction": "negative", "reasoning": "한국 증시 외국인 자금 유출 우려." }
+          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "미국 증시 5%+ 급락 전망.", "actualChange": -2.8, "actualPeriod": "1주", "actualReasoning": "초기 -4% 후 반등. AI·방산주가 낙폭 제한." },
+          { "ticker": "069500", "name": "KODEX 200", "exchange": "KOSPI", "direction": "negative", "reasoning": "한국 증시 외국인 자금 유출 우려.", "actualChange": -3.5, "actualPeriod": "1주", "actualReasoning": "외국인 3거래일 연속 순매도. 원화 약세 동반." }
         ]
       },
       {
@@ -253,9 +366,12 @@
         "magnitude": "high",
         "reasoning": "전면전 → 글로벌 군비 경쟁 가속. 방산 수주 폭증.",
         "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "방산주 전면 랠리. 한화에어로 +14%, LMT +8.5%. 중동·유럽 긴급 수주 보도.",
         "stocks": [
-          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "K-방산 수출 역대 최고. 폴란드·중동 대형 수주." },
-          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "F-35, 미사일 시스템 글로벌 수주 급증." }
+          { "ticker": "012450", "name": "한화에어로스페이스", "exchange": "KOSPI", "direction": "positive", "reasoning": "K-방산 수출 역대 최고. 폴란드·중동 대형 수주.", "actualChange": 14.2, "actualPeriod": "1주", "actualReasoning": "천궁-II 사우디 긴급 발주 보도. K-방산 사상 최고 주가." },
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "F-35, 미사일 시스템 글로벌 수주 급증.", "actualChange": 8.5, "actualPeriod": "1주", "actualReasoning": "미 의회 긴급 국방 예산 추가 편성 기대. F-35 이스라엘 추가 도입." }
         ]
       }
     ]
@@ -307,35 +423,6 @@
         "region": "KR",
         "stocks": [
           { "ticker": "005380", "name": "현대자동차", "exchange": "KOSPI", "direction": "negative", "reasoning": "원자재 비용 급등으로 제조 마진 하락." }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "imi-008",
-    "eventId": "ievt-008",
-    "summary": "이스라엘의 이란 군사시설 타격으로 방산주 강세, 에너지 추가 상승",
-    "analysisDate": "2024-10-27",
-    "sectors": [
-      {
-        "sector": "방위산업",
-        "direction": "positive",
-        "magnitude": "medium",
-        "reasoning": "이스라엘의 보복 타격 성공 → 정밀 타격 무기 수요 입증.",
-        "region": "GLOBAL",
-        "stocks": [
-          { "ticker": "272210", "name": "한화시스템", "exchange": "KOSPI", "direction": "positive", "reasoning": "전자전·감시정찰 체계 수출 기대." },
-          { "ticker": "NOC", "name": "Northrop Grumman", "exchange": "NYSE", "direction": "positive", "reasoning": "스텔스 항공기, 정밀 타격 시스템." }
-        ]
-      },
-      {
-        "sector": "에너지·유가",
-        "direction": "positive",
-        "magnitude": "medium",
-        "reasoning": "확전 우려 지속. 이란 보복 가능성으로 유가 하방 경직.",
-        "region": "GLOBAL",
-        "stocks": [
-          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "지정학 프리미엄 유지." }
         ]
       }
     ]

@@ -18,7 +18,6 @@ import "@xyflow/react/dist/style.css";
 
 import EventNode, { type EventNodeData } from "./EventNode";
 import CausalEdge, { type CausalEdgeData } from "./CausalEdge";
-import { computeForceLayout, type ForceNode, type ForceLink } from "./layouts/force-directed";
 
 export interface CausalGraphProps {
   events: Array<{
@@ -59,17 +58,27 @@ export default function CausalGraph({
   const [layoutReady, setLayoutReady] = useState(false);
 
   const { initialNodes, initialEdges } = useMemo(() => {
-    const forceNodes: ForceNode[] = events.map((e) => ({ id: e.id }));
-    const forceLinks: ForceLink[] = links.map((l) => ({
-      source: l.source,
-      target: l.target,
-    }));
+    // 시간순 레이아웃: 날짜 기준 좌→우 배치
+    const sorted = [...events].sort(
+      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+    );
+    const padding = 100;
+    const width = 1000;
+    const centerY = 300;
+    const usableWidth = width - padding * 2;
 
-    const positions = computeForceLayout(forceNodes, forceLinks, {
-      width: 1000,
-      height: 600,
-      chargeStrength: -500,
-      linkDistance: 220,
+    const positions = new Map<string, { x: number; y: number }>();
+    sorted.forEach((event, i) => {
+      const x =
+        sorted.length > 1
+          ? padding + (i / (sorted.length - 1)) * usableWidth
+          : width / 2;
+      // 같은 날짜 이벤트는 상하 분산
+      const sameDateBefore = sorted.filter(
+        (e, j) => j < i && e.date === event.date
+      );
+      const yOffset = sameDateBefore.length * 120;
+      positions.set(event.id, { x, y: centerY + yOffset });
     });
 
     const rfNodes: Node<EventNodeData>[] = events.map((event) => {

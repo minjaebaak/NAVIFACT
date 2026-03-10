@@ -28,6 +28,9 @@ def _node_to_market_impact(node: dict) -> MarketImpactResponse:
                         exchange=st.get("exchange", ""),
                         direction=st.get("direction", "neutral"),
                         reasoning=st.get("reasoning", ""),
+                        actual_change=st.get("actualChange"),
+                        actual_period=st.get("actualPeriod"),
+                        actual_reasoning=st.get("actualReasoning"),
                     )
                     for st in s.get("stocks", [])
                 ]
@@ -39,6 +42,9 @@ def _node_to_market_impact(node: dict) -> MarketImpactResponse:
                         reasoning=s.get("reasoning", ""),
                         region=s.get("region", "GLOBAL"),
                         stocks=stocks,
+                        actual_direction=s.get("actualDirection"),
+                        actual_magnitude=s.get("actualMagnitude"),
+                        actual_reasoning=s.get("actualReasoning"),
                     )
                 )
         except (json.JSONDecodeError, TypeError):
@@ -52,6 +58,9 @@ def _node_to_market_impact(node: dict) -> MarketImpactResponse:
         summary=props.get("summary", ""),
         analysis_date=props.get("analysis_date"),
         sectors=sectors,
+        actual_summary=props.get("actual_summary"),
+        actual_date=props.get("actual_date"),
+        prediction_accuracy=props.get("prediction_accuracy"),
         created_at=props.get("created_at", now),
         updated_at=props.get("updated_at", now),
     )
