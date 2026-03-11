@@ -1,0 +1,90 @@
+[
+  {
+    "id": "chlink-001",
+    "source": "chevt-001",
+    "target": "chevt-002",
+    "confidence": 95,
+    "mechanism": "체첸 독립 선언 → 러시아 연방 유지 의지 → 군사 개입 결정 → 1차 체첸 전쟁 개시",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-002",
+    "source": "chevt-002",
+    "target": "chevt-003",
+    "confidence": 90,
+    "mechanism": "1차 전쟁 교착 → 체첸 반군 극단 전술 채택 → 바사예프의 부됸노프스크 병원 인질극",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-003",
+    "source": "chevt-003",
+    "target": "chevt-004",
+    "confidence": 85,
+    "mechanism": "인질극 충격 → 러시아 국내 반전 여론 확산 → 하사뷰르트 정전 합의 도출",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-004",
+    "source": "chevt-004",
+    "target": "chevt-005",
+    "confidence": 70,
+    "mechanism": "하사뷰르트 모호한 지위 → 체첸 내 무정부 상태·이슬람 급진화 → 아파트 폭탄 (공식 설명/FSB 의혹 병존)",
+    "causalType": "enabling"
+  },
+  {
+    "id": "chlink-005",
+    "source": "chevt-005",
+    "target": "chevt-006",
+    "confidence": 95,
+    "mechanism": "아파트 폭탄 → 푸틴 '변기에서라도 잡겠다' 강경 선언 → 2차 체첸 전쟁 즉시 개시",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-006",
+    "source": "chevt-006",
+    "target": "chevt-007",
+    "confidence": 85,
+    "mechanism": "2차 전쟁 장기화 → 체첸 반군 러시아 본토 타격 전술 → 노르드오스트 극장 인질극",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-007",
+    "source": "chevt-006",
+    "target": "chevt-008",
+    "confidence": 90,
+    "mechanism": "러시아 군사 장악 → 친러 행정부 수립 → 국민투표 실시 → 체첸 헌법 채택 (러시아 편입)",
+    "causalType": "enabling"
+  },
+  {
+    "id": "chlink-008",
+    "source": "chevt-007",
+    "target": "chevt-009",
+    "confidence": 80,
+    "mechanism": "노르드오스트 진압 → 반군 러시아 전역 보복 전략 확대 → 베슬란 학교 인질극",
+    "causalType": "enabling"
+  },
+  {
+    "id": "chlink-009",
+    "source": "chevt-008",
+    "target": "chevt-010",
+    "confidence": 90,
+    "mechanism": "친러 헌법 체제 → 카디로프 부자 권력 장악 → 아흐마트 암살 후 람잔 카디로프 대통령 취임",
+    "causalType": "direct"
+  },
+  {
+    "id": "chlink-010",
+    "source": "chevt-009",
+    "target": "chevt-011",
+    "confidence": 65,
+    "mechanism": "체첸 전쟁 급진화 → 이슬람 극단주의 확산 → 디아스포라 자생 테러 → 보스턴 마라톤 폭탄",
+    "causalType": "enabling"
+  },
+  {
+    "id": "chlink-011",
+    "source": "chevt-010",
+    "target": "chevt-012",
+    "confidence": 90,
+    "mechanism": "카디로프 충성 체제 공고화 → 푸틴 전쟁 요청 수락 → 카디로프 부대 우크라이나 파병",
+    "causalType": "direct"
+  }
+]

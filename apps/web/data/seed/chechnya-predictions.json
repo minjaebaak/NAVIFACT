@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chpred-001",
+    "question": "체첸이 2040년까지 러시아로부터 실질적 자치권을 회복할까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2040-12-31",
+    "status": "active",
+    "settlementCriteria": "체첸 공화국이 독자적 외교·군사·경제 정책을 수행할 수 있는 실질적 자치권을 확보한 경우 Yes로 판정"
+  },
+  {
+    "id": "chpred-002",
+    "question": "카디로프 체제가 2030년까지 유지될까?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "람잔 카디로프 또는 그의 직계 후계자가 체첸 공화국 수장으로 재임 중이면 Yes로 판정"
+  },
+  {
+    "id": "chpred-003",
+    "question": "체첸 관련 테러가 2030년까지 유럽에서 재발할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "체첸계 인물이 유럽(러시아 제외)에서 테러 공격을 실행하여 사상자가 발생한 경우 Yes로 판정"
+  },
+  {
+    "id": "chpred-004",
+    "question": "러시아가 2035년까지 체첸에 대한 재정 지원을 대폭 축소할까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "러시아 연방 예산에서 체첸 보조금이 2024년 대비 50% 이상 감소한 경우 Yes로 판정"
+  }
+]

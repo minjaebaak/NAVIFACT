@@ -1,0 +1,58 @@
+[
+  {
+    "id": "chclm-001",
+    "text": "체첸 전쟁으로 민간인 25만 명 이상이 사망했다",
+    "status": "verified",
+    "confidence": 75,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "chclm-002",
+    "text": "모스크바 아파트 폭탄은 FSB 자작극이다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "chclm-003",
+    "text": "노르드오스트 진압에서 러시아 특수부대가 독가스를 사용했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "chclm-004",
+    "text": "카디로프가 체첸의 LGBT 탄압을 지시했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "chclm-005",
+    "text": "보스턴 마라톤 테러범이 체첸 전쟁의 영향을 받았다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "chclm-006",
+    "text": "2차 체첸 전쟁이 푸틴의 대통령 당선에 결정적 역할을 했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "chclm-007",
+    "text": "하사뷰르트 협정이 체첸에 사실상 독립을 부여했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  }
+]

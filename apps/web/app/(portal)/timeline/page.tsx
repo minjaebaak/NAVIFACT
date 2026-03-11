@@ -161,6 +161,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "정부·제도",
     bottomLabel: "카르텔·마약 전쟁",
   },
+  chechnya: {
+    topIds: ["chevt-001", "chevt-004", "chevt-008", "chevt-010"],
+    centerIds: ["chevt-006"],
+    topLabel: "정치·외교",
+    bottomLabel: "전쟁·테러",
+  },
 };
 
 export default async function TimelinePage({
@@ -321,6 +327,12 @@ export default async function TimelinePage({
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-green-500", label: "경제" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "chechnya"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
         { color: "bg-purple-500", label: "사회" },
       ]
     : [

@@ -1,0 +1,34 @@
+{
+  "id": "agr-chechnya-001",
+  "title": "하사뷰르트 협정 (Khasavyurt Accord)",
+  "date": "1996-08-31",
+  "summary": "1차 체첸 전쟁을 종결한 정전 협정으로, 체첸의 최종 지위 결정을 2001년까지 유보하고 러시아군 철수를 합의했다. 그러나 1999년 2차 전쟁 개시로 사실상 파기되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "chpty-001", "name": "러시아", "flag": "🇷🇺" },
+    { "id": "chpty-002", "name": "체첸 이치케리아 공화국", "flag": "🏴" }
+  ],
+  "obligations": [
+    {
+      "id": "chobl-001",
+      "description": "체첸의 최종 정치적 지위 결정을 2001년 12월 31일까지 유보한다",
+      "deadline": "2001-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "chpty-001", "name": "러시아·체첸 공동", "flag": "🇷🇺" }
+    },
+    {
+      "id": "chobl-002",
+      "description": "러시아 연방군을 체첸 공화국 영토에서 완전 철수한다",
+      "deadline": "1997-01-31",
+      "status": "violated",
+      "assignedTo": { "id": "chpty-001", "name": "러시아", "flag": "🇷🇺" }
+    },
+    {
+      "id": "chobl-003",
+      "description": "체첸 경제 재건 및 인도주의 지원을 실시한다",
+      "deadline": "2001-12-31",
+      "status": "not_started",
+      "assignedTo": { "id": "chpty-001", "name": "러시아", "flag": "🇷🇺" }
+    }
+  ]
+}
