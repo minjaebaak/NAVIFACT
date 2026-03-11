@@ -14,9 +14,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NAVIFACT - 진실을 향한 내비게이션",
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://navifact.ai"
+  ),
+  title: {
+    default: "NAVIFACT - 진실을 향한 내비게이션",
+    template: "%s | NAVIFACT",
+  },
   description:
-    "팩트 기반 역사적 사건 추적 및 인과관계 시각화 포털",
+    "팩트 기반 역사적 사건 추적 및 인과관계 시각화 포털. 11개 국제 시나리오의 인과관계를 탐색하세요.",
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    siteName: "NAVIFACT",
+    title: "NAVIFACT - 진실을 향한 내비게이션",
+    description:
+      "팩트 기반 역사적 사건 추적 및 인과관계 시각화 포털. 11개 국제 시나리오의 인과관계를 탐색하세요.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NAVIFACT - 진실을 향한 내비게이션",
+    description:
+      "팩트 기반 역사적 사건 추적 및 인과관계 시각화 포털",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

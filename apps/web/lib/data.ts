@@ -475,7 +475,7 @@ export function detectScenario(eventId: string): ScenarioId {
 // API URL
 // ---------------------------------------------------------------------------
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1"; // keep local — server component can't import client-side api-client
 
 // ---------------------------------------------------------------------------
 // UUID ↔ Short ID mapping (must match backend seed_data.py)

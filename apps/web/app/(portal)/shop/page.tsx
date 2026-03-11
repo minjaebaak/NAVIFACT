@@ -6,8 +6,7 @@ import seedShopItems from "@/data/seed/shop-items.json";
 
 async function getShopItems(): Promise<ShopItem[]> {
   try {
-    const apiUrl =
-      process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
     const res = await fetch(`${apiUrl}/shop/items`, {
       next: { revalidate: 60 },
     });

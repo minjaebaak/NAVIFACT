@@ -38,7 +38,11 @@ class Settings(BaseSettings):
     # --- Application ---
     app_name: str = "NAVIFACT API"
     debug: bool = False
-    allowed_origins: list[str] = ["http://localhost:3000"]
+    allowed_origins: list[str] = [
+        "http://localhost:3000",
+        "https://navifact.ai",
+        "https://www.navifact.ai",
+    ]
 
 
 settings = Settings()

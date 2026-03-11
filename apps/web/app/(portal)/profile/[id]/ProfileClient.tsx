@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { User, Trophy, Zap, Target, MessageSquare } from "lucide-react";
 import TitleBadge from "@/components/community/TitleBadge";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+import { API_BASE_URL as API_URL } from "@/lib/api-client";
 
 interface UserProfile {
   id: string;
