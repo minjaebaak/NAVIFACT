@@ -1,0 +1,58 @@
+[
+  {
+    "id": "niclm-001",
+    "text": "북아일랜드 분쟁(더 트러블스)으로 3,500명 이상이 사망했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "niclm-002",
+    "text": "블러디 선데이에서 영국 공수부대가 비무장 시위대를 사살했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "niclm-003",
+    "text": "바비 샌즈의 단식 투쟁이 IRA 지지를 크게 확대시켰다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "niclm-004",
+    "text": "벨파스트 협정이 북아일랜드에 영구적 평화를 가져왔다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "niclm-005",
+    "text": "브렉시트가 벨파스트 협정을 위협하고 있다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "niclm-006",
+    "text": "IRA는 리비아로부터 대량의 무기를 공급받았다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "niclm-007",
+    "text": "영국 정보기관이 충성파 준군사 조직과 공모했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  }
+]

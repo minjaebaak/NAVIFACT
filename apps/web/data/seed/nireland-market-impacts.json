@@ -1,0 +1,94 @@
+[
+  {
+    "id": "nimi-001",
+    "eventId": "nievt-004",
+    "summary": "1972년 블러디 선데이로 북아일랜드 위기가 심화되어 영국의 정치 불안정 우려가 확산되었으나, 시장 영향은 제한적이었다.",
+    "analysisDate": "1972-01-30",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "북아일랜드 위기 심화 → 정치 불안정 우려 → 영국 증시 단기 하락",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "블러디 선데이 충격으로 영국 정치 리스크 부각" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nimi-002",
+    "eventId": "nievt-009",
+    "summary": "1998년 벨파스트 협정 체결로 30년간의 분쟁 종식 기대가 확산되어 영국 증시가 안정되고, 특히 아일랜드 경제 성장 기대가 높아졌다.",
+    "analysisDate": "1998-04-10",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "평화 협정 체결 → 북아일랜드 투자 환경 개선 기대 → 영국 증시 안정",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "벨파스트 협정으로 정치 리스크 감소" }
+        ]
+      },
+      {
+        "sector": "아일랜드 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "남북 경제 통합 기대 → 아일랜드 전반 경제 성장 기대 → 투자 확대",
+        "region": "아일랜드",
+        "stocks": [
+          { "ticker": "EIRL", "name": "iShares MSCI Ireland ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "평화 협정으로 남북 경제 협력 기대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nimi-003",
+    "eventId": "nievt-010",
+    "summary": "2005년 IRA 공식 무장 해제 선언으로 테러 위협이 해소되어 영국 증시 안정성이 개선되었다.",
+    "analysisDate": "2005-07-28",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "IRA 무장 해제 → 테러 위협 해소 → 영국 안정성 개선",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "IRA 무장 해제로 북아일랜드 리스크 해소" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nimi-004",
+    "eventId": "nievt-012",
+    "summary": "2021년 브렉시트 북아일랜드 프로토콜 발효로 영국-북아일랜드 간 무역 장벽이 생기며 불확실성이 증가했으나, 아일랜드는 EU 연결 강화로 소폭 수혜를 입었다.",
+    "analysisDate": "2021-02-01",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "아이리시해 통관 검사 → 북아일랜드 기업 불확실성 → 소폭 부정적",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "프로토콜로 영국-북아일랜드 무역 장벽 발생" }
+        ]
+      },
+      {
+        "sector": "아일랜드 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "아일랜드-EU 단일시장 연결 강화 → 아일랜드 기업 수혜 기대",
+        "region": "아일랜드",
+        "stocks": [
+          { "ticker": "EIRL", "name": "iShares MSCI Ireland ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "EU 단일시장 연결 강화로 아일랜드 경제 수혜" }
+        ]
+      }
+    ]
+  }
+]

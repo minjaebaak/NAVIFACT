@@ -1,0 +1,34 @@
+{
+  "id": "agr-nireland-001",
+  "title": "벨파스트 협정 (Good Friday Agreement)",
+  "date": "1998-04-10",
+  "summary": "30년간의 북아일랜드 분쟁(더 트러블스)을 종식시킨 역사적 평화 협정으로, 권력 공유 자치정부 수립, 준군사 조직 무장 해제, 남북 국경 없는 자유 이동을 핵심 내용으로 담았다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "nipty-001", "name": "영국", "flag": "🇬🇧" },
+    { "id": "nipty-002", "name": "아일랜드", "flag": "🇮🇪" }
+  ],
+  "obligations": [
+    {
+      "id": "niobl-001",
+      "description": "북아일랜드 자치정부를 수립하고 가톨릭-프로테스탄트 권력 공유 체제를 운영한다",
+      "deadline": "1999-12-31",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "nipty-001", "name": "영국·아일랜드 공동", "flag": "🇬🇧" }
+    },
+    {
+      "id": "niobl-002",
+      "description": "모든 준군사 조직이 무기를 폐기하고 무장 해제를 완료한다",
+      "deadline": "2000-05-22",
+      "status": "fulfilled",
+      "assignedTo": { "id": "nipty-001", "name": "영국·아일랜드 공동", "flag": "🇬🇧" }
+    },
+    {
+      "id": "niobl-003",
+      "description": "아일랜드 남북 국경에서 자유 이동을 보장하고 통관 검사를 실시하지 않는다",
+      "deadline": "1998-12-31",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "nipty-001", "name": "영국·아일랜드 공동", "flag": "🇬🇧" }
+    }
+  ]
+}

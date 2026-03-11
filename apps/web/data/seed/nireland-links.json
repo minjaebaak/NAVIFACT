@@ -1,0 +1,90 @@
+[
+  {
+    "id": "nilink-001",
+    "source": "nievt-001",
+    "target": "nievt-002",
+    "confidence": 90,
+    "mechanism": "아일랜드 분할 → 북아일랜드 가톨릭 소수파 차별 구조화 → 시민권 운동 촉발",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nilink-002",
+    "source": "nievt-002",
+    "target": "nievt-003",
+    "confidence": 90,
+    "mechanism": "시민권 행진 경찰 진압 → 종파 간 폭력 격화 → 영국군 파병 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "nilink-003",
+    "source": "nievt-003",
+    "target": "nievt-004",
+    "confidence": 85,
+    "mechanism": "영국군 주둔 → 가톨릭 주민과 충돌 심화 → 데리 시위 무력 진압 → 블러디 선데이",
+    "causalType": "direct"
+  },
+  {
+    "id": "nilink-004",
+    "source": "nievt-004",
+    "target": "nievt-005",
+    "confidence": 90,
+    "mechanism": "블러디 선데이 → 스토몬트 자치정부 기능 마비 → 영국 직할 통치 시행",
+    "causalType": "direct"
+  },
+  {
+    "id": "nilink-005",
+    "source": "nievt-004",
+    "target": "nievt-006",
+    "confidence": 80,
+    "mechanism": "블러디 선데이 → IRA 가입 급증 → 수감자 증가 → 정치범 지위 요구 → 바비 샌즈 단식 투쟁",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nilink-006",
+    "source": "nievt-005",
+    "target": "nievt-007",
+    "confidence": 75,
+    "mechanism": "직할 통치 장기화 → 정치적 해결 모색 필요 → 앵글로-아이리시 협정 체결",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nilink-007",
+    "source": "nievt-006",
+    "target": "nievt-007",
+    "confidence": 75,
+    "mechanism": "단식 투쟁 국제적 반향 → 정치적 해결 압력 증가 → 앵글로-아이리시 협정",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nilink-008",
+    "source": "nievt-007",
+    "target": "nievt-008",
+    "confidence": 80,
+    "mechanism": "앵글로-아이리시 협정 → 영국-아일랜드 공동 프레임워크 구축 → 다우닝가 선언",
+    "causalType": "enabling"
+  },
+  {
+    "id": "nilink-009",
+    "source": "nievt-008",
+    "target": "nievt-009",
+    "confidence": 90,
+    "mechanism": "다우닝가 선언 → 민족자결 원칙 합의 → IRA 휴전 → 다자 협상 → 벨파스트 협정",
+    "causalType": "direct"
+  },
+  {
+    "id": "nilink-010",
+    "source": "nievt-009",
+    "target": "nievt-010",
+    "confidence": 90,
+    "mechanism": "벨파스트 협정 이행 의무 → 국제 무장해제위원회 활동 → IRA 공식 무장 해제",
+    "causalType": "direct"
+  },
+  {
+    "id": "nilink-011",
+    "source": "nievt-009",
+    "target": "nievt-012",
+    "confidence": 80,
+    "mechanism": "벨파스트 협정 '남북 국경 없는 원칙' → 브렉시트가 이를 위협 → 북아일랜드 프로토콜 필요",
+    "causalType": "enabling"
+  }
+]

@@ -167,6 +167,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "정치·외교",
     bottomLabel: "전쟁·테러",
   },
+  nireland: {
+    topIds: ["nievt-001", "nievt-005", "nievt-007", "nievt-009", "nievt-011"],
+    centerIds: ["nievt-004"],
+    topLabel: "정치·외교",
+    bottomLabel: "무력 충돌·저항",
+  },
 };
 
 export default async function TimelinePage({
@@ -333,6 +339,13 @@ export default async function TimelinePage({
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "nireland"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-green-500", label: "경제" },
         { color: "bg-purple-500", label: "사회" },
       ]
     : [

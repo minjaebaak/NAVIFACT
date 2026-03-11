@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nipred-001",
+    "question": "아일랜드 통일 국민투표가 2040년까지 실시될까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2040-12-31",
+    "status": "active",
+    "settlementCriteria": "영국 정부 또는 아일랜드 정부가 공식적으로 아일랜드 통일에 대한 국민투표를 실시한 경우 Yes로 판정"
+  },
+  {
+    "id": "nipred-002",
+    "question": "북아일랜드 자치정부가 2030년까지 안정적으로 운영될까?",
+    "yesPool": 8000,
+    "noPool": 12000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일 기준 북아일랜드 자치정부(스토몬트)가 연속 3년 이상 정상 운영 중이면 Yes로 판정"
+  },
+  {
+    "id": "nipred-003",
+    "question": "브렉시트 이후 북아일랜드 프로토콜이 2030년까지 유지될까?",
+    "yesPool": 6000,
+    "noPool": 14000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "북아일랜드 프로토콜(또는 윈저 프레임워크 등 후속 합의)이 실질적으로 유지되고 있으면 Yes로 판정"
+  },
+  {
+    "id": "nipred-004",
+    "question": "북아일랜드에서 종파 간 대규모 폭력이 2035년까지 재발할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "종파 간 충돌로 10명 이상 사망하는 사건이 발생한 경우 Yes로 판정"
+  }
+]
