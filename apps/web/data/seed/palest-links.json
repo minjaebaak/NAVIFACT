@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pllink-001",
+    "source": "plevt-001",
+    "target": "plevt-002",
+    "confidence": 90,
+    "mechanism": "밸푸어 선언 → 유대인 대규모 이주 가속 → 아랍-유대 갈등 심화 → 영국 위임통치 포기 → 유엔 분할안 상정",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-002",
+    "source": "plevt-002",
+    "target": "plevt-003",
+    "confidence": 95,
+    "mechanism": "유엔 분할안 채택 → 아랍 측 전면 거부 → 이스라엘 독립 선언 → 아랍 5개국 즉시 침공·1차 중동전쟁",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-003",
+    "source": "plevt-003",
+    "target": "plevt-004",
+    "confidence": 90,
+    "mechanism": "1차 중동전쟁·이스라엘 승리 → 분할안 이상 영토 확보 → 70만 팔레스타인인 추방·피난·나크바",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-004",
+    "source": "plevt-004",
+    "target": "plevt-005",
+    "confidence": 85,
+    "mechanism": "나크바 이후 팔레스타인 민족주의 고조 → 나세르 범아랍주의·이스라엘 위협론 → 긴장 고조 → 이스라엘 선제공격·6일 전쟁",
+    "causalType": "enabling"
+  },
+  {
+    "id": "pllink-005",
+    "source": "plevt-005",
+    "target": "plevt-006",
+    "confidence": 90,
+    "mechanism": "6일 전쟁 패배·시나이 상실 수치 → 이집트-시리아 설욕 결의 → 욤키푸르 기습 공격 → OPEC 석유 금수",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-006",
+    "source": "plevt-006",
+    "target": "plevt-007",
+    "confidence": 90,
+    "mechanism": "욤키푸르 전쟁 후 이집트 전략 전환 → 사다트 예루살렘 방문 → 카터 중재 → 캠프 데이비드 평화 협정",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-007",
+    "source": "plevt-005",
+    "target": "plevt-008",
+    "confidence": 85,
+    "mechanism": "6일 전쟁 후 20년간 서안·가자 군사 점령 지속 → 팔레스타인 주민 저항 누적 → 1차 인티파다 대중 봉기",
+    "causalType": "enabling"
+  },
+  {
+    "id": "pllink-008",
+    "source": "plevt-008",
+    "target": "plevt-009",
+    "confidence": 85,
+    "mechanism": "1차 인티파다 → 점령 비용 인식 → PLO 독립 선언 → 마드리드 회담 → 오슬로 비밀 채널 → 협정 서명",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-009",
+    "source": "plevt-009",
+    "target": "plevt-010",
+    "confidence": 90,
+    "mechanism": "오슬로 프로세스 교착·정착촌 확대 → 캠프 데이비드 정상회담 결렬 → 샤론 알아크사 방문 → 2차 인티파다",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-010",
+    "source": "plevt-010",
+    "target": "plevt-011",
+    "confidence": 90,
+    "mechanism": "2차 인티파다·자살폭탄 → 이스라엘 분리장벽 건설 → 가자 일방 철수 결정 → 하마스 선거 승리·가자 장악",
+    "causalType": "direct"
+  },
+  {
+    "id": "pllink-011",
+    "source": "plevt-011",
+    "target": "plevt-012",
+    "confidence": 90,
+    "mechanism": "하마스 가자 집권 → 이스라엘 봉쇄 강화 → 로켓 공격 격화 → 이스라엘 캐스트 레드 작전·가자 전쟁",
+    "causalType": "direct"
+  }
+]

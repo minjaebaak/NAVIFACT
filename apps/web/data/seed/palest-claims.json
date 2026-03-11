@@ -1,0 +1,58 @@
+[
+  {
+    "id": "plclm-001",
+    "text": "밸푸어 선언이 팔레스타인 아랍인의 동의 없이 이루어졌다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "plclm-002",
+    "text": "1948년 전쟁에서 약 70만 팔레스타인인이 추방 또는 피난했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "plclm-003",
+    "text": "이스라엘이 6일 전쟁에서 선제공격을 했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "plclm-004",
+    "text": "오슬로 협정 이후 이스라엘 정착촌이 오히려 확대되었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "plclm-005",
+    "text": "하마스가 이스라엘 파괴를 헌장에 명시했다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 2,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "plclm-006",
+    "text": "이스라엘의 가자 봉쇄가 국제법 위반이라는 유엔 판단이 있다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "plclm-007",
+    "text": "캠프 데이비드에서 이스라엘이 관대한 제안을 했으나 아라파트가 거부했다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "agr-palest-001",
+  "title": "오슬로 협정 (Oslo Accords)",
+  "date": "1993-09-13",
+  "summary": "노르웨이의 비밀 중재로 이스라엘과 PLO가 체결한 역사적 협정. PLO의 이스라엘 국가 인정, 이스라엘의 PLO 대표성 인정, 5년 내 최종지위 협상 완료, 서안·가자 점진적 자치권 이양을 핵심 내용으로 하며, 라빈-아라파트 악수는 중동 평화의 상징이 되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "party-israel", "name": "이스라엘", "flag": "🇮🇱" },
+    { "id": "party-plo", "name": "PLO(팔레스타인해방기구)", "flag": "🇵🇸" },
+    { "id": "party-usa-mediator", "name": "미국(중재)", "flag": "🇺🇸" }
+  ],
+  "obligations": [
+    {
+      "id": "obl-palest-001",
+      "description": "PLO의 이스라엘 국가 인정 및 무장 투쟁 포기 선언",
+      "deadline": "1993-09-13",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-plo", "name": "PLO(팔레스타인해방기구)", "flag": "🇵🇸" }
+    },
+    {
+      "id": "obl-palest-002",
+      "description": "5년 내 팔레스타인 최종지위 협상 완료 (예루살렘·난민·국경·정착촌)",
+      "deadline": "1998-09-13",
+      "status": "violated",
+      "assignedTo": { "id": "party-israel", "name": "이스라엘·PLO 공동", "flag": "🇮🇱" }
+    },
+    {
+      "id": "obl-palest-003",
+      "description": "서안·가자 점진적 자치권 이양 및 팔레스타인 자치정부(PA) 수립",
+      "deadline": "1998-09-13",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-israel", "name": "이스라엘", "flag": "🇮🇱" }
+    }
+  ]
+}

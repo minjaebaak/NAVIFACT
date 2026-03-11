@@ -1,0 +1,38 @@
+[
+  {
+    "id": "plpred-001",
+    "question": "팔레스타인 독립 국가가 2035년까지 유엔 정회원으로 가입할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "팔레스타인이 유엔 총회 및 안보리 승인을 통해 정회원국 지위를 획득하면 Yes로 결산"
+  },
+  {
+    "id": "plpred-002",
+    "question": "이스라엘-팔레스타인 2국가 해법이 2035년까지 실현될까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "양측이 국경, 예루살렘, 난민 문제를 포함한 최종지위 협정에 서명하면 Yes로 결산"
+  },
+  {
+    "id": "plpred-003",
+    "question": "가자지구 봉쇄가 2030년까지 완전 해제될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "이스라엘의 가자 육해공 봉쇄가 완전히 해제되고 자유로운 물자·인적 이동이 보장되면 Yes로 결산"
+  },
+  {
+    "id": "plpred-004",
+    "question": "이스라엘 서안 정착촌이 2035년까지 동결 또는 철수될까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "이스라엘이 서안 정착촌 신규 건설을 공식 중단하거나 기존 정착촌을 철수하면 Yes로 결산"
+  }
+]
