@@ -1,0 +1,162 @@
+[
+  {
+    "id": "krmi-001",
+    "eventId": "krevt-003",
+    "summary": "북한 남침으로 전쟁 발발 충격. 미국 증시 투자 심리 급락. 안전자산 금 수요 증가.",
+    "analysisDate": "1950-06-25",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전쟁 발발 충격 → 투자 심리 급락",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "한국전쟁 발발 → 냉전 열전화 우려 → 증시 하락"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 불확실성 → 안전자산 수요 증가",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 발발 → 지정학 리스크 급등 → 금 가격 상승"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krmi-002",
+    "eventId": "krevt-006",
+    "summary": "인천상륙작전 성공으로 전세 역전 기대. 미국 증시 안도 랠리. 방산 수요 급증.",
+    "analysisDate": "1950-09-15",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전세 역전 기대 → 안도 랠리",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "인천상륙 성공 → 전쟁 조기 종결 기대 → 증시 반등"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 확대 → 방산 수요 급증",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 물자 수요 폭증 → 방산업체 수익 확대"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krmi-003",
+    "eventId": "krevt-007",
+    "summary": "중공군 대규모 참전으로 세계대전 확전 우려. 미국 증시 공포 매도. 안전자산 폭등.",
+    "analysisDate": "1950-10-19",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "세계대전 확전 우려 → 공포 매도",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "중공군 참전 → 미중 전면전·핵전쟁 우려 → 증시 급락"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "핵전쟁 가능성 → 안전자산 폭등",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "세계대전 확전 공포 → 금 가격 폭등"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krmi-004",
+    "eventId": "krevt-011",
+    "summary": "정전협정 서명으로 전쟁 종결. 미국 증시 평화 배당금 기대. 안전자산 프리미엄 하락.",
+    "analysisDate": "1953-07-27",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 종결 → 평화 배당금 기대",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "정전협정 → 전쟁 비용 절감·경제 정상화 기대"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "지정학 리스크 감소 → 안전자산 프리미엄 하락",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "전쟁 종결 → 안전자산 수요 감소"
+          }
+        ]
+      }
+    ]
+  }
+]

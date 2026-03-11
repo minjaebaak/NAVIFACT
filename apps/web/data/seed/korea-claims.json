@@ -1,0 +1,58 @@
+[
+  {
+    "id": "krclm-001",
+    "text": "북한이 1950년 6월 25일 먼저 남침했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "krclm-002",
+    "text": "맥아더의 핵무기 사용 건의가 트루먼에 의해 거부되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "krclm-003",
+    "text": "중국군이 100만 명 이상 참전했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "krclm-004",
+    "text": "한국전쟁 민간인 사망자가 200만 명 이상이었다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 5,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "krclm-005",
+    "text": "이승만의 반공포로 석방이 정전협상을 지연시켰다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "krclm-006",
+    "text": "소련이 북한의 남침을 승인하고 군사적으로 지원했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 7,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "krclm-007",
+    "text": "한국전쟁이 일본 경제 부흥(특수)의 계기가 되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  }
+]

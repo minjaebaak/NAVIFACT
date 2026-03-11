@@ -1,0 +1,35 @@
+{
+  "id": "agr-korea-001",
+  "title": "정전협정 (Korean Armistice Agreement)",
+  "date": "1953-07-27",
+  "summary": "유엔군사령관·조선인민군·중국인민지원군 대표가 판문점에서 서명한 정전협정. 전투 행위 중지, 비무장지대(DMZ) 설정, 전쟁포로 교환을 규정. 평화협정이 아닌 정전협정으로 기술적으로 전쟁 상태가 지속 중이다.",
+  "status": "fulfilled",
+  "parties": [
+    { "id": "krp-001", "name": "유엔군사령부", "flag": "🇺🇸" },
+    { "id": "krp-002", "name": "조선인민군", "flag": "🇰🇵" },
+    { "id": "krp-003", "name": "중국인민지원군", "flag": "🇨🇳" }
+  ],
+  "obligations": [
+    {
+      "id": "krobl-001",
+      "description": "전투 행위 즉시 중지 및 72시간 내 병력 후퇴",
+      "deadline": "1953-07-30",
+      "status": "fulfilled",
+      "assignedTo": { "id": "krp-001", "name": "유엔군사령부", "flag": "🇺🇸" }
+    },
+    {
+      "id": "krobl-002",
+      "description": "비무장지대(DMZ) 설정 및 유지",
+      "deadline": "2053-07-27",
+      "status": "fulfilled",
+      "assignedTo": { "id": "krp-002", "name": "조선인민군", "flag": "🇰🇵" }
+    },
+    {
+      "id": "krobl-003",
+      "description": "전쟁포로 상호 교환 (빅스위치 작전)",
+      "deadline": "1953-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "krp-001", "name": "유엔군사령부", "flag": "🇺🇸" }
+    }
+  ]
+}

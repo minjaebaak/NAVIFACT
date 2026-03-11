@@ -1,0 +1,60 @@
+[
+  {
+    "id": "krnar-001",
+    "title": "자유를 위한 전쟁: UN이 공산 침략을 막아 대한민국을 구했다",
+    "source": "조선일보, 동아일보, Max Hastings 'The Korean War'",
+    "sourceType": "media",
+    "framing": "북한의 불법 남침에 유엔이 집단안보 원칙에 따라 참전하여 공산주의 확산을 저지했다. 한미동맹이 대한민국의 기적적 경제 성장과 민주화의 토대가 되었다.",
+    "claims": [
+      {
+        "text": "북한이 소련·중국의 지원으로 불법 남침했다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "유엔군이 자유민주주의를 수호하기 위해 참전했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "한미동맹이 한국의 기적적 경제 성장의 토대가 되었다",
+        "status": "partly_true",
+        "confidence": 75
+      }
+    ],
+    "missingContext": [
+      "미국의 참전 동기에는 냉전 전략적 이해관계도 포함",
+      "한국 경제 성장에는 독자적 산업 정책과 국민적 노력이 핵심",
+      "한미동맹이 한국 외교적 자율성을 제약한 측면도 존재"
+    ]
+  },
+  {
+    "id": "krnar-002",
+    "title": "강대국 대리전이 민족 분단을 영구화했다",
+    "source": "한겨레, 경향신문, Bruce Cumings 'The Korean War: A History'",
+    "sourceType": "media",
+    "framing": "38선 분단 자체가 강대국의 일방적 결정이었으며, 한국전쟁은 냉전 구도의 대리전 성격이 강했다. 정전체제가 분단을 영구화하고 남북 모두에 군사적 긴장을 고착시켰다.",
+    "claims": [
+      {
+        "text": "38선 분단은 미소 강대국의 일방적 결정이었다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "한국전쟁은 냉전 구도의 대리전 성격이 강했다",
+        "status": "partly_true",
+        "confidence": 75
+      },
+      {
+        "text": "정전체제가 분단을 영구화하고 군비 경쟁을 고착시켰다",
+        "status": "verified",
+        "confidence": 80
+      }
+    ],
+    "missingContext": [
+      "김일성의 전쟁 개시 주도성은 대리전 프레임으로 설명이 불완전",
+      "남한 주민 다수가 유엔군 참전을 환영한 역사적 사실",
+      "정전체제가 추가 전쟁을 방지한 억지 효과도 존재"
+    ]
+  }
+]

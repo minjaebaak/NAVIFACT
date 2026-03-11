@@ -111,6 +111,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "미국/남베트남",
     bottomLabel: "북베트남/베트콩",
   },
+  korea: {
+    topIds: ["krevt-003", "krevt-005", "krevt-007", "krevt-008", "krevt-009"],
+    centerIds: ["krevt-004"],
+    topLabel: "북한/중국",
+    bottomLabel: "유엔군/한국",
+  },
 };
 
 export default async function TimelinePage({
@@ -120,7 +126,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : scenarioParam === "arabspring" ? "arabspring" : scenarioParam === "yugo" ? "yugo" : scenarioParam === "rwanda" ? "rwanda" : scenarioParam === "cuba" ? "cuba" : scenarioParam === "soviet" ? "soviet" : scenarioParam === "vietnam" ? "vietnam" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : scenarioParam === "arabspring" ? "arabspring" : scenarioParam === "yugo" ? "yugo" : scenarioParam === "rwanda" ? "rwanda" : scenarioParam === "cuba" ? "cuba" : scenarioParam === "soviet" ? "soviet" : scenarioParam === "vietnam" ? "vietnam" : scenarioParam === "korea" ? "korea" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -222,6 +228,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "vietnam"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "korea"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },

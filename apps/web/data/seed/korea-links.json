@@ -1,0 +1,90 @@
+[
+  {
+    "id": "krlink-001",
+    "source": "krevt-001",
+    "target": "krevt-002",
+    "confidence": 95,
+    "mechanism": "38선 분단 → 미소 대립 심화 → 남북 각각 단독 정부 수립 → 분단 고착화",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-002",
+    "source": "krevt-002",
+    "target": "krevt-003",
+    "confidence": 90,
+    "mechanism": "남북 정부 대립 → 김일성 무력 통일 결정 → 스탈린 승인 → 6.25 남침",
+    "causalType": "enabling"
+  },
+  {
+    "id": "krlink-003",
+    "source": "krevt-003",
+    "target": "krevt-004",
+    "confidence": 95,
+    "mechanism": "북한 남침 → 유엔 안보리 긴급 소집(소련 보이콧) → 유엔군 참전 결의",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-004",
+    "source": "krevt-004",
+    "target": "krevt-005",
+    "confidence": 90,
+    "mechanism": "유엔군 초기 패배 → 연속 후퇴 → 낙동강 최후 방어선·부산 교두보 사수",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-005",
+    "source": "krevt-005",
+    "target": "krevt-006",
+    "confidence": 95,
+    "mechanism": "부산 교두보 방어 성공 → 맥아더 인천 기습 상륙 → 서울 수복·전세 역전",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-006",
+    "source": "krevt-006",
+    "target": "krevt-007",
+    "confidence": 95,
+    "mechanism": "38선 돌파·북진 → 중국 경고 무시 → 중공군 30만 대규모 참전",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-007",
+    "source": "krevt-007",
+    "target": "krevt-008",
+    "confidence": 95,
+    "mechanism": "중공군 인해전술 → 유엔군 대패·장진호 철수 → 1.4 후퇴·서울 재함락",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-008",
+    "source": "krevt-008",
+    "target": "krevt-009",
+    "confidence": 90,
+    "mechanism": "리지웨이 반격 → 서울 재탈환 → 38선 부근 교착 → 소모전 전환",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-009",
+    "source": "krevt-009",
+    "target": "krevt-010",
+    "confidence": 85,
+    "mechanism": "전선 교착·양측 피로 → 소련 말리크 정전 제안 → 개성에서 정전협상 개시",
+    "causalType": "enabling"
+  },
+  {
+    "id": "krlink-010",
+    "source": "krevt-010",
+    "target": "krevt-011",
+    "confidence": 90,
+    "mechanism": "포로 교환 합의·이승만 반공포로 석방 난관 극복 → 정전협정 서명",
+    "causalType": "direct"
+  },
+  {
+    "id": "krlink-011",
+    "source": "krevt-011",
+    "target": "krevt-012",
+    "confidence": 95,
+    "mechanism": "정전협정 → 이승만 안보 불안 → 미국 안보 공약 → 한미상호방위조약 서명",
+    "causalType": "direct"
+  }
+]
