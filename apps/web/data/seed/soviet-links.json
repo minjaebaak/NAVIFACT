@@ -1,0 +1,90 @@
+[
+  {
+    "id": "svlink-001",
+    "source": "svevt-001",
+    "target": "svevt-002",
+    "confidence": 80,
+    "mechanism": "글라스노스트(개방 정책) → 체르노빌 사고 정보 은폐 불가 → 사고 규모 전면 공개 → 소련 체제 신뢰 근본적 붕괴",
+    "causalType": "enabling"
+  },
+  {
+    "id": "svlink-002",
+    "source": "svevt-001",
+    "target": "svevt-003",
+    "confidence": 90,
+    "mechanism": "페레스트로이카 → 서방과의 관계 개선·군축 의지 → 레이건과 INF 조약 체결 → 냉전 군축 전환점",
+    "causalType": "direct"
+  },
+  {
+    "id": "svlink-003",
+    "source": "svevt-002",
+    "target": "svevt-004",
+    "confidence": 75,
+    "mechanism": "체르노빌 → 소련 체제 무능·부패 확인 → 동유럽 시민들의 체제 불신 가속 → 민주화 요구 폭발",
+    "causalType": "contributing"
+  },
+  {
+    "id": "svlink-004",
+    "source": "svevt-001",
+    "target": "svevt-004",
+    "confidence": 90,
+    "mechanism": "고르바초프의 시나트라 독트린(동유럽 불간섭) → 브레즈네프 독트린 폐기 → 동유럽 자유화 허용",
+    "causalType": "enabling"
+  },
+  {
+    "id": "svlink-005",
+    "source": "svevt-004",
+    "target": "svevt-005",
+    "confidence": 95,
+    "mechanism": "폴란드 자유선거 → 동유럽 민주화 도미노 → 헝가리 국경 개방 → 동독 시민 대탈출 → 베를린 장벽 붕괴",
+    "causalType": "direct"
+  },
+  {
+    "id": "svlink-006",
+    "source": "svevt-005",
+    "target": "svevt-006",
+    "confidence": 85,
+    "mechanism": "베를린 장벽 붕괴 → 소련 통제력 상실 확인 → 발트 3국 독립 운동 가속 → 리투아니아 독립 선언",
+    "causalType": "direct"
+  },
+  {
+    "id": "svlink-007",
+    "source": "svevt-005",
+    "target": "svevt-007",
+    "confidence": 95,
+    "mechanism": "베를린 장벽 붕괴 → 동서독 통일 논의 가속 → 2+4 조약 협상 → 독일 공식 통일",
+    "causalType": "direct"
+  },
+  {
+    "id": "svlink-008",
+    "source": "svevt-006",
+    "target": "svevt-008",
+    "confidence": 80,
+    "mechanism": "발트 독립 → 소련 결속력 와해 → 동유럽 동맹국 이탈 → 바르샤바 조약 존재 의미 소멸 → 공식 해체",
+    "causalType": "enabling"
+  },
+  {
+    "id": "svlink-009",
+    "source": "svevt-008",
+    "target": "svevt-009",
+    "confidence": 75,
+    "mechanism": "바르샤바 조약 해체 → 소련 군사 패권 소멸 → 보수파 위기감 극대화 → 쿠데타 시도 → 3일 만에 실패",
+    "causalType": "contributing"
+  },
+  {
+    "id": "svlink-010",
+    "source": "svevt-009",
+    "target": "svevt-010",
+    "confidence": 95,
+    "mechanism": "8월 쿠데타 실패 → 공산당 권위 완전 소멸 → 공화국 독립 가속 → 벨로베시 협정·CIS 창설",
+    "causalType": "direct"
+  },
+  {
+    "id": "svlink-011",
+    "source": "svevt-010",
+    "target": "svevt-011",
+    "confidence": 95,
+    "mechanism": "벨로베시 협정 → 소련 법적 소멸 확정 → 고르바초프 사임 → 소련 국기 하강·소련 공식 해체",
+    "causalType": "direct"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "svmi-001",
+    "eventId": "svevt-005",
+    "summary": "베를린 장벽 붕괴로 냉전 종식 기대. 유럽 증시 급등. 통일 독일 투자 붐. 방산주 약세.",
+    "analysisDate": "1989-11-09",
+    "actualSummary": "DAX 등 유럽 증시 상승. 독일 마르크 강세. 방산주는 냉전 종식 기대로 약세. 그러나 통일 비용 우려로 독일 국채 금리 상승.",
+    "actualDate": "1990-02-09",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "유럽 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "냉전 종식 기대 → 통일 독일 경제 붐 → 유럽 투자 매력 급증",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "DAX 1989.11~1990.07 약 20% 상승. 독일 통일 투자 붐. 유럽 전역 자본 유입 가속",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "냉전 종식 → 글로벌 안도 랠리 → 미국 증시 상승",
+            "actualChange": 5.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "냉전 종식 기대와 평화 배당금 기대로 미국 증시 상승"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "냉전 종식 → 국방 지출 감축 기대 → 방산주 약세",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "1990년대 초 미국 국방비 감축. 방산업계 구조조정 시작. 록히드·마틴마리에타 합병(1995) 등",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "냉전 종식 → 국방 예산 삭감 → 방산 수요 감소",
+            "actualChange": -8.0,
+            "actualPeriod": "1년",
+            "actualReasoning": "1990년대 초 국방비 삭감으로 방산업계 대규모 구조조정 및 합병"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svmi-002",
+    "eventId": "svevt-009",
+    "summary": "소련 보수파 쿠데타 시도로 냉전 회귀 공포. 글로벌 증시 급락. 금·안전자산 급등.",
+    "analysisDate": "1991-08-19",
+    "actualSummary": "쿠데타 첫날 글로벌 증시 하락. 금 가격 급등. 그러나 3일 만에 실패하자 빠르게 회복. 오히려 소련 해체 가속화 기대로 추가 상승.",
+    "actualDate": "1991-11-19",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "글로벌 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "소련 보수파 쿠데타 → 냉전 회귀 공포 → 글로벌 매도",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "쿠데타 첫날 다우 약 2% 하락. 3일 만에 실패 후 빠르게 반등. 시장 충격은 단기적",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "쿠데타 → 냉전 회귀 → 시장 패닉",
+            "actualChange": -2.0,
+            "actualPeriod": "3일",
+            "actualReasoning": "쿠데타 실패 후 빠른 반등. 소련 해체 가속 기대로 추가 상승"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "지정학 리스크 급증 → 안전자산 수요 급등",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "쿠데타 기간 금 가격 급등. 실패 후 하락. 단기 안전자산 프리미엄만 발생",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "금 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "쿠데타 → 핵무기 통제 우려 → 안전자산 급등",
+            "actualChange": 3.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "쿠데타 기간 금 가격 급등 후 실패 직후 정상화"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svmi-003",
+    "eventId": "svevt-011",
+    "summary": "소련 공식 해체로 냉전 완전 종식. 평화 배당금 기대. 신흥시장 개방. 에너지 시장 불안정.",
+    "analysisDate": "1991-12-25",
+    "actualSummary": "소련 해체는 시장에 이미 반영. 1992년 러시아 충격요법으로 경제 혼란. 서방 증시는 신흥시장 개방 기대로 완만 상승. 에너지 시장 일시 불안.",
+    "actualDate": "1992-06-25",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "글로벌 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "냉전 완전 종식 → 평화 배당금 → 글로벌 교역 확대 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "소련 해체는 시장에 이미 상당 부분 반영. 1992년 미국 경기침체 중이라 상승 제한적",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "냉전 종식 → 신흥시장 개방 → 글로벌 교역 확대",
+            "actualChange": 2.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "이미 반영된 이벤트. 1992년 경기침체로 상승 제한적"
+          }
+        ]
+      },
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "소련 원유 수출 질서 붕괴 → 유가 불안정",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "소련 해체 후 러시아 원유 생산 급감. 1990년대 유가 장기 저미. 에너지 기업 수익성 악화",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "금 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "냉전 종식 → 지정학 리스크 감소 → 안전자산 수요 하락",
+            "actualChange": -2.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "냉전 종식으로 지정학 프리미엄 감소. 1990년대 금 가격 장기 하락 추세"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svmi-004",
+    "eventId": "svevt-012",
+    "summary": "부다페스트 각서로 우크라이나 핵 포기. 동유럽 안정성 제고. 원자력 민수 전환 기대.",
+    "analysisDate": "1994-12-05",
+    "actualSummary": "부다페스트 각서의 직접적 시장 영향은 제한적. 1990년대 동유럽 경제 개혁과 EU 가입 전망이 투자 심리 개선. 핵무기 감축으로 원자력 민수 전환 논의 활성화.",
+    "actualDate": "1995-06-05",
+    "predictionAccuracy": 55,
+    "sectors": [
+      {
+        "sector": "동유럽 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "핵 위험 감소 → 동유럽 투자 안정성 제고",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "부다페스트 각서 자체보다 동유럽 경제 개혁과 EU 가입 전망이 투자 심리 주도",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵 확산 방지 → 글로벌 안정성 제고",
+            "actualChange": 0.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "부다페스트 각서의 직접적 미국 증시 영향 미미"
+          }
+        ]
+      },
+      {
+        "sector": "원자력 산업",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "핵무기 감축 → 원자력 민수 전환 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "Megatons to Megawatts 프로그램으로 러시아 핵탄두 우라늄의 미국 원전 연료 전환",
+        "stocks": [
+          {
+            "ticker": "GE",
+            "name": "제너럴일렉트릭",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵무기 → 원전 연료 전환 → 원자력 산업 수혜",
+            "actualChange": 2.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "Megatons to Megawatts로 장기 원전 연료 확보. GE 원자력 부문 수혜"
+          }
+        ]
+      }
+    ]
+  }
+]

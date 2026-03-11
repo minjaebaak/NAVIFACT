@@ -1,0 +1,35 @@
+{
+  "id": "agr-soviet-001",
+  "title": "벨로베시 협정 (Belovezha Accords)",
+  "date": "1991-12-08",
+  "summary": "러시아·우크라이나·벨라루스 3국이 소련의 법적 소멸을 확인하고 독립국가연합(CIS) 창설에 합의. 소련 건국 조약의 법적 효력 종료를 선언했다.",
+  "status": "fulfilled",
+  "parties": [
+    { "id": "svp-001", "name": "러시아", "flag": "🇷🇺" },
+    { "id": "svp-002", "name": "우크라이나", "flag": "🇺🇦" },
+    { "id": "svp-003", "name": "벨라루스", "flag": "🇧🇾" }
+  ],
+  "obligations": [
+    {
+      "id": "svobl-001",
+      "description": "소련의 법적 소멸 확인 및 독립국가연합(CIS) 창설",
+      "deadline": "1991-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "svp-001", "name": "러시아", "flag": "🇷🇺" }
+    },
+    {
+      "id": "svobl-002",
+      "description": "기존 국경의 상호 존중 및 영토 불가침",
+      "deadline": "2091-12-08",
+      "status": "violated",
+      "assignedTo": { "id": "svp-001", "name": "러시아", "flag": "🇷🇺" }
+    },
+    {
+      "id": "svobl-003",
+      "description": "소련의 국제 조약 의무 승계",
+      "deadline": "1992-06-30",
+      "status": "fulfilled",
+      "assignedTo": { "id": "svp-001", "name": "러시아", "flag": "🇷🇺" }
+    }
+  ]
+}

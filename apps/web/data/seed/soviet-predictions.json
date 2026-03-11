@@ -1,0 +1,38 @@
+[
+  {
+    "id": "svpred-001",
+    "question": "러시아가 2035년까지 민주주의 체제로 전환할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "Freedom House 기준 러시아가 'Free' 등급 획득 또는 자유·공정 선거 실시 및 야당 허용"
+  },
+  {
+    "id": "svpred-002",
+    "question": "CIS가 2030년까지 사실상 해체될까?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "CIS 회원국 과반수 탈퇴 또는 CIS 공식 기구(정상회의, 사무국) 기능 정지"
+  },
+  {
+    "id": "svpred-003",
+    "question": "구소련 국가 중 EU 가입국이 2030년까지 추가될까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "구소련 15개 공화국 중 현재 EU 미가입국(우크라이나, 몰도바, 조지아 등)의 EU 정식 가입"
+  },
+  {
+    "id": "svpred-004",
+    "question": "러시아-NATO 직접 군사 충돌이 2030년까지 발생할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "러시아군과 NATO 회원국 군대 간 직접 교전 발생 (사이버·정보전 제외, 물리적 군사 충돌)"
+  }
+]

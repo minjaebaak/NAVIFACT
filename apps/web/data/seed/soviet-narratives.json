@@ -1,0 +1,66 @@
+[
+  {
+    "id": "svnar-001",
+    "title": "고르바초프의 개혁이 평화적 냉전 종식을 이끌었다",
+    "source": "The Guardian, Der Spiegel, Archie Brown 'The Gorbachev Factor'",
+    "sourceType": "media",
+    "framing": "고르바초프의 글라스노스트와 페레스트로이카가 소련 체제를 내부에서 변혁했으며, 동유럽 불간섭 정책이 평화적 혁명을 가능하게 만들어 인류 역사상 가장 평화로운 제국 해체를 이끌었다.",
+    "claims": [
+      {
+        "text": "고르바초프의 글라스노스트와 페레스트로이카가 소련 체제를 내부에서 변혁했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "동유럽 불간섭 정책이 평화적 혁명을 가능하게 했다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "냉전은 군사적 대결이 아닌 개혁을 통해 종식되었다",
+        "status": "partly_true",
+        "confidence": 70
+      }
+    ],
+    "missingContext": [
+      "고르바초프가 의도한 것은 소련 해체가 아닌 체제 개혁이었다는 점",
+      "경제적 구조 문제가 개혁보다 더 근본적 원인이었을 가능성"
+    ],
+    "sources": [
+      "The Gorbachev Factor - Archie Brown (1996)",
+      "Mikhail Gorbachev - Memoirs (1996)"
+    ]
+  },
+  {
+    "id": "svnar-002",
+    "title": "미국의 군비 경쟁 압박이 소련을 붕괴시켰다",
+    "source": "Wall Street Journal, National Review, Heritage Foundation",
+    "sourceType": "media",
+    "framing": "레이건의 전략방위구상(SDI)과 군비 증강이 소련을 감당할 수 없는 군비 경쟁으로 몰아 경제적으로 파탄시켰으며, 아프간 전쟁 지원 등 미국의 전략적 압박이 소련 붕괴의 결정적 요인이었다.",
+    "claims": [
+      {
+        "text": "레이건의 SDI가 소련을 군비 경쟁으로 몰아 경제적으로 파탄시켰다",
+        "status": "partly_true",
+        "confidence": 65
+      },
+      {
+        "text": "아프간 전쟁 지원으로 소련의 베트남을 만들었다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "소련 경제의 구조적 문제가 근본 원인이며 미국 압박은 촉매였다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ],
+    "missingContext": [
+      "소련 경제는 SDI 이전부터 이미 구조적 침체 상태였다는 점",
+      "고르바초프의 자발적 개혁 결단이 미국 압박보다 더 직접적 원인이었을 가능성"
+    ],
+    "sources": [
+      "Peter Schweizer - Victory (1994)",
+      "Stephen Kotkin - Armageddon Averted (2001)"
+    ]
+  }
+]

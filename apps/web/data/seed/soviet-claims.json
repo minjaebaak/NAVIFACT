@@ -1,0 +1,58 @@
+[
+  {
+    "id": "svclm-001",
+    "text": "체르노빌 사고가 소련 붕괴의 촉매 역할을 했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 7,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "svclm-002",
+    "text": "고르바초프가 동유럽 불간섭 정책(시나트라 독트린)을 채택했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "svclm-003",
+    "text": "베를린 장벽 개방은 동독 관리의 기자회견 실수로 촉발되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "svclm-004",
+    "text": "8월 쿠데타가 오히려 소련 해체를 가속화했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "svclm-005",
+    "text": "옐친이 탱크 위에서 쿠데타에 저항하는 연설을 했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 10,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "svclm-006",
+    "text": "소련 해체 시 핵무기가 러시아·우크라이나·카자흐스탄·벨라루스 4개국에 분산되었다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "svclm-007",
+    "text": "고르바초프가 소련 해체에 동의하지 않았으며 벨로베시 협정에서 배제되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 7,
+    "sourcesAgainst": 1
+  }
+]
