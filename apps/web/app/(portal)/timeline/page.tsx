@@ -4,6 +4,7 @@ import ScenarioSelector from "@/components/shared/ScenarioSelector";
 import {
   getEventsForScenario,
   getLinksForScenario,
+  parseScenarioParam,
   type ScenarioId,
   SCENARIOS,
 } from "@/lib/data";
@@ -161,8 +162,7 @@ export default async function TimelinePage({
   searchParams: Promise<{ scenario?: string }>;
 }) {
   const { scenario: scenarioParam } = await searchParams;
-  const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : scenarioParam === "arabspring" ? "arabspring" : scenarioParam === "yugo" ? "yugo" : scenarioParam === "rwanda" ? "rwanda" : scenarioParam === "cuba" ? "cuba" : scenarioParam === "soviet" ? "soviet" : scenarioParam === "vietnam" ? "vietnam" : scenarioParam === "korea" ? "korea" : scenarioParam === "iranrev" ? "iranrev" : scenarioParam === "palest" ? "palest" : scenarioParam === "tiananmen" ? "tiananmen" : scenarioParam === "indpak" ? "indpak" : scenarioParam === "falklands" ? "falklands" : scenarioParam === "safrica" ? "safrica" : "tariff";
+  const scenarioId = parseScenarioParam(scenarioParam);
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),

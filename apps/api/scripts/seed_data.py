@@ -4,7 +4,7 @@ Reads the seed JSON files used by the frontend and inserts them into Neo4j
 with deterministic UUID mapping so that frontend short IDs (e.g. 'evt-001')
 can be round-tripped to/from UUIDs.
 
-Supports multiple scenarios (tariff, iran).
+Auto-detects all scenarios from the seed directory.
 """
 
 import asyncio
@@ -29,33 +29,26 @@ CATEGORY_MAP = {
     "법률": "legal",
 }
 
-# Scenario definitions
-SCENARIOS = [
-    {
-        "prefix": "tariff",
-        "files": {
-            "events": "tariff-events.json",
-            "links": "tariff-links.json",
-            "agreement": "tariff-agreement.json",
-            "predictions": "tariff-predictions.json",
-            "narratives": "tariff-narratives.json",
-            "claims": "tariff-claims.json",
-            "market_impacts": "tariff-market-impacts.json",
-        },
-    },
-    {
-        "prefix": "iran",
-        "files": {
-            "events": "iran-events.json",
-            "links": "iran-links.json",
-            "agreement": "iran-agreement.json",
-            "predictions": "iran-predictions.json",
-            "narratives": "iran-narratives.json",
-            "claims": "iran-claims.json",
-            "market_impacts": "iran-market-impacts.json",
-        },
-    },
-]
+# Auto-detect all scenarios from seed directory
+SCENARIOS: list[dict] = []
+for _events_file in sorted(SEED_DIR.glob("*-events.json")):
+    _prefix = _events_file.stem.removesuffix("-events")
+    if _prefix == "shop":  # Skip non-scenario files
+        continue
+    SCENARIOS.append(
+        {
+            "prefix": _prefix,
+            "files": {
+                "events": f"{_prefix}-events.json",
+                "links": f"{_prefix}-links.json",
+                "agreement": f"{_prefix}-agreement.json",
+                "predictions": f"{_prefix}-predictions.json",
+                "narratives": f"{_prefix}-narratives.json",
+                "claims": f"{_prefix}-claims.json",
+                "market_impacts": f"{_prefix}-market-impacts.json",
+            },
+        }
+    )
 
 
 def short_to_uuid(short_id: str) -> str:

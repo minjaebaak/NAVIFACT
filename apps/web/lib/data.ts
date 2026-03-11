@@ -345,6 +345,18 @@ export interface SeedMarketImpact {
 
 export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica";
 
+const SCENARIO_IDS = new Set<string>([
+  "tariff", "iran", "ukraine", "techwar", "nkorea", "taiwan",
+  "syria", "brexit", "afghan", "iraq", "arabspring", "yugo",
+  "rwanda", "cuba", "soviet", "vietnam", "korea", "iranrev",
+  "palest", "tiananmen", "indpak", "falklands", "safrica",
+]);
+
+export function parseScenarioParam(param?: string): ScenarioId {
+  if (param && SCENARIO_IDS.has(param)) return param as ScenarioId;
+  return "tariff";
+}
+
 export interface Scenario {
   id: ScenarioId;
   title: string;
