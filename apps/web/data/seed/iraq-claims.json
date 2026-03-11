@@ -1,0 +1,58 @@
+[
+  {
+    "id": "iqclm-001",
+    "text": "이라크 침공의 근거인 WMD는 발견되지 않았다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 15,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "iqclm-002",
+    "text": "이라크 전쟁으로 미군 약 4,500명이 전사했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "iqclm-003",
+    "text": "이라크 전쟁 민간인 사망자가 20만 명 이상이다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 4,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "iqclm-004",
+    "text": "이라크 전쟁 비용이 2조 달러를 초과했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "iqclm-005",
+    "text": "사담 후세인이 쿠르드족에 화학무기를 사용했다 (할라브자 학살)",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 10,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "iqclm-006",
+    "text": "ISIS는 미국의 이라크 침공이 없었으면 탄생하지 않았을 것이다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 7,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "iqclm-007",
+    "text": "이라크는 현재 이란의 사실상 속국이다",
+    "status": "partly_true",
+    "confidence": 55,
+    "sourcesFor": 4,
+    "sourcesAgainst": 4
+  }
+]

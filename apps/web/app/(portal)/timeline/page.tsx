@@ -69,6 +69,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "탈레반/테러조직",
     bottomLabel: "미국/연합군",
   },
+  iraq: {
+    topIds: ["iqevt-001", "iqevt-004", "iqevt-010", "iqevt-008", "iqevt-011"],
+    centerIds: ["iqevt-003"],
+    topLabel: "이라크/테러조직",
+    bottomLabel: "미국/연합군",
+  },
 };
 
 export default async function TimelinePage({
@@ -78,7 +84,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -138,6 +144,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "afghan"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "iraq"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },

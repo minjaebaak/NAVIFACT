@@ -1,0 +1,90 @@
+[
+  {
+    "id": "iqlink-001",
+    "source": "iqevt-001",
+    "target": "iqevt-002",
+    "confidence": 99,
+    "mechanism": "이라크 쿠웨이트 침공 → 유엔 안보리 최후통첩(660·678) → 이라크 거부 → 다국적군 걸프전 개시",
+    "causalType": "direct"
+  },
+  {
+    "id": "iqlink-002",
+    "source": "iqevt-002",
+    "target": "iqevt-003",
+    "confidence": 98,
+    "mechanism": "걸프전 압승 → 이라크 정전 수용 → 유엔 결의 687 채택, WMD 해체·사찰·배상금 의무 부과",
+    "causalType": "direct"
+  },
+  {
+    "id": "iqlink-003",
+    "source": "iqevt-003",
+    "target": "iqevt-004",
+    "confidence": 85,
+    "mechanism": "WMD 사찰 → 이라크 비협조·UNSCOM 추방 → 미국·영국 군사적 대응(사막의 여우 공습)",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iqlink-004",
+    "source": "iqevt-004",
+    "target": "iqevt-005",
+    "confidence": 80,
+    "mechanism": "WMD 의혹 미해결 + 9·11 이후 부시 독트린(선제 공격) → 이라크 WMD 보유 주장 → 침공 결정",
+    "causalType": "contributing"
+  },
+  {
+    "id": "iqlink-005",
+    "source": "iqevt-005",
+    "target": "iqevt-006",
+    "confidence": 95,
+    "mechanism": "바그다드 함락 → 사담 정권 붕괴 → 후세인 도주 → 8개월 추적 끝에 티크리트 은신처 체포",
+    "causalType": "direct"
+  },
+  {
+    "id": "iqlink-006",
+    "source": "iqevt-006",
+    "target": "iqevt-007",
+    "confidence": 82,
+    "mechanism": "후세인 체포 → 바트당 잔존 세력 약화 → 정치 재건 가속 → 과도정부 구성 → 최초 민주 총선",
+    "causalType": "contributing"
+  },
+  {
+    "id": "iqlink-007",
+    "source": "iqevt-005",
+    "target": "iqevt-008",
+    "confidence": 88,
+    "mechanism": "미국 침공 후 치안 공백·이라크군 해체 → 외부 지하디스트 유입 → 자르카위 AQI 구축 → 미군 추적·사살",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iqlink-008",
+    "source": "iqevt-008",
+    "target": "iqevt-009",
+    "confidence": 75,
+    "mechanism": "자르카위 사살 + 수니파 각성 운동 → AQI 약화 → 이라크군 역량 이양 → 오바마 철수 결정·이행",
+    "causalType": "contributing"
+  },
+  {
+    "id": "iqlink-009",
+    "source": "iqevt-009",
+    "target": "iqevt-010",
+    "confidence": 90,
+    "mechanism": "미군 철수 → 말리키 종파 정치·수니파 소외 → ISI 재건·시리아 내전 합류 → ISIS 확장·칼리프국 선포",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iqlink-010",
+    "source": "iqevt-010",
+    "target": "iqevt-011",
+    "confidence": 95,
+    "mechanism": "ISIS 칼리프국 → 국제 공포 → 대IS 국제연합 결성 → 이라크군·페쉬메르가·연합군 반격 → 모술 탈환",
+    "causalType": "direct"
+  },
+  {
+    "id": "iqlink-011",
+    "source": "iqevt-011",
+    "target": "iqevt-012",
+    "confidence": 80,
+    "mechanism": "모술 탈환·IS 영토 상실 → 잔존 세력 소탕 지속 → 이라크 치안 안정 → 미군 전투임무 종료 합의",
+    "causalType": "contributing"
+  }
+]

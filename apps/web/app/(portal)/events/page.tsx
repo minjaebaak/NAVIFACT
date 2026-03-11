@@ -15,7 +15,7 @@ export default async function EventsPage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "iqmi-001",
+    "eventId": "iqevt-001",
+    "summary": "이라크 쿠웨이트 침공으로 유가 2배 급등(WTI 21→41달러). 세계 석유 공급 5% 차단. 미국 증시 17% 하락. 방산주 급등.",
+    "analysisDate": "1990-08-02",
+    "actualSummary": "WTI 배럴당 21→41달러 급등. S&P 500 -17%. 금 +10%. 방산주 +15~25%.",
+    "actualDate": "1990-10-02",
+    "predictionAccuracy": 90,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "쿠웨이트·이라크 석유 생산 차단(세계 공급 5%) → 공급 위기",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 21→41달러 2배 급등, 세계 경제 침체 우려 촉발",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "유가 급등 → 석유 메이저 이익 급증",
+            "actualChange": 12.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "유가 2배 상승으로 분기 실적 대폭 개선"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "유가 급등 → 경기 침체 우려 → 전쟁 불확실성",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "S&P 500 -17%, 1990년 경기 침체 진입",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "전쟁 불확실성 + 유가 급등 → 경기 침체 공포",
+            "actualChange": -17.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "8월~10월 하락, 걸프전 개시 후 반등"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "대규모 군사 동원 예상 → 방위산업 수요 급증",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "록히드·레이시온 등 방산주 +15~25%. 사막의 방패 작전 동원",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "걸프전 군수 수요 + F-117 스텔스 전투기 실전 투입",
+            "actualChange": 20.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "걸프전 첨단 무기 시연 효과로 장기 상승"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iqmi-002",
+    "eventId": "iqevt-002",
+    "summary": "걸프전 개시 직후 유가 급락(전쟁 신속 종결 기대). 미국 증시 '걸프전 랠리'로 급등. 불확실성 해소가 핵심.",
+    "analysisDate": "1991-01-17",
+    "actualSummary": "WTI 33→20달러 급락(역대 최대 일일 낙폭). S&P 500 개전 첫날 +4%. 이후 3개월 +20%.",
+    "actualDate": "1991-04-17",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "다국적군 압도적 전력 → 전쟁 신속 종결·석유 공급 회복 기대 → 전쟁 프리미엄 해소",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 33→20달러 급락. 개전 첫날 -33% 역대 최대 일일 낙폭",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "유가 급락 → 석유 기업 이익 감소",
+            "actualChange": -8.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유가 급락 반영, 이후 점진 회복"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "전쟁 불확실성 해소 + 유가 하락 → '걸프전 랠리' 기대",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "S&P 500 개전 첫날 +4%, 이후 3개월 +20%. 1991년 강세장 시작",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 불확실성 해소가 시장 랠리 촉발",
+            "actualChange": 20.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "걸프전 랠리 — 불확실성 해소 + 유가 하락 = 경기 회복 기대"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iqmi-003",
+    "eventId": "iqevt-005",
+    "summary": "미국 이라크 침공으로 유가 상승, 방산주 급등. 전쟁 초기 빠른 진격에 증시 반등. '전쟁은 사라, 평화는 팔아라' 패턴.",
+    "analysisDate": "2003-03-20",
+    "actualSummary": "WTI 37→25달러 급락(전쟁 신속 종결). S&P 500 개전 후 1개월 +8%. 방산주 +10~20%.",
+    "actualDate": "2003-04-20",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "이라크 산유(OPEC 2위) 차질 + 중동 전역 불안정 우려",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 37→25달러 급락. 전쟁 프리미엄 해소 + 사우디 증산으로 하락",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이라크 산유 차질 → 유가 상승 기대",
+            "actualChange": -5.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유가 급락으로 기대와 반대 결과"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "본격 전쟁 → 정밀유도무기·차량·장비 대규모 소비",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "록히드마틴·노스롭그루먼 +10~20%. 장기 점령에 따른 지속적 수요",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이라크 전쟁 군수 수요 + F-22 등 차세대 무기 투입",
+            "actualChange": 15.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "이라크 전쟁 장기화로 지속적 수주 확대"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 개시 = 불확실성 해소 → 반등 (걸프전 패턴 반복)",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "S&P 500 개전 후 1개월 +8%. 2003년 저점에서 강세장 시작",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 불확실성 해소 + 빠른 바그다드 함락",
+            "actualChange": 8.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "2003년 3월이 결국 닷컴 버블 이후 저점"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iqmi-004",
+    "eventId": "iqevt-010",
+    "summary": "ISIS 칼리프국 선포로 이라크 석유 생산 차질 우려, 유가 소폭 상승. 방산주 재개입 기대로 상승.",
+    "analysisDate": "2014-06-29",
+    "actualSummary": "WTI 107→93달러(6개월). ISIS보다 셰일 혁명·OPEC 감산 거부 영향이 더 큼. 방산주 소폭 상승.",
+    "actualDate": "2014-12-29",
+    "predictionAccuracy": 55,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "이라크 북부 유전 위협 + 중동 불안정 확대 → 공급 우려",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 107→53달러. ISIS 효과보다 미국 셰일 혁명 + OPEC 감산 거부가 압도",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이라크 석유 공급 차질 → 유가 상승 기대",
+            "actualChange": -10.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "유가 폭락으로 석유 메이저 전반 하락"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "대IS 군사 작전 재개 기대 → 방위 지출 증가",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "미군 이라크 재파병 + 공습 개시로 방산주 상승",
+        "stocks": [
+          {
+            "ticker": "RTX",
+            "name": "레이시온",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "대IS 공습용 정밀유도무기 수요",
+            "actualChange": 8.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "토마호크 미사일 등 정밀타격 무기 수요 증가"
+          }
+        ]
+      }
+    ]
+  }
+]

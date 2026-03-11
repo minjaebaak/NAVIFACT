@@ -1,0 +1,38 @@
+[
+  {
+    "id": "iqpred-001",
+    "question": "이라크가 2030년까지 이란 영향력에서 벗어나 독립적 외교를 할까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "이라크 정부가 이란과 독립적인 주요 외교·안보 정책을 시행하고 국제 분석기관이 이를 인정"
+  },
+  {
+    "id": "iqpred-002",
+    "question": "ISIS가 2028년까지 이라크에서 영토를 다시 장악할까?",
+    "yesPool": 2500,
+    "noPool": 17500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "ISIS 또는 후계 조직이 이라크 내 도시 또는 주요 거점을 1개월 이상 실효 지배"
+  },
+  {
+    "id": "iqpred-003",
+    "question": "이라크 쿠르디스탄이 2030년까지 독립할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "쿠르디스탄 지역정부(KRG)가 독립을 선언하고 유엔 회원국 과반수가 승인"
+  },
+  {
+    "id": "iqpred-004",
+    "question": "이라크 석유 생산이 2028년까지 일일 600만 배럴을 달성할까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "이라크의 원유 생산량이 월 평균 600만 배럴/일 이상을 3개월 연속 달성"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "iqnar-001",
+    "title": "이라크 전쟁은 역사적 실수",
+    "source": "국제 언론·반전 진영",
+    "sourceType": "media",
+    "framing": "WMD가 존재하지 않았음이 확인되어 침공 명분이 거짓이었으며, 이라크 전쟁이 ISIS 탄생과 이란 영향력 확대라는 재앙적 결과를 초래했다는 비판적 시각",
+    "claims": [
+      {
+        "text": "WMD가 존재하지 않아 침공의 명분이 거짓이었다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "이라크 전쟁이 ISIS의 탄생을 초래했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "미국의 이라크 정책이 이란의 영향력 확대를 가져왔다",
+        "status": "partly_true",
+        "confidence": 70
+      }
+    ]
+  },
+  {
+    "id": "iqnar-002",
+    "title": "독재 제거와 민주주의 수호",
+    "source": "미국 정부·네오콘",
+    "sourceType": "media",
+    "framing": "사담 후세인은 쿠르드족 대학살·이란 전쟁을 일으킨 위험한 독재자였으며, 그의 제거와 이라크 민주화는 정당한 목표였다는 방어적 시각",
+    "claims": [
+      {
+        "text": "사담 후세인은 자국민에게 대량학살을 자행한 독재자였다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "이라크에 민주적 선거 제도가 도입되었다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "이라크 침공이 중동 민주화에 기여했다",
+        "status": "false",
+        "confidence": 20
+      }
+    ]
+  }
+]

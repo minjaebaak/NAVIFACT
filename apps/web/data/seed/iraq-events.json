@@ -1,0 +1,110 @@
+[
+  {
+    "id": "iqevt-001",
+    "title": "이라크 쿠웨이트 침공",
+    "description": "사담 후세인이 영토·석유 분쟁을 이유로 쿠웨이트를 침공, 2일 만에 전역 장악. 유엔 안보리 즉각 비난, 경제 제재 결의.",
+    "date": "1990-08-02",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-002",
+    "title": "걸프전 개시 (사막의 폭풍 작전)",
+    "description": "미국 주도 34개국 다국적군이 이라크에 대한 공중 작전 개시. 42일간 공습 후 100시간 지상전으로 쿠웨이트 해방. 이라크군 궤멸적 패배.",
+    "date": "1991-01-17",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-003",
+    "title": "유엔 안보리 결의 687 (정전·WMD 해체)",
+    "description": "걸프전 정전 조건으로 유엔 안보리 결의 687 채택. 이라크의 WMD 전량 해체, 유엔 사찰단(UNSCOM) 수용, 쿠웨이트 주권 인정, 전쟁 배상금 의무.",
+    "date": "1991-04-03",
+    "category": "외교",
+    "confidence": 98,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-004",
+    "title": "사막의 여우 작전 (이라크 공습)",
+    "description": "이라크가 유엔 무기 사찰단을 추방하자 미·영 연합군이 4일간 공습 실시. 의심 시설 100여 곳 타격. WMD 의혹 해결 실패.",
+    "date": "1998-12-16",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-005",
+    "title": "미국 이라크 침공 (이라크 자유 작전)",
+    "description": "부시 행정부가 WMD 보유·테러 지원 의혹을 근거로 이라크 침공. 유엔 안보리 결의 없이 '유지 연합' 구성. 3주 만에 바그다드 함락.",
+    "date": "2003-03-20",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-006",
+    "title": "사담 후세인 체포",
+    "description": "미군 제4보병사단이 티크리트 인근 은신처에서 사담 후세인 체포. 'Red Dawn 작전'. 2006년 12월 사형 집행.",
+    "date": "2003-12-13",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-007",
+    "title": "이라크 최초 민주선거 실시",
+    "description": "사담 정권 붕괴 후 최초의 민주적 총선. 수니파 대부분 보이콧에도 58% 투표율. 시아파 연합 승리. 과도 국민의회 구성.",
+    "date": "2005-01-30",
+    "category": "사회",
+    "confidence": 92,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-008",
+    "title": "자르카위 사살 (알카에다 이라크 지부장)",
+    "description": "미군 공습으로 알카에다 이라크 지부(AQI) 지도자 아부 무사브 알자르카위 사살. AQI는 이후 '이라크 이슬람국가(ISI)'로 재편, 훗날 ISIS의 모체.",
+    "date": "2006-06-07",
+    "category": "군사",
+    "confidence": 98,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-009",
+    "title": "미군 이라크 철수 완료",
+    "description": "오바마 대통령의 철수 약속에 따라 미군 전투부대 이라크에서 완전 철수. 약 4,500명 전사, 3만 2천 명 부상. 8년 8개월간의 이라크 전쟁 공식 종료.",
+    "date": "2011-12-18",
+    "category": "군사",
+    "confidence": 98,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-010",
+    "title": "ISIS 칼리프국 선포",
+    "description": "ISI(이라크 이슬람국가)에서 발전한 ISIS가 모술 점령 후 '칼리프국' 선포. 아부 바크르 알바그다디가 '칼리프' 자처. 이라크·시리아 광대한 영토 장악.",
+    "date": "2014-06-29",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-011",
+    "title": "모술 탈환·ISIS 칼리프국 사실상 붕괴",
+    "description": "이라크군·쿠르드 페쉬메르가·국제연합군의 9개월간 모술 전투 끝에 탈환 성공. ISIS '수도' 상실. 칼리프국 사실상 붕괴.",
+    "date": "2017-07-10",
+    "category": "군사",
+    "confidence": 98,
+    "status": "verified"
+  },
+  {
+    "id": "iqevt-012",
+    "title": "미군 이라크 전투임무 종료 선언",
+    "description": "바이든-카디미 합의에 따라 미군의 이라크 전투임무 공식 종료. 잔류 병력은 훈련·자문 역할로 전환. 2,500명 규모 유지.",
+    "date": "2021-12-09",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  }
+]
