@@ -1,0 +1,222 @@
+[
+  {
+    "id": "cbmi-001",
+    "eventId": "cbevt-004",
+    "summary": "U-2 정찰기가 쿠바 미사일 기지를 발견. 정보는 8일간 비공개였으나 시장에 불안감 확산. 금 가격 소폭 상승.",
+    "analysisDate": "1962-10-14",
+    "actualSummary": "미사일 발견 정보가 비공개였던 10.14~10.21 기간 시장 반응 제한적. 10.22 TV 연설 이후 본격 반응.",
+    "actualDate": "1962-12-14",
+    "predictionAccuracy": 50,
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "핵전쟁 위기 정보 → ExComm 비밀 회의 중 일부 정보 유출 가능성 → 불안 심리",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "10.14~10.21 기간 정보 비공개로 시장 직접 반응 미미. 다우 소폭 변동",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "핵위기 비공개 기간이나 워싱턴 긴장감 일부 유출",
+            "actualChange": -1.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "정보 비공개로 시장 반응 제한적"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "지정학 리스크 극대화 → 안전자산 수요 급증",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "미사일 발견 비공개 기간 금 가격 소폭 상승. 본격 반응은 10.22 이후",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "금 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵위기 → 안전자산 선호 → 금 가격 상승",
+            "actualChange": 1.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "비공개 기간 금 가격 소폭 상승에 그침"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-002",
+    "eventId": "cbevt-005",
+    "summary": "케네디 TV 연설로 핵위기 공개. 미국 증시 급락. 방산주 급등. 금·국채 등 안전자산 급등.",
+    "analysisDate": "1962-10-22",
+    "actualSummary": "다우 지수 10.22~10.23 약 5.7% 급락. 방산주 강세. 금 가격 급등. 그러나 10.28 위기 종료 후 빠르게 회복.",
+    "actualDate": "1962-12-22",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "TV 연설로 핵위기 공개 → 투자자 패닉 → 다우 급락",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "다우 지수 약 5.7% 급락. 핵전쟁 공포로 매도 폭주. 그러나 10.28 위기 종료 후 11월 초까지 전량 회복",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "핵전쟁 공포 → 전면 매도",
+            "actualChange": -5.7,
+            "actualPeriod": "1주",
+            "actualReasoning": "10.22 TV 연설 직후 다우 5.7% 급락. 역사적 지정학 충격 사례"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "핵전쟁 대비 국방 지출 기대 → 방산주 급등",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "방산주 위기 기간 강세. 위기 종료 후에도 국방 예산 증가 기조 유지",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵위기 → 국방 지출 급증 기대 → 방산 수혜",
+            "actualChange": 8.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "위기 기간 및 이후 국방 예산 증가로 방산주 상승 지속"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-003",
+    "eventId": "cbevt-009",
+    "summary": "흐루쇼프 미사일 철수 발표로 핵전쟁 위기 해소. 미국 증시 급반등. 안전자산(금) 하락.",
+    "analysisDate": "1962-10-28",
+    "actualSummary": "다우 지수 10.29 이후 빠르게 반등하여 위기 이전 수준 회복. 금 가격 하락. 이후 1963년 강세장 진입.",
+    "actualDate": "1963-01-28",
+    "predictionAccuracy": 90,
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "핵전쟁 회피 → 안도 랠리 → 시장 급반등",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "위기 종료 직후 다우 급반등. 11월 초 위기 이전 수준 완전 회복. 1963년 강세장으로 연결",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵위기 해소 → 안도 매수 → 강세장 전환",
+            "actualChange": 7.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "위기 이전 수준 완전 회복 후 추가 상승. 1963년 다우 +17% 강세"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "핵위기 해소 → 안전자산 수요 급감 → 금 가격 하락",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "위기 해소 후 금 가격 하락. 위험자산 선호로 전환",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "금 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "핵위기 해소 → 안전자산 프리미엄 소멸",
+            "actualChange": -3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "위기 프리미엄 해소로 금 가격 정상화"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-004",
+    "eventId": "cbevt-012",
+    "summary": "NPT 서명으로 글로벌 핵 질서 안정화. 장기 리스크 프리미엄 감소. 원자력 산업에 긍정적.",
+    "analysisDate": "1968-07-01",
+    "actualSummary": "NPT 서명의 직접적 시장 영향은 제한적. 1968년은 베트남 전쟁·국내 혼란이 시장을 지배. 장기적으로 원자력 발전 확대에 기여.",
+    "actualDate": "1968-10-01",
+    "predictionAccuracy": 55,
+    "sectors": [
+      {
+        "sector": "글로벌 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "핵 질서 안정화 → 장기 리스크 프리미엄 감소",
+        "region": "GLOBAL",
+        "actualDirection": "neutral",
+        "actualMagnitude": "low",
+        "actualReasoning": "NPT 서명의 직접적 시장 영향 미미. 1968년 베트남 전쟁·MLK 암살·RFK 암살이 시장 지배",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "핵 확산 방지 → 글로벌 안정성 제고",
+            "actualChange": 0.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "NPT 자체 시장 영향 거의 없음. 베트남·국내 혼란이 1968년 시장 주도"
+          }
+        ]
+      },
+      {
+        "sector": "원자력 산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "평화적 핵 이용 보장 → 원자력 발전 확대 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "NPT의 '평화적 핵 이용 권리' 조항이 원자력 발전소 건설 붐에 기여. 1970년대 원전 건설 급증",
+        "stocks": [
+          {
+            "ticker": "GE",
+            "name": "제너럴일렉트릭",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "원자력 발전 확대 → GE 원전 사업부 수혜",
+            "actualChange": 3.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "1970년대 원전 건설 붐으로 GE 원자력 사업부 장기 성장"
+          }
+        ]
+      }
+    ]
+  }
+]

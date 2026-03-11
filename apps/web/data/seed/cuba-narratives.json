@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cbnar-001",
+    "title": "케네디의 단호한 리더십이 핵전쟁을 막았다",
+    "source": "ABC News, Time Magazine, Schlesinger 'A Thousand Days'",
+    "sourceType": "media",
+    "framing": "케네디가 군부의 공습 요구를 물리치고 해상봉쇄라는 절제된 대응을 선택했으며, 단호하면서도 유연한 외교로 흐루쇼프를 물러서게 만들어 핵전쟁을 방지했다.",
+    "claims": [
+      {
+        "text": "케네디의 해상봉쇄가 군부의 공습 주장을 물리치고 평화적 해결을 이끌었다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "미국이 단호하게 대응했기에 흐루쇼프가 물러섰다",
+        "status": "partly_true",
+        "confidence": 70
+      },
+      {
+        "text": "쿠바 미사일 위기가 핵 군축의 전환점이 되었다",
+        "status": "verified",
+        "confidence": 90
+      }
+    ],
+    "missingContext": [
+      "케네디가 터키 미사일 비밀 철수라는 중대한 양보를 했다는 사실",
+      "ExComm 내부 토론에서 케네디도 공습을 고려했었다는 기록"
+    ],
+    "sources": [
+      "Thirteen Days - Robert F. Kennedy (1969)",
+      "A Thousand Days - Arthur Schlesinger Jr. (1965)"
+    ]
+  },
+  {
+    "id": "cbnar-002",
+    "title": "양측의 타협과 우연이 핵전쟁을 막았다",
+    "source": "The Atlantic, Foreign Affairs, Wilson Center Archives",
+    "sourceType": "media",
+    "framing": "쿠바 위기의 해결은 케네디 개인의 리더십보다 양측의 상호 양보와 현장 지휘관들의 자제, 그리고 여러 우연적 요소들의 결합에 의한 것이었다.",
+    "claims": [
+      {
+        "text": "케네디가 터키 미사일 비밀 철수라는 실질적 양보를 했다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "바실리 아르히포프 등 소련 장교 개인의 판단이 핵전쟁을 막았다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "양측 모두 상황을 통제하지 못했으며 우연에 의존했다",
+        "status": "partly_true",
+        "confidence": 75
+      }
+    ],
+    "missingContext": [
+      "흐루쇼프의 미사일 배치가 미소 핵 격차(미사일 갭)에 대한 합리적 대응이었다는 점",
+      "카스트로가 협상에서 완전히 배제되었다는 사실"
+    ],
+    "sources": [
+      "One Minute to Midnight - Michael Dobbs (2008)",
+      "The Kennedy Tapes - Ernest May & Philip Zelikow (1997)"
+    ]
+  }
+]

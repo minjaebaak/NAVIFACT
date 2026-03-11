@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cbpred-001",
+    "question": "미국이 2030년까지 쿠바와 완전 수교할까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "미국-쿠바 간 완전한 외교 관계 수립 (상호 대사 교환 및 무역 제재 완전 해제)"
+  },
+  {
+    "id": "cbpred-002",
+    "question": "NPT가 2030년까지 유지될까? (주요국 탈퇴 없이)",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "NPT 서명국 중 P5 또는 주요 비핵국의 공식 탈퇴 여부 (북한 제외, 이미 탈퇴)"
+  },
+  {
+    "id": "cbpred-003",
+    "question": "핵보유국이 2030년까지 9개국 이상으로 늘어날까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "현재 9개 핵보유국(미·러·중·영·프·인·파·이스라엘·북한) 외 새로운 국가의 핵무기 보유 공식 확인"
+  },
+  {
+    "id": "cbpred-004",
+    "question": "미러 직접 핵 위협 대치가 2028년까지 재발할까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "미국-러시아 간 핵무기 사용 직접 위협이 포함된 공식 대치 상황 발생 (DEFCON 2 이상 또는 동급 러시아 경계 태세)"
+  }
+]

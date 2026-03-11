@@ -1,0 +1,35 @@
+{
+  "id": "agr-cuba-001",
+  "title": "쿠바 미사일 위기 합의",
+  "date": "1962-10-28",
+  "summary": "소련의 쿠바 내 공격용 미사일 철수, 미국의 쿠바 불침공 보장, 터키 주피터 미사일 비공개 철수를 골자로 한 미소 간 합의. 공식 조약이 아닌 구두·서한 교환 방식의 합의였으나 양측 모두 이행.",
+  "status": "fulfilled",
+  "parties": [
+    { "id": "cbp-001", "name": "미국", "flag": "🇺🇸" },
+    { "id": "cbp-002", "name": "소련", "flag": "🇷🇺" },
+    { "id": "cbp-003", "name": "쿠바", "flag": "🇨🇺" }
+  ],
+  "obligations": [
+    {
+      "id": "cbobl-001",
+      "description": "쿠바 내 모든 공격용 미사일 및 IL-28 폭격기 철수",
+      "deadline": "1962-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "cbp-002", "name": "소련", "flag": "🇷🇺" }
+    },
+    {
+      "id": "cbobl-002",
+      "description": "쿠바 불침공 보장",
+      "deadline": "1962-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "cbp-001", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "cbobl-003",
+      "description": "터키 주피터 미사일 6개월 내 비공개 철수",
+      "deadline": "1963-04-30",
+      "status": "fulfilled",
+      "assignedTo": { "id": "cbp-001", "name": "미국", "flag": "🇺🇸" }
+    }
+  ]
+}

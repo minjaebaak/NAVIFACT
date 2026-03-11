@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cblink-001",
+    "source": "cbevt-001",
+    "target": "cbevt-003",
+    "confidence": 90,
+    "mechanism": "피그만 침공 실패 → 카스트로 소련에 보호 요청 → 흐루쇼프 미사일 배치 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-002",
+    "source": "cbevt-002",
+    "target": "cbevt-003",
+    "confidence": 75,
+    "mechanism": "베를린 장벽 → 흐루쇼프가 케네디를 약하다고 판단 → 쿠바 모험주의 가속",
+    "causalType": "enabling"
+  },
+  {
+    "id": "cblink-003",
+    "source": "cbevt-003",
+    "target": "cbevt-004",
+    "confidence": 95,
+    "mechanism": "소련 미사일 비밀 배치 → U-2 정찰기가 중거리 미사일 기지 촬영 발견",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-004",
+    "source": "cbevt-004",
+    "target": "cbevt-005",
+    "confidence": 95,
+    "mechanism": "미사일 발견 → ExComm 8일 비밀 회의 → 케네디 해상봉쇄 결정·TV 연설",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-005",
+    "source": "cbevt-005",
+    "target": "cbevt-006",
+    "confidence": 95,
+    "mechanism": "해상봉쇄 선언 → 소련 함대 봉쇄선 접근 → 핵전쟁 직전 대치 상황",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-006",
+    "source": "cbevt-006",
+    "target": "cbevt-007",
+    "confidence": 90,
+    "mechanism": "핵전쟁 공포 고조 → 흐루쇼프가 케네디에게 비밀 서한으로 타협 제안",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-007",
+    "source": "cbevt-007",
+    "target": "cbevt-008",
+    "confidence": 85,
+    "mechanism": "흐루쇼프 서한 → 다음 날 강경 2차 서한 + U-2 격추 → 검은 토요일 위기 극대화",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cblink-008",
+    "source": "cbevt-008",
+    "target": "cbevt-009",
+    "confidence": 95,
+    "mechanism": "검은 토요일 → 로버트 케네디 도브리닌 비밀 접촉 → 터키 미사일 비밀 거래 → 흐루쇼프 미사일 철수",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-009",
+    "source": "cbevt-009",
+    "target": "cbevt-010",
+    "confidence": 90,
+    "mechanism": "미사일 위기 해결 → 양측 직접 소통 필요 인식 → 미소 핫라인 설치",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-010",
+    "source": "cbevt-009",
+    "target": "cbevt-011",
+    "confidence": 85,
+    "mechanism": "핵전쟁 직전 경험 → 양측 핵 군축 의지 → 부분핵실험금지조약(PTBT) 체결",
+    "causalType": "enabling"
+  },
+  {
+    "id": "cblink-011",
+    "source": "cbevt-011",
+    "target": "cbevt-012",
+    "confidence": 80,
+    "mechanism": "PTBT → 핵 군축 기조 확산 → 핵비확산조약(NPT) 체결 → 글로벌 핵 질서 수립",
+    "causalType": "enabling"
+  }
+]
