@@ -1,0 +1,38 @@
+[
+  {
+    "id": "afpred-001",
+    "question": "탈레반 정부가 2030년까지 국제사회 공식 승인을 받을까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "유엔 회원국 과반수(97개국 이상)가 탈레반 정부를 아프가니스탄 합법 정부로 승인"
+  },
+  {
+    "id": "afpred-002",
+    "question": "아프가니스탄에서 2028년까지 여성 중등교육이 재허용될까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "탈레반 정부가 공식적으로 여성의 중학교·고등학교 교육을 허용하고 실제 수업 재개"
+  },
+  {
+    "id": "afpred-003",
+    "question": "아프가니스탄이 2030년까지 다시 국제 테러 공격의 기지가 될까?",
+    "yesPool": 6000,
+    "noPool": 14000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "아프가니스탄 영토에서 기획된 국제 테러 공격이 실행 또는 미수로 확인"
+  },
+  {
+    "id": "afpred-004",
+    "question": "미국이 2028년까지 탈레반 정부와 공식 외교관계를 수립할까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "미국이 탈레반 정부와 정식 외교관계를 수립하고 대사를 교환"
+  }
+]

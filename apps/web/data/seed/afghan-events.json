@@ -1,0 +1,110 @@
+[
+  {
+    "id": "afevt-001",
+    "title": "소련 아프가니스탄 침공",
+    "description": "소련이 아프가니스탄 공산정권 지원을 명목으로 대규모 군사 침공을 감행. 약 10만 병력 투입. 미국·파키스탄의 무자헤딘 지원으로 10년 소모전이 시작됨.",
+    "date": "1979-12-27",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-002",
+    "title": "소련군 완전 철수",
+    "description": "제네바 협정(1988)에 따라 소련군이 아프가니스탄에서 완전 철수. 약 15,000명 전사, 35,000명 부상. 아프간 내전은 계속됨.",
+    "date": "1989-02-15",
+    "category": "군사",
+    "confidence": 98,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-003",
+    "title": "탈레반 카불 점령·정권 수립",
+    "description": "파키스탄 마드라사 출신 탈레반이 내전 혼란 속에서 카불을 점령하고 '아프가니스탄 이슬람 토후국'을 선포. 샤리아 엄격 적용, 여성 교육·취업 금지.",
+    "date": "1996-09-27",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-004",
+    "title": "9·11 테러 공격",
+    "description": "알카에다가 미국 본토에 대한 동시다발 테러 감행. 항공기 4대 납치, 세계무역센터·펜타곤 공격. 약 2,977명 사망. 미국 역사상 최악의 테러.",
+    "date": "2001-09-11",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-005",
+    "title": "미국 아프가니스탄 침공 (항구적 자유 작전)",
+    "description": "미국이 9·11 보복으로 아프가니스탄 침공. 영국과 함께 '항구적 자유 작전' 개시. 북부동맹과 협력하여 2개월 만에 탈레반 정권 축출.",
+    "date": "2001-10-07",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-006",
+    "title": "본 합의·과도정부 수립",
+    "description": "독일 본에서 아프간 각 정파 대표들이 과도 행정기구 설립에 합의. 하미드 카르자이를 과도정부 수반으로 선출. 국가 재건의 기틀 마련.",
+    "date": "2001-12-05",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-007",
+    "title": "카르자이 대통령 당선 (최초 민주선거)",
+    "description": "아프가니스탄 역사상 최초의 민주적 대통령 선거 실시. 하미드 카르자이가 55.4% 득표로 당선. 약 800만 명 투표 참여.",
+    "date": "2004-10-09",
+    "category": "사회",
+    "confidence": 92,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-008",
+    "title": "오사마 빈 라덴 사살",
+    "description": "미 해군 특수부대(SEAL Team 6)가 파키스탄 아보타바드에서 오사마 빈 라덴 사살. 9·11 테러의 주모자 제거. '넵튠 스피어 작전'.",
+    "date": "2011-05-02",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-009",
+    "title": "ISAF 전투임무 종료·결의지원임무 전환",
+    "description": "NATO 주도 국제안보지원군(ISAF) 13년간의 전투임무 공식 종료. '결의지원임무(RSM)'로 전환하여 아프간군 훈련·자문 역할로 축소.",
+    "date": "2014-12-28",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-010",
+    "title": "미국-탈레반 도하 합의",
+    "description": "카타르 도하에서 미국과 탈레반이 평화 합의 서명. 미군 14개월 내 완전 철수, 탈레반은 반테러 의무 이행 약속. 아프간 정부는 협상에서 배제됨.",
+    "date": "2020-02-29",
+    "category": "외교",
+    "confidence": 97,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-011",
+    "title": "탈레반 카불 재점령·아프간 정부 붕괴",
+    "description": "미군 철수 과정에서 탈레반이 전격 공세를 감행, 불과 11일 만에 전국 주요 도시를 장악하고 카불 입성. 가니 대통령 해외 탈출, 정부 붕괴.",
+    "date": "2021-08-15",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  },
+  {
+    "id": "afevt-012",
+    "title": "미군 완전 철수 완료",
+    "description": "미군이 카불 공항에서 마지막 C-17 수송기로 철수 완료. 20년 아프간 전쟁 공식 종료. 혼란 속 카불 공항 자폭테러로 미군 13명·아프간인 170명 이상 사망.",
+    "date": "2021-08-30",
+    "category": "군사",
+    "confidence": 99,
+    "status": "verified"
+  }
+]

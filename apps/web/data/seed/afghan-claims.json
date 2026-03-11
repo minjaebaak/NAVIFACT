@@ -1,0 +1,58 @@
+[
+  {
+    "id": "afclm-001",
+    "text": "소련-아프간 전쟁에서 미국 CIA가 무자헤딘에 수십억 달러를 지원했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "afclm-002",
+    "text": "9·11 테러로 약 3,000명이 사망했다",
+    "status": "verified",
+    "confidence": 99,
+    "sourcesFor": 12,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "afclm-003",
+    "text": "미국의 아프간 전쟁 비용이 2조 달러를 초과했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "afclm-004",
+    "text": "아프간 전쟁으로 미군 2,400명 이상이 전사했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "afclm-005",
+    "text": "탈레반이 도하 합의의 반테러 의무를 이행하지 않았다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 6,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "afclm-006",
+    "text": "카불 함락 시 혼란 속에 13명의 미군이 사망했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "afclm-007",
+    "text": "탈레반 재집권 후 여성의 중등·고등교육이 전면 금지되었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 7,
+    "sourcesAgainst": 1
+  }
+]

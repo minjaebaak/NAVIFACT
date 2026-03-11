@@ -1,0 +1,34 @@
+{
+  "id": "agr-afghan-001",
+  "title": "미국-탈레반 도하 합의 (Agreement for Bringing Peace to Afghanistan)",
+  "date": "2020-02-29",
+  "summary": "미국과 탈레반이 카타르 도하에서 서명한 평화 합의. 미군 14개월 내 완전 철수 대가로 탈레반의 반테러 의무 이행을 약속. 아프간 정부는 협상에서 배제되어 논란.",
+  "status": "partial",
+  "parties": [
+    { "id": "us", "name": "미국", "flag": "🇺🇸" },
+    { "id": "taliban", "name": "탈레반", "flag": "🇦🇫" }
+  ],
+  "obligations": [
+    {
+      "id": "agr-afghan-001-ob1",
+      "description": "미군 및 연합군 14개월 내 완전 철수",
+      "deadline": "2021-05-01",
+      "status": "fulfilled",
+      "assignedTo": { "id": "us", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "agr-afghan-001-ob2",
+      "description": "탈레반, 알카에다 등 테러조직의 아프간 영토 활용 방지",
+      "deadline": "2021-05-01",
+      "status": "violated",
+      "assignedTo": { "id": "taliban", "name": "탈레반", "flag": "🇦🇫" }
+    },
+    {
+      "id": "agr-afghan-001-ob3",
+      "description": "아프간 내부 평화 협상 개시 (아프간 정부-탈레반)",
+      "deadline": "2020-03-10",
+      "status": "partial",
+      "assignedTo": { "id": "taliban", "name": "탈레반", "flag": "🇦🇫" }
+    }
+  ]
+}

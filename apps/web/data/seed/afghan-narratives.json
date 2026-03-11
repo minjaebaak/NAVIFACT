@@ -1,0 +1,50 @@
+[
+  {
+    "id": "afnar-001",
+    "title": "아프가니스탄은 제국의 무덤",
+    "source": "국제 언론·역사학계",
+    "sourceType": "media",
+    "framing": "소련과 미국 두 초강대국이 아프가니스탄에서 군사적 승리를 거두지 못하고 철수했으며, 외부 세력의 군사적 개입은 근본적으로 실패할 수밖에 없다는 시각",
+    "claims": [
+      {
+        "text": "소련과 미국 모두 아프가니스탄에서 군사적 승리를 거두지 못했다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "20년 전쟁에도 불구하고 탈레반은 결국 재집권했다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "미국의 아프간 국가 건설 시도는 완전히 실패했다",
+        "status": "partly_true",
+        "confidence": 65
+      }
+    ]
+  },
+  {
+    "id": "afnar-002",
+    "title": "대테러 전쟁의 필요한 대가",
+    "source": "미국 정부·군부",
+    "sourceType": "media",
+    "framing": "9·11 이후 아프가니스탄 개입은 미국 본토를 보호하기 위한 필수적 조치였으며, 알카에다 지도부 제거와 20년간의 테러 억지라는 성과를 달성했다는 방어적 시각",
+    "claims": [
+      {
+        "text": "9·11 이후 미국 본토에서 대규모 테러가 재발하지 않았다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "빈 라덴과 알카에다 지도부를 제거하는 데 성공했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "20년간 아프간 여성 교육·인권이 크게 개선되었다",
+        "status": "partly_true",
+        "confidence": 60
+      }
+    ]
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "afmi-001",
+    "eventId": "afevt-004",
+    "summary": "9·11 테러로 뉴욕 증시 4거래일 폐장, 재개 후 S&P 500 -12% 급락. 항공·관광 섹터 폭락. 방산·보안 섹터는 군사 지출 기대로 급등.",
+    "analysisDate": "2001-09-11",
+    "actualSummary": "NYSE 9/17 재개, S&P 500 -11.6%. 다우 -14.3%. 항공주 -40%. 방산주 +10~30%. 금 +5%.",
+    "actualDate": "2001-10-11",
+    "predictionAccuracy": 90,
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "사상 초유의 본토 테러 → 경제 마비 공포 → NYSE 4일 폐장 후 패닉 매도",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "S&P 500 -11.6%, 다우 -14.3%. 1주일간 1.4조 달러 시가총액 증발",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "미국 경제 전반 충격",
+            "actualChange": -11.6,
+            "actualPeriod": "1주",
+            "actualReasoning": "재개 첫 주 역대 최대 주간 하락"
+          }
+        ]
+      },
+      {
+        "sector": "방산·보안",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "군사 보복 예상 → 방위 산업 지출 급증 기대",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "록히드마틴 +30%, 레이시온 +20%. 군사 예산 대폭 증가",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "대테러 전쟁 군수 수요 급증",
+            "actualChange": 30.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "아프간 전쟁 + 국방예산 급증 수혜"
+          },
+          {
+            "ticker": "RTX",
+            "name": "레이시온",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "미사일·정밀유도무기 수요 급증 기대",
+            "actualChange": 20.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "토마호크 미사일 등 정밀타격 무기 수요"
+          }
+        ]
+      },
+      {
+        "sector": "항공/관광",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "항공 보안 위기 → 여행 수요 급감 → 항공사 경영 위기",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "아메리칸항공 -39%, 유나이티드항공 -42%. 여러 항공사 파산 신청",
+        "stocks": [
+          {
+            "ticker": "AAL",
+            "name": "아메리칸항공",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "테러에 사용된 항공사 중 하나, 수요 급감",
+            "actualChange": -39.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "테러 직접 관련 + 항공 수요 40% 급감"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afmi-002",
+    "eventId": "afevt-005",
+    "summary": "미국 아프간 침공으로 방산 섹터 추가 상승. 유가는 중동 불안정에 소폭 상승했으나 아프간 자체는 산유국이 아니어서 제한적.",
+    "analysisDate": "2001-10-07",
+    "actualSummary": "방산주 추가 상승. 유가 배럴당 22→25달러 소폭 상승 후 안정. 증시는 전쟁 초기 성공에 반등.",
+    "actualDate": "2001-11-07",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "본격적 군사 작전 개시 → 무기·장비·용역 수요 급증",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "록히드마틴·노스롭그루먼 등 추가 상승. 국방 예산 증액 확정",
+        "stocks": [
+          {
+            "ticker": "NOC",
+            "name": "노스롭그루먼",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "글로벌호크 무인기 등 아프간 작전 투입",
+            "actualChange": 15.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "무인 정찰 수요 급증, 장기 계약 수주"
+          }
+        ]
+      },
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "중동 인접 지역 군사 작전 → 지정학 리스크 프리미엄",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "WTI 22→25달러 소폭 상승. 아프간은 산유국이 아니라 유가 영향 제한적",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "유가 상승 수혜",
+            "actualChange": 3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유가 소폭 상승에 따른 제한적 수혜"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afmi-003",
+    "eventId": "afevt-010",
+    "summary": "미국-탈레반 도하 합의로 아프간 전쟁 종결 기대. 방산주 소폭 하락, 증시 전체에는 미미한 영향.",
+    "analysisDate": "2020-02-29",
+    "actualSummary": "코로나19가 시장을 압도하여 도하 합의의 시장 영향은 거의 없었음. 방산주 소폭 조정.",
+    "actualDate": "2020-03-31",
+    "predictionAccuracy": 60,
+    "sectors": [
+      {
+        "sector": "방산",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "전쟁 종결 기대 → 아프간 관련 군수 수요 감소 우려",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "방산주 소폭 약세, but 코로나 패닉이 시장 전체를 압도",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "아프간 전쟁 종결 → 해외 작전 수요 감소",
+            "actualChange": -2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "코로나 시장 하락에 묻힘, 도하 합의 자체 영향 미미"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "지정학 리스크 소폭 감소 → 시장 안도감",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "코로나19 팬데믹이 시장 전체를 지배, 도하 합의 효과 무의미",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "지정학 리스크 해소 기대",
+            "actualChange": -12.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "코로나 폭락이 도하 합의 효과를 완전히 상쇄"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afmi-004",
+    "eventId": "afevt-011",
+    "summary": "탈레반의 카불 재점령으로 지정학 불안 확대. 미국 증시 소폭 하락, 방산주 반등, 유가 소폭 상승.",
+    "analysisDate": "2021-08-15",
+    "actualSummary": "S&P 500 -0.7% 후 빠른 회복. 방산주 소폭 상승. 시장은 이미 철수를 예상했기에 충격 제한적.",
+    "actualDate": "2021-09-15",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "카불 함락 충격 → 미국 외교 신뢰도 하락 우려 → 일시적 매도",
+        "region": "US",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "S&P 500 -0.7% 후 2일 만에 회복. 시장은 아프간 리스크를 이미 반영",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "지정학 불안 + 바이든 행정부 외교 신뢰도 우려",
+            "actualChange": -0.7,
+            "actualPeriod": "1일",
+            "actualReasoning": "일시적 하락 후 즉각 반등"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "아프간 장비 손실 대체 수요 + 인태 전략 재편 → 방산 투자 지속",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "록히드마틴·레이시온 소폭 상승. 중국 억지 전략 전환 기대",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "아프간 손실 장비 대체 + 인태 전략 전환 수혜",
+            "actualChange": 3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "방산 예산 인태 전략 재배분 기대"
+          }
+        ]
+      },
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "중동 불안정 → 에너지 공급 우려 소폭 반영",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "WTI 소폭 상승 후 안정. 아프간은 산유국이 아니라 직접 영향 미미",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 불안정 → 유가 상승 기대",
+            "actualChange": 1.0,
+            "actualPeriod": "2주",
+            "actualReasoning": "유가 소폭 상승, 제한적 수혜"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "aflink-001",
+    "source": "afevt-001",
+    "target": "afevt-002",
+    "confidence": 95,
+    "mechanism": "소련 침공 → 무자헤딘 저항 + CIA 지원(사이클론 작전) → 10년 소모전 → 소련 경제·군사적 피로 → 철수 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "aflink-002",
+    "source": "afevt-002",
+    "target": "afevt-003",
+    "confidence": 85,
+    "mechanism": "소련 철수 → 나지불라 정권 붕괴 → 무자헤딘 내전 → 권력 공백 → 탈레반 부상·카불 점령",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aflink-003",
+    "source": "afevt-003",
+    "target": "afevt-004",
+    "confidence": 90,
+    "mechanism": "탈레반 정권, 알카에다에 안전한 은신처·훈련 기지 제공 → 빈 라덴이 9·11 테러 기획·실행",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aflink-004",
+    "source": "afevt-004",
+    "target": "afevt-005",
+    "confidence": 99,
+    "mechanism": "9·11 테러 → 미국 자위권 발동 → 탈레반의 빈 라덴 인도 거부 → 아프가니스탄 침공",
+    "causalType": "direct"
+  },
+  {
+    "id": "aflink-005",
+    "source": "afevt-005",
+    "target": "afevt-006",
+    "confidence": 92,
+    "mechanism": "탈레반 정권 축출 → 정치 공백 → 유엔 주도 본 회의 → 과도정부 수립 합의",
+    "causalType": "direct"
+  },
+  {
+    "id": "aflink-006",
+    "source": "afevt-006",
+    "target": "afevt-007",
+    "confidence": 88,
+    "mechanism": "과도정부 → 헌법 제정(2004.01) → 아프간 역사상 최초 민주적 대통령 선거 실시",
+    "causalType": "direct"
+  },
+  {
+    "id": "aflink-007",
+    "source": "afevt-005",
+    "target": "afevt-008",
+    "confidence": 80,
+    "mechanism": "미군 장기 주둔 → CIA·특수부대 정보 네트워크 구축 → 파키스탄 아보타바드에서 빈 라덴 추적·사살",
+    "causalType": "contributing"
+  },
+  {
+    "id": "aflink-008",
+    "source": "afevt-008",
+    "target": "afevt-009",
+    "confidence": 75,
+    "mechanism": "빈 라덴 사살 → '전쟁 목표 달성' 여론 → 오바마 감축 일정 → ISAF 전투임무 종료",
+    "causalType": "contributing"
+  },
+  {
+    "id": "aflink-009",
+    "source": "afevt-009",
+    "target": "afevt-010",
+    "confidence": 82,
+    "mechanism": "전투임무 축소 → 탈레반 세력 재확장 → 교착 상태 → 트럼프 행정부 직접 협상 → 도하 합의",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aflink-010",
+    "source": "afevt-010",
+    "target": "afevt-011",
+    "confidence": 95,
+    "mechanism": "도하 합의 철수 약속 → 아프간군 사기 급락 → 탈레반 전격 공세 → 11일 만에 카불 함락",
+    "causalType": "direct"
+  },
+  {
+    "id": "aflink-011",
+    "source": "afevt-011",
+    "target": "afevt-012",
+    "confidence": 98,
+    "mechanism": "카불 함락 → 카불 공항 대피작전(NEO) → 12만 명 공수 → 미군 마지막 철수",
+    "causalType": "direct"
+  }
+]
