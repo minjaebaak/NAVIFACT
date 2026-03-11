@@ -1,0 +1,35 @@
+{
+  "id": "agr-syria-001",
+  "title": "시리아 화학무기 폐기 합의 (미러 프레임워크)",
+  "date": "2013-09-14",
+  "summary": "구타 화학무기 공격 이후 미국과 러시아가 시리아의 화학무기 완전 폐기에 합의한 프레임워크. 시리아는 OPCW에 가입하고 화학무기를 신고·폐기하기로 약속했으나, 이후에도 화학무기 사용이 반복되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "syp-001", "name": "시리아", "flag": "🇸🇾" },
+    { "id": "syp-002", "name": "미국", "flag": "🇺🇸" },
+    { "id": "syp-003", "name": "러시아", "flag": "🇷🇺" }
+  ],
+  "obligations": [
+    {
+      "id": "syobl-001",
+      "description": "시리아 화학무기 프로그램 완전 신고 (1주일 이내)",
+      "deadline": "2013-09-21",
+      "status": "violated",
+      "assignedTo": { "id": "syp-001", "name": "시리아", "flag": "🇸🇾" }
+    },
+    {
+      "id": "syobl-002",
+      "description": "2014년 중반까지 화학무기 완전 폐기",
+      "deadline": "2014-06-30",
+      "status": "violated",
+      "assignedTo": { "id": "syp-001", "name": "시리아", "flag": "🇸🇾" }
+    },
+    {
+      "id": "syobl-003",
+      "description": "OPCW 사찰단에 무조건적 접근 보장",
+      "deadline": "2014-12-31",
+      "status": "partial",
+      "assignedTo": { "id": "syp-001", "name": "시리아", "flag": "🇸🇾" }
+    }
+  ]
+}

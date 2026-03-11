@@ -1,0 +1,58 @@
+[
+  {
+    "id": "syclm-001",
+    "text": "아사드 정권이 구타에서 사린가스를 사용했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 8,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "syclm-002",
+    "text": "IS는 시리아 내전의 권력 공백에서 성장했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 7,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "syclm-003",
+    "text": "러시아의 개입이 아사드 정권 붕괴를 막았다 (2015)",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "syclm-004",
+    "text": "시리아 난민은 500만명 이상이 국외로 탈출했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "syclm-005",
+    "text": "터키의 시리아 침공은 쿠르드 세력 제거가 목적이다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 5,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "syclm-006",
+    "text": "HTS(구 알누스라)는 알카에다와 완전히 단절했다",
+    "status": "unverified",
+    "confidence": 40,
+    "sourcesFor": 3,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "syclm-007",
+    "text": "시리아 내전 사망자는 50만명을 넘었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  }
+]

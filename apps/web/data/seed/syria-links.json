@@ -1,0 +1,90 @@
+[
+  {
+    "id": "sylink-001",
+    "source": "syevt-001",
+    "target": "syevt-002",
+    "confidence": 85,
+    "mechanism": "아사드 가문 독재 체제 → 반대파 무력 진압, 하마 대학살로 귀결",
+    "causalType": "direct"
+  },
+  {
+    "id": "sylink-002",
+    "source": "syevt-002",
+    "target": "syevt-003",
+    "confidence": 75,
+    "mechanism": "하마 학살로 반대파 소멸 → 바샤르 알아사드의 무혈 권력 승계 가능",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sylink-003",
+    "source": "syevt-003",
+    "target": "syevt-004",
+    "confidence": 70,
+    "mechanism": "바샤르 정권의 경제 실패 + 부패 + 아랍의 봄 파급 → 시리아 반정부 시위 촉발",
+    "causalType": "contributing"
+  },
+  {
+    "id": "sylink-004",
+    "source": "syevt-004",
+    "target": "syevt-005",
+    "confidence": 90,
+    "mechanism": "평화 시위에 대한 정부의 무력 진압 → 군인 이탈 → 자유시리아군(FSA) 창설",
+    "causalType": "direct"
+  },
+  {
+    "id": "sylink-005",
+    "source": "syevt-005",
+    "target": "syevt-006",
+    "confidence": 70,
+    "mechanism": "내전 교착 상태에서 정부군이 화학무기 사용으로 에스컬레이션",
+    "causalType": "contributing"
+  },
+  {
+    "id": "sylink-006",
+    "source": "syevt-006",
+    "target": "syevt-007",
+    "confidence": 65,
+    "mechanism": "내전의 혼란과 권력 공백 → IS 세력 확장 및 칼리프국 선포",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sylink-007",
+    "source": "syevt-007",
+    "target": "syevt-008",
+    "confidence": 80,
+    "mechanism": "IS 확장 + 아사드 정권 위기 → 러시아가 군사 개입 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "sylink-008",
+    "source": "syevt-008",
+    "target": "syevt-009",
+    "confidence": 90,
+    "mechanism": "러시아 공습 지원으로 정부군이 알레포를 포위·탈환",
+    "causalType": "direct"
+  },
+  {
+    "id": "sylink-009",
+    "source": "syevt-009",
+    "target": "syevt-010",
+    "confidence": 60,
+    "mechanism": "정부군 영토 회복 → 쿠르드 자치 강화 → 터키의 안보 우려 → 북시리아 침공",
+    "causalType": "contributing"
+  },
+  {
+    "id": "sylink-010",
+    "source": "syevt-010",
+    "target": "syevt-011",
+    "confidence": 50,
+    "mechanism": "전쟁으로 인프라 파괴 → 건물 취약 → 지진 피해 극대화",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sylink-011",
+    "source": "syevt-011",
+    "target": "syevt-012",
+    "confidence": 60,
+    "mechanism": "지진 복구 실패 + 경제 붕괴 + HTS 재편 → 아사드 정권 최종 붕괴",
+    "causalType": "contributing"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "synar-001",
+    "title": "아사드 정권은 테러와의 전쟁을 수행했다",
+    "source": "시리아 국영 SANA / 러시아 RT",
+    "sourceType": "media",
+    "framing": "시리아 정부는 IS와 알카에다 연계 테러 세력에 맞서 국가를 수호했으며, 서방의 개입이 내전을 악화시켰다는 프레이밍",
+    "claims": [
+      {
+        "text": "시리아 정부군은 IS와 테러 세력에 맞서 싸운 것이다",
+        "status": "misleading",
+        "confidence": 30
+      },
+      {
+        "text": "서방의 개입이 시리아 내전을 악화시켰다",
+        "status": "partly_true",
+        "confidence": 45
+      },
+      {
+        "text": "화학무기 공격은 반군의 자작극이다",
+        "status": "false",
+        "confidence": 15
+      }
+    ]
+  },
+  {
+    "id": "synar-002",
+    "title": "시리아 내전은 독재 정권의 탄압이 원인",
+    "source": "UN 인권이사회 / OPCW / 국제 인권단체",
+    "sourceType": "verified",
+    "framing": "아사드 정권의 민간인 탄압과 화학무기 사용이 내전의 근본 원인이며, 러시아의 군사 개입이 전쟁을 장기화시켰다는 팩트 기반 분석",
+    "claims": [
+      {
+        "text": "아사드 정권은 평화 시위대에 무차별 폭력을 행사했다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "시리아 정부군이 민간인에 화학무기를 사용했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "러시아의 군사 개입이 내전을 장기화시켰다",
+        "status": "partly_true",
+        "confidence": 70
+      }
+    ]
+  }
+]

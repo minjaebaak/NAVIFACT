@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sypred-001",
+    "question": "HTS 과도정부가 2026년까지 국제 승인을 받을까?",
+    "yesPool": 6000,
+    "noPool": 14000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "UN 회원국 과반수 또는 P5 중 3개국 이상이 HTS 주도 정부를 공식 승인"
+  },
+  {
+    "id": "sypred-002",
+    "question": "시리아에 자유 선거가 2028년까지 실시될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "국제 감시단이 인정하는 자유·공정 선거가 시리아 전역에서 실시"
+  },
+  {
+    "id": "sypred-003",
+    "question": "시리아 난민 100만명 이상이 2027년까지 귀환할까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2027-12-31",
+    "status": "active",
+    "settlementCriteria": "UNHCR 공식 통계 기준 시리아 귀환 난민 수 100만명 돌파"
+  },
+  {
+    "id": "sypred-004",
+    "question": "시리아 내 IS 잔존 세력이 2026년까지 대규모 공격을 할까?",
+    "yesPool": 8000,
+    "noPool": 12000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "IS가 시리아 내에서 50명 이상 사상자를 낸 단일 공격 수행"
+  }
+]

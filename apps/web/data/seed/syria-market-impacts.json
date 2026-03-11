@@ -1,0 +1,276 @@
+[
+  {
+    "id": "symi-001",
+    "eventId": "syevt-006",
+    "summary": "구타 화학무기 공격으로 중동 지정학 리스크 급등. 유가 상승, 방산주 강세.",
+    "analysisDate": "2013-08-21",
+    "actualSummary": "WTI 3% 상승, 브렌트유 급등. 오바마 레드라인 발언 후 군사 개입 불발로 유가 재하락.",
+    "actualDate": "2013-09-21",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "시리아 화학무기 사용 → 미국 군사 개입 가능성 → 중동 공급 차질 우려",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "WTI +3%, 브렌트유 급등 후 개입 불발로 반락",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 지정학 리스크 → 유가 상승 수혜",
+            "actualChange": 2.0,
+            "actualPeriod": "2주",
+            "actualReasoning": "유가 상승 단기 수혜"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "미국 군사 개입 가능성 부각",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "군사 개입 불발로 제한적 영향",
+        "stocks": [
+          {
+            "ticker": "RTX",
+            "name": "레이시온",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "시리아 공습 가능성 → 미사일·방어 시스템 수요",
+            "actualChange": 1.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "군사 개입 기대감 후 소멸"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "symi-002",
+    "eventId": "syevt-007",
+    "summary": "IS 칼리프국 선포로 이라크·시리아 유전 장악 우려. WTI 급등, 방산주 강세, 항공·관광 약세.",
+    "analysisDate": "2014-06-29",
+    "actualSummary": "WTI 107달러 돌파, 방산주 상승. 유럽 항공주 하락. 대IS 국제 연합 결성.",
+    "actualDate": "2014-08-29",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "IS의 이라크·시리아 유전 장악 → 원유 공급 차질 우려",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 107달러 돌파, 이라크 유전 위협 반영",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "유가 급등 수혜",
+            "actualChange": 4.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "유가 상승으로 실적 개선 기대"
+          },
+          {
+            "ticker": "CVX",
+            "name": "셰브론",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 공급 리스크 → 유가 상승",
+            "actualChange": 3.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "에너지 섹터 전반 강세"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "대IS 군사 작전 → 방산 수요 증가",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "미국 주도 대IS 연합 결성, 방산 수주 기대",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "정밀 타격 무기·드론 수요 증가",
+            "actualChange": 3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "대IS 작전으로 방산 수주 확대"
+          }
+        ]
+      },
+      {
+        "sector": "항공/관광",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "중동 테러 공포 확산 → 항공 수요 감소",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "유럽 항공주 하락, 중동 노선 수요 감소",
+        "stocks": [
+          {
+            "ticker": "LHA.DE",
+            "name": "루프트한자",
+            "exchange": "XETRA",
+            "direction": "negative",
+            "reasoning": "중동 노선 수요 감소 + 테러 리스크",
+            "actualChange": -3.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "중동 노선 축소, 여행 수요 둔화"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "symi-003",
+    "eventId": "syevt-008",
+    "summary": "러시아 군사 개입으로 중동 지정학 복잡화. 유가 지지, 유럽 증시 약세.",
+    "analysisDate": "2015-09-30",
+    "actualSummary": "유가 단기 상승 후 공급 과잉으로 재하락. 유럽 방산주 상승.",
+    "actualDate": "2015-10-30",
+    "predictionAccuracy": 65,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "러시아-중동 군사 긴장 → 원유 공급 불안",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "단기 상승 후 글로벌 공급 과잉이 더 큰 요인으로 작용",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 긴장 → 유가 지지",
+            "actualChange": 1.0,
+            "actualPeriod": "2주",
+            "actualReasoning": "지정학 영향 제한적, 공급 과잉 압도"
+          }
+        ]
+      },
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "러시아 제재 강화 우려 + 시리아 난민 위기로 유럽 정치 불안",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "난민 위기 정치 리스크 반영, 제한적 영향",
+        "stocks": [
+          {
+            "ticker": "DAX",
+            "name": "독일 DAX",
+            "exchange": "XETRA",
+            "direction": "negative",
+            "reasoning": "러시아 제재 + 난민 비용 부담",
+            "actualChange": -1.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "난민 이슈 정치화로 단기 약세"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "symi-004",
+    "eventId": "syevt-012",
+    "summary": "아사드 정권 붕괴로 시리아 재건 기대와 중동 불안정 공존. 방산·인프라주 강세.",
+    "analysisDate": "2024-12-08",
+    "actualSummary": "방산주 소폭 상승, 시리아 재건 관련 건설주 관심 증가. 에너지 영향 제한적.",
+    "actualDate": "2025-01-08",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "시리아는 주요 산유국이 아니므로 직접 영향 제한적",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "에너지 시장 영향 미미",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "중동 불안정이지만 시리아 산유 비중 미미",
+            "actualChange": -0.5,
+            "actualPeriod": "1주",
+            "actualReasoning": "거의 무영향"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "중동 불안정 지속 → 방산 수요 증가 전망",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "중동 재편 기대감으로 방산주 상승",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "시리아 정권 교체 후 중동 안보 재편",
+            "actualChange": 2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "중동 방산 수요 기대"
+          }
+        ]
+      },
+      {
+        "sector": "건설/인프라",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "시리아 재건 사업 수요 전망 (도로, 건물, 인프라)",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "재건 기대감은 있으나 실질 수주까지는 시간 소요",
+        "stocks": [
+          {
+            "ticker": "CAT",
+            "name": "캐터필러",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "시리아 재건 사업 → 건설 장비 수요",
+            "actualChange": 1.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "재건 기대감 반영, 실적 영향은 아직 미미"
+          }
+        ]
+      }
+    ]
+  }
+]
