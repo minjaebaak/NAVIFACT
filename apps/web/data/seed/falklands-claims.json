@@ -1,0 +1,58 @@
+[
+  {
+    "id": "fkclm-001",
+    "text": "아르헨티나가 1833년 이전부터 포클랜드에 대한 주권을 보유했다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "fkclm-002",
+    "text": "갈티에리 정권이 국내 위기 전환을 위해 전쟁을 시작했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "fkclm-003",
+    "text": "영국이 벨그라노를 전쟁 구역(TEZ) 밖에서 격침했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "fkclm-004",
+    "text": "대처 정부가 전쟁 전 외교적 해결 가능성을 무시했다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "fkclm-005",
+    "text": "포클랜드 전쟁이 아르헨티나 민주화를 촉진했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "fkclm-006",
+    "text": "영국의 핵잠수함 투입이 국제법 위반이다",
+    "status": "false",
+    "confidence": 40,
+    "sourcesFor": 1,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "fkclm-007",
+    "text": "포클랜드 주민 2013년 국민투표에서 99.8%가 영국 잔류 선택",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  }
+]

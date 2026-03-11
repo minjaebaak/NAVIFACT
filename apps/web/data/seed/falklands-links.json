@@ -1,0 +1,90 @@
+[
+  {
+    "id": "fklink-001",
+    "source": "fkevt-001",
+    "target": "fkevt-002",
+    "confidence": 90,
+    "mechanism": "영국 점령 → 150년 영유권 분쟁 → UN이 식민지 문제로 규정·협상 촉구",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-002",
+    "source": "fkevt-002",
+    "target": "fkevt-003",
+    "confidence": 75,
+    "mechanism": "협상 교착·민족주의 불만 → 군부가 포클랜드 영유권을 정권 정당성에 활용",
+    "causalType": "enabling"
+  },
+  {
+    "id": "fklink-003",
+    "source": "fkevt-003",
+    "target": "fkevt-004",
+    "confidence": 90,
+    "mechanism": "비델라 군사정권 실패 → 갈티에리 정권 교체 → 경제위기 심화",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-004",
+    "source": "fkevt-004",
+    "target": "fkevt-005",
+    "confidence": 85,
+    "mechanism": "경제위기로 정권 정당성 위기 → 국민 관심 전환 필요 → 사우스조지아 도발",
+    "causalType": "enabling"
+  },
+  {
+    "id": "fklink-005",
+    "source": "fkevt-005",
+    "target": "fkevt-006",
+    "confidence": 90,
+    "mechanism": "사우스조지아 위기 고조 → 갈티에리가 포클랜드 전면 침공 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-006",
+    "source": "fkevt-006",
+    "target": "fkevt-007",
+    "confidence": 95,
+    "mechanism": "침공 → UN 안보리 결의 502호·영국 기동부대 13,000km 원정 출항",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-007",
+    "source": "fkevt-007",
+    "target": "fkevt-008",
+    "confidence": 85,
+    "mechanism": "기동부대 접근·해상 봉쇄 확립 → 영국 잠수함이 벨그라노 격침",
+    "causalType": "enabling"
+  },
+  {
+    "id": "fklink-008",
+    "source": "fkevt-008",
+    "target": "fkevt-009",
+    "confidence": 85,
+    "mechanism": "벨그라노 격침 보복 → 아르헨티나 엑소세 미사일로 셰필드 격침",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-009",
+    "source": "fkevt-009",
+    "target": "fkevt-010",
+    "confidence": 80,
+    "mechanism": "해전 교훈·항공 방어 강화 → 산카를로스 만 상륙 성공·교두보 확보",
+    "causalType": "enabling"
+  },
+  {
+    "id": "fklink-010",
+    "source": "fkevt-010",
+    "target": "fkevt-011",
+    "confidence": 90,
+    "mechanism": "상륙 성공·교두보 확보 → 구스그린 전투 승리 → 포트스탠리 진격",
+    "causalType": "direct"
+  },
+  {
+    "id": "fklink-011",
+    "source": "fkevt-011",
+    "target": "fkevt-012",
+    "confidence": 95,
+    "mechanism": "영국군 진격·포트스탠리 포위 → 아르헨티나 항복·74일 전쟁 종결",
+    "causalType": "direct"
+  }
+]

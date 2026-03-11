@@ -1,0 +1,94 @@
+[
+  {
+    "id": "fkmi-001",
+    "eventId": "fkevt-006",
+    "summary": "1982년 아르헨티나의 포클랜드 침공으로 영국 증시가 전쟁 발발 충격에 하락하고, 아르헨티나는 국제 고립과 제재 우려로 시장이 폭락했다.",
+    "analysisDate": "1982-04-02",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전쟁 발발 충격 → FTSE 하락, 원정 비용 우려",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "전쟁 불확실성으로 영국 시장 전반 하락" }
+        ]
+      },
+      {
+        "sector": "아르헨티나 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "국제 고립·제재 우려 → 아르헨티나 시장 폭락",
+        "region": "아르헨티나",
+        "stocks": [
+          { "ticker": "ARGT", "name": "Global X MSCI Argentina ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "국제 제재·외교 단절로 아르헨티나 시장 급락" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fkmi-002",
+    "eventId": "fkevt-008",
+    "summary": "영국 잠수함의 벨그라노 격침은 아르헨티나 해군을 무력화시키며 영국 방위산업에 대한 신뢰를 높이고, 해군 전력의 효과를 입증했다.",
+    "analysisDate": "1982-05-02",
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "영국 해군력 과시 → 잠수함·대잠 전력 수요 증가 기대",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "ITA", "name": "iShares US Aerospace & Defense ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "해군 전력 효과 입증으로 방산 주가 상승" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fkmi-003",
+    "eventId": "fkevt-009",
+    "summary": "아르헨티나의 엑소세 미사일에 의한 HMS 셰필드 격침은 현대 해전에서 대함미사일의 위력을 입증하며 전 세계 해군의 미사일 방어 투자를 촉발했다.",
+    "analysisDate": "1982-05-04",
+    "sectors": [
+      {
+        "sector": "미사일 방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "엑소세 미사일 효과 입증 → 대함미사일·방어체계 수요 급증",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "ITA", "name": "iShares US Aerospace & Defense ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "미사일 방어 투자 확대 기대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fkmi-004",
+    "eventId": "fkevt-012",
+    "summary": "아르헨티나 항복으로 전쟁이 종결되자 영국 증시가 반등했으나, 아르헨티나는 군사정권 붕괴 우려와 경제적 불확실성으로 시장이 추가 하락했다.",
+    "analysisDate": "1982-06-14",
+    "sectors": [
+      {
+        "sector": "영국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 종결 → 불확실성 해소 → FTSE 반등, 대처 정부 지지율 급등",
+        "region": "영국",
+        "stocks": [
+          { "ticker": "EWU", "name": "iShares MSCI United Kingdom ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "전쟁 종결로 영국 시장 회복" }
+        ]
+      },
+      {
+        "sector": "아르헨티나 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "군사정권 붕괴 우려 → 정치·경제 불확실성 극대화",
+        "region": "아르헨티나",
+        "stocks": [
+          { "ticker": "ARGT", "name": "Global X MSCI Argentina ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "군부 패전으로 정권 붕괴·경제 혼란 가속" }
+        ]
+      }
+    ]
+  }
+]

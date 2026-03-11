@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fkpred-001",
+    "question": "아르헨티나가 2040년까지 포클랜드 영유권을 회복할까?",
+    "yesPool": 300,
+    "noPool": 19700,
+    "deadline": "2040-12-31",
+    "status": "active",
+    "settlementCriteria": "아르헨티나가 포클랜드 제도에 대한 실효적 주권(행정·사법·군사)을 행사하고, 이를 영국이 공식 인정해야 한다."
+  },
+  {
+    "id": "fkpred-002",
+    "question": "포클랜드 주변 석유 개발이 2035년까지 상업 생산에 도달할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "포클랜드 제도 배타적 경제수역 내 해저 유전에서 상업적 석유 생산(일일 1만 배럴 이상)이 시작되어야 한다."
+  },
+  {
+    "id": "fkpred-003",
+    "question": "영국-아르헨티나 간 포클랜드 공동 주권 합의가 2040년까지 이뤄질까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2040-12-31",
+    "status": "active",
+    "settlementCriteria": "양국 정부가 포클랜드에 대한 공동 주권 또는 주권 공유 합의에 공식 서명해야 한다."
+  },
+  {
+    "id": "fkpred-004",
+    "question": "포클랜드 전쟁 관련 영국 기밀 문서가 2035년까지 전면 공개될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "영국 국가기록보관소(TNA)가 포클랜드 전쟁 관련 기밀 해제 문서를 전면 공개하고, 주요 의사결정 과정이 완전히 드러나야 한다."
+  }
+]
