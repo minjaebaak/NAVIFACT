@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mxpred-001",
+    "question": "멕시코가 2035년까지 마약 관련 살인율을 인구 10만 명당 10건 이하로 줄일까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "멕시코 국가통계지리정보원(INEGI) 또는 유엔마약범죄사무소(UNODC) 공식 통계에서 마약 관련 살인율이 인구 10만 명당 10건 이하로 집계되어야 한다."
+  },
+  {
+    "id": "mxpred-002",
+    "question": "시날로아 카르텔이 2030년까지 조직적으로 해체될까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "미국 DEA 또는 멕시코 검찰이 시날로아 카르텔의 조직적 해체를 공식 선언하고, 주요 지도부 전원이 체포 또는 사살되어야 한다."
+  },
+  {
+    "id": "mxpred-003",
+    "question": "멕시코가 2030년까지 마리화나를 전면 합법화할까?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "멕시코 연방 의회가 마리화나의 레크리에이션 목적 재배·유통·소비를 허용하는 법안을 통과시키고 대통령이 서명해야 한다."
+  },
+  {
+    "id": "mxpred-004",
+    "question": "미국-멕시코 국경 장벽이 2035년까지 전 구간 완공될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "미국 국토안보부(DHS)가 미국-멕시코 국경 전 구간(약 3,145km)에 물리적 장벽 설치 완료를 공식 발표해야 한다."
+  }
+]

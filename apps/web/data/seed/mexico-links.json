@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mxlink-001",
+    "source": "mxevt-001",
+    "target": "mxevt-002",
+    "confidence": 80,
+    "mechanism": "PRI 일당 체제 → 카르텔-정부 유착 구조화 → DEA 요원 살해 가능한 무법 환경",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-002",
+    "source": "mxevt-002",
+    "target": "mxevt-003",
+    "confidence": 90,
+    "mechanism": "카마레나 사건 → 미국 압력 강화 → 가야르도 체포 → 과달라하라 카르텔 분열",
+    "causalType": "direct"
+  },
+  {
+    "id": "mxlink-003",
+    "source": "mxevt-003",
+    "target": "mxevt-004",
+    "confidence": 65,
+    "mechanism": "카르텔 분열·다극화 → 국경 밀수 조직 확대 → NAFTA 물류망 조직적 악용",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-004",
+    "source": "mxevt-004",
+    "target": "mxevt-005",
+    "confidence": 70,
+    "mechanism": "NAFTA 경제 개방 → 중산층 성장·정치 다원화 촉진 → PAN 정권교체",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-005",
+    "source": "mxevt-005",
+    "target": "mxevt-006",
+    "confidence": 75,
+    "mechanism": "민주화 → 카르텔-정부 유착 단절 시도 → 칼데론 마약 전쟁 선포",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-006",
+    "source": "mxevt-006",
+    "target": "mxevt-007",
+    "confidence": 90,
+    "mechanism": "군사 작전 → 카르텔 간 영역 전쟁 격화 → 시우다드후아레스 폭력 정점",
+    "causalType": "direct"
+  },
+  {
+    "id": "mxlink-007",
+    "source": "mxevt-007",
+    "target": "mxevt-008",
+    "confidence": 75,
+    "mechanism": "마약 전쟁 피로감·치안 악화 → 유권자 PRI 복귀 선택 → 페냐 니에토 당선",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-008",
+    "source": "mxevt-008",
+    "target": "mxevt-009",
+    "confidence": 80,
+    "mechanism": "PRI 복귀 → 지방 부패 심화 → 경찰-카르텔 공모 → 아요치나파 학생 실종",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-009",
+    "source": "mxevt-009",
+    "target": "mxevt-010",
+    "confidence": 70,
+    "mechanism": "정부 신뢰 위기 → 국제 압력 → 엘 차포 체포에 집중 → 최종 체포·미국 송환",
+    "causalType": "enabling"
+  },
+  {
+    "id": "mxlink-010",
+    "source": "mxevt-010",
+    "target": "mxevt-011",
+    "confidence": 85,
+    "mechanism": "엘 차포 체포 → 시날로아 카르텔 후계 분쟁 → 오비디오 체포 시도 → 쿨리아칸 전투·정부 굴복",
+    "causalType": "direct"
+  },
+  {
+    "id": "mxlink-011",
+    "source": "mxevt-011",
+    "target": "mxevt-012",
+    "confidence": 90,
+    "mechanism": "쿨리아칸 굴욕 → 국내외 비판 → 체면 회복 2차 작전 → 오비디오 최종 체포",
+    "causalType": "direct"
+  }
+]

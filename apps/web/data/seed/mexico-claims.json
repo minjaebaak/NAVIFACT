@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mxclm-001",
+    "text": "멕시코 마약 전쟁으로 30만 명 이상이 사망했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "mxclm-002",
+    "text": "칼데론의 군사 개입이 카르텔 폭력을 줄였다",
+    "status": "false",
+    "confidence": 75,
+    "sourcesFor": 1,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "mxclm-003",
+    "text": "NAFTA가 마약 밀수 경로 확대에 기여했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "mxclm-004",
+    "text": "엘 차포 체포 후 시날로아 카르텔이 약화되었다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "mxclm-005",
+    "text": "미국의 마약 수요가 멕시코 카르텔 성장의 근본 원인이다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "mxclm-006",
+    "text": "아요치나파 학생 실종에 멕시코 군이 관여했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "mxclm-007",
+    "text": "PRI 일당 체제가 카르텔-정부 유착의 기반이었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  }
+]

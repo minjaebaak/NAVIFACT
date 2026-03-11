@@ -1,0 +1,34 @@
+{
+  "id": "agr-mexico-001",
+  "title": "메리다 이니셔티브 (Merida Initiative)",
+  "date": "2007-10-22",
+  "summary": "미국과 멕시코가 마약 카르텔 소탕, 사법 개혁, 국경 안보 강화를 위해 합의한 안보 협력 프로그램으로, 미국이 약 30억 달러의 군사·치안 장비와 훈련을 지원하고 멕시코가 사법 개혁과 반부패 조치를 이행하기로 했다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "party-usa", "name": "미국", "flag": "🇺🇸" },
+    { "id": "party-mexico", "name": "멕시코", "flag": "🇲🇽" }
+  ],
+  "obligations": [
+    {
+      "id": "mxobl-001",
+      "description": "마약 카르텔 소탕을 위한 군사·치안 장비 지원",
+      "deadline": "지속적",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-usa", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "mxobl-002",
+      "description": "사법 제도 개혁 및 반부패 조치 이행",
+      "deadline": "지속적",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-mexico", "name": "멕시코", "flag": "🇲🇽" }
+    },
+    {
+      "id": "mxobl-003",
+      "description": "국경 안보 강화 및 마약 밀수 차단",
+      "deadline": "지속적",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-joint", "name": "미국·멕시코 공동", "flag": "🇺🇸🇲🇽" }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "mxmi-001",
+    "eventId": "mxevt-004",
+    "summary": "1994년 NAFTA 발효로 멕시코 시장에 외국인 투자가 급증하고 미국 자동차 업계가 멕시코 생산 이전으로 비용 절감 효과를 누렸다.",
+    "analysisDate": "1994-01-01",
+    "sectors": [
+      {
+        "sector": "멕시코 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "자유무역 기대 → 외국인 직접투자 급증 → 멕시코 증시 강세",
+        "region": "멕시코",
+        "stocks": [
+          { "ticker": "EWW", "name": "iShares MSCI Mexico ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "NAFTA 발효로 멕시코 시장 전반 상승" }
+        ]
+      },
+      {
+        "sector": "미국 자동차",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "멕시코 생산 이전 → 인건비 절감 → 자동차 업계 수익성 개선",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "GM", "name": "General Motors", "exchange": "NYSE", "direction": "positive", "reasoning": "멕시코 공장 이전으로 생산 비용 절감" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mxmi-002",
+    "eventId": "mxevt-006",
+    "summary": "2006년 칼데론의 마약 전쟁 선포로 멕시코 치안 불안이 부각되어 관광·투자가 위축되었으나, 방산 업계는 멕시코 군사 장비 수요 증가로 수혜를 입었다.",
+    "analysisDate": "2006-12-11",
+    "sectors": [
+      {
+        "sector": "멕시코 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "마약 전쟁 선포 → 치안 불안 부각 → 관광·외국인 투자 위축",
+        "region": "멕시코",
+        "stocks": [
+          { "ticker": "EWW", "name": "iShares MSCI Mexico ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "치안 불안으로 투자 심리 악화" }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "멕시코 군사 장비·훈련 수요 증가 → 미국 방산 업체 수혜",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "멕시코 군사 장비 수출 증가" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mxmi-003",
+    "eventId": "mxevt-010",
+    "summary": "2016년 엘 차포 최종 체포로 멕시코 치안 개선 기대가 높아져 증시가 단기 상승했다.",
+    "analysisDate": "2016-01-08",
+    "sectors": [
+      {
+        "sector": "멕시코 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "최대 마약왕 체포 → 치안 개선 기대 → 투자 심리 개선",
+        "region": "멕시코",
+        "stocks": [
+          { "ticker": "EWW", "name": "iShares MSCI Mexico ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "엘 차포 체포로 치안 개선 기대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mxmi-004",
+    "eventId": "mxevt-012",
+    "summary": "2023년 오비디오 구스만 2차 체포 과정에서 시날로아주 격렬한 총격전이 벌어져 보복 우려로 멕시코 증시가 단기 하락했다.",
+    "analysisDate": "2023-01-05",
+    "sectors": [
+      {
+        "sector": "멕시코 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "오비디오 체포 → 시날로아 카르텔 보복 우려 → 단기 하락",
+        "region": "멕시코",
+        "stocks": [
+          { "ticker": "EWW", "name": "iShares MSCI Mexico ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "카르텔 보복 우려로 단기 하락" }
+        ]
+      }
+    ]
+  }
+]
