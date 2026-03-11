@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { SCENARIOS, type ScenarioId } from "@/lib/data";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 
 interface ScenarioSelectorProps {
   current: ScenarioId;
@@ -29,7 +30,7 @@ export default function ScenarioSelector({ current }: ScenarioSelectorProps) {
               : "bg-card border-border text-muted hover:text-foreground hover:bg-white/5"
           }`}
         >
-          <span className="mr-1.5">{s.flag}</span>
+          <FlagDisplay flag={s.flag} size="sm" className="mr-1.5" />
           {s.title}
         </button>
       ))}

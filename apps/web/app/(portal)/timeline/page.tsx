@@ -1,6 +1,7 @@
 import { Calendar } from "lucide-react";
 import InteractiveTimeline from "@/components/timeline/InteractiveTimeline";
 import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 import {
   getEventsForScenario,
   getLinksForScenario,
@@ -346,7 +347,7 @@ export default async function TimelinePage({
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4 text-accent" />
             <span className="text-sm font-medium text-foreground">
-              {currentScenario.flag} {currentScenario.title} 타임라인
+              <FlagDisplay flag={currentScenario.flag} size="sm" /> {currentScenario.title} 타임라인
             </span>
           </div>
           <span className="text-xs text-muted">

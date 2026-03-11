@@ -1,6 +1,7 @@
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 import EventCard from "@/components/shared/EventCard";
 import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 import {
   getEventsForScenario,
   getLinksForScenario,
@@ -99,7 +100,7 @@ export default async function EventsPage({
       {/* Summary */}
       <div className="mt-8 text-center">
         <p className="text-muted text-sm">
-          {currentScenario.flag} {currentScenario.title} · {events.length}개 이벤트 · {links.length}개 인과관계 링크
+          <FlagDisplay flag={currentScenario.flag} size="sm" /> {currentScenario.title} · {events.length}개 이벤트 · {links.length}개 인과관계 링크
         </p>
       </div>
     </div>

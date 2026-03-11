@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import EventDetailClient from "./EventDetailClient";
 import DiscussionThread from "@/components/discussion/DiscussionThread";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 
 import {
   getEventsForScenario,
@@ -111,7 +112,7 @@ export default async function EventDetailPage({
         className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors mb-6"
       >
         <ArrowLeft className="h-4 w-4" />
-        {currentScenario.flag} {currentScenario.title} 이벤트 목록으로
+        <FlagDisplay flag={currentScenario.flag} size="sm" /> {currentScenario.title} 이벤트 목록으로
       </Link>
 
       {/* Event Header */}
@@ -314,7 +315,7 @@ export default async function EventDetailPage({
           {/* Quick Stats */}
           <section className="p-6 rounded-xl border border-border bg-card">
             <h3 className="text-sm font-semibold text-foreground mb-4">
-              {currentScenario.flag} {currentScenario.title}
+              <FlagDisplay flag={currentScenario.flag} size="sm" /> {currentScenario.title}
             </h3>
             <div className="grid grid-cols-2 gap-3">
               {[

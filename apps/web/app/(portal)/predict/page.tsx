@@ -1,6 +1,7 @@
 import { TrendingUp, Clock, Users, BarChart3 } from "lucide-react";
 import PredictClient from "./PredictClient";
 import ScenarioSelector from "@/components/shared/ScenarioSelector";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 import {
   getPredictionsForScenario,
   parseScenarioParam,
@@ -79,7 +80,7 @@ export default async function PredictPage({
       {/* Scenario Info */}
       <div className="mb-6 p-3 rounded-lg bg-accent/5 border border-accent/10">
         <span className="text-sm text-muted">
-          {currentScenario.flag} <span className="font-medium text-foreground">{currentScenario.title}</span> · {currentScenario.dateRange}
+          <FlagDisplay flag={currentScenario.flag} size="sm" /> <span className="font-medium text-foreground">{currentScenario.title}</span> · {currentScenario.dateRange}
         </span>
       </div>
 

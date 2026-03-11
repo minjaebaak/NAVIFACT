@@ -7,6 +7,7 @@ import {
   GitBranch,
   Shield,
 } from "lucide-react";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 
 import { getEvents, getLinks, getClaims, getPredictions, SCENARIOS } from "@/lib/data";
 
@@ -122,7 +123,7 @@ export default async function HomePage() {
               href={`/events?scenario=${scenario.id}`}
               className="group p-6 rounded-xl border border-border bg-card hover:border-accent/30 hover:bg-card/80 transition-all"
             >
-              <div className="text-3xl mb-3">{scenario.flag}</div>
+              <div className="mb-3"><FlagDisplay flag={scenario.flag} size="lg" /></div>
               <h3 className="text-lg font-semibold text-foreground mb-1">
                 {scenario.title}
               </h3>

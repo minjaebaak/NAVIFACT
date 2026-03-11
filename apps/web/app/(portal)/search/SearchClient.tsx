@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { Search, Compass, Shield, FileText } from "lucide-react";
 import EventCard from "@/components/shared/EventCard";
 import VerificationBadge from "@/components/shared/VerificationBadge";
+import FlagDisplay from "@/components/shared/FlagDisplay";
 
 import seedEvents from "@/data/seed/tariff-events.json";
 import seedClaims from "@/data/seed/tariff-claims.json";
@@ -163,7 +164,7 @@ export default function SearchClient() {
                 <div className="flex items-center gap-2 mb-2">
                   {agr.parties.map((p) => (
                     <span key={p.id} className="text-lg">
-                      {p.flag}
+                      <FlagDisplay flag={p.flag} size="sm" />
                     </span>
                   ))}
                   <h3 className="text-base font-semibold text-foreground">
