@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ippred-001",
+    "question": "인도와 파키스탄이 2035년까지 카슈미르 최종 지위 협정에 합의할까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "양국 정부가 공식 서명한 카슈미르 최종 지위 협정문이 존재하고, 양국 의회(또는 동등 기관)에서 비준되어야 한다."
+  },
+  {
+    "id": "ippred-002",
+    "question": "인도-파키스탄 간 핵전쟁이 2035년까지 발생할까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "어느 한쪽이 상대국 영토 또는 군사 시설에 핵무기를 사용(폭발)한 사실이 국제 기관에 의해 확인되어야 한다."
+  },
+  {
+    "id": "ippred-003",
+    "question": "인도-파키스탄 국경 무역이 2030년까지 전면 재개될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "와가(Wagah) 국경을 포함한 모든 공식 육상 무역 통로에서 양국 간 상품 교역이 재개되고, 양국 정부가 무역 제한 해제를 공식 발표해야 한다."
+  },
+  {
+    "id": "ippred-004",
+    "question": "카슈미르에서 인도 특별지위(370조) 폐지가 2035년까지 국제사법재판소에서 다뤄질까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "파키스탄 또는 제3국이 ICJ에 370조 폐지 관련 소송을 제기하고, ICJ가 사건을 공식 등록(docketing)해야 한다."
+  }
+]

@@ -135,6 +135,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "민주화/개혁",
     bottomLabel: "당 보수파/군부",
   },
+  indpak: {
+    topIds: ["ipevt-001", "ipevt-004", "ipevt-006", "ipevt-007", "ipevt-012"],
+    centerIds: ["ipevt-005"],
+    topLabel: "인도",
+    bottomLabel: "파키스탄",
+  },
 };
 
 export default async function TimelinePage({
@@ -144,7 +150,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : scenarioParam === "arabspring" ? "arabspring" : scenarioParam === "yugo" ? "yugo" : scenarioParam === "rwanda" ? "rwanda" : scenarioParam === "cuba" ? "cuba" : scenarioParam === "soviet" ? "soviet" : scenarioParam === "vietnam" ? "vietnam" : scenarioParam === "korea" ? "korea" : scenarioParam === "iranrev" ? "iranrev" : scenarioParam === "palest" ? "palest" : scenarioParam === "tiananmen" ? "tiananmen" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : scenarioParam === "afghan" ? "afghan" : scenarioParam === "iraq" ? "iraq" : scenarioParam === "arabspring" ? "arabspring" : scenarioParam === "yugo" ? "yugo" : scenarioParam === "rwanda" ? "rwanda" : scenarioParam === "cuba" ? "cuba" : scenarioParam === "soviet" ? "soviet" : scenarioParam === "vietnam" ? "vietnam" : scenarioParam === "korea" ? "korea" : scenarioParam === "iranrev" ? "iranrev" : scenarioParam === "palest" ? "palest" : scenarioParam === "tiananmen" ? "tiananmen" : scenarioParam === "indpak" ? "indpak" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -274,6 +280,11 @@ export default async function TimelinePage({
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
         { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "indpak"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
       ]
     : [
         { color: "bg-blue-500", label: "외교" },

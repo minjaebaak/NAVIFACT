@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ipclm-001",
+    "text": "영국의 급속한 분할이 카슈미르 분쟁의 근본 원인이다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ipclm-002",
+    "text": "파키스탄 ISI가 카슈미르 무장단체를 지원했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ipclm-003",
+    "text": "인도가 유엔 주민투표 결의안을 이행하지 않았다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ipclm-004",
+    "text": "카르길 전쟁에서 파키스탄 정규군이 참전했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ipclm-005",
+    "text": "뭄바이 테러의 배후가 파키스탄 내 LeT이다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ipclm-006",
+    "text": "인도의 370조 폐지가 국제법 위반이다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "ipclm-007",
+    "text": "인도-파키스탄 핵전쟁 시 10억 명 이상이 사망할 수 있다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  }
+]

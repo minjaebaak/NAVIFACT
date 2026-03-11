@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ipmi-001",
+    "eventId": "ipevt-007",
+    "summary": "1998년 인도·파키스탄 연쇄 핵실험으로 국제 제재 우려가 확산되며 인도 센섹스 지수가 폭락하고, 미국 증시에도 남아시아 지정학 리스크가 반영되었다.",
+    "analysisDate": "1998-05-11",
+    "sectors": [
+      {
+        "sector": "인도 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "국제 제재 우려 → 센섹스 폭락, 외국인 투자자 이탈",
+        "region": "인도",
+        "stocks": [
+          { "ticker": "INDA", "name": "iShares MSCI India ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "인도 시장 전반 하락" }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "남아시아 핵 위기 → 지정학 리스크 프리미엄 상승",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "글로벌 위험 회피 심리" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipmi-002",
+    "eventId": "ipevt-008",
+    "summary": "1999년 카르길 전쟁은 핵무장국 간 직접 군사 충돌로 인도 투자 심리를 위축시켰으나, 인도의 군사적 승리로 하락폭은 제한적이었다.",
+    "analysisDate": "1999-05-03",
+    "sectors": [
+      {
+        "sector": "인도 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "핵무장국 간 전쟁 → 투자 심리 위축, 센섹스 하락",
+        "region": "인도",
+        "stocks": [
+          { "ticker": "INDA", "name": "iShares MSCI India ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "전쟁 리스크로 인도 시장 약세" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipmi-003",
+    "eventId": "ipevt-010",
+    "summary": "2008년 뭄바이 26/11 테러는 인도판 9.11로 불리며 센섹스를 하락시키고, 남아시아 긴장이 글로벌 위험 회피 심리를 강화했다.",
+    "analysisDate": "2008-11-26",
+    "sectors": [
+      {
+        "sector": "인도 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "26/11 테러 충격 → 센섹스 하락, 관광·항공 섹터 타격",
+        "region": "인도",
+        "stocks": [
+          { "ticker": "INDA", "name": "iShares MSCI India ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "테러 충격으로 인도 시장 전반 하락" }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "남아시아 긴장 → 글로벌 위험 회피 심리 강화",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "SPY", "name": "SPDR S&P 500 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "지정학 리스크 반영" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipmi-004",
+    "eventId": "ipevt-012",
+    "summary": "2019년 풀와마 테러 후 인도의 발라콧 공습과 파키스탄 보복으로 핵무장국 간 공중전 위기가 발생, 인도 시장이 급락하고 원유 가격에 상승 압력이 가해졌다.",
+    "analysisDate": "2019-02-26",
+    "sectors": [
+      {
+        "sector": "인도 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "핵무장국 공중전 위기 → 시장 급락, 외국인 투자자 이탈 가속",
+        "region": "인도",
+        "stocks": [
+          { "ticker": "INDA", "name": "iShares MSCI India ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "확전 우려로 인도 시장 급락" }
+        ]
+      },
+      {
+        "sector": "원유",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "남아시아 확전 우려 → 유가 상승 압력",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "지정학 리스크 프리미엄 반영" }
+        ]
+      }
+    ]
+  }
+]

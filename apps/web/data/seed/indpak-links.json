@@ -1,0 +1,90 @@
+[
+  {
+    "id": "iplink-001",
+    "source": "ipevt-001",
+    "target": "ipevt-002",
+    "confidence": 90,
+    "mechanism": "분할 시 카슈미르 귀속 미결 → 파키스탄 부족민 침공 → 1차 카슈미르 전쟁",
+    "causalType": "direct"
+  },
+  {
+    "id": "iplink-002",
+    "source": "ipevt-002",
+    "target": "ipevt-003",
+    "confidence": 85,
+    "mechanism": "카슈미르 분쟁 미해결·정전선 대치 → 파키스탄 지브롤터 작전 → 2차 전쟁",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-003",
+    "source": "ipevt-003",
+    "target": "ipevt-004",
+    "confidence": 80,
+    "mechanism": "2차 전쟁 패배감 → 동파키스탄 자치 요구 → 인도 개입 → 3차 전쟁·방글라데시 독립",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-004",
+    "source": "ipevt-004",
+    "target": "ipevt-005",
+    "confidence": 95,
+    "mechanism": "3차 전쟁 종결 → 인디라-부토 심라 회담 → 심라 협정·통제선(LoC) 확립",
+    "causalType": "direct"
+  },
+  {
+    "id": "iplink-005",
+    "source": "ipevt-004",
+    "target": "ipevt-006",
+    "confidence": 80,
+    "mechanism": "3차 전쟁 승리·안보 우위 확보 → 인도 핵 능력 개발 가속 → 웃는 부처 핵실험",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-006",
+    "source": "ipevt-006",
+    "target": "ipevt-007",
+    "confidence": 90,
+    "mechanism": "인도 핵실험 → 파키스탄 핵 개발 가속(AQ 칸) → 1998 인도·파키스탄 연쇄 핵실험",
+    "causalType": "direct"
+  },
+  {
+    "id": "iplink-007",
+    "source": "ipevt-007",
+    "target": "ipevt-008",
+    "confidence": 85,
+    "mechanism": "핵무장 완성 → 핵 억지력 믿고 파키스탄 카르길 침투 → 카르길 전쟁",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-008",
+    "source": "ipevt-008",
+    "target": "ipevt-009",
+    "confidence": 75,
+    "mechanism": "카르길 이후 파키스탄 군부 쿠데타·테러 지원 → 인도 의회 테러 → 100만 군사 대치",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-009",
+    "source": "ipevt-009",
+    "target": "ipevt-010",
+    "confidence": 75,
+    "mechanism": "의회 테러 후 대치 해소·테러 네트워크 건재 → LeT 뭄바이 테러(26/11)",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-010",
+    "source": "ipevt-010",
+    "target": "ipevt-011",
+    "confidence": 80,
+    "mechanism": "뭄바이 이후 인도 보복 자제 비판 → 우리 테러 시 '외과적 타격' 정책 전환",
+    "causalType": "enabling"
+  },
+  {
+    "id": "iplink-011",
+    "source": "ipevt-011",
+    "target": "ipevt-012",
+    "confidence": 85,
+    "mechanism": "외과적 타격 선례 → 풀와마 자살폭탄 → 발라콧 공습 → 핵무장국 간 공중전 위기",
+    "causalType": "direct"
+  }
+]
