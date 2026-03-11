@@ -27,6 +27,10 @@ CATEGORY_MAP = {
     "경제": "economic",
     "군사": "military",
     "법률": "legal",
+    "기술": "technological",
+    "사회": "social",
+    "환경": "environmental",
+    "문화": "cultural",
 }
 
 # Auto-detect all scenarios from seed directory

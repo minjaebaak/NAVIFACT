@@ -8,6 +8,7 @@ from app.core.auth import create_access_token, hash_password, verify_password
 from app.db.neo4j import execute_query
 from app.models.user import LoginRequest, TokenPair, UserCreate, UserResponse
 from app.services.activity_service import log_activity
+from app.services.event_service import _neo4j_to_python_datetime
 from app.services.point_service import add_points
 
 router = APIRouter()
@@ -61,7 +62,7 @@ async def register(payload: UserCreate) -> UserResponse:
         username=props["username"],
         role=props.get("role", "viewer"),
         points=100,
-        created_at=props["created_at"],
+        created_at=_neo4j_to_python_datetime(props["created_at"]),
     )
 
 
