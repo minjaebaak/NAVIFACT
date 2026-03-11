@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ygmi-001",
+    "eventId": "ygevt-004",
+    "summary": "보스니아 전쟁 발발로 유럽 안보 불안 확대. 유럽 증시 소폭 하락. NATO 개입 가능성에 방산주 상승.",
+    "analysisDate": "1992-04-06",
+    "actualSummary": "유럽 증시 소폭 하락(-2~3%). 방산 관련주 소폭 상승. 시장 영향은 제한적(발칸 경제 규모 작음).",
+    "actualDate": "1992-06-06",
+    "predictionAccuracy": 65,
+    "sectors": [
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "유럽 내 전쟁 발발 → 안보 불확실성 → 투자 심리 위축",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "발칸 지역 경제 규모가 작아 글로벌 시장 영향 제한적. 유럽 주요 지수 소폭 하락에 그침",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "유럽 이머징 마켓 불안정 → 동유럽 투자 심리 악화",
+            "actualChange": -2.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "동유럽 리스크 프리미엄 소폭 반영"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "NATO 개입 가능성 → 유럽 방위 지출 증가 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "초기에는 NATO 비개입으로 방산 수요 증가 제한적. 1995년 개입 이후 본격 반영",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "유럽 안보 위협 → NATO 방위력 강화 기대",
+            "actualChange": 2.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "NATO 비개입 기조로 초기 방산 영향 미미"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ygmi-002",
+    "eventId": "ygevt-006",
+    "summary": "스레브레니차 학살로 유럽 인도주의 위기 심화. NATO 군사 개입 기대 급증으로 방산주 상승.",
+    "analysisDate": "1995-07-11",
+    "actualSummary": "유럽 증시 소폭 변동. 방산주 +3~5%(NATO 개입 기대). 7주 후 실제 NATO 공습 개시.",
+    "actualDate": "1995-09-11",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "인도주의 위기 → 유럽 안보 불확실성 소폭 반영",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "학살 충격에도 시장 영향은 제한적. 이미 3년간의 전쟁으로 선반영",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "동유럽 리스크 프리미엄 소폭 반영",
+            "actualChange": -1.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "이미 전쟁 장기화 선반영. 추가 하락 제한적"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "NATO 군사 개입 기대 급증 → 방산 수요 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "학살 이후 NATO 개입 여론 비등. 7주 후 실제 공습 → 방산주 추가 상승",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "NATO 개입 확실시 → 정밀유도무기 수요 급증 기대",
+            "actualChange": 5.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "Operation Deliberate Force 개시 → 실제 군수 수요 발생"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ygmi-003",
+    "eventId": "ygevt-010",
+    "summary": "NATO 유고 78일 공습으로 유럽 내 전쟁 확대 우려. 유럽 증시 하락. 방산주 급등(정밀유도무기 대량 소비). 유가 소폭 상승.",
+    "analysisDate": "1999-03-24",
+    "actualSummary": "유럽 증시 공습 개시 직후 -2~4% 하락 후 회복. 방산주 +10~15%. WTI 소폭 상승(13→17달러).",
+    "actualDate": "1999-06-24",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "NATO의 유럽 내 대규모 공습 → 전쟁 확대 우려 → 투자자 불안",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "공습 초기 -2~4% 하락 후 빠르게 회복. 닷컴 버블 호황으로 전쟁 영향 흡수",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "유럽 전쟁 확대 → 글로벌 리스크 프리미엄",
+            "actualChange": -2.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "초기 하락 후 빠르게 반등. 닷컴 버블 강세가 전쟁 영향 압도"
+          }
+        ]
+      },
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "지정학 리스크 프리미엄 소폭 반영",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "WTI 13→17달러 상승(+31%). 유고 공습 + OPEC 감산 동시 효과",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "지정학 리스크 → 유가 상승 기대",
+            "actualChange": 5.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "유가 상승 + OPEC 감산 합의 동시 효과로 석유주 상승"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "NATO 78일 폭격 → 토마호크·JDAM 등 정밀유도무기 대량 소비",
+        "region": "US",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "NATO 23,000발 이상 폭탄 투하. 록히드·레이시온 등 방산주 +10~15%",
+        "stocks": [
+          {
+            "ticker": "RTX",
+            "name": "레이시온",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "토마호크 미사일·정밀유도무기 대량 사용 → 보충 수요",
+            "actualChange": 12.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "78일 공습 → 정밀타격 무기 재고 대량 소비 → 보충 주문 급증"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ygmi-004",
+    "eventId": "ygevt-012",
+    "summary": "코소보 독립 선언으로 유럽 정치 불확실성 소폭 증가. 세르비아 경제에 부정적 영향. 전반적 시장 영향은 제한적.",
+    "analysisDate": "2008-02-17",
+    "actualSummary": "시장 영향 미미. 2008년 글로벌 금융위기가 압도적. 세르비아 디나르 소폭 약세.",
+    "actualDate": "2008-05-17",
+    "predictionAccuracy": 55,
+    "sectors": [
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "코소보 독립 인정 분열 → 유럽 정치 불확실성 소폭 반영",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "코소보 독립 자체의 시장 영향은 거의 없음. 2008년 서브프라임 위기가 모든 것을 압도",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "동유럽 정치 불확실성 → 이머징 마켓 소폭 영향",
+            "actualChange": -1.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "코소보 독립 영향 미미. 금융위기 공포가 시장 지배"
+          }
+        ]
+      },
+      {
+        "sector": "세르비아 경제",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "영토 상실 → 세르비아 EU 가입 협상 복잡화 → 외국인 투자 위축",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "세르비아 디나르 소폭 약세. 그러나 글로벌 금융위기가 더 큰 영향",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "세르비아 포함 동유럽 이머징 마켓 불확실성",
+            "actualChange": -2.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "코소보보다 글로벌 금융위기가 이머징 마켓 하락의 주된 원인"
+          }
+        ]
+      }
+    ]
+  }
+]

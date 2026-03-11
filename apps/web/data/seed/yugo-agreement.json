@@ -1,0 +1,35 @@
+{
+  "id": "agr-yugo-001",
+  "title": "데이턴 평화협정",
+  "date": "1995-12-14",
+  "summary": "미국 중재로 보스니아·크로아티아·세르비아(유고연방)가 체결한 평화협정. 보스니아를 보스니아-크로아티아 연방과 스릅스카 공화국 2개 실체로 분리 통치하고, 전쟁범죄자 인도를 의무화.",
+  "status": "partial",
+  "parties": [
+    { "id": "yg-party-001", "name": "보스니아 헤르체고비나", "flag": "🇧🇦" },
+    { "id": "yg-party-002", "name": "크로아티아", "flag": "🇭🇷" },
+    { "id": "yg-party-003", "name": "세르비아(유고연방)", "flag": "🇷🇸" }
+  ],
+  "obligations": [
+    {
+      "id": "ygobl-001",
+      "description": "보스니아 내 적대행위 즉시 중단 및 무장해제",
+      "deadline": "1996-03-14",
+      "status": "fulfilled",
+      "assignedTo": { "id": "yg-party-001", "name": "보스니아 헤르체고비나", "flag": "🇧🇦" }
+    },
+    {
+      "id": "ygobl-002",
+      "description": "보스니아를 2개 실체(연방·스릅스카 공화국)로 분리 통치",
+      "deadline": "1996-12-14",
+      "status": "fulfilled",
+      "assignedTo": { "id": "yg-party-001", "name": "보스니아 헤르체고비나", "flag": "🇧🇦" }
+    },
+    {
+      "id": "ygobl-003",
+      "description": "전쟁범죄 용의자를 ICTY에 인도",
+      "deadline": "2005-12-31",
+      "status": "partial",
+      "assignedTo": { "id": "yg-party-003", "name": "세르비아(유고연방)", "flag": "🇷🇸" }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ygclm-001",
+    "text": "스레브레니차에서 8,000명 이상이 학살당했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 10,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ygclm-002",
+    "text": "보스니아 전쟁 사망자가 10만 명을 초과한다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 7,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "ygclm-003",
+    "text": "NATO의 유고 폭격이 유엔 안보리 승인 없이 이루어졌다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 9,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ygclm-004",
+    "text": "밀로셰비치의 대세르비아주의가 전쟁의 근본 원인이었다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 6,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "ygclm-005",
+    "text": "유엔 평화유지군(UNPROFOR)이 스레브레니차를 방어할 수 있었다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 4,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "ygclm-006",
+    "text": "코소보 해방군(KLA)이 테러 단체였다",
+    "status": "partly_true",
+    "confidence": 55,
+    "sourcesFor": 4,
+    "sourcesAgainst": 5
+  },
+  {
+    "id": "ygclm-007",
+    "text": "유고 전쟁이 EU 공동안보정책 수립의 촉매였다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 7,
+    "sourcesAgainst": 2
+  }
+]

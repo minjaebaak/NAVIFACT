@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ygpred-001",
+    "question": "코소보가 2030년까지 유엔 회원국이 될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 코소보가 유엔 총회에서 회원국으로 승인되면 Yes로 정산."
+  },
+  {
+    "id": "ygpred-002",
+    "question": "보스니아가 2030년까지 EU에 가입할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 보스니아 헤르체고비나가 EU 정식 회원국이 되면 Yes로 정산."
+  },
+  {
+    "id": "ygpred-003",
+    "question": "세르비아가 2028년까지 코소보 독립을 공식 인정할까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "2028년 12월 31일까지 세르비아 정부가 코소보를 독립 주권국가로 공식 인정하는 조약 또는 성명을 발표하면 Yes로 정산."
+  },
+  {
+    "id": "ygpred-004",
+    "question": "보스니아 스릅스카 공화국이 2030년까지 분리 독립을 시도할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 스릅스카 공화국 의회가 독립 또는 세르비아 합병 결의를 공식 통과시키면 Yes로 정산."
+  }
+]

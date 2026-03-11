@@ -1,0 +1,90 @@
+[
+  {
+    "id": "yglink-001",
+    "source": "ygevt-001",
+    "target": "ygevt-002",
+    "confidence": 95,
+    "mechanism": "슬로베니아 독립 선언 → 유고연방군 영토 보전 시도 → 슬로베니아 침공 (10일 전쟁)",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-002",
+    "source": "ygevt-002",
+    "target": "ygevt-003",
+    "confidence": 80,
+    "mechanism": "슬로베니아 10일 전쟁 종결·유고연방 해체 가속 → JNA 크로아티아 집중 → 부코바르 함락·크로아티아 전쟁 격화",
+    "causalType": "contributing"
+  },
+  {
+    "id": "yglink-003",
+    "source": "ygevt-001",
+    "target": "ygevt-004",
+    "confidence": 85,
+    "mechanism": "유고 해체 도미노 → 보스니아 독립 선언 → 보스니아 세르비아계 반발 → 보스니아 전쟁·사라예보 포위",
+    "causalType": "enabling"
+  },
+  {
+    "id": "yglink-004",
+    "source": "ygevt-004",
+    "target": "ygevt-005",
+    "confidence": 80,
+    "mechanism": "보스니아 전쟁 인종 청소·잔혹 행위 보도 → 국제사회 압력 → 유엔 전범재판소(ICTY) 설립",
+    "causalType": "contributing"
+  },
+  {
+    "id": "yglink-005",
+    "source": "ygevt-004",
+    "target": "ygevt-006",
+    "confidence": 90,
+    "mechanism": "보스니아 전쟁 3년 장기화 → 세르비아계 스레브레니차 유엔 안전지대 함락 → 8,000명+ 학살",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-006",
+    "source": "ygevt-006",
+    "target": "ygevt-007",
+    "confidence": 90,
+    "mechanism": "스레브레니차 학살 국제적 충격 → 유엔·서방 비개입 비판 폭주 → NATO 보스니아 세르비아 대규모 공습 결정",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-007",
+    "source": "ygevt-007",
+    "target": "ygevt-008",
+    "confidence": 90,
+    "mechanism": "NATO 공습으로 세르비아 군사력 약화 → 밀로셰비치 협상 수용 → 데이턴 평화협정 체결·보스니아 전쟁 종전",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-008",
+    "source": "ygevt-003",
+    "target": "ygevt-009",
+    "confidence": 70,
+    "mechanism": "크로아티아 전쟁 → 세르비아 민족주의 고조 → 코소보 알바니아계 자치권 박탈·탄압 → KLA 무장 봉기",
+    "causalType": "enabling"
+  },
+  {
+    "id": "yglink-009",
+    "source": "ygevt-009",
+    "target": "ygevt-010",
+    "confidence": 90,
+    "mechanism": "코소보 전쟁 → 라차크 학살(45명) → 랑부예 협상 결렬 → NATO 유고 78일 공습",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-010",
+    "source": "ygevt-010",
+    "target": "ygevt-011",
+    "confidence": 95,
+    "mechanism": "NATO 78일 공습 → 밀로셰비치 항복 → 유엔 결의 1244 → 세르비아군 철수·코소보 국제관리",
+    "causalType": "direct"
+  },
+  {
+    "id": "yglink-011",
+    "source": "ygevt-011",
+    "target": "ygevt-012",
+    "confidence": 80,
+    "mechanism": "코소보 국제관리 8년 → 아흐티사리 플랜 → 최종 지위 협상 결렬 → 코소보 일방적 독립 선언",
+    "causalType": "enabling"
+  }
+]

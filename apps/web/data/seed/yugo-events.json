@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ygevt-001",
+    "title": "슬로베니아·크로아티아 독립 선언",
+    "description": "냉전 종식과 유고슬라비아 연방 내 민족 갈등 심화로 슬로베니아와 크로아티아가 동시에 독립을 선언. 유고 해체의 시작.",
+    "date": "1991-06-25",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-002",
+    "title": "유고연방군 슬로베니아 침공 (10일 전쟁)",
+    "description": "슬로베니아 독립 선언에 대응해 유고슬라비아 인민군(JNA)이 슬로베니아 침공. 10일간의 단기전 후 EC 중재로 종전.",
+    "date": "1991-06-27",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-003",
+    "title": "부코바르 함락·크로아티아 전쟁 격화",
+    "description": "크로아티아 동부 도시 부코바르가 87일간의 포위 끝에 세르비아계 민병대와 JNA에 함락. 200명 이상의 전쟁포로 학살(오브차라 학살).",
+    "date": "1991-11-18",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-004",
+    "title": "보스니아 전쟁 발발·사라예보 포위 시작",
+    "description": "보스니아 헤르체고비나 독립 선언 후 보스니아 세르비아계가 반발. 사라예보 1,425일간 포위 시작. 유럽 최장기 도시 포위전.",
+    "date": "1992-04-06",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-005",
+    "title": "유엔 전범재판소(ICTY) 설립",
+    "description": "보스니아 전쟁의 잔혹 행위에 대응해 유엔 안보리가 구유고 국제형사재판소(ICTY) 설립. 뉘른베르크 이후 최초의 국제 전범재판소.",
+    "date": "1993-05-25",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-006",
+    "title": "스레브레니차 학살 (8,000명 이상)",
+    "description": "보스니아 세르비아군이 유엔 안전지대인 스레브레니차를 함락. 8,000명 이상의 보스니아 무슬림 남성·소년 학살. 2차 대전 이후 유럽 최악의 대학살.",
+    "date": "1995-07-11",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-007",
+    "title": "NATO 보스니아 세르비아 공습 (신중한 무력 작전)",
+    "description": "스레브레니차 학살과 사라예보 시장 포격을 계기로 NATO가 보스니아 세르비아 진지에 대규모 공습 실시. 'Operation Deliberate Force'.",
+    "date": "1995-08-30",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-008",
+    "title": "데이턴 평화협정 체결",
+    "description": "미국 오하이오 데이턴에서 보스니아·크로아티아·세르비아 3국이 평화협정 체결. 보스니아를 2개 실체로 분리. 3년 8개월간의 보스니아 전쟁 종전.",
+    "date": "1995-12-14",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-009",
+    "title": "코소보 전쟁 발발 (코소보 해방군 vs 세르비아)",
+    "description": "코소보 알바니아계의 자치권 박탈에 항의해 코소보 해방군(KLA) 무장 봉기. 세르비아 군경의 대규모 진압 작전으로 전면전 확대.",
+    "date": "1998-03-05",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-010",
+    "title": "NATO 유고슬라비아 공습 (78일 폭격)",
+    "description": "코소보 내 인종 청소에 대응해 NATO가 유고슬라비아 전역에 78일간 공습. 유엔 안보리 승인 없이 진행된 최초의 NATO 공세 작전.",
+    "date": "1999-03-24",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-011",
+    "title": "유엔 안보리 결의 1244·코소보 국제관리",
+    "description": "NATO 공습 후 밀로셰비치 항복. 유엔 결의 1244에 따라 세르비아군 코소보 철수, UNMIK(유엔 코소보 임시행정부)과 KFOR(NATO 평화유지군) 배치.",
+    "date": "1999-06-10",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "ygevt-012",
+    "title": "코소보 독립 선언",
+    "description": "8년간의 유엔 관리 후 최종 지위 협상 결렬. 코소보 의회가 일방적 독립 선언. 미국·주요 EU 국가 인정, 러시아·중국·세르비아 거부.",
+    "date": "2008-02-17",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  }
+]

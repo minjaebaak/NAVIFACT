@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ygnar-001",
+    "title": "유고 전쟁은 서방의 개입 실패",
+    "source": "The Guardian / BBC / Foreign Affairs",
+    "sourceType": "media",
+    "framing": "서방과 유엔은 스레브레니차 학살을 방치했고, 초기 비개입이 전쟁을 장기화시킨 역사적 실패를 범했다.",
+    "claims": [
+      {
+        "text": "유엔이 스레브레니차 안전지대를 보호하지 못했다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "서방의 초기 비개입이 전쟁을 장기화시켰다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "NATO의 일방적 폭격이 국제법 위반이었다",
+        "status": "partly_true",
+        "confidence": 65
+      }
+    ]
+  },
+  {
+    "id": "ygnar-002",
+    "title": "인도주의 개입의 선례",
+    "source": "NATO / EU 공식 입장 / 학술 연구",
+    "sourceType": "media",
+    "framing": "NATO의 개입은 발칸 학살을 종식시킨 인도주의적 성과이며, ICTY는 국제 형사정의의 이정표를 세웠다.",
+    "claims": [
+      {
+        "text": "NATO의 개입이 보스니아·코소보의 학살을 종식시켰다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "데이턴 협정이 보스니아에 지속적 평화를 가져왔다",
+        "status": "partly_true",
+        "confidence": 60
+      },
+      {
+        "text": "ICTY가 국제 형사정의의 이정표를 세웠다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ]
+  }
+]
