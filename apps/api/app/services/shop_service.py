@@ -4,6 +4,7 @@ from uuid import UUID
 
 from app.db.neo4j import execute_query
 from app.models.shop import ShopItemResponse, UserItemResponse
+from app.services.event_service import _neo4j_to_python_datetime
 
 
 async def list_items(category: str | None = None) -> list[ShopItemResponse]:
@@ -110,9 +111,7 @@ async def get_inventory(user_id: UUID) -> list[UserItemResponse]:
     results = []
     for r in records:
         item = _node_to_item(r["item"])
-        purchased_at = r["purchased_at"]
-        if hasattr(purchased_at, "to_native"):
-            purchased_at = purchased_at.to_native()
+        purchased_at = _neo4j_to_python_datetime(r["purchased_at"])
         results.append(
             UserItemResponse(
                 item=item,

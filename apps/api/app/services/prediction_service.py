@@ -10,6 +10,7 @@ from app.models.prediction import (
     MarketStatus,
     PredictionMarketResponse,
 )
+from app.services.event_service import _neo4j_to_python_datetime
 
 
 async def list_active_markets(
@@ -113,7 +114,7 @@ async def place_bet(
         user_id=b_props["user_id"],
         side=b_props["side"],
         amount=b_props["amount"],
-        placed_at=b_props["placed_at"],
+        placed_at=_neo4j_to_python_datetime(b_props["placed_at"]),
     )
 
 
@@ -227,8 +228,8 @@ def _node_to_market(node: dict) -> PredictionMarketResponse:
         status=props.get("status", MarketStatus.OPEN),
         yes_probability=props.get("yes_probability", 0.5),
         total_pool=props.get("total_pool", 0),
-        closes_at=props["closes_at"],
-        resolved_at=props.get("resolved_at"),
-        created_at=props["created_at"],
-        updated_at=props["updated_at"],
+        closes_at=_neo4j_to_python_datetime(props["closes_at"]),
+        resolved_at=_neo4j_to_python_datetime(props.get("resolved_at")),
+        created_at=_neo4j_to_python_datetime(props["created_at"]),
+        updated_at=_neo4j_to_python_datetime(props["updated_at"]),
     )

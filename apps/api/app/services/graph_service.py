@@ -4,6 +4,7 @@ from uuid import UUID
 
 from app.db.neo4j import execute_query
 from app.models.event import CausalChainResponse, CausalLink, CausalLinkDirection, EventResponse
+from app.services.event_service import _neo4j_to_python_datetime
 from app.models.graph import (
     GraphEdge,
     GraphNode,
@@ -69,12 +70,12 @@ async def get_causal_chain(
                     short_id=props.get("short_id"),
                     title=props.get("title", ""),
                     description=props.get("description", ""),
-                    date=props.get("date"),
+                    date=_neo4j_to_python_datetime(props.get("date")),
                     category=props.get("category", "political"),
                     credibility_score=props.get("credibility_score", 0.0),
                     status=props.get("status"),
-                    created_at=props.get("created_at"),
-                    updated_at=props.get("updated_at"),
+                    created_at=_neo4j_to_python_datetime(props.get("created_at")),
+                    updated_at=_neo4j_to_python_datetime(props.get("updated_at")),
                 )
             )
         for rel in record["rels"]:

@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timezone
 
 from app.db.neo4j import execute_query
+from app.services.event_service import _neo4j_to_python_datetime
 from app.models.common import PaginatedResponse
 from app.models.market_impact import (
     MarketImpactResponse,
@@ -61,8 +62,8 @@ def _node_to_market_impact(node: dict) -> MarketImpactResponse:
         actual_summary=props.get("actual_summary"),
         actual_date=props.get("actual_date"),
         prediction_accuracy=props.get("prediction_accuracy"),
-        created_at=props.get("created_at", now),
-        updated_at=props.get("updated_at", now),
+        created_at=_neo4j_to_python_datetime(props.get("created_at")) or now,
+        updated_at=_neo4j_to_python_datetime(props.get("updated_at")) or now,
     )
 
 

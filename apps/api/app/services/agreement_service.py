@@ -10,6 +10,7 @@ from app.models.agreement import (
     ObligationResponse,
     ObligationStatus,
 )
+from app.services.event_service import _neo4j_to_python_datetime
 
 
 async def get_agreement(agreement_id: UUID) -> AgreementResponse | None:
@@ -32,13 +33,13 @@ async def get_agreement(agreement_id: UUID) -> AgreementResponse | None:
         title=a_props["title"],
         description=a_props["description"],
         agreement_type=a_props["agreement_type"],
-        signed_date=a_props["signed_date"],
+        signed_date=_neo4j_to_python_datetime(a_props["signed_date"]),
         parties=a_props.get("parties", []),
         event_id=a_props.get("event_id"),
         source_urls=a_props.get("source_urls", []),
         obligations=obligations,
-        created_at=a_props["created_at"],
-        updated_at=a_props["updated_at"],
+        created_at=_neo4j_to_python_datetime(a_props["created_at"]),
+        updated_at=_neo4j_to_python_datetime(a_props["updated_at"]),
     )
 
 
@@ -114,8 +115,8 @@ def _node_to_obligation(node: dict, agreement_id: UUID) -> ObligationResponse:
         description=props["description"],
         responsible_party=props["responsible_party"],
         status=props.get("status", ObligationStatus.PENDING),
-        deadline=props.get("deadline"),
-        fulfilled_at=props.get("fulfilled_at"),
-        created_at=props["created_at"],
-        updated_at=props["updated_at"],
+        deadline=_neo4j_to_python_datetime(props.get("deadline")),
+        fulfilled_at=_neo4j_to_python_datetime(props.get("fulfilled_at")),
+        created_at=_neo4j_to_python_datetime(props["created_at"]),
+        updated_at=_neo4j_to_python_datetime(props["updated_at"]),
     )
