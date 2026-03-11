@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bxpred-001",
+    "question": "영국이 2030년까지 EU 단일시장에 재가입할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "영국이 EU 단일시장(EEA) 회원국으로 공식 재가입 또는 동등한 접근권 확보"
+  },
+  {
+    "id": "bxpred-002",
+    "question": "영국이 2028년까지 EU 관세동맹에 가입할까?",
+    "yesPool": 5500,
+    "noPool": 14500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "영국이 EU 관세동맹에 공식 가입하거나 동등한 관세 협정 체결"
+  },
+  {
+    "id": "bxpred-003",
+    "question": "스코틀랜드 독립 국민투표가 2028년까지 실시될까?",
+    "yesPool": 3500,
+    "noPool": 16500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "영국 정부가 승인한 합법적 스코틀랜드 독립 국민투표 실시"
+  },
+  {
+    "id": "bxpred-004",
+    "question": "영국-EU 청년 이동 협정이 2027년까지 체결될까?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2027-12-31",
+    "status": "active",
+    "settlementCriteria": "영국과 EU 간 청년 이동(Youth Mobility) 공식 협정 서명"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "bxmi-001",
+    "eventId": "bxevt-005",
+    "summary": "브렉시트 국민투표 탈퇴 결정으로 파운드화 31년 최저 폭락, FTSE 급락 후 반등, 유럽 증시 동반 급락. 금·안전자산 급등.",
+    "analysisDate": "2016-06-23",
+    "actualSummary": "GBP/USD 1.50→1.32 폭락, FTSE 100 -8% 후 1주내 회복. 유로스톡스50 -8%. 금 +5%.",
+    "actualDate": "2016-07-23",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "파운드화/금융",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "EU 탈퇴 결정 → 영국 경제 불확실성 급등 → 파운드화 폭락, 금융주 급락",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "GBP 31년 최저, FTSE 100 -8% 후 약세 파운드 수혜로 반등",
+        "stocks": [
+          {
+            "ticker": "BARC.L",
+            "name": "바클레이즈",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "EU 패스포팅 상실 우려 → 영국 금융업 타격",
+            "actualChange": -17.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "금융 섹터 패닉 매도, 이후 점진 회복"
+          },
+          {
+            "ticker": "HSBA.L",
+            "name": "HSBC",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "런던 금융 허브 지위 약화",
+            "actualChange": -9.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "글로벌 은행 중 EU 사업 이전 우려"
+          }
+        ]
+      },
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "브렉시트 도미노 효과 우려 → 유럽 통합 약화 리스크",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "유로스톡스50 -8%, DAX -7%, CAC -8%",
+        "stocks": [
+          {
+            "ticker": "DB",
+            "name": "도이체방크",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "유럽 금융 시스템 불안 + 런던 사업 불확실성",
+            "actualChange": -14.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "유럽 금융주 전반 패닉 매도"
+          }
+        ]
+      },
+      {
+        "sector": "금/안전자산",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "글로벌 불확실성 급등 → 안전자산 수요 폭증",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "금 +5%, 엔화 +3%, 미국채 수익률 급락",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Trust",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "브렉시트 충격 → 안전자산 선호",
+            "actualChange": 5.0,
+            "actualPeriod": "1주",
+            "actualReasoning": "금 가격 급등으로 ETF 수혜"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bxmi-002",
+    "eventId": "bxevt-009",
+    "summary": "영국 EU 공식 탈퇴. 시장은 이미 프라이싱하여 영향 제한적. 금융 섹터 중장기 우려 지속.",
+    "analysisDate": "2020-01-31",
+    "actualSummary": "GBP 소폭 하락, FTSE 100 보합. 코로나 팬데믹이 시장 관심을 압도.",
+    "actualDate": "2020-02-28",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "파운드화",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "공식 탈퇴는 이미 예상되어 시장에 반영됨, 전환기간으로 즉각 변화 없음",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "GBP 소폭 약세, 시장 관심은 코로나로 이동",
+        "stocks": [
+          {
+            "ticker": "BARC.L",
+            "name": "바클레이즈",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "중장기 금융업 이전 리스크 지속",
+            "actualChange": -2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "코로나 팬데믹 영향이 브렉시트를 압도"
+          }
+        ]
+      },
+      {
+        "sector": "금융",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전환기간 종료 후 패스포팅 상실 확정 → 런던 금융 허브 약화",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "점진적 EU 사업 이전, 즉각 충격은 제한적",
+        "stocks": [
+          {
+            "ticker": "HSBA.L",
+            "name": "HSBC",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "EU 내 사업 구조 재편 비용",
+            "actualChange": -1.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "파리·프랑크푸르트 사무소 확대"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bxmi-003",
+    "eventId": "bxevt-010",
+    "summary": "TCA 타결로 노딜 브렉시트 회피. 파운드화 반등, 유럽 증시 안도 랠리.",
+    "analysisDate": "2020-12-24",
+    "actualSummary": "GBP +1%, FTSE 100 소폭 상승. 시장은 합의를 대체로 예상했으나 안도감 반영.",
+    "actualDate": "2021-01-24",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "파운드화",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "노딜 브렉시트 회피 → 최악의 시나리오 제거 안도감",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "GBP +1%, 노딜 리스크 프리미엄 해소",
+        "stocks": [
+          {
+            "ticker": "BARC.L",
+            "name": "바클레이즈",
+            "exchange": "LSE",
+            "direction": "positive",
+            "reasoning": "무역 합의 → 영국 경제 최악 시나리오 회피",
+            "actualChange": 3.0,
+            "actualPeriod": "2주",
+            "actualReasoning": "안도 매수, 금융 섹터 반등"
+          }
+        ]
+      },
+      {
+        "sector": "유럽 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "영국-EU 무역 불확실성 해소 → 유럽 기업 안도",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "유럽 증시 소폭 상승, 크리스마스 시즌 효과 겹침",
+        "stocks": [
+          {
+            "ticker": "BMW.DE",
+            "name": "BMW",
+            "exchange": "XETRA",
+            "direction": "positive",
+            "reasoning": "무관세 유지로 독일 자동차 산업 안도",
+            "actualChange": 1.5,
+            "actualPeriod": "2주",
+            "actualReasoning": "자동차 수출 무관세 확정"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bxmi-004",
+    "eventId": "bxevt-011",
+    "summary": "브렉시트 실질 발효로 비관세 장벽 시작. 유통·물류 혼란, 금융 패스포팅 상실.",
+    "analysisDate": "2021-01-01",
+    "actualSummary": "통관 지연 발생, 도버항 혼잡. 금융사 EU 사무소 이전 가속. FTSE 제한적 영향.",
+    "actualDate": "2021-02-01",
+    "predictionAccuracy": 75,
+    "sectors": [
+      {
+        "sector": "유통/물류",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "통관 절차·원산지 증명·위생 검역 도입 → 물류 비용 증가",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "도버항 통관 지연, 소규모 수출업체 타격",
+        "stocks": [
+          {
+            "ticker": "RR.L",
+            "name": "롤스로이스",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "EU 부품 공급망 비용 증가",
+            "actualChange": -2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "부품 통관 지연으로 생산 차질"
+          }
+        ]
+      },
+      {
+        "sector": "금융",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "금융 패스포팅 상실 → EU 고객 서비스 불가 → 사업 이전",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "HSBC·바클레이즈 등 EU 사무소 인력 이전 가속",
+        "stocks": [
+          {
+            "ticker": "HSBA.L",
+            "name": "HSBC",
+            "exchange": "LSE",
+            "direction": "negative",
+            "reasoning": "EU 사업 구조 재편 비용 + 수익 감소",
+            "actualChange": -1.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "파리 사무소 확대, 런던 인력 축소"
+          }
+        ]
+      }
+    ]
+  }
+]

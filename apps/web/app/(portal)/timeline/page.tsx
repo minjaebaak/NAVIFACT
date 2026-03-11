@@ -57,6 +57,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "아사드 정권/러시아",
     bottomLabel: "반군/국제사회",
   },
+  brexit: {
+    topIds: ["bxevt-001", "bxevt-002", "bxevt-003", "bxevt-007", "bxevt-010"],
+    centerIds: ["bxevt-005"],
+    topLabel: "EU/잔류파",
+    bottomLabel: "영국/탈퇴파",
+  },
 };
 
 export default async function TimelinePage({
@@ -66,7 +72,7 @@ export default async function TimelinePage({
 }) {
   const { scenario: scenarioParam } = await searchParams;
   const scenarioId: ScenarioId =
-    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : "tariff";
+    scenarioParam === "iran" ? "iran" : scenarioParam === "ukraine" ? "ukraine" : scenarioParam === "techwar" ? "techwar" : scenarioParam === "nkorea" ? "nkorea" : scenarioParam === "taiwan" ? "taiwan" : scenarioParam === "syria" ? "syria" : scenarioParam === "brexit" ? "brexit" : "tariff";
 
   const [events, links] = await Promise.all([
     getEventsForScenario(scenarioId),
@@ -117,6 +123,12 @@ export default async function TimelinePage({
     : scenarioId === "syria"
     ? [
         { color: "bg-red-500", label: "군사" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "brexit"
+    ? [
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-green-500", label: "경제" },
         { color: "bg-purple-500", label: "사회" },
       ]
     : [

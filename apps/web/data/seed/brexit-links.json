@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bxlink-001",
+    "source": "bxevt-001",
+    "target": "bxevt-002",
+    "confidence": 75,
+    "mechanism": "EEC 가입 → 유럽 통합 심화 참여 → 마스트리흐트 조약으로 EU 탄생",
+    "causalType": "enabling"
+  },
+  {
+    "id": "bxlink-002",
+    "source": "bxevt-002",
+    "target": "bxevt-003",
+    "confidence": 80,
+    "mechanism": "EU 창설과 통합 심화 → 동유럽 확대 추진, 영국 내 이민 급증과 반EU 정서 성장",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-003",
+    "source": "bxevt-003",
+    "target": "bxevt-004",
+    "confidence": 75,
+    "mechanism": "동유럽 이민 급증 → UKIP 부상 → 보수당 내 유럽회의론 확대 → 캐머런의 국민투표 약속",
+    "causalType": "contributing"
+  },
+  {
+    "id": "bxlink-004",
+    "source": "bxevt-004",
+    "target": "bxevt-005",
+    "confidence": 95,
+    "mechanism": "캐머런의 국민투표 약속 이행 → 브렉시트 투표 실시, 탈퇴 51.9% 승리",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-005",
+    "source": "bxevt-005",
+    "target": "bxevt-006",
+    "confidence": 95,
+    "mechanism": "국민투표 탈퇴 결정 → 메이 총리 취임 후 리스본조약 50조 발동",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-006",
+    "source": "bxevt-006",
+    "target": "bxevt-007",
+    "confidence": 90,
+    "mechanism": "50조 발동으로 2년 협상 시작 → EU-영국 탈퇴 협정안 합의",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-007",
+    "source": "bxevt-007",
+    "target": "bxevt-008",
+    "confidence": 80,
+    "mechanism": "협정안 의회 3차 부결 → 메이 사임 → 강경 브렉시트 지지자 존슨 취임",
+    "causalType": "contributing"
+  },
+  {
+    "id": "bxlink-008",
+    "source": "bxevt-008",
+    "target": "bxevt-009",
+    "confidence": 90,
+    "mechanism": "존슨의 수정 협정안 의회 통과 → 영국 EU 공식 탈퇴",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-009",
+    "source": "bxevt-009",
+    "target": "bxevt-010",
+    "confidence": 90,
+    "mechanism": "EU 탈퇴 후 전환기간 내 미래 관계 협상 → 무역협력협정(TCA) 타결",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-010",
+    "source": "bxevt-010",
+    "target": "bxevt-011",
+    "confidence": 95,
+    "mechanism": "TCA 발효 → 무관세 유지되나 비관세 장벽·통관 절차 도입",
+    "causalType": "direct"
+  },
+  {
+    "id": "bxlink-011",
+    "source": "bxevt-011",
+    "target": "bxevt-012",
+    "confidence": 65,
+    "mechanism": "브렉시트 경제 부작용 누적 + 보수당 실정 → 노동당 압승 → EU 관계 리셋 추진",
+    "causalType": "contributing"
+  }
+]

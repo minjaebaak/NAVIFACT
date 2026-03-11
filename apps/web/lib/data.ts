@@ -63,6 +63,14 @@ import syriaPredictions from "@/data/seed/syria-predictions.json";
 import syriaNarratives from "@/data/seed/syria-narratives.json";
 import syriaClaims from "@/data/seed/syria-claims.json";
 
+// Brexit scenario seed data
+import brexitEvents from "@/data/seed/brexit-events.json";
+import brexitLinks from "@/data/seed/brexit-links.json";
+import brexitAgreement from "@/data/seed/brexit-agreement.json";
+import brexitPredictions from "@/data/seed/brexit-predictions.json";
+import brexitNarratives from "@/data/seed/brexit-narratives.json";
+import brexitClaims from "@/data/seed/brexit-claims.json";
+
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
 import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
@@ -71,6 +79,7 @@ import techwarMarketImpacts from "@/data/seed/techwar-market-impacts.json";
 import nkoreaMarketImpacts from "@/data/seed/nkorea-market-impacts.json";
 import taiwanMarketImpacts from "@/data/seed/taiwan-market-impacts.json";
 import syriaMarketImpacts from "@/data/seed/syria-market-impacts.json";
+import brexitMarketImpacts from "@/data/seed/brexit-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -199,7 +208,7 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit";
 
 export interface Scenario {
   id: ScenarioId;
@@ -258,6 +267,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇸🇾",
     description: "하페즈 알아사드 집권부터 아사드 정권 붕괴까지 50년 내전의 인과관계",
     dateRange: "1970.11 - 2024.12",
+  },
+  {
+    id: "brexit",
+    title: "브렉시트",
+    flag: "🇬🇧🇪🇺",
+    description: "EEC 가입부터 EU 탈퇴·TCA 발효까지 50년 유럽 통합과 역행의 인과관계",
+    dateRange: "1973.01 - 2024.07",
   },
 ];
 
@@ -335,6 +351,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: syriaClaims as SeedClaim[],
     marketImpacts: syriaMarketImpacts as SeedMarketImpact[],
   },
+  brexit: {
+    events: brexitEvents as SeedEvent[],
+    links: brexitLinks as SeedLink[],
+    agreement: brexitAgreement as SeedAgreement,
+    predictions: brexitPredictions as SeedPrediction[],
+    narratives: brexitNarratives as SeedNarrative[],
+    claims: brexitClaims as SeedClaim[],
+    marketImpacts: brexitMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -355,6 +380,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("syevt-") || eventId.startsWith("sylink-") || eventId.startsWith("sypred-") || eventId.startsWith("synar-") || eventId.startsWith("syclm-") || eventId.startsWith("agr-syria") || eventId.startsWith("symi-") || eventId.startsWith("syobl-")) {
     return "syria";
+  }
+  if (eventId.startsWith("bxevt-") || eventId.startsWith("bxlink-") || eventId.startsWith("bxpred-") || eventId.startsWith("bxnar-") || eventId.startsWith("bxclm-") || eventId.startsWith("agr-brexit") || eventId.startsWith("bxmi-") || eventId.startsWith("bxobl-")) {
+    return "brexit";
   }
   return "tariff";
 }
@@ -439,6 +467,15 @@ const allShortIds = [
   ...syriaPredictions.map((p) => p.id),
   ...syriaNarratives.map((n) => n.id),
   ...syriaClaims.map((c) => c.id),
+  // Brexit scenario
+  ...brexitEvents.map((e) => e.id),
+  ...brexitLinks.map((l) => l.id),
+  brexitAgreement.id,
+  ...brexitAgreement.parties.map((p) => p.id),
+  ...brexitAgreement.obligations.map((o) => o.id),
+  ...brexitPredictions.map((p) => p.id),
+  ...brexitNarratives.map((n) => n.id),
+  ...brexitClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -695,7 +732,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[]), ...(nkoreaEvents as SeedEvent[]), ...(taiwanEvents as SeedEvent[]), ...(syriaEvents as SeedEvent[])];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[]), ...(nkoreaEvents as SeedEvent[]), ...(taiwanEvents as SeedEvent[]), ...(syriaEvents as SeedEvent[]), ...(brexitEvents as SeedEvent[])];
   }
 }
 
@@ -717,7 +754,7 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[]), ...(nkoreaLinks as SeedLink[]), ...(taiwanLinks as SeedLink[]), ...(syriaLinks as SeedLink[])];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[]), ...(nkoreaLinks as SeedLink[]), ...(taiwanLinks as SeedLink[]), ...(syriaLinks as SeedLink[]), ...(brexitLinks as SeedLink[])];
   }
 }
 
@@ -757,7 +794,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[]), ...(nkoreaPredictions as SeedPrediction[]), ...(taiwanPredictions as SeedPrediction[]), ...(syriaPredictions as SeedPrediction[])];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[]), ...(nkoreaPredictions as SeedPrediction[]), ...(taiwanPredictions as SeedPrediction[]), ...(syriaPredictions as SeedPrediction[]), ...(brexitPredictions as SeedPrediction[])];
   }
 }
 
@@ -773,7 +810,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[]), ...(nkoreaNarratives as SeedNarrative[]), ...(taiwanNarratives as SeedNarrative[]), ...(syriaNarratives as SeedNarrative[])];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[]), ...(nkoreaNarratives as SeedNarrative[]), ...(taiwanNarratives as SeedNarrative[]), ...(syriaNarratives as SeedNarrative[]), ...(brexitNarratives as SeedNarrative[])];
   }
 }
 
@@ -789,6 +826,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[]), ...(nkoreaClaims as SeedClaim[]), ...(taiwanClaims as SeedClaim[]), ...(syriaClaims as SeedClaim[])];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[]), ...(nkoreaClaims as SeedClaim[]), ...(taiwanClaims as SeedClaim[]), ...(syriaClaims as SeedClaim[]), ...(brexitClaims as SeedClaim[])];
   }
 }

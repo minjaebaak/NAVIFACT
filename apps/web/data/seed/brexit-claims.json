@@ -1,0 +1,58 @@
+[
+  {
+    "id": "bxclm-001",
+    "text": "브렉시트 국민투표에서 탈퇴파가 51.9%로 승리했다",
+    "status": "verified",
+    "confidence": 99,
+    "sourcesFor": 10,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "bxclm-002",
+    "text": "브렉시트 후 영국 GDP가 EU 잔류 대비 4% 감소했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 5,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "bxclm-003",
+    "text": "파운드화가 국민투표 직후 31년 최저치를 기록했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "bxclm-004",
+    "text": "브렉시트 후 영국-EU 상품 무역이 15% 이상 감소했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "bxclm-005",
+    "text": "EU 탈퇴로 영국 NHS에 주 3.5억 파운드가 추가 투입되었다",
+    "status": "false",
+    "confidence": 15,
+    "sourcesFor": 1,
+    "sourcesAgainst": 8
+  },
+  {
+    "id": "bxclm-006",
+    "text": "브렉시트 후 런던 금융업 일자리 7,000개 이상이 EU로 이전했다",
+    "status": "verified",
+    "confidence": 75,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "bxclm-007",
+    "text": "스코틀랜드는 브렉시트를 이유로 독립을 추진하고 있다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bxnar-001",
+    "title": "브렉시트는 주권 회복의 승리",
+    "source": "Leave 캠프 / 데일리 메일 / 데일리 텔레그래프",
+    "sourceType": "media",
+    "framing": "브렉시트는 브뤼셀 관료주의에서 벗어나 영국의 법률·이민·무역 주권을 되찾은 역사적 결정이라는 프레이밍",
+    "claims": [
+      {
+        "text": "브렉시트로 영국이 자국 법률·이민·무역 주권을 되찾았다",
+        "status": "partly_true",
+        "confidence": 50
+      },
+      {
+        "text": "EU 탈퇴 후 영국이 글로벌 무역 협정을 자유롭게 체결한다",
+        "status": "partly_true",
+        "confidence": 40
+      },
+      {
+        "text": "EU 규제에서 벗어나 영국 경제가 더 성장한다",
+        "status": "false",
+        "confidence": 20
+      }
+    ]
+  },
+  {
+    "id": "bxnar-002",
+    "title": "브렉시트는 경제적 자해",
+    "source": "OBR / IMF / 영란은행 / LSE",
+    "sourceType": "verified",
+    "framing": "브렉시트는 비관세 장벽·금융 패스포팅 상실·노동력 부족으로 영국 경제에 장기적 손실을 초래했다는 팩트 기반 분석",
+    "claims": [
+      {
+        "text": "브렉시트로 영국 GDP가 EU 잔류 대비 수 퍼센트 감소했다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "비관세 장벽으로 영국-EU 무역이 크게 감소했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "브렉시트 후 런던 금융 센터의 일부 기능이 EU로 이전되었다",
+        "status": "verified",
+        "confidence": 75
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "id": "agr-brexit-001",
+  "title": "EU-영국 무역협력협정 (TCA)",
+  "date": "2020-12-24",
+  "summary": "브렉시트 전환기간 종료 직전 타결된 EU-영국 간 무역 및 협력 협정. 무관세·무쿼터 상품 무역을 유지하되, 서비스·금융 분야는 대부분 제외되었다. 북아일랜드 의정서를 통해 아일랜드 평화 프로세스를 보호했다.",
+  "status": "partial",
+  "parties": [
+    { "id": "bxp-001", "name": "영국", "flag": "🇬🇧" },
+    { "id": "bxp-002", "name": "유럽연합", "flag": "🇪🇺" }
+  ],
+  "obligations": [
+    {
+      "id": "bxobl-001",
+      "description": "무관세·무쿼터 상품 무역 유지 (원산지 규정 준수 조건)",
+      "deadline": "2021-01-01",
+      "status": "fulfilled",
+      "assignedTo": { "id": "bxp-001", "name": "영국", "flag": "🇬🇧" }
+    },
+    {
+      "id": "bxobl-002",
+      "description": "북아일랜드 의정서 이행 (EU 단일시장 규정 적용)",
+      "deadline": "2021-01-01",
+      "status": "partial",
+      "assignedTo": { "id": "bxp-001", "name": "영국", "flag": "🇬🇧" }
+    },
+    {
+      "id": "bxobl-003",
+      "description": "어업권 공동 관리 (5.5년 전환기, EU 어획량 점진 감소)",
+      "deadline": "2026-06-30",
+      "status": "fulfilled",
+      "assignedTo": { "id": "bxp-002", "name": "유럽연합", "flag": "🇪🇺" }
+    }
+  ]
+}
