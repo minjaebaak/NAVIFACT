@@ -49,6 +49,8 @@ services:
       - ../../.env.production
     environment:
       - PYTHONUNBUFFERED=1
+    volumes:
+      - ../../apps/web/data/seed:/web/data/seed:ro
     depends_on:
       - neo4j
     networks:
