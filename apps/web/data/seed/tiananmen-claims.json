@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tnclm-001",
+    "text": "천안문 광장 내부에서 대규모 학살이 일어났다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "tnclm-002",
+    "text": "사망자 수가 수천 명에 달한다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "tnclm-003",
+    "text": "덩샤오핑이 직접 무력 진압을 명령했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "tnclm-004",
+    "text": "자오쯔양이 학생 편을 들어 실각했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "tnclm-005",
+    "text": "시위대 대부분이 비무장 상태였다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "tnclm-006",
+    "text": "천안문 이후 중국 경제 성장이 가속되었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "tnclm-007",
+    "text": "탱크맨의 신원과 행방이 확인되었다",
+    "status": "false",
+    "confidence": 90,
+    "sourcesFor": 0,
+    "sourcesAgainst": 4
+  }
+]

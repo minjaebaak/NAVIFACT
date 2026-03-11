@@ -1,0 +1,34 @@
+{
+  "id": "agr-tiananmen-001",
+  "title": "미중 관계 정상화 비밀 합의 (스코우크로프트 방중)",
+  "date": "1989-12-10",
+  "summary": "천안문 학살 후 부시 대통령이 국가안보보좌관 스코우크로프트를 비밀리에 베이징에 파견하여 미중 관계 정상화를 협의했다. 미국은 대중 제재를 점진적으로 완화하고, 중국은 계엄령 해제와 정치범 일부 석방을 약속했으나, 군사·기술 교류는 사실상 재개되지 못했다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "party-usa", "name": "미국", "flag": "🇺🇸" },
+    { "id": "party-china", "name": "중국", "flag": "🇨🇳" }
+  ],
+  "obligations": [
+    {
+      "id": "obl-tiananmen-001",
+      "description": "미국의 대중 경제 제재 점진적 완화",
+      "deadline": "1990-12-31",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-usa", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "obl-tiananmen-002",
+      "description": "중국의 계엄령 해제 및 정치범 일부 석방",
+      "deadline": "1990-06-30",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-china", "name": "중국", "flag": "🇨🇳" }
+    },
+    {
+      "id": "obl-tiananmen-003",
+      "description": "양측 군사·기술 교류 단계적 재개 합의",
+      "deadline": "1991-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "party-usa-china", "name": "미국·중국 공동", "flag": "🇺🇸" }
+    }
+  ]
+}

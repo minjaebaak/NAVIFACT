@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tnlink-001",
+    "source": "tnevt-001",
+    "target": "tnevt-002",
+    "confidence": 90,
+    "mechanism": "마오 사망 → 4인방 체포 → 덩샤오핑 복권 → 개혁개방 노선 채택",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-002",
+    "source": "tnevt-002",
+    "target": "tnevt-003",
+    "confidence": 80,
+    "mechanism": "경제 개방 → 서방 사상 유입 → 학생 민주화 요구 → 86년 학생 운동·후야오방 해임",
+    "causalType": "enabling"
+  },
+  {
+    "id": "tnlink-003",
+    "source": "tnevt-003",
+    "target": "tnevt-004",
+    "confidence": 90,
+    "mechanism": "후야오방 해임(민주화 동조) → 사망 시 학생 추모·민주화 시위 폭발",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-004",
+    "source": "tnevt-004",
+    "target": "tnevt-005",
+    "confidence": 90,
+    "mechanism": "시위 확산 → 당 보수파 위기감 → 인민일보 4.26 사설로 '동란' 규정",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-005",
+    "source": "tnevt-005",
+    "target": "tnevt-006",
+    "confidence": 85,
+    "mechanism": "'동란' 규정에 시민 반발 → 5.4 운동 기념일 100만 대시위·기자 합류",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-006",
+    "source": "tnevt-006",
+    "target": "tnevt-007",
+    "confidence": 85,
+    "mechanism": "시위 장기화·정부 무대응 → 학생 단식투쟁으로 압박 강화",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-007",
+    "source": "tnevt-007",
+    "target": "tnevt-008",
+    "confidence": 90,
+    "mechanism": "단식투쟁·국제 주목·고르바초프 방중 → 당 강경파 승리 → 계엄령 선포",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-008",
+    "source": "tnevt-008",
+    "target": "tnevt-009",
+    "confidence": 95,
+    "mechanism": "계엄령 후 시위 불해산 → 군 투입 → 6.4 천안문 학살",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-009",
+    "source": "tnevt-009",
+    "target": "tnevt-010",
+    "confidence": 90,
+    "mechanism": "학살 후 덩샤오핑 계엄군 접견 → 체제 안정 선언 → 자오쯔양 실각·연금",
+    "causalType": "direct"
+  },
+  {
+    "id": "tnlink-010",
+    "source": "tnevt-010",
+    "target": "tnevt-011",
+    "confidence": 80,
+    "mechanism": "정치 개혁 봉쇄 + 보수파 경제 정체 → 덩샤오핑 남순강화로 경제 개혁 재점화",
+    "causalType": "enabling"
+  },
+  {
+    "id": "tnlink-011",
+    "source": "tnevt-011",
+    "target": "tnevt-012",
+    "confidence": 90,
+    "mechanism": "남순강화 → 14기 3중전회 → 사회주의 시장경제 체제 공식 확립",
+    "causalType": "direct"
+  }
+]

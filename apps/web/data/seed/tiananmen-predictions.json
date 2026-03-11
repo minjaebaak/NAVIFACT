@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tnpred-001",
+    "question": "중국이 2035년까지 천안문 사건에 대한 공식 재평가를 할까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "중국 공산당 또는 국무원이 1989년 6.4 사건에 대해 공식적으로 '동란' 규정을 철회하거나 재평가 성명을 발표하면 Yes로 결산"
+  },
+  {
+    "id": "tnpred-002",
+    "question": "중국에서 2035년까지 복수정당제가 도입될까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "중국에서 공산당 이외의 정당이 전국인민대표대회 선거에 독립 후보로 출마할 수 있게 되면 Yes로 결산"
+  },
+  {
+    "id": "tnpred-003",
+    "question": "6.4 천안문 추모가 2030년까지 중국 본토에서 합법화될까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "중국 본토에서 6월 4일 천안문 사건 관련 공개 추모 행사가 정부의 허가 하에 개최되면 Yes로 결산"
+  },
+  {
+    "id": "tnpred-004",
+    "question": "중국의 인터넷 검열(만리방화벽)이 2035년까지 대폭 완화될까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "구글·트위터·유튜브·위키피디아 등 주요 글로벌 서비스가 중국 본토에서 VPN 없이 접속 가능해지면 Yes로 결산"
+  }
+]
