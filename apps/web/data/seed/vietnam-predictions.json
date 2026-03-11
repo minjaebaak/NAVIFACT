@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vnpred-001",
+    "question": "베트남이 2035년까지 다당제 민주주의로 전환할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "2035년 12월 31일까지 베트남에서 복수 정당의 공식 선거 참여가 허용되면 YES로 정산"
+  },
+  {
+    "id": "vnpred-002",
+    "question": "미국이 2030년까지 베트남전 규모의 장기 지상전에 개입할까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 미군 5만 명 이상이 1년 이상 단일 분쟁 지역에 지상 배치되면 YES로 정산"
+  },
+  {
+    "id": "vnpred-003",
+    "question": "베트남-중국 남중국해 분쟁이 2030년까지 군사 충돌로 확대될까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 베트남-중국 간 남중국해에서 사상자를 동반한 군사 충돌이 발생하면 YES로 정산"
+  },
+  {
+    "id": "vnpred-004",
+    "question": "전쟁권한법이 2030년까지 실질적으로 강화될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 전쟁권한법 강화 법안이 미 의회를 통과하면 YES로 정산"
+  }
+]

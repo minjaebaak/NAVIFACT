@@ -1,0 +1,90 @@
+[
+  {
+    "id": "vnlink-001",
+    "source": "vnevt-001",
+    "target": "vnevt-002",
+    "confidence": 95,
+    "mechanism": "통킹만 사건 → 존슨 의회 설득 → 통킹만 결의안 통과 → 사실상 전쟁 권한 부여",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-002",
+    "source": "vnevt-002",
+    "target": "vnevt-003",
+    "confidence": 95,
+    "mechanism": "전쟁 권한 확보 → 존슨 폭격 결정 → 롤링 선더 작전 개시 → 북베트남 전면 폭격",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-003",
+    "source": "vnevt-003",
+    "target": "vnevt-004",
+    "confidence": 90,
+    "mechanism": "북폭 시작 → 공군 기지 지상 보호 필요 → 미 해병대 다낭 상륙 → 지상군 본격 투입",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-004",
+    "source": "vnevt-004",
+    "target": "vnevt-005",
+    "confidence": 80,
+    "mechanism": "미군 54만 증파·소모전 교착 → 북베트남·베트콩 구정 기습 → 테트 공세 → 전쟁 전환점",
+    "causalType": "contributing"
+  },
+  {
+    "id": "vnlink-005",
+    "source": "vnevt-005",
+    "target": "vnevt-006",
+    "confidence": 95,
+    "mechanism": "테트 공세 → 미국 여론 급격 악화 → 존슨 불출마 선언·폭격 부분 중지",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-006",
+    "source": "vnevt-006",
+    "target": "vnevt-007",
+    "confidence": 90,
+    "mechanism": "존슨 불출마 → 닉슨 당선 → 베트남화 정책·닉슨 독트린 발표",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-007",
+    "source": "vnevt-007",
+    "target": "vnevt-008",
+    "confidence": 85,
+    "mechanism": "베트남화 → 적 보급로(호치민 루트) 차단 시도 → 캄보디아 침공 → 반전운동 격화",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-008",
+    "source": "vnevt-008",
+    "target": "vnevt-009",
+    "confidence": 75,
+    "mechanism": "캄보디아 확전 → 정부 기만 의혹 확산 → 펜타곤 페이퍼스 유출 → 정부 신뢰 추락",
+    "causalType": "contributing"
+  },
+  {
+    "id": "vnlink-009",
+    "source": "vnevt-009",
+    "target": "vnevt-010",
+    "confidence": 80,
+    "mechanism": "정부 신뢰 추락 → 전쟁 종결 압력 → 키신저-레득토 협상 가속 → 파리평화협정",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vnlink-010",
+    "source": "vnevt-010",
+    "target": "vnevt-011",
+    "confidence": 95,
+    "mechanism": "미군 철수 완료 → 남베트남 단독 방어 실패 → 북베트남 춘계 공세 → 사이공 함락",
+    "causalType": "direct"
+  },
+  {
+    "id": "vnlink-011",
+    "source": "vnevt-009",
+    "target": "vnevt-012",
+    "confidence": 85,
+    "mechanism": "펜타곤 페이퍼스 → 대통령 전쟁권 남용 인식 → 의회 전쟁권한법 제정",
+    "causalType": "enabling"
+  }
+]

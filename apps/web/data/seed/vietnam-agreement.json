@@ -1,0 +1,36 @@
+{
+  "id": "agr-vietnam-001",
+  "title": "파리평화협정 (Paris Peace Accords)",
+  "date": "1973-01-27",
+  "summary": "미국·북베트남·남베트남·남베트남임시혁명정부가 베트남 전쟁 종결에 합의. 미군 60일 내 철수, 전쟁포로 교환, 남베트남 자유선거를 규정했으나 북베트남의 군사 통일로 사실상 무효화되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "vnp-001", "name": "미국", "flag": "🇺🇸" },
+    { "id": "vnp-002", "name": "북베트남", "flag": "🇻🇳" },
+    { "id": "vnp-003", "name": "남베트남", "flag": "🇻🇳" },
+    { "id": "vnp-004", "name": "남베트남임시혁명정부", "flag": "🇻🇳" }
+  ],
+  "obligations": [
+    {
+      "id": "vnobl-001",
+      "description": "미군 60일 내 완전 철수",
+      "deadline": "1973-03-29",
+      "status": "fulfilled",
+      "assignedTo": { "id": "vnp-001", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "vnobl-002",
+      "description": "전쟁포로 상호 교환",
+      "deadline": "1973-03-29",
+      "status": "fulfilled",
+      "assignedTo": { "id": "vnp-001", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "vnobl-003",
+      "description": "남베트남 자유선거 실시 및 무력 통일 금지",
+      "deadline": "1975-01-27",
+      "status": "violated",
+      "assignedTo": { "id": "vnp-002", "name": "북베트남", "flag": "🇻🇳" }
+    }
+  ]
+}

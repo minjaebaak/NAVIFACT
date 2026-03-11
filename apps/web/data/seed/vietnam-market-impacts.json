@@ -1,0 +1,162 @@
+[
+  {
+    "id": "vnmi-001",
+    "eventId": "vnevt-005",
+    "summary": "테트 공세로 전쟁 장기화·확대 우려. 미국 증시 투자 심리 악화. 안전자산 금 수요 증가.",
+    "analysisDate": "1968-01-30",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전쟁 장기화·확대 우려 → 투자 심리 악화",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "테트 공세 충격 → 전쟁 비용 증가 우려 → 증시 하락 압력"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 불확실성 → 안전자산 수요 증가",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "지정학 리스크 확대 → 금 가격 상승"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vnmi-002",
+    "eventId": "vnevt-006",
+    "summary": "존슨 불출마 선언으로 전쟁 종결 기대. 미국 증시 안도 랠리. 방산 수요 감소 전망.",
+    "analysisDate": "1968-03-31",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 종결 기대 → 안도 랠리",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 축소 기대 → 경제 정상화 전망 → 증시 반등"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전쟁 축소 기대 → 방산 수요 감소 전망",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "전쟁 종결 기대 → 방산 지출 감축 전망"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vnmi-003",
+    "eventId": "vnevt-010",
+    "summary": "파리평화협정 서명으로 전쟁 종결. 미국 증시 평화 배당금 기대. 안전자산 프리미엄 하락.",
+    "analysisDate": "1973-01-27",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "전쟁 종결 → 평화 배당금·경제 정상화 기대",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "미군 철수 합의 → 전쟁 비용 절감 → 경제 정상화 기대"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "지정학 리스크 감소 → 안전자산 프리미엄 하락",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "전쟁 종결 → 안전자산 수요 감소"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vnmi-004",
+    "eventId": "vnevt-011",
+    "summary": "사이공 함락으로 미국 패배 확정. 글로벌 리더십 우려로 제한적 충격. 소폭 안전자산 선호.",
+    "analysisDate": "1975-04-30",
+    "sectors": [
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "미국 패배 → 글로벌 리더십 우려 → 제한적 충격",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "미국 베트남 패배 → 외교적 위상 타격 → 단기 심리 악화"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "지정학 불안 → 소폭 안전자산 선호",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "미국 패배에 따른 불확실성 → 소폭 금 선호"
+          }
+        ]
+      }
+    ]
+  }
+]

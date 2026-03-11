@@ -1,0 +1,58 @@
+[
+  {
+    "id": "vnclm-001",
+    "text": "통킹만 사건의 2차 공격(8.4)은 실제로 발생하지 않았다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 7,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "vnclm-002",
+    "text": "테트 공세는 군사적으로 북베트남의 패배였으나 정치적으로 전환점이 되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "vnclm-003",
+    "text": "미라이 학살에서 미군이 민간인 수백 명을 살해했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "vnclm-004",
+    "text": "닉슨이 1968년 대선을 위해 파리 평화회담을 비밀리에 방해했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 5,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "vnclm-005",
+    "text": "에이전트 오렌지가 베트남 전역에 대규모로 살포되었다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "vnclm-006",
+    "text": "펜타곤 페이퍼스가 4개 행정부의 조직적 기만을 입증했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 7,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "vnclm-007",
+    "text": "도미노 이론대로 인도차이나 반도가 공산화되었으나 동남아 전체로는 확산되지 않았다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 4,
+    "sourcesAgainst": 3
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "vnnar-001",
+    "title": "미국이 자유를 위해 싸웠으나 본국 여론에 패배했다",
+    "source": "Fox News, National Review, Lewis Sorley 'A Better War'",
+    "sourceType": "media",
+    "framing": "미군이 군사적으로 전장에서 결정적 패배를 당하지 않았으며, 반전 미디어와 여론이 전쟁 수행을 불가능하게 만들었다. 도미노 이론대로 인도차이나가 공산화된 것이 이를 뒷받침한다.",
+    "claims": [
+      {
+        "text": "미군이 군사적으로는 전장에서 패배하지 않았다",
+        "status": "partly_true",
+        "confidence": 65
+      },
+      {
+        "text": "반전 미디어와 여론이 전쟁 수행을 불가능하게 만들었다",
+        "status": "partly_true",
+        "confidence": 60
+      },
+      {
+        "text": "도미노 이론대로 캄보디아·라오스가 공산화되었다",
+        "status": "partly_true",
+        "confidence": 70
+      }
+    ],
+    "missingContext": [
+      "게릴라전 특성상 전술적 승리가 전략적 승리로 이어지지 않음",
+      "여론 악화의 근본 원인은 전쟁의 실질적 교착과 높은 사상자 수",
+      "동남아 전체 공산화 예측은 틀림"
+    ]
+  },
+  {
+    "id": "vnnar-002",
+    "title": "도미노 이론의 오류와 제국주의적 개입이 비극을 초래했다",
+    "source": "New York Times, The Nation, Stanley Karnow 'Vietnam: A History'",
+    "sourceType": "media",
+    "framing": "베트남 전쟁은 민족 해방 전쟁이었으며 냉전 프레임의 잘못된 적용이 비극을 초래했다. 통킹만 사건 조작과 펜타곤 페이퍼스가 정부의 조직적 기만을 입증한다.",
+    "claims": [
+      {
+        "text": "베트남 전쟁은 민족 해방 전쟁이었으며 냉전 프레임이 잘못 적용되었다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "통킹만 사건이 조작되어 전쟁 구실로 사용되었다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "펜타곤 페이퍼스가 정부의 조직적 기만을 입증했다",
+        "status": "verified",
+        "confidence": 90
+      }
+    ],
+    "missingContext": [
+      "북베트남도 소련·중국의 군사 원조에 크게 의존",
+      "남베트남 내부의 부패와 비효율도 패인의 핵심",
+      "호치민의 민족주의와 공산주의의 복합적 성격"
+    ]
+  }
+]
