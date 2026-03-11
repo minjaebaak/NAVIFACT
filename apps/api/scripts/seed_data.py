@@ -425,6 +425,47 @@ async def seed_market_impacts(market_impacts: list[dict]) -> None:
     print(f"  Created {len(market_impacts)} market impacts.")
 
 
+async def seed_shop_items() -> None:
+    """Create ShopItem nodes from shop-items.json."""
+    path = SEED_DIR / "shop-items.json"
+    if not path.exists():
+        print("  No shop-items.json found, skipping.")
+        return
+    with open(path, encoding="utf-8") as f:
+        items = json.load(f)
+    for item in items:
+        uid = short_to_uuid(item["id"])
+        await execute_query(
+            """
+            CREATE (i:ShopItem {
+                id: $id,
+                short_id: $short_id,
+                name: $name,
+                description: $description,
+                category: $category,
+                price: $price,
+                rarity: $rarity,
+                preview_url: $preview_url,
+                emoji_code: $emoji_code,
+                is_active: true,
+                created_at: datetime()
+            })
+            """,
+            {
+                "id": uid,
+                "short_id": item["id"],
+                "name": item["name"],
+                "description": item["description"],
+                "category": item["category"],
+                "price": item["price"],
+                "rarity": item.get("rarity", "common"),
+                "preview_url": item.get("preview_url"),
+                "emoji_code": item.get("emoji_code"),
+            },
+        )
+    print(f"  Created {len(items)} shop items.")
+
+
 async def seed_meilisearch(all_events: list[dict]) -> None:
     """Index events in Meilisearch for full-text search."""
     try:
@@ -520,6 +561,10 @@ async def seed() -> None:
         result = await seed_scenario(scenario)
         all_events.extend(result["raw_events"])
         summaries.append(result)
+
+    # Seed shop items
+    print("\n--- Shop Items ---")
+    await seed_shop_items()
 
     # Index all events in Meilisearch
     await seed_meilisearch(all_events)
