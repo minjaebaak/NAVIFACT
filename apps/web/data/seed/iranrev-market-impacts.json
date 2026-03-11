@@ -1,0 +1,162 @@
+[
+  {
+    "id": "irvmi-001",
+    "eventId": "irvevt-005",
+    "summary": "팔레비 망명으로 이란 석유 수출 중단. 2차 오일쇼크 시작. 미국 증시 인플레이션 우려 확산.",
+    "analysisDate": "1979-01-16",
+    "sectors": [
+      {
+        "sector": "원유",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "이란 석유 수출 중단 → 글로벌 공급 부족 → 2차 오일쇼크 시작",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "USO",
+            "name": "United States Oil Fund",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이란 원유 수출 중단 → 글로벌 원유 가격 폭등"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "에너지 위기 → 인플레이션 급등 → 투자 심리 악화",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "오일쇼크 → 스태그플레이션 우려 → 증시 하락"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "irvmi-002",
+    "eventId": "irvevt-008",
+    "summary": "미 대사관 인질 사태로 이란 위기 장기화. 유가 추가 폭등. 금 가격 안전자산 수요로 사상 최고치.",
+    "analysisDate": "1979-11-04",
+    "sectors": [
+      {
+        "sector": "원유",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "이란 위기 장기화 → 중동 불안정 심화 → 유가 추가 폭등",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "USO",
+            "name": "United States Oil Fund",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "인질 사태 → 이란 제재 강화 → 원유 공급 추가 감소"
+          }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "지정학 리스크 극대화 → 안전자산 수요 폭증",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "GLD",
+            "name": "SPDR Gold Shares",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "미-이란 대결 → 중동 전면전 우려 → 금 사상 최고치"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "irvmi-003",
+    "eventId": "irvevt-010",
+    "summary": "이란-이라크 전쟁으로 중동 2대 산유국 동시 타격. 글로벌 석유 공급 위기. 방산주 급등.",
+    "analysisDate": "1980-09-22",
+    "sectors": [
+      {
+        "sector": "원유",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "중동 2대 산유국 전쟁 → 석유 인프라 파괴 → 글로벌 공급 위기",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "USO",
+            "name": "United States Oil Fund",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이란·이라크 석유 수출 동시 감소 → 유가 추가 급등"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "양국 무기 수요 폭증 → 미국·소련 무기 수출 확대",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 전쟁 장기화 → 방산 계약 확대 → 수익 증가"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "irvmi-004",
+    "eventId": "irvevt-012",
+    "summary": "이란-이라크 전쟁 종결로 중동 리스크 감소. 원유 가격 안정화 기대. 미국 증시 안도 반응.",
+    "analysisDate": "1988-07-03",
+    "sectors": [
+      {
+        "sector": "원유",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "전쟁 종결 → 이란·이라크 석유 수출 재개 기대 → 유가 하락 압력",
+        "region": "GLOBAL",
+        "stocks": [
+          {
+            "ticker": "USO",
+            "name": "United States Oil Fund",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "8년 전쟁 종결 → 중동 석유 공급 정상화 기대"
+          }
+        ]
+      },
+      {
+        "sector": "미국 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "중동 리스크 감소 → 에너지 비용 안정화 기대 → 안도 랠리",
+        "region": "US",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "전쟁 종결 → 지정학 프리미엄 하락 → 증시 소폭 상승"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "agr-iranrev-001",
+  "title": "알제리 협정 (Algiers Accords)",
+  "date": "1981-01-19",
+  "summary": "1979년 이란 미 대사관 인질 사태를 해결하기 위해 알제리의 중재로 미국과 이란이 체결한 협정. 인질 52명의 석방, 이란 자산 동결 해제, 미국의 이란 내정 불간섭을 주요 내용으로 하며, 이란-미국 청구권 재판소 설립을 포함한다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "party-iran", "name": "이란 이슬람 공화국", "flag": "🇮🇷" },
+    { "id": "party-usa", "name": "미국", "flag": "🇺🇸" },
+    { "id": "party-algeria", "name": "알제리(중재국)", "flag": "🇩🇿" }
+  ],
+  "obligations": [
+    {
+      "id": "obl-iranrev-001",
+      "description": "이란 내 미국 인질 52명 전원 즉시 석방",
+      "deadline": "1981-01-20",
+      "status": "fulfilled",
+      "assignedTo": { "id": "party-iran", "name": "이란 이슬람 공화국", "flag": "🇮🇷" }
+    },
+    {
+      "id": "obl-iranrev-002",
+      "description": "이란 자산 동결 해제 (약 80억 달러 상당)",
+      "deadline": "1981-06-30",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-usa", "name": "미국", "flag": "🇺🇸" }
+    },
+    {
+      "id": "obl-iranrev-003",
+      "description": "미국의 이란 내정 불간섭 및 이란 내 미국 청구권 소송 금지",
+      "deadline": "1981-12-31",
+      "status": "disputed",
+      "assignedTo": { "id": "party-usa", "name": "미국", "flag": "🇺🇸" }
+    }
+  ]
+}

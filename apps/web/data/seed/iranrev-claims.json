@@ -1,0 +1,58 @@
+[
+  {
+    "id": "irvclm-001",
+    "text": "CIA가 1953년 모사데크 민주정부를 전복시켰다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "irvclm-002",
+    "text": "팔레비 왕정이 SAVAK 비밀경찰로 반체제 인사를 고문·처형했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "irvclm-003",
+    "text": "검은 금요일에 군이 비무장 시위대에 발포해 수백 명이 사망했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "irvclm-004",
+    "text": "호메이니가 혁명 전 민주주의를 약속했다가 신정체제로 번복했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 2,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "irvclm-005",
+    "text": "미 대사관 인질 사태가 444일간 지속되었다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 3,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "irvclm-006",
+    "text": "독수리 발톱 작전에서 미군 8명이 사망했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "irvclm-007",
+    "text": "이란-이라크 전쟁에서 이라크가 화학무기를 사용했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  }
+]

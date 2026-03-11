@@ -1,0 +1,38 @@
+[
+  {
+    "id": "irvpred-001",
+    "question": "이란 이슬람 공화국 체제가 2035년까지 근본적으로 변화할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "최고지도자 직위 폐지, 선거제도 근본 개혁, 또는 정권 교체가 이루어지면 Yes로 결산"
+  },
+  {
+    "id": "irvpred-002",
+    "question": "미국-이란 국교가 2035년까지 정상화될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "양국이 대사급 외교 관계를 수립하고 상호 대사관을 재개설하면 Yes로 결산"
+  },
+  {
+    "id": "irvpred-003",
+    "question": "이란 핵합의(JCPOA)가 2030년까지 완전 복원될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "이란과 P5+1이 JCPOA 원래 조건 또는 동등한 새 합의에 복귀하면 Yes로 결산"
+  },
+  {
+    "id": "irvpred-004",
+    "question": "이란에서 2030년까지 대규모 민주화 운동이 체제 전환을 이끌까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "전국적 시위로 헌법 개정 또는 정권 교체가 이루어지면 Yes로 결산"
+  }
+]

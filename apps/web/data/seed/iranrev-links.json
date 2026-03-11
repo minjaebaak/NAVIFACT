@@ -1,0 +1,90 @@
+[
+  {
+    "id": "irvlink-001",
+    "source": "irvevt-001",
+    "target": "irvevt-002",
+    "confidence": 90,
+    "mechanism": "CIA 쿠데타로 복원된 팔레비 → 서구식 근대화(백색 혁명) 강행 → 이슬람 성직자 반발 → 호메이니 추방",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-002",
+    "source": "irvevt-002",
+    "target": "irvevt-003",
+    "confidence": 85,
+    "mechanism": "팔레비 독재·서구화에 대한 사회적 반발 15년간 축적 → 콤 학살이 도화선 → 전국적 반정부 시위 폭발",
+    "causalType": "enabling"
+  },
+  {
+    "id": "irvlink-003",
+    "source": "irvevt-003",
+    "target": "irvevt-004",
+    "confidence": 90,
+    "mechanism": "콤 학살 후 40일 주기 추모 시위 전국 확산 → 계엄령 선포 → 검은 금요일 학살 → 체제 정당성 결정적 상실",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-004",
+    "source": "irvevt-004",
+    "target": "irvevt-005",
+    "confidence": 90,
+    "mechanism": "검은 금요일 학살 후 국제 압력·전국 총파업 → 군 중립 선언 → 통치 기반 상실 → 팔레비 국왕 망명",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-005",
+    "source": "irvevt-005",
+    "target": "irvevt-006",
+    "confidence": 95,
+    "mechanism": "팔레비 망명으로 왕정 공백 → 호메이니 파리에서 귀국 → 수백만 환영 → 이슬람 혁명 최종 승리",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-006",
+    "source": "irvevt-006",
+    "target": "irvevt-007",
+    "confidence": 95,
+    "mechanism": "이슬람 혁명 승리 → 국민투표 98% 찬성 → 이슬람 공화국 공식 수립·신정체제 확립",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-007",
+    "source": "irvevt-007",
+    "target": "irvevt-008",
+    "confidence": 85,
+    "mechanism": "이슬람 공화국 수립·반미 감정 고조 → 팔레비 미국 입국 → 급진 학생 미 대사관 점거·인질 사태",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-008",
+    "source": "irvevt-008",
+    "target": "irvevt-009",
+    "confidence": 90,
+    "mechanism": "444일간 인질 사태 지속 → 카터 대통령 군사 구출 결정 → 독수리 발톱 작전 → 사막에서 참패",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-009",
+    "source": "irvevt-008",
+    "target": "irvevt-011",
+    "confidence": 90,
+    "mechanism": "인질 협상 444일 장기화 → 알제리 중재 개입 → 자산 동결 해제 합의 → 레이건 취임일 인질 석방",
+    "causalType": "direct"
+  },
+  {
+    "id": "irvlink-010",
+    "source": "irvevt-007",
+    "target": "irvevt-010",
+    "confidence": 85,
+    "mechanism": "이슬람 혁명 후 군사력 약화·혼란 → 사담 후세인이 침공 기회 포착 → 이란-이라크 전쟁 발발",
+    "causalType": "enabling"
+  },
+  {
+    "id": "irvlink-011",
+    "source": "irvevt-010",
+    "target": "irvevt-012",
+    "confidence": 90,
+    "mechanism": "8년 소모전·100만+ 사망 → 이란항공 655편 미군 격추 충격 → 호메이니 '독배' 결단 → 전쟁 종결 수용",
+    "causalType": "direct"
+  }
+]
