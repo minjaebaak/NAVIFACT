@@ -17,17 +17,41 @@ from app.db.redis import close_redis, init_redis
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
     """Manage startup / shutdown of external connections."""
-    # Startup
-    await init_driver()
-    await init_engine()
-    await init_redis()
+    import logging
+
+    logger = logging.getLogger(__name__)
+
+    # Startup — graceful: DB 연결 실패해도 서버는 시작
+    try:
+        await init_engine()
+    except Exception as e:
+        logger.warning(f"PostgreSQL connection failed (non-fatal): {e}")
+
+    try:
+        await init_driver()
+    except Exception as e:
+        logger.warning(f"Neo4j connection failed (non-fatal): {e}")
+
+    try:
+        await init_redis()
+    except Exception as e:
+        logger.warning(f"Redis connection failed (non-fatal): {e}")
 
     yield
 
     # Shutdown
-    await close_driver()
-    await dispose_engine()
-    await close_redis()
+    try:
+        await close_driver()
+    except Exception:
+        pass
+    try:
+        await dispose_engine()
+    except Exception:
+        pass
+    try:
+        await close_redis()
+    except Exception:
+        pass
 
 
 app = FastAPI(
