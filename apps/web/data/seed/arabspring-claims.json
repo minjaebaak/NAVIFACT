@@ -1,0 +1,58 @@
+[
+  {
+    "id": "asclm-001",
+    "text": "부아지지의 분신이 아랍의 봄의 유일한 도화선이었다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 4,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "asclm-002",
+    "text": "튀니지는 아랍의 봄 이후 유일한 민주화 성공 사례이다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 8,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "asclm-003",
+    "text": "NATO의 리비아 개입이 카다피 정권 붕괴의 결정적 요인이었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 7,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "asclm-004",
+    "text": "이집트 시시 쿠데타 당시 라바 광장에서 수백 명이 학살당했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 9,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "asclm-005",
+    "text": "아랍의 봄으로 인한 전체 사망자가 100만 명을 초과한다",
+    "status": "partly_true",
+    "confidence": 60,
+    "sourcesFor": 3,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "asclm-006",
+    "text": "사우디아라비아가 아랍의 봄 확산을 조직적으로 저지했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 7,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "asclm-007",
+    "text": "소셜미디어(트위터·페이스북)가 아랍의 봄의 핵심 촉매였다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 6,
+    "sourcesAgainst": 3
+  }
+]

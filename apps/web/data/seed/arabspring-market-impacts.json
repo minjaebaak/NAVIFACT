@@ -1,0 +1,266 @@
+[
+  {
+    "id": "asmi-001",
+    "eventId": "asevt-003",
+    "summary": "이집트 무바라크 퇴진으로 EGX 30 -16% 급락, 한 달 거래 중단. 수에즈 운하 폐쇄 우려로 해운비 상승. 중동 불안정 확대로 유가 프리미엄.",
+    "analysisDate": "2011-02-11",
+    "actualSummary": "EGX 30 -16%, 거래 5주 중단. 수에즈 운하 정상 운영 유지. WTI 소폭 상승(89→95달러).",
+    "actualDate": "2011-03-23",
+    "predictionAccuracy": 70,
+    "sectors": [
+      {
+        "sector": "이집트 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "30년 독재자 퇴진 → 정치 불확실성 극대화 → 외국인 투자 이탈",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "high",
+        "actualReasoning": "EGX 30 -16% 급락, 이집트 증시 5주 거래 중단 (역대 최장)",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "이집트·중동 불안정 → 이머징 마켓 전반 리스크 증가",
+            "actualChange": -3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "이집트 비중 축소, 중동 리스크 프리미엄 반영"
+          }
+        ]
+      },
+      {
+        "sector": "수에즈 운하·해운",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "수에즈 운하 폐쇄 우려 → 해운·물류 비용 상승 기대",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "수에즈 운하 정상 운영 유지. 우려 대비 실제 영향 미미",
+        "stocks": [
+          {
+            "ticker": "ZIM",
+            "name": "짐 인티그레이티드 쉬핑",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "수에즈 불안정 → 해운 경로 변경 비용 증가 우려",
+            "actualChange": -2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "운하 정상 운영으로 우려 해소, 소폭 하락에 그침"
+          }
+        ]
+      },
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "중동 불안정 확대 → 유가 프리미엄 반영",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "WTI 89→95달러 소폭 상승. 이집트 자체는 주요 산유국 아님",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 리스크 프리미엄 → 유가 상승 기대",
+            "actualChange": 3.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "중동 불안정 프리미엄 일부 반영"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asmi-002",
+    "eventId": "asevt-004",
+    "summary": "리비아 봉기로 OPEC 산유국 생산 중단. WTI 85→112달러 급등. 유럽 증시 타격(리비아 석유 의존). NATO 개입 기대로 방산주 상승.",
+    "analysisDate": "2011-02-17",
+    "actualSummary": "WTI 85→112달러(+32%). 브렌트유 100달러 돌파. 리비아 석유 생산 90% 감소. 유럽 방산주 +5~15%.",
+    "actualDate": "2011-04-17",
+    "predictionAccuracy": 85,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "리비아(OPEC 산유국, 일 160만 배럴) 생산 중단 → 공급 차질",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "WTI 85→112달러 +32%. 리비아 석유 생산 90% 감소로 글로벌 공급 차질",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "리비아 생산 중단 → 유가 급등 → 석유 메이저 수혜",
+            "actualChange": 10.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "유가 급등으로 분기 실적 대폭 개선"
+          }
+        ]
+      },
+      {
+        "sector": "유럽 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "리비아 석유 의존도 높은 이탈리아·프랑스 기업 타격",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "medium",
+        "actualReasoning": "이탈리아 FTSE MIB -8%, ENI(이탈리아 석유) 리비아 자산 손실",
+        "stocks": [
+          {
+            "ticker": "BP",
+            "name": "BP",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "리비아 유전 투자 손실 + 유럽 에너지 불안정",
+            "actualChange": -5.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "리비아 생산 중단으로 BP 리비아 유전 가동 중단"
+          }
+        ]
+      },
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "NATO 군사 개입 기대 → 유럽 방산 수요 증가",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "NATO 리비아 공습 → BAE Systems, 다쏘 등 유럽 방산주 +5~15%",
+        "stocks": [
+          {
+            "ticker": "LMT",
+            "name": "록히드마틴",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "NATO 리비아 개입 → 정밀유도무기 수요",
+            "actualChange": 8.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "NATO 오디세이 새벽 작전 → 토마호크·JDAM 소비 증가"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asmi-003",
+    "eventId": "asevt-007",
+    "summary": "카다피 사살로 리비아 석유 생산 재개 기대. 유가 안정화. 리비아 재건 수요 기대로 인프라·건설 관련주 관심.",
+    "analysisDate": "2011-10-20",
+    "actualSummary": "브렌트유 112→108달러 소폭 하락. 리비아 석유 생산 일부 재개(30만 배럴/일). 재건 기대 단기 반등.",
+    "actualDate": "2012-01-20",
+    "predictionAccuracy": 65,
+    "sectors": [
+      {
+        "sector": "유가",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "카다피 제거 → 리비아 석유 생산 정상화 기대 → 전쟁 프리미엄 해소",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "브렌트유 소폭 하락. 리비아 생산 재개 느림(내전 후유증). 기대보다 영향 제한적",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "리비아 생산 재개 → 유가 하락 압력",
+            "actualChange": -2.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "유가 소폭 하락 반영, 전체 시장 대비 미미"
+          }
+        ]
+      },
+      {
+        "sector": "리비아 재건·인프라",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "카다피 정권 붕괴 → 대규모 재건 수요 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "재건 기대 단기 반등했으나, 리비아 분열 지속으로 실제 재건 사업 부진",
+        "stocks": [
+          {
+            "ticker": "HAL",
+            "name": "할리버튼",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "리비아 유전 재건·서비스 수요 기대",
+            "actualChange": 3.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "단기 기대감 반영 후 리비아 불안정 지속으로 횡보"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asmi-004",
+    "eventId": "asevt-010",
+    "summary": "이집트 시시 쿠데타로 EGX 30 +7% 급등(군부 안정화 기대). 중동 불확실성 소폭 반영으로 유가 소폭 상승.",
+    "analysisDate": "2013-07-03",
+    "actualSummary": "EGX 30 쿠데타 직후 +7% 급등. 이후 3개월 +15% 추가 상승. 유가 영향 미미.",
+    "actualDate": "2013-10-03",
+    "predictionAccuracy": 80,
+    "sectors": [
+      {
+        "sector": "이집트 증시",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "군부 쿠데타 → 무르시 혼란 종식 → 시장 안정화 기대",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "high",
+        "actualReasoning": "EGX 30 쿠데타 직후 +7%, 이후 3개월 +15%. 투자자들이 군부 안정을 선호",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "이집트 안정화 기대 → 이머징 마켓 심리 개선",
+            "actualChange": 2.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "이집트 비중 소폭 기여, 전체 이머징 시장 영향은 제한적"
+          }
+        ]
+      },
+      {
+        "sector": "유가",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "중동 불확실성 소폭 반영",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "WTI 소폭 상승(97→106달러)이나 이집트 쿠데타보다 다른 요인이 더 큰 영향",
+        "stocks": [
+          {
+            "ticker": "XOM",
+            "name": "엑슨모빌",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "중동 불확실성 프리미엄 소폭 반영",
+            "actualChange": 1.0,
+            "actualPeriod": "1개월",
+            "actualReasoning": "이집트 쿠데타 자체의 유가 영향은 미미"
+          }
+        ]
+      }
+    ]
+  }
+]

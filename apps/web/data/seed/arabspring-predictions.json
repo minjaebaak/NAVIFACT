@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aspred-001",
+    "question": "튀니지가 2030년까지 아랍권 유일의 안정적 민주주의를 유지할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 튀니지에서 자유롭고 공정한 다당제 선거가 정기적으로 실시되고, Freedom House 평가에서 '자유(Free)' 또는 '부분 자유(Partly Free)' 등급을 유지하면 Yes로 정산."
+  },
+  {
+    "id": "aspred-002",
+    "question": "리비아가 2028년까지 통합 정부를 수립할까?",
+    "yesPool": 2500,
+    "noPool": 17500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "2028년 12월 31일까지 리비아 동서 분열이 해소되고, 유엔이 인정하는 단일 통합 정부가 수립·운영되면 Yes로 정산."
+  },
+  {
+    "id": "aspred-003",
+    "question": "이집트가 2030년까지 자유 선거를 다시 실시할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "2030년 12월 31일까지 이집트에서 국제 선거 감시단이 인정하는 경쟁적 다당제 대선 또는 총선이 실시되면 Yes로 정산."
+  },
+  {
+    "id": "aspred-004",
+    "question": "예멘 내전이 2028년까지 공식 종전에 합의할까?",
+    "yesPool": 5500,
+    "noPool": 14500,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "2028년 12월 31일까지 예멘 정부와 후티 반군 간 유엔 중재 공식 종전 합의가 체결되면 Yes로 정산."
+  }
+]

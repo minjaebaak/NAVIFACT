@@ -1,0 +1,110 @@
+[
+  {
+    "id": "asevt-001",
+    "title": "튀니지 부아지지 분신자살 (아랍의 봄 도화선)",
+    "description": "노점상 모하메드 부아지지가 단속 공무원의 모욕에 항의해 분신자살. 이 사건이 SNS를 통해 확산되며 아랍의 봄의 도화선이 됨.",
+    "date": "2010-12-17",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-002",
+    "title": "튀니지 벤 알리 축출 (자스민 혁명)",
+    "description": "부아지지 분신 이후 전국적 시위 확산. 23년간 집권한 벤 알리 대통령이 사우디아라비아로 망명하며 자스민 혁명 완성.",
+    "date": "2011-01-14",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-003",
+    "title": "이집트 무바라크 퇴진 (18일 시위)",
+    "description": "튀니지 혁명에 고무된 이집트 시민들이 타흐리르 광장에서 18일간 대규모 시위. 30년 집권한 무바라크 대통령이 퇴진.",
+    "date": "2011-02-11",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-004",
+    "title": "리비아 반카다피 봉기 시작",
+    "description": "벵가지에서 반카다피 시위 시작. 카다피 정권의 무력 진압으로 내전으로 확대. 유엔 안보리 비행금지구역 결의.",
+    "date": "2011-02-17",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-005",
+    "title": "시리아 반정부 시위 시작 (다라 시위)",
+    "description": "다라에서 학생 체포에 항의하는 시위 시작. 아사드 정권의 무력 진압으로 시리아 내전의 기폭제가 됨.",
+    "date": "2011-03-15",
+    "category": "사회",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-006",
+    "title": "바레인 사우디 군사 개입 (진주 광장 진압)",
+    "description": "바레인 민주화 시위에 사우디아라비아 주도 GCC 반도방패군 1,000명 투입. 진주 광장 시위대 무력 진압.",
+    "date": "2011-03-14",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-007",
+    "title": "카다피 사살·리비아 정권 붕괴",
+    "description": "NATO 공습 지원 하에 반군이 카다피의 고향 시르테 함락. 카다피 사살로 42년 독재 정권 종식.",
+    "date": "2011-10-20",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-008",
+    "title": "예멘 살레 퇴진·하디 대통령 취임",
+    "description": "GCC 중재안에 따라 33년 집권한 살레 대통령 퇴진. 부통령 하디가 단일후보 선거로 대통령 취임.",
+    "date": "2012-02-27",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-009",
+    "title": "이집트 무르시 대통령 취임 (무슬림 형제단)",
+    "description": "무바라크 퇴진 후 최초 자유선거에서 무슬림 형제단 소속 무르시 당선. 이집트 역사상 최초의 민선 대통령.",
+    "date": "2012-06-30",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-010",
+    "title": "이집트 시시 쿠데타·무르시 축출",
+    "description": "무르시의 이슬람화 정책과 경제 실패에 반발한 대규모 시위. 군 총사령관 시시가 쿠데타로 무르시 축출. 라바 광장 학살.",
+    "date": "2013-07-03",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-011",
+    "title": "예멘 후티 반군 사나 장악·내전 시작",
+    "description": "시아파 후티 반군이 수도 사나 장악. 하디 정부 아덴 이전. 이후 사우디 주도 연합군 개입으로 본격 내전.",
+    "date": "2014-09-22",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "asevt-012",
+    "title": "유럽 난민 위기 정점 (아일란 쿠르디 사건)",
+    "description": "시리아 내전 등으로 100만+ 난민이 유럽 유입. 터키 해변에서 발견된 3세 아일란 쿠르디 사진이 세계적 충격.",
+    "date": "2015-09-02",
+    "category": "사회",
+    "confidence": 95,
+    "status": "verified"
+  }
+]

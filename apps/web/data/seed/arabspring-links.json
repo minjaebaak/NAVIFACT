@@ -1,0 +1,90 @@
+[
+  {
+    "id": "aslink-001",
+    "source": "asevt-001",
+    "target": "asevt-002",
+    "confidence": 95,
+    "mechanism": "부아지지 분신 → SNS 확산 → 전국적 시위 → 벤 알리 23년 독재 축출",
+    "causalType": "direct"
+  },
+  {
+    "id": "aslink-002",
+    "source": "asevt-002",
+    "target": "asevt-003",
+    "confidence": 85,
+    "mechanism": "튀니지 혁명 성공 → '우리도 할 수 있다' → 이집트 타흐리르 광장 18일 시위 → 무바라크 퇴진",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aslink-003",
+    "source": "asevt-002",
+    "target": "asevt-004",
+    "confidence": 80,
+    "mechanism": "자스민 혁명 도미노 효과 → 리비아 벵가지 봉기 시작",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aslink-004",
+    "source": "asevt-002",
+    "target": "asevt-005",
+    "confidence": 75,
+    "mechanism": "아랍의 봄 확산 → 시리아 다라 시위 → 아사드 무력 진압 → 내전 시작",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aslink-005",
+    "source": "asevt-002",
+    "target": "asevt-006",
+    "confidence": 75,
+    "mechanism": "봉기 확산 우려 → 바레인 시위 → 사우디 반도 방패군 진입 → 무력 진압",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aslink-006",
+    "source": "asevt-004",
+    "target": "asevt-007",
+    "confidence": 90,
+    "mechanism": "리비아 봉기 → 유엔 결의 1973 → NATO 군사 개입 → 8개월 내전 → 카다피 사살",
+    "causalType": "direct"
+  },
+  {
+    "id": "aslink-007",
+    "source": "asevt-003",
+    "target": "asevt-008",
+    "confidence": 70,
+    "mechanism": "이집트 혁명 성공 → 예멘 시위 격화 → GCC 중재안 → 살레 퇴진",
+    "causalType": "contributing"
+  },
+  {
+    "id": "aslink-008",
+    "source": "asevt-003",
+    "target": "asevt-009",
+    "confidence": 90,
+    "mechanism": "무바라크 퇴진 → 군 과도 통치 → 이집트 최초 자유선거 → 무르시 당선",
+    "causalType": "direct"
+  },
+  {
+    "id": "aslink-009",
+    "source": "asevt-009",
+    "target": "asevt-010",
+    "confidence": 90,
+    "mechanism": "무르시 통치 혼란·이슬람화 논란 → 대규모 반정부 시위 → 시시 군사 쿠데타",
+    "causalType": "direct"
+  },
+  {
+    "id": "aslink-010",
+    "source": "asevt-008",
+    "target": "asevt-011",
+    "confidence": 75,
+    "mechanism": "살레 퇴진 후 권력 공백·부족 갈등 → 후티 반군 세력 확장 → 사나 장악",
+    "causalType": "enabling"
+  },
+  {
+    "id": "aslink-011",
+    "source": "asevt-005",
+    "target": "asevt-012",
+    "confidence": 80,
+    "mechanism": "시리아 내전 장기화 → 400만+ 난민 발생 → 유럽 난민 위기 정점",
+    "causalType": "contributing"
+  }
+]

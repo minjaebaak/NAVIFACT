@@ -1,0 +1,50 @@
+[
+  {
+    "id": "asnar-001",
+    "title": "아랍의 봄은 민주화의 실패",
+    "source": "Foreign Affairs / BBC / 주요 국제 언론",
+    "sourceType": "media",
+    "framing": "아랍의 봄은 튀니지를 제외하면 내전·독재 회귀·국가 붕괴로 귀결된 비극적 실험이었다.",
+    "claims": [
+      {
+        "text": "튀니지를 제외한 모든 국가에서 민주화가 실패했다",
+        "status": "verified",
+        "confidence": 85
+      },
+      {
+        "text": "아랍의 봄이 시리아·리비아·예멘의 내전을 초래했다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "이집트의 군부 쿠데타가 민주화 역행의 상징이다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ]
+  },
+  {
+    "id": "asnar-002",
+    "title": "민중의 각성과 장기적 변화",
+    "source": "Al Jazeera / 학술 연구 / 시민사회 단체",
+    "sourceType": "media",
+    "framing": "단기적 결과와 별개로 아랍의 봄은 아랍 시민사회의 정치적 각성을 촉발한 역사적 전환점이다.",
+    "claims": [
+      {
+        "text": "튀니지는 아랍권 최초의 평화적 정권 교체를 이루었다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "아랍의 봄이 아랍 시민사회의 정치적 각성을 촉발했다",
+        "status": "partly_true",
+        "confidence": 70
+      },
+      {
+        "text": "아랍의 봄 없이는 걸프국가들의 개혁도 없었을 것이다",
+        "status": "partly_true",
+        "confidence": 55
+      }
+    ]
+  }
+]
