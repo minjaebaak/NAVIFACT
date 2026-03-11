@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rwpred-001",
+    "question": "르완다가 2030년까지 민주적 정권 교체를 경험할까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "카가메 이후 공정한 선거를 통한 정권 교체 여부 (국제 선거 감시단 인정 기준)"
+  },
+  {
+    "id": "rwpred-002",
+    "question": "콩고 동부 분쟁이 2028년까지 완전히 종식될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "콩고 동부 키부 지역에서 모든 무장 단체 활동 중단 및 유엔 평화유지군 철수 (유엔 공식 보고서 기준)"
+  },
+  {
+    "id": "rwpred-003",
+    "question": "르완다 ICTR 모델이 다른 분쟁 지역에 2030년까지 적용될까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "가차차 또는 ICTR 모델을 참고한 전환기 정의 메커니즘이 새로운 분쟁 지역에서 공식 채택"
+  },
+  {
+    "id": "rwpred-004",
+    "question": "프랑스가 2028년까지 르완다 학살 책임을 공식 인정할까?",
+    "yesPool": 6000,
+    "noPool": 14000,
+    "deadline": "2028-12-31",
+    "status": "active",
+    "settlementCriteria": "프랑스 대통령 또는 의회가 학살에 대한 공식 책임 인정 성명 발표 (마크롱 2021년 발언 이상 수준)"
+  }
+]

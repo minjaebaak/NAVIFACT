@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rwmi-001",
+    "eventId": "rwevt-005",
+    "summary": "하비아리마나 대통령 암살로 중앙아프리카 정치 불안 확대. 이머징 마켓 소폭 부정적. 르완다 커피 수출 차질 우려로 원자재 시장 소폭 반응.",
+    "analysisDate": "1994-04-06",
+    "actualSummary": "글로벌 시장 영향 거의 없음. 르완다 경제 규모가 극히 작아 국제 시장에 직접적 영향 미미. 커피 가격 소폭 상승.",
+    "actualDate": "1994-06-06",
+    "predictionAccuracy": 55,
+    "sectors": [
+      {
+        "sector": "아프리카 이머징 마켓",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "중앙아프리카 정치 불안 → 아프리카 투자 심리 소폭 위축",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "르완다 GDP가 세계 경제에서 차지하는 비중이 극히 미미. 시장 영향 거의 없음",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "아프리카 정치 불안정 → 이머징 마켓 리스크 프리미엄 소폭 반영",
+            "actualChange": -0.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "르완다 사태의 직접적 시장 영향 거의 없음"
+          }
+        ]
+      },
+      {
+        "sector": "커피 원자재",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "르완다 주요 수출품 커피 → 공급 차질 우려 → 가격 상승 압력",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "르완다산 커피 수출 일시 중단되었으나 글로벌 커피 시장에서 비중 작아 영향 제한적",
+        "stocks": [
+          {
+            "ticker": "SBUX",
+            "name": "스타벅스",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "아프리카산 커피 원두 가격 상승 우려",
+            "actualChange": -0.5,
+            "actualPeriod": "2개월",
+            "actualReasoning": "르완다 커피 비중이 작아 스타벅스 실적에 의미 있는 영향 없음"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rwmi-002",
+    "eventId": "rwevt-006",
+    "summary": "100일 대학살로 르완다 경제 완전 마비. 글로벌 시장 직접 영향은 미미하나 아프리카 커피 공급 차질로 원자재 가격 소폭 상승.",
+    "analysisDate": "1994-04-07",
+    "actualSummary": "글로벌 시장 영향 거의 없음. 르완다·부룬디 커피 수출 중단으로 아프리카산 커피 가격 소폭 상승. 서방 투자자들의 아프리카 투자 심리 위축.",
+    "actualDate": "1994-07-07",
+    "predictionAccuracy": 50,
+    "sectors": [
+      {
+        "sector": "글로벌 증시",
+        "direction": "neutral",
+        "magnitude": "low",
+        "reasoning": "르완다 경제 규모 극히 작아 글로벌 시장 직접 영향 미미",
+        "region": "GLOBAL",
+        "actualDirection": "neutral",
+        "actualMagnitude": "low",
+        "actualReasoning": "1994년 글로벌 증시는 미 금리 인상에 더 민감. 르완다 학살의 시장 영향 거의 감지 불가",
+        "stocks": [
+          {
+            "ticker": "SPY",
+            "name": "S&P 500 ETF",
+            "exchange": "NYSE",
+            "direction": "neutral",
+            "reasoning": "르완다 경제가 글로벌 GDP에서 차지하는 비중 0.01% 미만",
+            "actualChange": 0.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "1994년 S&P 500은 금리·멕시코 위기에 더 영향받음"
+          }
+        ]
+      },
+      {
+        "sector": "커피 원자재",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "르완다·부룬디 커피 수출 완전 중단 → 아프리카 커피 가격 상승",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "아프리카산 커피 일시 가격 상승. 그러나 브라질·콜롬비아 대체 공급으로 영향 흡수",
+        "stocks": [
+          {
+            "ticker": "KDP",
+            "name": "큐리그 닥터페퍼",
+            "exchange": "NASDAQ",
+            "direction": "negative",
+            "reasoning": "커피 원두 가격 상승 → 원가 부담 우려",
+            "actualChange": -1.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "커피 원두 가격 소폭 상승 영향 제한적. 다른 매크로 요인이 더 크게 작용"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rwmi-003",
+    "eventId": "rwevt-010",
+    "summary": "200만 난민 유출로 중앙아프리카 전역 불안정 확산. 이머징 마켓 소폭 부정적. 대규모 인도주의 위기로 국제 원조 급증.",
+    "analysisDate": "1994-07-19",
+    "actualSummary": "콩고·탄자니아 난민 캠프 위기 확대. 이머징 마켓 직접 영향 제한적. 인도주의 원조 산업 급성장.",
+    "actualDate": "1994-10-19",
+    "predictionAccuracy": 60,
+    "sectors": [
+      {
+        "sector": "이머징 마켓",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "중앙아프리카 지역 불안정 확산 → 아프리카 투자 심리 위축",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "난민 위기가 주변국으로 확산되었으나 글로벌 투자자 관심은 제한적",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "아프리카 대호수 지역 전체 불안정화",
+            "actualChange": -1.0,
+            "actualPeriod": "2개월",
+            "actualReasoning": "난민 위기 영향보다 멕시코 페소 위기(1994.12)가 이머징 마켓에 더 큰 타격"
+          }
+        ]
+      },
+      {
+        "sector": "인도주의 원조 산업",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "대규모 난민 위기 → 국제기구 원조 급증 → 관련 산업 수요 증가",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "low",
+        "actualReasoning": "유엔·적십자 등 국제기구 긴급 원조 급증. 그러나 상장 기업에 대한 직접적 수혜 제한적",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "아프리카 지역 리스크 프리미엄 반영",
+            "actualChange": -0.5,
+            "actualPeriod": "1개월",
+            "actualReasoning": "인도주의 원조 확대가 시장에 미치는 직접적 영향은 미미"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rwmi-004",
+    "eventId": "rwevt-011",
+    "summary": "제1차 콩고 전쟁 발발로 아프리카 대호수 지역 전면전 확대. 콩고의 풍부한 광물 자원(콜탄·다이아몬드) 공급 불확실 → 가격 상승. 이머징 마켓 부정적.",
+    "analysisDate": "1996-10-25",
+    "actualSummary": "콩고 전쟁으로 콜탄 등 희귀 광물 공급 차질. 이머징 마켓 소폭 부정적. 모부투 정권 붕괴(1997.05) 후 불확실성 지속.",
+    "actualDate": "1997-01-25",
+    "predictionAccuracy": 65,
+    "sectors": [
+      {
+        "sector": "광물 자원",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "콩고 분쟁 → 콜탄·다이아몬드·코발트 공급 불확실 → 가격 상승 압력",
+        "region": "GLOBAL",
+        "actualDirection": "positive",
+        "actualMagnitude": "medium",
+        "actualReasoning": "콩고 동부 광산 지역 분쟁 격화 → 콜탄 가격 상승. 2000년대 IT 붐과 맞물려 콜탄 수요 급증 시 공급 차질 심화",
+        "stocks": [
+          {
+            "ticker": "FCX",
+            "name": "프리포트맥모란",
+            "exchange": "NYSE",
+            "direction": "positive",
+            "reasoning": "콩고 광물 공급 차질 → 대체 광산 수혜 → 구리·광물 가격 상승",
+            "actualChange": 5.0,
+            "actualPeriod": "6개월",
+            "actualReasoning": "콩고 분쟁으로 광물 공급 불안정화. 대체 광산 운영사 수혜"
+          }
+        ]
+      },
+      {
+        "sector": "이머징 마켓",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "아프리카 대호수 지역 전면전 → 아프리카 투자 심리 급락",
+        "region": "GLOBAL",
+        "actualDirection": "negative",
+        "actualMagnitude": "low",
+        "actualReasoning": "콩고 전쟁이 아프리카 투자 심리에 부정적이었으나 아시아 금융위기(1997)가 이머징 마켓에 훨씬 큰 영향",
+        "stocks": [
+          {
+            "ticker": "EEM",
+            "name": "이머징 마켓 ETF",
+            "exchange": "NYSE",
+            "direction": "negative",
+            "reasoning": "아프리카 대규모 분쟁 → 이머징 마켓 리스크 프리미엄 확대",
+            "actualChange": -3.0,
+            "actualPeriod": "3개월",
+            "actualReasoning": "콩고 전쟁보다 아시아 금융위기(1997)가 이머징 마켓 하락의 주요 원인"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rwclm-001",
+    "text": "100일간 약 80만 명이 학살당했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 8,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "rwclm-002",
+    "text": "달레르 장군이 유엔 본부에 학살 경고 전보를 보냈다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 6,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "rwclm-003",
+    "text": "유엔이 학살 진행 중 UNAMIR 병력을 감축했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 7,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "rwclm-004",
+    "text": "RTLM 라디오가 학살을 선동했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 9,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "rwclm-005",
+    "text": "프랑스가 학살 이전 후투 정권을 군사적으로 지원했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "rwclm-006",
+    "text": "RPF도 보복 학살을 저질렀다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 4,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "rwclm-007",
+    "text": "벨기에 평화유지군 10명이 학살 첫날 살해당했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 7,
+    "sourcesAgainst": 0
+  }
+]

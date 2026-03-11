@@ -1,0 +1,90 @@
+[
+  {
+    "id": "rwlink-001",
+    "source": "rwevt-001",
+    "target": "rwevt-002",
+    "confidence": 85,
+    "mechanism": "RPF 침공 → 내전 교착 → 국제 압력 → 아루샤 평화협정 체결",
+    "causalType": "contributing"
+  },
+  {
+    "id": "rwlink-002",
+    "source": "rwevt-002",
+    "target": "rwevt-003",
+    "confidence": 80,
+    "mechanism": "아루샤 협정 → 후투 강경파 권력 상실 공포 → 부룬디 사태와 맞물려 급진화 가속",
+    "causalType": "enabling"
+  },
+  {
+    "id": "rwlink-003",
+    "source": "rwevt-003",
+    "target": "rwevt-005",
+    "confidence": 75,
+    "mechanism": "부룬디 대통령 암살 → 후투-투치 긴장 극대화 → 하비아리마나 강경 선회 → 비행기 격추",
+    "causalType": "contributing"
+  },
+  {
+    "id": "rwlink-004",
+    "source": "rwevt-004",
+    "target": "rwevt-007",
+    "confidence": 85,
+    "mechanism": "달레르 학살 경고 → 유엔 본부 무시 → 대학살 발생 후에도 병력 감축 결정",
+    "causalType": "enabling"
+  },
+  {
+    "id": "rwlink-005",
+    "source": "rwevt-005",
+    "target": "rwevt-006",
+    "confidence": 95,
+    "mechanism": "하비아리마나 암살 → 후투 강경파 사전 계획된 학살 즉시 개시",
+    "causalType": "direct"
+  },
+  {
+    "id": "rwlink-006",
+    "source": "rwevt-006",
+    "target": "rwevt-007",
+    "confidence": 90,
+    "mechanism": "대학살 진행 → 벨기에군 10명 살해 → 서방 철수 → 유엔 병력 감축",
+    "causalType": "direct"
+  },
+  {
+    "id": "rwlink-007",
+    "source": "rwevt-006",
+    "target": "rwevt-008",
+    "confidence": 80,
+    "mechanism": "100일 대학살 → 국제사회 비판 고조 → 프랑스 독자적 인도주의 개입",
+    "causalType": "contributing"
+  },
+  {
+    "id": "rwlink-008",
+    "source": "rwevt-006",
+    "target": "rwevt-009",
+    "confidence": 95,
+    "mechanism": "학살 진행 → RPF 전면 공세 → 키갈리 장악 → 학살 종료",
+    "causalType": "direct"
+  },
+  {
+    "id": "rwlink-009",
+    "source": "rwevt-009",
+    "target": "rwevt-010",
+    "confidence": 95,
+    "mechanism": "RPF 승리 → 새 정부 수립 + 후투족 대규모 콩고 난민 유출",
+    "causalType": "direct"
+  },
+  {
+    "id": "rwlink-010",
+    "source": "rwevt-010",
+    "target": "rwevt-011",
+    "confidence": 90,
+    "mechanism": "200만 난민 콩고 유입 → 학살 가담자 재무장 → 르완다 콩고 개입 → 제1차 콩고 전쟁",
+    "causalType": "direct"
+  },
+  {
+    "id": "rwlink-011",
+    "source": "rwevt-009",
+    "target": "rwevt-012",
+    "confidence": 80,
+    "mechanism": "RPF 정부 수립 → 학살 청산 필요 → ICTR 국제재판 + 가차차 전통재판 병행",
+    "causalType": "enabling"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "id": "agr-rwanda-001",
+  "title": "아루샤 평화협정",
+  "date": "1993-08-04",
+  "summary": "르완다 정부와 RPF 간 권력 공유, 군 통합, 유엔 감시 하 민주 선거를 합의한 포괄적 평화협정. 그러나 후투 강경파의 반발로 이행되지 못하고 1994년 대학살로 완전히 파기되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "rwp-001", "name": "르완다 정부", "flag": "🇷🇼" },
+    { "id": "rwp-002", "name": "RPF (르완다 애국전선)", "flag": "🇷🇼" }
+  ],
+  "obligations": [
+    {
+      "id": "rwobl-001",
+      "description": "과도정부 수립 및 RPF 포함 권력 공유",
+      "deadline": "1993-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "rwp-001", "name": "르완다 정부", "flag": "🇷🇼" }
+    },
+    {
+      "id": "rwobl-002",
+      "description": "RPF 군대와 정부군 통합 (50:50 장교 배분)",
+      "deadline": "1994-06-30",
+      "status": "violated",
+      "assignedTo": { "id": "rwp-002", "name": "RPF (르완다 애국전선)", "flag": "🇷🇼" }
+    },
+    {
+      "id": "rwobl-003",
+      "description": "유엔 중립군(UNAMIR) 감시 하 선거 실시",
+      "deadline": "1995-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "rwp-001", "name": "르완다 정부", "flag": "🇷🇼" }
+    }
+  ]
+}
