@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sapred-001",
+    "question": "남아공이 2035년까지 토지개혁을 완료할까?",
+    "yesPool": 1000,
+    "noPool": 19000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "남아공 정부가 공식적으로 토지개혁 프로그램 완료를 선언하고, 흑인 토지 소유 비율이 전체 농경지의 30% 이상에 도달해야 한다."
+  },
+  {
+    "id": "sapred-002",
+    "question": "ANC가 2030년 선거에서 과반을 잃을까?",
+    "yesPool": 8000,
+    "noPool": 12000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "남아공 총선에서 ANC의 득표율이 50% 미만이어야 한다. 선거관리위원회(IEC) 공식 결과 기준."
+  },
+  {
+    "id": "sapred-003",
+    "question": "남아공 진실화해위원회 모델이 2035년까지 5개국 이상에 채택될까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "남아공 TRC를 명시적으로 모델로 삼아 설립된 진실화해위원회가 5개국 이상에서 공식 운영되어야 한다."
+  },
+  {
+    "id": "sapred-004",
+    "question": "남아공 경제 불평등(지니계수)이 2035년까지 0.50 이하로 줄어들까?",
+    "yesPool": 500,
+    "noPool": 19500,
+    "deadline": "2035-12-31",
+    "status": "active",
+    "settlementCriteria": "세계은행 또는 남아공 통계청이 발표한 남아공 지니계수가 0.50 이하여야 한다."
+  }
+]

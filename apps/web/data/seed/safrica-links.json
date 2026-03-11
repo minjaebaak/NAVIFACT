@@ -1,0 +1,90 @@
+[
+  {
+    "id": "salink-001",
+    "source": "saevt-001",
+    "target": "saevt-002",
+    "confidence": 90,
+    "mechanism": "아파르트헤이트 법 → 흑인 저항 → 패스법 반대 시위 → 샤프빌 학살",
+    "causalType": "enabling"
+  },
+  {
+    "id": "salink-002",
+    "source": "saevt-002",
+    "target": "saevt-003",
+    "confidence": 90,
+    "mechanism": "샤프빌 이후 ANC 무장투쟁 전환 → 만델라 체포·리보니아 재판",
+    "causalType": "direct"
+  },
+  {
+    "id": "salink-003",
+    "source": "saevt-003",
+    "target": "saevt-004",
+    "confidence": 80,
+    "mechanism": "ANC 지도부 투옥 → 젊은 세대 분노 축적 → 소웨토 봉기",
+    "causalType": "enabling"
+  },
+  {
+    "id": "salink-004",
+    "source": "saevt-004",
+    "target": "saevt-005",
+    "confidence": 85,
+    "mechanism": "소웨토 이후 국제 여론 악화 → 미국·EU 포괄 경제 제재",
+    "causalType": "enabling"
+  },
+  {
+    "id": "salink-005",
+    "source": "saevt-005",
+    "target": "saevt-006",
+    "confidence": 90,
+    "mechanism": "경제 제재·국제 고립 → 데클레르크 개혁 불가피 판단 → 개혁 선언",
+    "causalType": "direct"
+  },
+  {
+    "id": "salink-006",
+    "source": "saevt-006",
+    "target": "saevt-007",
+    "confidence": 95,
+    "mechanism": "개혁 선언 → ANC 합법화 → 만델라 석방",
+    "causalType": "direct"
+  },
+  {
+    "id": "salink-007",
+    "source": "saevt-007",
+    "target": "saevt-008",
+    "confidence": 90,
+    "mechanism": "만델라 석방 → ANC-정부 대화 시작 → CODESA 협상",
+    "causalType": "direct"
+  },
+  {
+    "id": "salink-008",
+    "source": "saevt-008",
+    "target": "saevt-009",
+    "confidence": 75,
+    "mechanism": "협상 진행 중 극우 백인 반발 → 크리스 하니 암살 → 내전 위기",
+    "causalType": "enabling"
+  },
+  {
+    "id": "salink-009",
+    "source": "saevt-009",
+    "target": "saevt-010",
+    "confidence": 80,
+    "mechanism": "하니 암살 위기 극복 → 만델라·데클레르크 화해 리더십 → 노벨 평화상",
+    "causalType": "enabling"
+  },
+  {
+    "id": "salink-010",
+    "source": "saevt-010",
+    "target": "saevt-011",
+    "confidence": 90,
+    "mechanism": "노벨상·국제 지지 → 과도기 헌법 합의 → 최초 민주 선거 → 만델라 대통령",
+    "causalType": "direct"
+  },
+  {
+    "id": "salink-011",
+    "source": "saevt-011",
+    "target": "saevt-012",
+    "confidence": 90,
+    "mechanism": "민주 정부 수립 → 과거 청산 필요 → 진실화해위원회 설립",
+    "causalType": "direct"
+  }
+]

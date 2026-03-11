@@ -1,0 +1,58 @@
+[
+  {
+    "id": "saclm-001",
+    "text": "아파르트헤이트는 인류 역사상 가장 체계적인 인종차별 제도였다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "saclm-002",
+    "text": "국제 경제 제재가 아파르트헤이트 종식의 결정적 요인이었다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "saclm-003",
+    "text": "만델라가 27년 투옥 후에도 화해를 선택한 것이 내전을 방지했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "saclm-004",
+    "text": "진실화해위원회가 실질적 정의를 구현했다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "saclm-005",
+    "text": "아파르트헤이트 종식 후 남아공 경제 불평등이 오히려 악화되었다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "saclm-006",
+    "text": "ANC의 무장투쟁이 아파르트헤이트 종식에 필수적이었다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "saclm-007",
+    "text": "남아공의 핵무기 자발적 폐기는 아파르트헤이트 종식과 연관된다",
+    "status": "partly_true",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  }
+]

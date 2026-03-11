@@ -1,0 +1,34 @@
+{
+  "id": "agr-safrica-001",
+  "title": "국민화합평화협정 (National Peace Accord)",
+  "date": "1991-09-14",
+  "summary": "남아공 정부, ANC, 잉카타자유당 등 주요 정치 세력이 서명한 평화협정으로, 정치적 폭력 중단, 다자간 민주적 협상 참여, 자유·공정 선거를 통한 민주 전환을 합의했다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "party-sa-gov", "name": "남아공 정부", "flag": "🇿🇦" },
+    { "id": "party-anc", "name": "ANC", "flag": "🇿🇦" }
+  ],
+  "obligations": [
+    {
+      "id": "obl-safrica-001",
+      "description": "정치적 폭력 중단 및 평화적 해결 추구",
+      "deadline": "즉시",
+      "status": "partially_fulfilled",
+      "assignedTo": { "id": "party-joint", "name": "남아공 정부·ANC 공동", "flag": "🇿🇦" }
+    },
+    {
+      "id": "obl-safrica-002",
+      "description": "다자간 민주적 과도기 협상 참여",
+      "deadline": "1994년 선거 전",
+      "status": "fulfilled",
+      "assignedTo": { "id": "party-joint", "name": "남아공 정부·ANC 공동", "flag": "🇿🇦" }
+    },
+    {
+      "id": "obl-safrica-003",
+      "description": "자유·공정 선거 실시를 통한 민주 전환",
+      "deadline": "1994년",
+      "status": "fulfilled",
+      "assignedTo": { "id": "party-joint", "name": "남아공 정부·ANC 공동", "flag": "🇿🇦" }
+    }
+  ]
+}

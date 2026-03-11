@@ -1,0 +1,84 @@
+[
+  {
+    "id": "sami-001",
+    "eventId": "saevt-005",
+    "summary": "1986년 미국 포괄 반아파르트헤이트법과 국제 경제 제재로 남아공 증시가 폭락하고 자본이 유출되었으며, 남아공 금 공급 불안으로 국제 금값에 상승 압력이 가해졌다.",
+    "analysisDate": "1986-10-02",
+    "sectors": [
+      {
+        "sector": "남아공 증시",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "포괄 경제 제재 → 요하네스버그 증시 폭락, 외국인 투자 철수·란드화 폭락",
+        "region": "남아공",
+        "stocks": [
+          { "ticker": "EZA", "name": "iShares MSCI South Africa ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "국제 제재로 남아공 시장 전반 급락" }
+        ]
+      },
+      {
+        "sector": "금",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "세계 최대 금 생산국 남아공의 공급 불안 → 국제 금값 상승 압력",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "GLD", "name": "SPDR Gold Shares", "exchange": "NYSE", "direction": "positive", "reasoning": "남아공 금 공급 리스크로 금값 상승" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sami-002",
+    "eventId": "saevt-007",
+    "summary": "1990년 만델라 석방은 남아공 민주화 기대를 촉발하여 외국인 투자 유입이 시작되고, 요하네스버그 증시가 강세로 전환했다.",
+    "analysisDate": "1990-02-11",
+    "sectors": [
+      {
+        "sector": "남아공 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "민주화 기대 → 제재 해제 전망 → 외국인 투자 유입 시작",
+        "region": "남아공",
+        "stocks": [
+          { "ticker": "EZA", "name": "iShares MSCI South Africa ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "민주화 기대로 남아공 시장 급등" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sami-003",
+    "eventId": "saevt-011",
+    "summary": "1994년 최초 민주 선거와 만델라 대통령 취임으로 남아공 제재가 전면 해제되며 시장이 급등하고 국제 자본이 대규모로 유입되었다.",
+    "analysisDate": "1994-04-27",
+    "sectors": [
+      {
+        "sector": "남아공 증시",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "평화적 민주 전환 → 제재 해제 → 국제 자본 대규모 유입",
+        "region": "남아공",
+        "stocks": [
+          { "ticker": "EZA", "name": "iShares MSCI South Africa ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "민주 정부 출범·제재 해제로 시장 강세" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sami-004",
+    "eventId": "saevt-012",
+    "summary": "1996년 진실화해위원회 설립은 사회 안정과 법치 강화에 대한 기대를 높여 남아공 시장에 완만한 긍정 효과를 주었다.",
+    "analysisDate": "1996-04-15",
+    "sectors": [
+      {
+        "sector": "남아공 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "사회 안정·법치 강화 기대 → 투자 환경 개선 → 완만한 상승",
+        "region": "남아공",
+        "stocks": [
+          { "ticker": "EZA", "name": "iShares MSCI South Africa ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "과거 청산·사회 안정 기대로 완만한 상승" }
+        ]
+      }
+    ]
+  }
+]
