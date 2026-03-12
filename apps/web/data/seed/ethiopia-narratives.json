@@ -1,0 +1,36 @@
+[
+  {
+    "id": "etnar-001",
+    "title": "연방정부는 국가 통합을 위해 정당한 법집행을 수행했다",
+    "source": "에티오피아 연방정부·관영 매체",
+    "sourceType": "media",
+    "framing": "TPLF가 북부사령부를 선제공격한 것이 전쟁의 원인이다. 연방정부의 군사작전은 반란 진압을 위한 합법적 법집행이며, 에티오피아의 영토 통합을 지키기 위한 불가피한 조치였다. TPLF는 30년간 소수 지배를 유지한 권위주의 세력이다.",
+    "claims": [
+      { "text": "TPLF가 북부사령부를 선제공격했다", "status": "verified", "confidence": 80 },
+      { "text": "연방군의 작전은 법집행이다", "status": "disputed", "confidence": 40 },
+      { "text": "TPLF가 에티오피아를 30년간 소수 지배했다", "status": "partly_true", "confidence": 65 }
+    ],
+    "missingContext": [
+      "연방군과 에리트레아군의 민간인 학살·성폭력 보고",
+      "티그라이 지역 의도적 기아 유발 의혹",
+      "아비 아흐메드의 TPLF 배제 정책이 전쟁 원인 중 하나"
+    ]
+  },
+  {
+    "id": "etnar-002",
+    "title": "아비 아흐메드가 티그라이에 대한 집단학살을 자행했다",
+    "source": "TPLF·국제인권단체·서방 매체",
+    "sourceType": "media",
+    "framing": "아비 아흐메드 정부가 에리트레아군과 함께 티그라이 주민에 대한 조직적 학살, 성폭력, 기아 무기화를 자행했다. 이는 전쟁범죄이자 인도에 반하는 죄이며, 국제사회의 강력한 개입이 필요하다.",
+    "claims": [
+      { "text": "티그라이에서 대규모 민간인 학살이 발생했다", "status": "verified", "confidence": 85 },
+      { "text": "에리트레아군이 전쟁범죄를 저질렀다", "status": "verified", "confidence": 85 },
+      { "text": "기아가 무기로 사용되었다", "status": "verified", "confidence": 80 }
+    ],
+    "missingContext": [
+      "TPLF 세력도 아뮤하라·아파르 지역에서 인권 침해를 저질렀다",
+      "에티오피아 정치의 복잡한 민족 권력 역학",
+      "전쟁 이전 TPLF의 권위주의적 통치 역사"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "etclm-001",
+    "text": "티그라이 전쟁에서 60만 명 이상이 사망했다",
+    "status": "disputed",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "etclm-002",
+    "text": "에리트레아군이 티그라이에서 조직적 성폭력을 자행했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "etclm-003",
+    "text": "에티오피아 정부가 티그라이에 인도적 접근을 의도적으로 차단했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "etclm-004",
+    "text": "TPLF가 아뮤하라·아파르 지역에서 민간인을 학살했다",
+    "status": "verified",
+    "confidence": 75,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "etclm-005",
+    "text": "데르그 적색 테러로 50만 명 이상이 살해되었다",
+    "status": "disputed",
+    "confidence": 60,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "etclm-006",
+    "text": "아비 아흐메드가 노벨평화상 수상 후 독재화되었다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "etclm-007",
+    "text": "프레토리아 협정 이후에도 에리트레아군이 티그라이에 주둔하고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  }
+]

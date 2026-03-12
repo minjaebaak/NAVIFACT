@@ -1,0 +1,52 @@
+[
+  {
+    "id": "etmi-001",
+    "eventId": "etevt-009",
+    "summary": "티그라이 전쟁 발발로 에티오피아 경제 성장 전망이 하향 조정되고 동아프리카 투자 심리가 위축되었다.",
+    "analysisDate": "2020-11-04",
+    "sectors": [
+      {
+        "sector": "아프리카 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "에티오피아 내전 → 동아프리카 정치 리스크 부각 → 지역 투자 심리 위축",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "AFK", "name": "VanEck Africa Index ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "에티오피아 내전으로 아프리카 투자 리스크 부각" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "etmi-002",
+    "eventId": "etevt-008",
+    "summary": "에리트레아 평화협정으로 에티오피아 경제 개혁 기대감이 형성되어 외국인 투자 관심이 증가했다.",
+    "analysisDate": "2018-07-09",
+    "sectors": [
+      {
+        "sector": "에티오피아 경제",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "평화협정 → 지역 안정화 기대 → 에티오피아 개혁·개방 가속 전망",
+        "region": "아프리카",
+        "stocks": []
+      }
+    ]
+  },
+  {
+    "id": "etmi-003",
+    "eventId": "etevt-012",
+    "summary": "프레토리아 평화협정으로 에티오피아 경제 회복 기대감이 형성되었으나 불확실성은 지속되었다.",
+    "analysisDate": "2022-11-02",
+    "sectors": [
+      {
+        "sector": "아프리카 경제",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "휴전 합의 → 에티오피아 경제 재건 기대 → 제한적 긍정 신호",
+        "region": "아프리카",
+        "stocks": []
+      }
+    ]
+  }
+]

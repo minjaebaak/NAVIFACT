@@ -1,0 +1,98 @@
+[
+  {
+    "id": "etlink-001",
+    "source": "etevt-001",
+    "target": "etevt-002",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "데르그의 권력 장악 → 반대파 제거를 위한 적색 테러 발동"
+  },
+  {
+    "id": "etlink-002",
+    "source": "etevt-001",
+    "target": "etevt-003",
+    "causalType": "indirect",
+    "confidence": 80,
+    "mechanism": "데르그 독재에 대한 에리트레아·티그라이 무장 저항 → 30년 독립전쟁"
+  },
+  {
+    "id": "etlink-003",
+    "source": "etevt-003",
+    "target": "etevt-004",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "EPRDF가 데르그를 타도하고 새 정권을 수립"
+  },
+  {
+    "id": "etlink-004",
+    "source": "etevt-003",
+    "target": "etevt-005",
+    "causalType": "contributing",
+    "confidence": 75,
+    "mechanism": "에리트레아 독립 후 미해결 국경 문제가 전쟁으로 비화"
+  },
+  {
+    "id": "etlink-005",
+    "source": "etevt-005",
+    "target": "etevt-006",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "전쟁의 막대한 인명 피해가 국제 중재 평화협정을 이끌어냄"
+  },
+  {
+    "id": "etlink-006",
+    "source": "etevt-004",
+    "target": "etevt-007",
+    "causalType": "indirect",
+    "confidence": 70,
+    "mechanism": "EPRDF 내부 민족 갈등과 오로모 시위가 개혁파 아비 아흐메드 부상을 촉진"
+  },
+  {
+    "id": "etlink-007",
+    "source": "etevt-006",
+    "target": "etevt-008",
+    "causalType": "contributing",
+    "confidence": 75,
+    "mechanism": "알제 협정의 미이행 상태를 아비 아흐메드가 전격적 화해로 해소"
+  },
+  {
+    "id": "etlink-008",
+    "source": "etevt-007",
+    "target": "etevt-009",
+    "causalType": "contributing",
+    "confidence": 80,
+    "mechanism": "아비의 중앙집권화·TPLF 배제가 티그라이와의 무력 충돌을 초래"
+  },
+  {
+    "id": "etlink-009",
+    "source": "etevt-008",
+    "target": "etevt-009",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "에리트레아 화해로 TPLF가 전략적으로 고립되어 선제공격을 결심"
+  },
+  {
+    "id": "etlink-010",
+    "source": "etevt-009",
+    "target": "etevt-010",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "연방군의 티그라이 군사작전으로 주도 메켈레 점령"
+  },
+  {
+    "id": "etlink-011",
+    "source": "etevt-010",
+    "target": "etevt-011",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "연방군 점령에 대한 TPLF의 게릴라 전환과 대규모 반격"
+  },
+  {
+    "id": "etlink-012",
+    "source": "etevt-011",
+    "target": "etevt-012",
+    "causalType": "contributing",
+    "confidence": 80,
+    "mechanism": "교착 상태와 인도주의 위기가 AU 중재 평화협정을 이끌어냄"
+  }
+]

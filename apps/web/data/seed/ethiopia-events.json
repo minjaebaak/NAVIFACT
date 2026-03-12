@@ -1,0 +1,110 @@
+[
+  {
+    "id": "etevt-001",
+    "title": "데르그 군사 쿠데타",
+    "description": "군부 위원회 데르그가 하일레 셀라시에 황제를 축출하고 마르크스-레닌주의 군사정권을 수립했다.",
+    "date": "1974-09-12",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-002",
+    "title": "적색 테러",
+    "description": "멩기스투 하일레 마리암이 주도한 대규모 정치적 숙청으로 수만~수십만 명이 학살되었다.",
+    "date": "1977-02-03",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-003",
+    "title": "에리트레아 독립·데르그 정권 붕괴",
+    "description": "EPLF가 에리트레아를 해방하고, EPRDF가 아디스아바바를 장악하여 데르그 정권이 붕괴했다.",
+    "date": "1991-05-24",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-004",
+    "title": "EPRDF 정권 수립",
+    "description": "멜레스 제나위 주도의 EPRDF가 과도정부를 구성하고 민족 연방주의 체제를 도입했다.",
+    "date": "1991-05-28",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-005",
+    "title": "에티오피아-에리트레아 전쟁 발발",
+    "description": "바드메 지역 국경 분쟁으로 양국 간 전면전이 발발하여 약 10만 명이 사망했다.",
+    "date": "1998-05-06",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-006",
+    "title": "알제 평화협정",
+    "description": "에티오피아와 에리트레아가 알제리에서 평화협정을 체결하여 전쟁을 종식했으나, 국경 문제는 미해결로 남았다.",
+    "date": "2000-12-12",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-007",
+    "title": "아비 아흐메드 총리 취임",
+    "description": "오로모족 출신 아비 아흐메드가 총리로 취임하며 민주 개혁과 화해 정책을 추진했다.",
+    "date": "2018-04-02",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-008",
+    "title": "에리트레아 평화협정 (노벨평화상)",
+    "description": "아비 아흐메드가 에리트레아 이사이아스 대통령과 역사적 평화협정을 체결하여 20년간의 적대 관계를 종식했다.",
+    "date": "2018-07-09",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-009",
+    "title": "티그라이 전쟁 발발",
+    "description": "TPLF가 북부사령부를 공격하자 연방군이 티그라이 지역에 대한 군사작전을 개시했다.",
+    "date": "2020-11-04",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-010",
+    "title": "연방군 메켈레 함락",
+    "description": "에티오피아 연방군이 티그라이 주도 메켈레를 점령하고 TPLF 지도부를 축출했다.",
+    "date": "2020-11-28",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-011",
+    "title": "티그라이군 반격·수도 위협",
+    "description": "TPLF가 대규모 반격에 성공하여 메켈레를 탈환하고 아디스아바바 방면으로 진격했다.",
+    "date": "2021-06-28",
+    "category": "군사",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-012",
+    "title": "프레토리아 평화협정",
+    "description": "아프리카연합 중재로 에티오피아 정부와 TPLF가 남아공 프레토리아에서 적대행위 중단 협정에 서명했다.",
+    "date": "2022-11-02",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  }
+]

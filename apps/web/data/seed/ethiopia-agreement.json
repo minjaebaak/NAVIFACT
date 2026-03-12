@@ -1,0 +1,42 @@
+{
+  "id": "agr-ethiopia",
+  "title": "프레토리아 적대행위 중단 협정",
+  "date": "2022-11-02",
+  "summary": "아프리카연합 중재로 에티오피아 정부와 TPLF가 남아공 프레토리아에서 체결한 적대행위 중단 협정. 무장해제, 인도적 접근, 과도적 정의 실현을 합의했다.",
+  "status": "partial",
+  "parties": [
+    { "id": "etp-001", "name": "에티오피아 연방정부", "role": "정부" },
+    { "id": "etp-002", "name": "티그라이인민해방전선(TPLF)", "role": "반군" },
+    { "id": "etp-003", "name": "아프리카연합(AU)", "role": "중재자" }
+  ],
+  "obligations": [
+    {
+      "id": "etobl-001",
+      "description": "TPLF의 중화기 무장해제를 30일 이내에 완료한다",
+      "deadline": "2022-12-02",
+      "status": "partial",
+      "assignedTo": { "id": "etp-002", "name": "티그라이인민해방전선(TPLF)", "role": "반군" }
+    },
+    {
+      "id": "etobl-002",
+      "description": "티그라이 지역에 대한 인도적 접근을 즉시 허용한다",
+      "deadline": "2022-11-15",
+      "status": "partial",
+      "assignedTo": { "id": "etp-001", "name": "에티오피아 연방정부", "role": "정부" }
+    },
+    {
+      "id": "etobl-003",
+      "description": "에리트레아군의 티그라이 철수를 보장한다",
+      "deadline": "2023-06-30",
+      "status": "violated",
+      "assignedTo": { "id": "etp-001", "name": "에티오피아 연방정부", "role": "정부" }
+    },
+    {
+      "id": "etobl-004",
+      "description": "과도적 정의 메커니즘을 수립한다",
+      "deadline": "2023-12-31",
+      "status": "pending",
+      "assignedTo": { "id": "etp-003", "name": "아프리카연합(AU)", "role": "중재자" }
+    }
+  ]
+}
