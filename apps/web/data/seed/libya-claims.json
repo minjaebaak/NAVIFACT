@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lyclm-001",
+    "text": "카다피가 록커비 폭탄 테러를 지시했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "lyclm-002",
+    "text": "NATO 개입이 안보리 결의 1973호의 범위를 초과했다",
+    "status": "disputed",
+    "confidence": 60,
+    "sourcesFor": 3,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "lyclm-003",
+    "text": "카다피 정권이 시위대에 대해 공습을 감행했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "lyclm-004",
+    "text": "리비아 무기가 사헬 지역 분쟁으로 확산되었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "lyclm-005",
+    "text": "러시아 바그너 그룹이 리비아 내전에 개입했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "lyclm-006",
+    "text": "카다피가 아프리카 통합과 금 기반 통화를 추진하여 서방의 표적이 되었다",
+    "status": "disputed",
+    "confidence": 40,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "lyclm-007",
+    "text": "리비아 내 외국 용병이 수천 명에 달한다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "lymi-001",
+    "eventId": "lyevt-006",
+    "summary": "리비아 내전 발발로 원유 생산이 급감하여 국제 유가가 급등하고 에너지 관련주가 상승했다.",
+    "analysisDate": "2011-02-15",
+    "sectors": [
+      {
+        "sector": "국제 유가",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "리비아 원유 생산(일 160만 배럴) 중단 → 브렌트유 급등",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "리비아 내전으로 공급 차질 우려" },
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 상승 수혜" }
+        ]
+      },
+      {
+        "sector": "항공",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "유가 급등 → 항공사 연료비 부담 증가",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "DAL", "name": "Delta Air Lines", "exchange": "NYSE", "direction": "negative", "reasoning": "유가 급등으로 연료비 부담" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lymi-002",
+    "eventId": "lyevt-008",
+    "summary": "NATO 군사개입으로 리비아 석유 시설 피해 우려가 확대되며 유가가 추가 상승했다.",
+    "analysisDate": "2011-03-19",
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "NATO 개입 → 석유 인프라 피해 우려 → 공급 불안 지속",
+        "region": "유럽",
+        "stocks": [
+          { "ticker": "BP", "name": "BP plc", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 상승 및 리비아 대체 공급원 수요" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lymi-003",
+    "eventId": "lyevt-009",
+    "summary": "카다피 사망으로 리비아 원유 생산 재개 기대감이 형성되어 유가가 하락 압력을 받았다.",
+    "analysisDate": "2011-10-20",
+    "sectors": [
+      {
+        "sector": "국제 유가",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "카다피 사망 → 내전 종식 기대 → 원유 생산 재개 전망 → 유가 하락 압력",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "negative", "reasoning": "리비아 원유 공급 재개 기대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lymi-004",
+    "eventId": "lyevt-012",
+    "summary": "휴전 합의로 리비아 석유 생산 정상화 기대감이 형성되었으나 정치적 불확실성은 지속되었다.",
+    "analysisDate": "2020-10-23",
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "휴전 → 리비아 원유 생산 정상화 기대 → 유가 하락 압력",
+        "region": "글로벌",
+        "stocks": []
+      }
+    ]
+  }
+]

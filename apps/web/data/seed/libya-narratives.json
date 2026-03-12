@@ -1,0 +1,36 @@
+[
+  {
+    "id": "lynar-001",
+    "title": "NATO 개입은 인도주의적 성공이었다",
+    "source": "NATO·서방 정부",
+    "sourceType": "media",
+    "framing": "NATO의 리비아 개입은 카다피 정권의 민간인 학살을 막은 정당한 인도주의적 개입이다. 안보리 결의 1973호에 근거한 합법적 작전으로, '보호 책임(R2P)' 원칙의 성공적 적용 사례다. 리비아 국민이 독재에서 해방되는 데 기여했다.",
+    "claims": [
+      { "text": "NATO 개입이 벵가지 학살을 방지했다", "status": "partly_true", "confidence": 60 },
+      { "text": "개입은 안보리 결의의 범위 내에서 이루어졌다", "status": "disputed", "confidence": 40 },
+      { "text": "리비아 국민이 해방되었다", "status": "partly_true", "confidence": 45 }
+    ],
+    "missingContext": [
+      "카다피 정권 붕괴 후 국가 실패와 내전 지속",
+      "결의 1973호의 민간인 보호 목적이 정권 교체로 변질",
+      "리비아의 무기가 사헬 지역으로 확산되어 광역 불안정 초래"
+    ]
+  },
+  {
+    "id": "lynar-002",
+    "title": "서방의 리비아 개입은 신식민주의적 자원 약탈이다",
+    "source": "러시아·아프리카연합·반서방 매체",
+    "sourceType": "media",
+    "framing": "NATO의 리비아 개입은 인도주의가 아닌 석유 자원 확보와 지정학적 이익을 위한 것이었다. 안보리 결의를 넘어선 정권 교체는 주권 침해이며, 리비아를 실패국가로 만든 책임은 서방에 있다. 이는 이라크 침공의 반복이다.",
+    "claims": [
+      { "text": "NATO의 진짜 목표는 석유 자원이었다", "status": "partly_true", "confidence": 45 },
+      { "text": "리비아는 서방 개입 전에 안정적이었다", "status": "partly_true", "confidence": 40 },
+      { "text": "서방이 리비아를 실패국가로 만들었다", "status": "partly_true", "confidence": 55 }
+    ],
+    "missingContext": [
+      "카다피 정권의 심각한 인권 탄압과 민간인 폭격",
+      "리비아 국민의 자발적인 반정부 시위",
+      "러시아·중국도 결의 1973호에 거부권을 행사하지 않았음"
+    ]
+  }
+]

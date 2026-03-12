@@ -238,6 +238,12 @@ import myanmarAgreement from "@/data/seed/myanmar-agreement.json";
 import myanmarPredictions from "@/data/seed/myanmar-predictions.json";
 import myanmarNarratives from "@/data/seed/myanmar-narratives.json";
 import myanmarClaims from "@/data/seed/myanmar-claims.json";
+import libyaEvents from "@/data/seed/libya-events.json";
+import libyaLinks from "@/data/seed/libya-links.json";
+import libyaAgreement from "@/data/seed/libya-agreement.json";
+import libyaPredictions from "@/data/seed/libya-predictions.json";
+import libyaNarratives from "@/data/seed/libya-narratives.json";
+import libyaClaims from "@/data/seed/libya-claims.json";
 
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
@@ -269,6 +275,7 @@ import nirelandMarketImpacts from "@/data/seed/nireland-market-impacts.json";
 import congoMarketImpacts from "@/data/seed/congo-market-impacts.json";
 import yemenMarketImpacts from "@/data/seed/yemen-market-impacts.json";
 import myanmarMarketImpacts from "@/data/seed/myanmar-market-impacts.json";
+import libyaMarketImpacts from "@/data/seed/libya-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -397,14 +404,14 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar" | "libya";
 
 const SCENARIO_IDS = new Set<string>([
   "tariff", "iran", "ukraine", "techwar", "nkorea", "taiwan",
   "syria", "brexit", "afghan", "iraq", "arabspring", "yugo",
   "rwanda", "cuba", "soviet", "vietnam", "korea", "iranrev",
   "palest", "tiananmen", "indpak", "falklands", "safrica",
-  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar",
+  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar", "libya",
 ]);
 
 export function parseScenarioParam(param?: string): ScenarioId {
@@ -623,6 +630,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇲🇲",
     description: "영국 식민→네윈 군사독재→8888 항쟁→NLD 압승→사프란 혁명→아웅산 수치→로힝야 학살→2021 쿠데타→1027 작전까지 군부·민주주의·소수민족의 인과관계",
     dateRange: "1948 - 2023",
+  },
+  {
+    id: "libya",
+    title: "리비아 내전",
+    flag: "🇱🇾",
+    description: "카다피 쿠데타→록커비 테러→UN 제재→WMD 포기→아랍의 봄→NATO 개입→카다피 사망→벵가지 공격→IS 진출→동서 분열까지 석유국가·독재·개입의 인과관계",
+    dateRange: "1969 - 2023",
   },
 ];
 
@@ -898,6 +912,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: myanmarClaims as SeedClaim[],
     marketImpacts: myanmarMarketImpacts as SeedMarketImpact[],
   },
+  libya: {
+    events: libyaEvents as SeedEvent[],
+    links: libyaLinks as SeedLink[],
+    agreement: libyaAgreement as SeedAgreement,
+    predictions: libyaPredictions as SeedPrediction[],
+    narratives: libyaNarratives as SeedNarrative[],
+    claims: libyaClaims as SeedClaim[],
+    marketImpacts: libyaMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -984,6 +1007,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("myevt-") || eventId.startsWith("mylink-") || eventId.startsWith("mypred-") || eventId.startsWith("mynar-") || eventId.startsWith("myclm-") || eventId.startsWith("agr-myanmar") || eventId.startsWith("mymi-") || eventId.startsWith("myobl-")) {
     return "myanmar";
+  }
+  if (eventId.startsWith("lyevt-") || eventId.startsWith("lylink-") || eventId.startsWith("lypred-") || eventId.startsWith("lynar-") || eventId.startsWith("lyclm-") || eventId.startsWith("agr-libya") || eventId.startsWith("lymi-") || eventId.startsWith("lyobl-")) {
+    return "libya";
   }
   return "tariff";
 }
@@ -1266,6 +1292,15 @@ const allShortIds = [
   ...myanmarPredictions.map((p) => p.id),
   ...myanmarNarratives.map((n) => n.id),
   ...myanmarClaims.map((c) => c.id),
+  ...libyaEvents.map((e) => e.id),
+  ...libyaLinks.map((l) => l.id),
+  libyaAgreement.id,
+  ...libyaAgreement.parties.map((p: { id: string }) => p.id),
+  ...libyaAgreement.obligations.map((o: { id: string }) => o.id),
+  ...libyaMarketImpacts.map((m) => m.id),
+  ...libyaPredictions.map((p) => p.id),
+  ...libyaNarratives.map((n) => n.id),
+  ...libyaClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API
@@ -1522,7 +1557,7 @@ export async function getEvents(): Promise<SeedEvent[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiEvent);
   } catch {
-    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[]), ...(nkoreaEvents as SeedEvent[]), ...(taiwanEvents as SeedEvent[]), ...(syriaEvents as SeedEvent[]), ...(brexitEvents as SeedEvent[]), ...(afghanEvents as SeedEvent[]), ...(iraqEvents as SeedEvent[]), ...(arabspringEvents as SeedEvent[]), ...(yugoEvents as SeedEvent[]), ...(rwandaEvents as SeedEvent[]), ...(cubaEvents as SeedEvent[]), ...(sovietEvents as SeedEvent[]), ...(vietnamEvents as SeedEvent[]), ...(koreaEvents as SeedEvent[]), ...(iranrevEvents as SeedEvent[]), ...(palestEvents as SeedEvent[]), ...(tiananmenEvents as SeedEvent[]), ...(indpakEvents as SeedEvent[]), ...(falklandsEvents as SeedEvent[]), ...(safricaEvents as SeedEvent[]), ...(mexicoEvents as SeedEvent[]), ...(chechnyaEvents as SeedEvent[]), ...(nirelandEvents as SeedEvent[]), ...(congoEvents as SeedEvent[]), ...(yemenEvents as SeedEvent[]), ...(myanmarEvents as SeedEvent[])];
+    return [...(seedEvents as SeedEvent[]), ...(iranEvents as SeedEvent[]), ...(ukraineEvents as SeedEvent[]), ...(techwarEvents as SeedEvent[]), ...(nkoreaEvents as SeedEvent[]), ...(taiwanEvents as SeedEvent[]), ...(syriaEvents as SeedEvent[]), ...(brexitEvents as SeedEvent[]), ...(afghanEvents as SeedEvent[]), ...(iraqEvents as SeedEvent[]), ...(arabspringEvents as SeedEvent[]), ...(yugoEvents as SeedEvent[]), ...(rwandaEvents as SeedEvent[]), ...(cubaEvents as SeedEvent[]), ...(sovietEvents as SeedEvent[]), ...(vietnamEvents as SeedEvent[]), ...(koreaEvents as SeedEvent[]), ...(iranrevEvents as SeedEvent[]), ...(palestEvents as SeedEvent[]), ...(tiananmenEvents as SeedEvent[]), ...(indpakEvents as SeedEvent[]), ...(falklandsEvents as SeedEvent[]), ...(safricaEvents as SeedEvent[]), ...(mexicoEvents as SeedEvent[]), ...(chechnyaEvents as SeedEvent[]), ...(nirelandEvents as SeedEvent[]), ...(congoEvents as SeedEvent[]), ...(yemenEvents as SeedEvent[]), ...(myanmarEvents as SeedEvent[]), ...(libyaEvents as SeedEvent[])];
   }
 }
 
@@ -1544,7 +1579,7 @@ export async function getLinks(): Promise<SeedLink[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiLink);
   } catch {
-    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[]), ...(nkoreaLinks as SeedLink[]), ...(taiwanLinks as SeedLink[]), ...(syriaLinks as SeedLink[]), ...(brexitLinks as SeedLink[]), ...(afghanLinks as SeedLink[]), ...(iraqLinks as SeedLink[]), ...(arabspringLinks as SeedLink[]), ...(yugoLinks as SeedLink[]), ...(rwandaLinks as SeedLink[]), ...(cubaLinks as SeedLink[]), ...(sovietLinks as SeedLink[]), ...(vietnamLinks as SeedLink[]), ...(koreaLinks as SeedLink[]), ...(iranrevLinks as SeedLink[]), ...(palestLinks as SeedLink[]), ...(tiananmenLinks as SeedLink[]), ...(indpakLinks as SeedLink[]), ...(falklandsLinks as SeedLink[]), ...(safricaLinks as SeedLink[]), ...(mexicoLinks as SeedLink[]), ...(chechnyaLinks as SeedLink[]), ...(nirelandLinks as SeedLink[]), ...(congoLinks as SeedLink[]), ...(yemenLinks as SeedLink[]), ...(myanmarLinks as SeedLink[])];
+    return [...(seedLinks as SeedLink[]), ...(iranLinks as SeedLink[]), ...(ukraineLinks as SeedLink[]), ...(techwarLinks as SeedLink[]), ...(nkoreaLinks as SeedLink[]), ...(taiwanLinks as SeedLink[]), ...(syriaLinks as SeedLink[]), ...(brexitLinks as SeedLink[]), ...(afghanLinks as SeedLink[]), ...(iraqLinks as SeedLink[]), ...(arabspringLinks as SeedLink[]), ...(yugoLinks as SeedLink[]), ...(rwandaLinks as SeedLink[]), ...(cubaLinks as SeedLink[]), ...(sovietLinks as SeedLink[]), ...(vietnamLinks as SeedLink[]), ...(koreaLinks as SeedLink[]), ...(iranrevLinks as SeedLink[]), ...(palestLinks as SeedLink[]), ...(tiananmenLinks as SeedLink[]), ...(indpakLinks as SeedLink[]), ...(falklandsLinks as SeedLink[]), ...(safricaLinks as SeedLink[]), ...(mexicoLinks as SeedLink[]), ...(chechnyaLinks as SeedLink[]), ...(nirelandLinks as SeedLink[]), ...(congoLinks as SeedLink[]), ...(yemenLinks as SeedLink[]), ...(myanmarLinks as SeedLink[]), ...(libyaLinks as SeedLink[])];
   }
 }
 
@@ -1584,7 +1619,7 @@ export async function getPredictions(): Promise<SeedPrediction[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiPrediction);
   } catch {
-    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[]), ...(nkoreaPredictions as SeedPrediction[]), ...(taiwanPredictions as SeedPrediction[]), ...(syriaPredictions as SeedPrediction[]), ...(brexitPredictions as SeedPrediction[]), ...(afghanPredictions as SeedPrediction[]), ...(iraqPredictions as SeedPrediction[]), ...(arabspringPredictions as SeedPrediction[]), ...(yugoPredictions as SeedPrediction[]), ...(rwandaPredictions as SeedPrediction[]), ...(cubaPredictions as SeedPrediction[]), ...(sovietPredictions as SeedPrediction[]), ...(vietnamPredictions as SeedPrediction[]), ...(koreaPredictions as SeedPrediction[]), ...(iranrevPredictions as SeedPrediction[]), ...(palestPredictions as SeedPrediction[]), ...(tiananmenPredictions as SeedPrediction[]), ...(indpakPredictions as SeedPrediction[]), ...(falklandsPredictions as SeedPrediction[]), ...(safricaPredictions as SeedPrediction[]), ...(mexicoPredictions as SeedPrediction[]), ...(chechnyaPredictions as SeedPrediction[]), ...(nirelandPredictions as SeedPrediction[]), ...(congoPredictions as SeedPrediction[]), ...(yemenPredictions as SeedPrediction[]), ...(myanmarPredictions as SeedPrediction[])];
+    return [...(seedPredictions as SeedPrediction[]), ...(iranPredictions as SeedPrediction[]), ...(ukrainePredictions as SeedPrediction[]), ...(techwarPredictions as SeedPrediction[]), ...(nkoreaPredictions as SeedPrediction[]), ...(taiwanPredictions as SeedPrediction[]), ...(syriaPredictions as SeedPrediction[]), ...(brexitPredictions as SeedPrediction[]), ...(afghanPredictions as SeedPrediction[]), ...(iraqPredictions as SeedPrediction[]), ...(arabspringPredictions as SeedPrediction[]), ...(yugoPredictions as SeedPrediction[]), ...(rwandaPredictions as SeedPrediction[]), ...(cubaPredictions as SeedPrediction[]), ...(sovietPredictions as SeedPrediction[]), ...(vietnamPredictions as SeedPrediction[]), ...(koreaPredictions as SeedPrediction[]), ...(iranrevPredictions as SeedPrediction[]), ...(palestPredictions as SeedPrediction[]), ...(tiananmenPredictions as SeedPrediction[]), ...(indpakPredictions as SeedPrediction[]), ...(falklandsPredictions as SeedPrediction[]), ...(safricaPredictions as SeedPrediction[]), ...(mexicoPredictions as SeedPrediction[]), ...(chechnyaPredictions as SeedPrediction[]), ...(nirelandPredictions as SeedPrediction[]), ...(congoPredictions as SeedPrediction[]), ...(yemenPredictions as SeedPrediction[]), ...(myanmarPredictions as SeedPrediction[]), ...(libyaPredictions as SeedPrediction[])];
   }
 }
 
@@ -1600,7 +1635,7 @@ export async function getNarratives(): Promise<SeedNarrative[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiNarrative);
   } catch {
-    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[]), ...(nkoreaNarratives as SeedNarrative[]), ...(taiwanNarratives as SeedNarrative[]), ...(syriaNarratives as SeedNarrative[]), ...(brexitNarratives as SeedNarrative[]), ...(afghanNarratives as SeedNarrative[]), ...(iraqNarratives as SeedNarrative[]), ...(arabspringNarratives as SeedNarrative[]), ...(yugoNarratives as SeedNarrative[]), ...(rwandaNarratives as SeedNarrative[]), ...(cubaNarratives as SeedNarrative[]), ...(sovietNarratives as SeedNarrative[]), ...(vietnamNarratives as SeedNarrative[]), ...(koreaNarratives as SeedNarrative[]), ...(iranrevNarratives as SeedNarrative[]), ...(palestNarratives as SeedNarrative[]), ...(tiananmenNarratives as SeedNarrative[]), ...(indpakNarratives as SeedNarrative[]), ...(falklandsNarratives as SeedNarrative[]), ...(safricaNarratives as SeedNarrative[]), ...(mexicoNarratives as SeedNarrative[]), ...(chechnyaNarratives as SeedNarrative[]), ...(nirelandNarratives as SeedNarrative[]), ...(congoNarratives as SeedNarrative[]), ...(yemenNarratives as SeedNarrative[]), ...(myanmarNarratives as SeedNarrative[])];
+    return [...(seedNarratives as SeedNarrative[]), ...(iranNarratives as SeedNarrative[]), ...(ukraineNarratives as SeedNarrative[]), ...(techwarNarratives as SeedNarrative[]), ...(nkoreaNarratives as SeedNarrative[]), ...(taiwanNarratives as SeedNarrative[]), ...(syriaNarratives as SeedNarrative[]), ...(brexitNarratives as SeedNarrative[]), ...(afghanNarratives as SeedNarrative[]), ...(iraqNarratives as SeedNarrative[]), ...(arabspringNarratives as SeedNarrative[]), ...(yugoNarratives as SeedNarrative[]), ...(rwandaNarratives as SeedNarrative[]), ...(cubaNarratives as SeedNarrative[]), ...(sovietNarratives as SeedNarrative[]), ...(vietnamNarratives as SeedNarrative[]), ...(koreaNarratives as SeedNarrative[]), ...(iranrevNarratives as SeedNarrative[]), ...(palestNarratives as SeedNarrative[]), ...(tiananmenNarratives as SeedNarrative[]), ...(indpakNarratives as SeedNarrative[]), ...(falklandsNarratives as SeedNarrative[]), ...(safricaNarratives as SeedNarrative[]), ...(mexicoNarratives as SeedNarrative[]), ...(chechnyaNarratives as SeedNarrative[]), ...(nirelandNarratives as SeedNarrative[]), ...(congoNarratives as SeedNarrative[]), ...(yemenNarratives as SeedNarrative[]), ...(myanmarNarratives as SeedNarrative[]), ...(libyaNarratives as SeedNarrative[])];
   }
 }
 
@@ -1616,6 +1651,6 @@ export async function getClaims(): Promise<SeedClaim[]> {
     if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
     return items.map(transformApiClaim);
   } catch {
-    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[]), ...(nkoreaClaims as SeedClaim[]), ...(taiwanClaims as SeedClaim[]), ...(syriaClaims as SeedClaim[]), ...(brexitClaims as SeedClaim[]), ...(afghanClaims as SeedClaim[]), ...(iraqClaims as SeedClaim[]), ...(arabspringClaims as SeedClaim[]), ...(yugoClaims as SeedClaim[]), ...(rwandaClaims as SeedClaim[]), ...(cubaClaims as SeedClaim[]), ...(sovietClaims as SeedClaim[]), ...(vietnamClaims as SeedClaim[]), ...(koreaClaims as SeedClaim[]), ...(iranrevClaims as SeedClaim[]), ...(palestClaims as SeedClaim[]), ...(tiananmenClaims as SeedClaim[]), ...(indpakClaims as SeedClaim[]), ...(falklandsClaims as SeedClaim[]), ...(safricaClaims as SeedClaim[]), ...(mexicoClaims as SeedClaim[]), ...(chechnyaClaims as SeedClaim[]), ...(nirelandClaims as SeedClaim[]), ...(congoClaims as SeedClaim[]), ...(yemenClaims as SeedClaim[]), ...(myanmarClaims as SeedClaim[])];
+    return [...(seedClaims as SeedClaim[]), ...(iranClaims as SeedClaim[]), ...(ukraineClaims as SeedClaim[]), ...(techwarClaims as SeedClaim[]), ...(nkoreaClaims as SeedClaim[]), ...(taiwanClaims as SeedClaim[]), ...(syriaClaims as SeedClaim[]), ...(brexitClaims as SeedClaim[]), ...(afghanClaims as SeedClaim[]), ...(iraqClaims as SeedClaim[]), ...(arabspringClaims as SeedClaim[]), ...(yugoClaims as SeedClaim[]), ...(rwandaClaims as SeedClaim[]), ...(cubaClaims as SeedClaim[]), ...(sovietClaims as SeedClaim[]), ...(vietnamClaims as SeedClaim[]), ...(koreaClaims as SeedClaim[]), ...(iranrevClaims as SeedClaim[]), ...(palestClaims as SeedClaim[]), ...(tiananmenClaims as SeedClaim[]), ...(indpakClaims as SeedClaim[]), ...(falklandsClaims as SeedClaim[]), ...(safricaClaims as SeedClaim[]), ...(mexicoClaims as SeedClaim[]), ...(chechnyaClaims as SeedClaim[]), ...(nirelandClaims as SeedClaim[]), ...(congoClaims as SeedClaim[]), ...(yemenClaims as SeedClaim[]), ...(myanmarClaims as SeedClaim[]), ...(libyaClaims as SeedClaim[])];
   }
 }

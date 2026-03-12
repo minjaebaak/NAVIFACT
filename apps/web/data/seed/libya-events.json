@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lyevt-001",
+    "title": "카다피 군사 쿠데타",
+    "description": "27세의 무아마르 카다피 대위가 이드리스 왕을 축출하고 권력을 장악하여 42년간의 독재 체제를 수립했다.",
+    "date": "1969-09-01",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-002",
+    "title": "미국 리비아 폭격 (엘도라도 캐니언 작전)",
+    "description": "서베를린 디스코텍 테러에 대한 보복으로 미국이 트리폴리와 벵가지를 공습하여 카다피의 테러 지원에 경고를 보냈다.",
+    "date": "1986-04-15",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-003",
+    "title": "록커비 팬암 103편 폭탄 테러",
+    "description": "리비아 공작원이 스코틀랜드 록커비 상공에서 팬암 103편을 폭파하여 270명이 사망했다.",
+    "date": "1988-12-21",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-004",
+    "title": "UN 대리비아 제재 부과",
+    "description": "록커비 사건 용의자 인도를 거부한 리비아에 UN 안보리가 항공·무기 제재를 부과하여 리비아가 국제적으로 고립되었다.",
+    "date": "1992-03-31",
+    "category": "외교",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-005",
+    "title": "카다피 대량살상무기 포기 선언",
+    "description": "카다피가 핵·화학무기 프로그램 포기를 선언하고 서방과 관계 정상화를 시작했다.",
+    "date": "2003-12-19",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-006",
+    "title": "아랍의 봄 리비아 시위 시작",
+    "description": "튀니지·이집트 혁명에 영감을 받은 반정부 시위가 벵가지에서 시작되어 전국으로 확산되었다.",
+    "date": "2011-02-15",
+    "category": "사회",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-007",
+    "title": "UN 안보리 결의 1973호 채택",
+    "description": "리비아 민간인 보호를 위한 비행금지구역 설정과 무력 사용을 승인하는 결의안이 채택되었다.",
+    "date": "2011-03-17",
+    "category": "외교",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-008",
+    "title": "NATO 군사개입 개시",
+    "description": "프랑스·영국·미국 주도로 NATO가 리비아에 대한 군사작전을 개시하여 카다피군의 진격을 저지했다.",
+    "date": "2011-03-19",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-009",
+    "title": "카다피 사망",
+    "description": "시르테에서 도주 중이던 카다피가 반군에 의해 체포·살해되어 42년간의 독재가 종식되었다.",
+    "date": "2011-10-20",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-010",
+    "title": "벵가지 미국 영사관 공격",
+    "description": "벵가지 주재 미국 영사관이 무장세력의 공격을 받아 크리스토퍼 스티븐스 대사를 포함한 4명이 사망했다.",
+    "date": "2012-09-11",
+    "category": "군사",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-011",
+    "title": "IS 리비아 거점 확보",
+    "description": "이슬람국가(IS)가 시르테를 중심으로 리비아 내 거점을 확보하며 북아프리카로 세력을 확장했다.",
+    "date": "2015-02-15",
+    "category": "군사",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "lyevt-012",
+    "title": "유엔 주도 영구 휴전 합의",
+    "description": "리비아 동서 양측이 유엔 중재로 영구적 휴전에 합의하여 통합정부 구성의 기반을 마련했다.",
+    "date": "2020-10-23",
+    "category": "외교",
+    "confidence": 85,
+    "status": "verified"
+  }
+]

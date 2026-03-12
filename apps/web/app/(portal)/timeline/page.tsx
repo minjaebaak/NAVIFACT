@@ -191,6 +191,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "민주화·정치",
     bottomLabel: "군부 행동",
   },
+  libya: {
+    topIds: ["lyevt-004", "lyevt-005", "lyevt-007", "lyevt-012"],
+    centerIds: ["lyevt-009"],
+    topLabel: "외교·정치",
+    bottomLabel: "군사 행동",
+  },
 };
 
 export default async function TimelinePage({
@@ -379,6 +385,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "myanmar"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "libya"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },

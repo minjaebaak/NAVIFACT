@@ -1,0 +1,90 @@
+[
+  {
+    "id": "lylink-001",
+    "source": "lyevt-001",
+    "target": "lyevt-002",
+    "causalType": "indirect",
+    "confidence": 75,
+    "mechanism": "카다피 정권의 테러 지원 정책이 미국의 군사적 보복을 초래했다."
+  },
+  {
+    "id": "lylink-002",
+    "source": "lyevt-002",
+    "target": "lyevt-003",
+    "causalType": "contributing",
+    "confidence": 65,
+    "mechanism": "미국 공습 이후 카다피가 록커비 테러를 지시한 것으로 추정된다."
+  },
+  {
+    "id": "lylink-003",
+    "source": "lyevt-003",
+    "target": "lyevt-004",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "록커비 테러 용의자 인도 거부로 UN 제재가 부과되었다."
+  },
+  {
+    "id": "lylink-004",
+    "source": "lyevt-004",
+    "target": "lyevt-005",
+    "causalType": "contributing",
+    "confidence": 70,
+    "mechanism": "장기간의 국제 제재와 고립이 카다피의 대량살상무기 포기 결정에 영향을 미쳤다."
+  },
+  {
+    "id": "lylink-005",
+    "source": "lyevt-001",
+    "target": "lyevt-006",
+    "causalType": "indirect",
+    "confidence": 80,
+    "mechanism": "42년간의 독재에 대한 누적된 불만이 아랍의 봄을 계기로 폭발했다."
+  },
+  {
+    "id": "lylink-006",
+    "source": "lyevt-006",
+    "target": "lyevt-007",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "카다피 정권의 시위대 무력 진압이 국제사회의 개입 결의를 이끌어냈다."
+  },
+  {
+    "id": "lylink-007",
+    "source": "lyevt-007",
+    "target": "lyevt-008",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "안보리 결의 1973호가 NATO 군사작전의 법적 근거를 제공했다."
+  },
+  {
+    "id": "lylink-008",
+    "source": "lyevt-008",
+    "target": "lyevt-009",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "NATO의 공습 지원이 반군의 카다피 정권 타도에 결정적 역할을 했다."
+  },
+  {
+    "id": "lylink-009",
+    "source": "lyevt-009",
+    "target": "lyevt-010",
+    "causalType": "indirect",
+    "confidence": 75,
+    "mechanism": "카다피 사후 권력 공백과 무장세력 난립이 미 영사관 공격의 배경이 되었다."
+  },
+  {
+    "id": "lylink-010",
+    "source": "lyevt-009",
+    "target": "lyevt-011",
+    "causalType": "enabling",
+    "confidence": 85,
+    "mechanism": "카다피 정권 붕괴 후 국가 실패 상태가 IS의 거점 확보를 가능케 했다."
+  },
+  {
+    "id": "lylink-011",
+    "source": "lyevt-011",
+    "target": "lyevt-012",
+    "causalType": "contributing",
+    "confidence": 70,
+    "mechanism": "IS 위협과 지속적 내전이 양측의 휴전 합의 필요성을 높였다."
+  }
+]

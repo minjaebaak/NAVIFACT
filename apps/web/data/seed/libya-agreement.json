@@ -1,0 +1,42 @@
+{
+  "id": "agr-libya",
+  "title": "리비아 정치 합의 (스키라트 협정)",
+  "date": "2015-12-17",
+  "summary": "유엔 주도로 모로코 스키라트에서 체결된 리비아 정치 합의로, 국민합의정부(GNA) 수립과 통합 거버넌스 프레임워크를 구축했다.",
+  "status": "partial",
+  "parties": [
+    { "id": "lyp-001", "name": "리비아 국민합의정부(GNA)", "role": "서부 정부" },
+    { "id": "lyp-002", "name": "리비아 국민군(LNA)/토브루크 의회", "role": "동부 정부" },
+    { "id": "lyp-003", "name": "유엔 리비아 지원단(UNSMIL)", "role": "중재자" }
+  ],
+  "obligations": [
+    {
+      "id": "lyobl-001",
+      "description": "국민합의정부(GNA)를 리비아의 유일한 합법 정부로 인정한다",
+      "deadline": "2016-03-31",
+      "status": "partial",
+      "assignedTo": { "id": "lyp-002", "name": "리비아 국민군(LNA)/토브루크 의회", "role": "동부 정부" }
+    },
+    {
+      "id": "lyobl-002",
+      "description": "모든 무장세력을 통합 군사지휘체계 아래 통합한다",
+      "deadline": "2017-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "lyp-001", "name": "리비아 국민합의정부(GNA)", "role": "서부 정부" }
+    },
+    {
+      "id": "lyobl-003",
+      "description": "선거법을 제정하고 대통령·의회 선거를 실시한다",
+      "deadline": "2018-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "lyp-003", "name": "유엔 리비아 지원단(UNSMIL)", "role": "중재자" }
+    },
+    {
+      "id": "lyobl-004",
+      "description": "석유 수입을 중앙은행을 통해 공평하게 분배한다",
+      "deadline": "2016-12-31",
+      "status": "partial",
+      "assignedTo": { "id": "lyp-001", "name": "리비아 국민합의정부(GNA)", "role": "서부 정부" }
+    }
+  ]
+}
