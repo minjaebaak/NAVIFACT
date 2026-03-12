@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cgclm-001",
+    "text": "콩고 분쟁으로 600만 명 이상이 사망했다",
+    "status": "verified",
+    "confidence": 75,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "cgclm-002",
+    "text": "루뭄바 암살에 CIA와 벨기에가 관여했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cgclm-003",
+    "text": "르완다가 M23 반군을 군사적으로 지원하고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cgclm-004",
+    "text": "콩고가 세계 코발트 매장량의 70% 이상을 보유하고 있다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cgclm-005",
+    "text": "모부투가 50억 달러 이상의 국부를 횡령했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "cgclm-006",
+    "text": "2차 콩고전쟁에 9개국이 참전했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cgclm-007",
+    "text": "콩고 동부에서 아동 병사가 대규모로 동원되고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  }
+]

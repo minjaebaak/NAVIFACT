@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cglink-001",
+    "source": "cgevt-001",
+    "target": "cgevt-002",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "성급한 독립 → 정치 불안정 → 루뭄바 소련 접근 → CIA·벨기에 개입 → 암살"
+  },
+  {
+    "id": "cglink-002",
+    "source": "cgevt-002",
+    "target": "cgevt-003",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "루뭄바 암살 → 정치 공백 → 모부투 군사 쿠데타 → 32년 독재"
+  },
+  {
+    "id": "cglink-003",
+    "source": "cgevt-003",
+    "target": "cgevt-004",
+    "causalType": "enabling",
+    "confidence": 70,
+    "mechanism": "모부투 독재 → 이웃국 르완다 제노사이드 방치 → 르완다 난민 대량 유입"
+  },
+  {
+    "id": "cglink-004",
+    "source": "cgevt-004",
+    "target": "cgevt-005",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "르완다 난민(후투 민병대 포함) → 르완다·우간다 안보 위협 → 1차 콩고전쟁"
+  },
+  {
+    "id": "cglink-005",
+    "source": "cgevt-005",
+    "target": "cgevt-006",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "1차 전쟁 → AFDL 반군 진격 → 모부투 축출 → 로랑 카빌라 집권"
+  },
+  {
+    "id": "cglink-006",
+    "source": "cgevt-006",
+    "target": "cgevt-007",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "카빌라-르완다 동맹 결렬 → 르완다·우간다 재침공 → 2차 콩고전쟁"
+  },
+  {
+    "id": "cglink-007",
+    "source": "cgevt-007",
+    "target": "cgevt-008",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "전쟁 교착·국제 압력 → 남아공 중재 → 프레토리아 평화협정"
+  },
+  {
+    "id": "cglink-008",
+    "source": "cgevt-008",
+    "target": "cgevt-009",
+    "causalType": "enabling",
+    "confidence": 85,
+    "mechanism": "평화협정 → 과도 정부 → 유엔 지원 → 콩고 최초 민주 선거"
+  },
+  {
+    "id": "cglink-009",
+    "source": "cgevt-007",
+    "target": "cgevt-010",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "2차 전쟁 미해결 → 동부 무장 세력 잔존 → 르완다 지원 M23 반군 → 고마 점령"
+  },
+  {
+    "id": "cglink-010",
+    "source": "cgevt-009",
+    "target": "cgevt-011",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "민주 선거 전통 → 카빌라 3선 포기 압력 → 치세케디 첫 평화적 정권교체"
+  },
+  {
+    "id": "cglink-011",
+    "source": "cgevt-010",
+    "target": "cgevt-012",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "M23 동부 장악 패턴 반복 → 코발트·콜탄 자원 통제 → 2023 재점령 위기"
+  }
+]

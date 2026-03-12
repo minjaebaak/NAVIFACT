@@ -1,0 +1,34 @@
+{
+  "id": "agr-congo-001",
+  "title": "프레토리아 포괄적 평화협정 (Pretoria Accord)",
+  "date": "2002-12-17",
+  "summary": "2차 콩고전쟁 종식을 위해 남아공 중재 아래 콩고와 르완다가 체결한 포괄적 평화협정으로, 외국 무장 세력 해체·르완다군 철수·과도 정부 구성 및 민주 선거를 합의했다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "agr-congo-p1", "name": "콩고민주공화국", "flag": "🇨🇩" },
+    { "id": "agr-congo-p2", "name": "르완다", "flag": "🇷🇼" }
+  ],
+  "obligations": [
+    {
+      "id": "cgobl-001",
+      "description": "외국 무장 세력(후투 민병대 등) 무장 해제",
+      "deadline": "2004-06-30",
+      "status": "partial",
+      "assignedTo": { "id": "agr-congo-p1", "name": "콩고민주공화국", "flag": "🇨🇩" }
+    },
+    {
+      "id": "cgobl-002",
+      "description": "르완다군 콩고 영토 철수",
+      "deadline": "2003-06-30",
+      "status": "partial",
+      "assignedTo": { "id": "agr-congo-p2", "name": "르완다", "flag": "🇷🇼" }
+    },
+    {
+      "id": "cgobl-003",
+      "description": "과도 정부 구성 및 민주 선거 실시",
+      "deadline": "2006-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "agr-congo-p1", "name": "콩고민주공화국", "flag": "🇨🇩" }
+    }
+  ]
+}

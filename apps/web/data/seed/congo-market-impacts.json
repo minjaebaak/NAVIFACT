@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cgmi-001",
+    "eventId": "cgevt-002",
+    "summary": "1961년 루뭄바 암살로 콩고 정치 불안정이 극심해져 외국인 투자가 급감하고 광업이 마비되었다.",
+    "analysisDate": "1961-01-17",
+    "sectors": [
+      {
+        "sector": "콩고 경제",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "정치 불안정 → 외국인 투자 급감 → 광업 마비",
+        "region": "아프리카",
+        "stocks": []
+      }
+    ]
+  },
+  {
+    "id": "cgmi-002",
+    "eventId": "cgevt-007",
+    "summary": "1998년 2차 콩고전쟁 발발로 아프리카 최대 전쟁의 불안정이 지역 전체로 확산되었으나, 코발트·콜탄 공급 불안으로 광물 가격이 상승했다.",
+    "analysisDate": "1998-08-02",
+    "sectors": [
+      {
+        "sector": "아프리카 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "아프리카 최대 전쟁 → 지역 전체 불안정 → 투자 심리 위축",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "EZA", "name": "iShares MSCI South Africa ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "아프리카 대전으로 지역 투자 리스크 증가" }
+        ]
+      },
+      {
+        "sector": "광물",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "코발트·콜탄 공급 불안 → 광물 가격 상승",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "LIT", "name": "Global X Lithium & Battery Tech ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "콩고 분쟁으로 코발트 공급 불안 확대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cgmi-003",
+    "eventId": "cgevt-010",
+    "summary": "2012년 M23 반군의 고마 점령으로 동부 콩고 광산 접근이 차단되어 콜탄 가격이 단기 상승했다.",
+    "analysisDate": "2012-11-20",
+    "sectors": [
+      {
+        "sector": "광물",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "동부 콩고 광산 접근 차단 → 콜탄 가격 단기 상승",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "LIT", "name": "Global X Lithium & Battery Tech ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "M23 고마 점령으로 콜탄 공급 불안" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cgmi-004",
+    "eventId": "cgevt-012",
+    "summary": "2023년 M23 반군 재점령 위기로 코발트 공급 불안이 확산되어 EV 배터리 공급망에 우려가 커졌다.",
+    "analysisDate": "2023-10-20",
+    "sectors": [
+      {
+        "sector": "광물",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "코발트 공급 불안 → EV 배터리 공급망 우려 → 광물 가격 상승",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "LIT", "name": "Global X Lithium & Battery Tech ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "콩고 동부 분쟁으로 코발트 공급 불안 확대" }
+        ]
+      },
+      {
+        "sector": "전기차",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "코발트 가격 불안정 → EV 원가 상승 우려",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "TSLA", "name": "Tesla", "exchange": "NASDAQ", "direction": "negative", "reasoning": "코발트 공급 불안으로 EV 배터리 원가 상승 우려" }
+        ]
+      }
+    ]
+  }
+]
