@@ -110,5 +110,21 @@
     "confidence": 85,
     "mechanism": "헤즈볼라 전쟁 참전과 이스라엘 대규모 보복 공습으로 레바논 정부가 헤즈볼라 무장해제 결단",
     "causalType": "direct"
+  },
+  {
+    "id": "ilink-015",
+    "source": "ievt-012",
+    "target": "ievt-016",
+    "confidence": 90,
+    "mechanism": "하메네이 최고지도자 사살 → 전문가회의 긴급 소집 → 아들 모즈타바 권력 세습",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-016",
+    "source": "ievt-014",
+    "target": "ievt-017",
+    "confidence": 85,
+    "mechanism": "헤즈볼라 미사일·드론 이스라엘 공격 → 이스라엘 보복 확대 → 남레바논 지상 침공",
+    "causalType": "direct"
   }
 ]

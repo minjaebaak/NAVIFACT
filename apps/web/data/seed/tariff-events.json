@@ -70,5 +70,23 @@
     "category": "경제",
     "confidence": 95,
     "status": "verified"
+  },
+  {
+    "id": "evt-009",
+    "title": "24개 주 Section 122 관세 위헌 소송",
+    "description": "24개 주가 국제무역법원(CIT)에 Section 122 관세의 위헌성을 주장하는 소송을 제기했다. 50년 만에 최초로 발동된 이 관세 권한의 합법성에 대한 본격적인 법적 대결이 시작되었다.",
+    "date": "2026-03-05",
+    "category": "경제",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "evt-010",
+    "title": "트럼프 Section 301 무역 조사 발표",
+    "description": "트럼프 행정부가 대법원의 IEEPA 위헌 판결에 대응하여 무역법 Section 301에 근거한 새로운 무역 조사를 발표했다. 중국·멕시코·EU 등 12개 이상 경제권을 대상으로 호혜 관세를 대체할 법적 기반을 마련했다.",
+    "date": "2026-03-11",
+    "category": "경제",
+    "confidence": 85,
+    "status": "verified"
   }
 ]

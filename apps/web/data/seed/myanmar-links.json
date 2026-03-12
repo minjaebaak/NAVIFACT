@@ -94,5 +94,13 @@
     "causalType": "indirect",
     "confidence": 80,
     "mechanism": "2021 쿠데타로 집권한 군부가 정당성 확보를 위해 사실상 선거 강행"
+  },
+  {
+    "id": "mylink-013",
+    "source": "myevt-012",
+    "target": "myevt-014",
+    "confidence": 80,
+    "mechanism": "1027 작전의 군사적 성과 → 저항군 연합 역량 강화 → 팔람 전투 대규모 격퇴",
+    "causalType": "enabling"
   }
 ]

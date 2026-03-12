@@ -25,7 +25,7 @@ const SIDE_CONFIG: Record<ScenarioId, {
   },
   iran: {
     topIds: ["ievt-001", "ievt-004", "ievt-007", "ievt-010", "ievt-013"],
-    centerIds: ["ievt-014"],
+    centerIds: ["ievt-014", "ievt-016"],
     topLabel: "이란/프록시 행동",
     bottomLabel: "이스라엘/미국 행동",
   },

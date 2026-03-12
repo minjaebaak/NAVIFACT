@@ -62,5 +62,21 @@
     "confidence": 85,
     "mechanism": "일괄 관세와 무역 불확실성 심화가 주식시장 조정으로 직결",
     "causalType": "direct"
+  },
+  {
+    "id": "link-009",
+    "source": "evt-007",
+    "target": "evt-009",
+    "confidence": 90,
+    "mechanism": "Section 122 관세 발동 → 50년 만의 전례 없는 권한 사용에 24개 주 위헌 소송",
+    "causalType": "direct"
+  },
+  {
+    "id": "link-010",
+    "source": "evt-006",
+    "target": "evt-010",
+    "confidence": 85,
+    "mechanism": "대법원 IEEPA 위헌 판결로 호혜 관세 법적 근거 상실 → Section 301 대체 전략 추진",
+    "causalType": "direct"
   }
 ]

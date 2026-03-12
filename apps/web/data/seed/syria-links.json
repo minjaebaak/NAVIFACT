@@ -102,5 +102,13 @@
     "confidence": 80,
     "mechanism": "SDF 통합 합의로 동북부 지역에 대한 정부 관할이 확보되어 선거 추진 가능",
     "causalType": "direct"
+  },
+  {
+    "id": "sylink-014",
+    "source": "syevt-012",
+    "target": "syevt-015",
+    "confidence": 90,
+    "mechanism": "아사드 정권 붕괴 후 HTS 주도 과도정부 수립 → 5년 전환체제 선언",
+    "causalType": "direct"
   }
 ]

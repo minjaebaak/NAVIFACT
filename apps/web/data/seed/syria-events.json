@@ -124,5 +124,14 @@
     "category": "외교",
     "confidence": 80,
     "status": "verified"
+  },
+  {
+    "id": "syevt-015",
+    "title": "시리아 과도정부 수립 (5년 전환체제)",
+    "description": "전 HTS 지도자 아흐마드 알샤라가 이끄는 과도정부가 공식 출범하여 5년간 헌법 제정과 총선거를 추진하는 전환체제를 선언했다. 대통령에게 사법·입법 임명권을 집중하는 헌법 선언이 승인되었다.",
+    "date": "2026-03-01",
+    "category": "외교",
+    "confidence": 85,
+    "status": "verified"
   }
 ]

@@ -115,5 +115,14 @@
     "category": "외교",
     "confidence": 85,
     "status": "verified"
+  },
+  {
+    "id": "myevt-014",
+    "title": "저항군 팔람 전투 군부 200명+ 격퇴",
+    "description": "친주 팔람 타운십에서 저항군 연합이 군부 병력 200명 이상을 사살하고 40명을 포로로 잡는 대규모 전과를 올렸다. 1027 작전 이후 지속된 저항군의 영토 확대 추세가 가속화되고 있다.",
+    "date": "2026-03-12",
+    "category": "군사",
+    "confidence": 80,
+    "status": "verified"
   }
 ]
