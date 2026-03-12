@@ -1,0 +1,36 @@
+[
+  {
+    "id": "mynar-001",
+    "title": "미얀마 군부는 국가 통합을 위한 안정 세력이다",
+    "source": "군부 관영 매체·중국 매체",
+    "sourceType": "media",
+    "framing": "미얀마 군부(따뜻마도)는 130개 이상의 소수민족으로 구성된 국가의 통합을 유지하는 핵심 기관이다. 2021년 개입은 NLD의 선거 부정에 대한 헌법적 대응이며, 서방의 제재는 내정 간섭이다. 군부만이 미얀마의 분열을 방지할 수 있다.",
+    "claims": [
+      { "text": "2020년 총선에서 대규모 부정이 있었다", "status": "partly_true", "confidence": 30 },
+      { "text": "군부 개입은 헌법에 근거한 것이다", "status": "partly_true", "confidence": 35 },
+      { "text": "군부만이 국가 통합을 유지할 수 있다", "status": "partly_true", "confidence": 25 }
+    ],
+    "missingContext": [
+      "쿠데타 이후 3,000명 이상 시민 살해",
+      "아웅산 수치 등 민주 지도자 불법 구금",
+      "소수민족 지역 무차별 공습과 인도주의 위기"
+    ]
+  },
+  {
+    "id": "mynar-002",
+    "title": "미얀마 군부는 민주주의를 파괴한 불법 정권이다",
+    "source": "NUG·서방 정부·인권단체",
+    "sourceType": "media",
+    "framing": "2021년 쿠데타는 민주적으로 선출된 정부를 전복한 불법 행위이다. 군부는 시민에 대한 전쟁범죄와 인도에 반하는 죄를 저지르고 있으며, 국민통합정부(NUG)와 시민방위군(PDF)이 합법적 저항을 이끌고 있다.",
+    "claims": [
+      { "text": "2021년 쿠데타는 불법적 권력 찬탈이다", "status": "verified", "confidence": 90 },
+      { "text": "군부가 시민에 대한 전쟁범죄를 저지르고 있다", "status": "verified", "confidence": 90 },
+      { "text": "NUG가 미얀마의 합법적 정부이다", "status": "partly_true", "confidence": 60 }
+    ],
+    "missingContext": [
+      "일부 저항 세력의 인권 침해",
+      "미얀마 정치의 복잡한 민족·종교적 갈등",
+      "아웅산 수치 정부의 로힝야 학살 묵인 문제"
+    ]
+  }
+]

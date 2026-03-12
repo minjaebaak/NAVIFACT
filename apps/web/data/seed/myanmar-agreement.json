@@ -1,0 +1,34 @@
+{
+  "id": "agr-myanmar-001",
+  "title": "2008 미얀마 헌법 (군부-민간 권력 분점)",
+  "date": "2008-05-29",
+  "summary": "군부가 주도한 헌법 국민투표로 채택된 헌법으로, 의회 의석 25%를 군부에 배정하고 민주적 선거를 통한 민간 정부 수립을 규정했으나 2021년 쿠데타로 사실상 파기되었다.",
+  "status": "violated",
+  "parties": [
+    { "id": "agr-myanmar-p1", "name": "미얀마 군부 (따뜻마도)", "flag": "🇲🇲" },
+    { "id": "agr-myanmar-p2", "name": "미얀마 민간 정부", "flag": "🇲🇲" }
+  ],
+  "obligations": [
+    {
+      "id": "myobl-001",
+      "description": "의회 의석 25%를 군부에 배정 보장",
+      "deadline": "2015-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "agr-myanmar-p2", "name": "미얀마 민간 정부", "flag": "🇲🇲" }
+    },
+    {
+      "id": "myobl-002",
+      "description": "민주적 선거 실시 및 결과 존중",
+      "deadline": "2020-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "agr-myanmar-p1", "name": "미얀마 군부 (따뜻마도)", "flag": "🇲🇲" }
+    },
+    {
+      "id": "myobl-003",
+      "description": "군부 사업 및 국방·안보 자율성 보장",
+      "deadline": "2020-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "agr-myanmar-p2", "name": "미얀마 민간 정부", "flag": "🇲🇲" }
+    }
+  ]
+}

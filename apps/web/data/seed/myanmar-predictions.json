@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mypred-001",
+    "question": "미얀마에서 2030년까지 민주 정부가 복원될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31"
+  },
+  {
+    "id": "mypred-002",
+    "question": "미얀마 저항군이 2028년까지 수도 네피도를 장악할까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2028-12-31"
+  },
+  {
+    "id": "mypred-003",
+    "question": "아웅산 수치가 2027년까지 석방될까?",
+    "yesPool": 2500,
+    "noPool": 17500,
+    "deadline": "2027-12-31"
+  },
+  {
+    "id": "mypred-004",
+    "question": "미얀마에서 2035년까지 로힝야 난민 대규모 귀환이 이루어질까?",
+    "yesPool": 1500,
+    "noPool": 18500,
+    "deadline": "2035-12-31"
+  }
+]

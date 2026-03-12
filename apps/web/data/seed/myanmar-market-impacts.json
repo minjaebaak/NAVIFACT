@@ -1,0 +1,78 @@
+[
+  {
+    "id": "mymi-001",
+    "eventId": "myevt-003",
+    "summary": "1988년 8888 민주항쟁으로 미얀마 경제가 마비되고 서방 제재가 시작되어 외국인 투자가 급감했다.",
+    "analysisDate": "1988-08-08",
+    "sectors": [
+      {
+        "sector": "미얀마 경제",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "대규모 시위·군부 진압 → 경제 활동 마비 → 서방 제재 → 외국인 투자 급감",
+        "region": "동남아시아",
+        "stocks": []
+      }
+    ]
+  },
+  {
+    "id": "mymi-002",
+    "eventId": "myevt-009",
+    "summary": "2017년 로힝야 학살로 미얀마에 대한 국제 비난과 제재가 확대되어 외국인 투자 심리가 위축되었다.",
+    "analysisDate": "2017-08-25",
+    "sectors": [
+      {
+        "sector": "미얀마 투자",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "로힝야 학살 → 국제 비난·제재 → 외국인 투자 심리 위축",
+        "region": "동남아시아",
+        "stocks": []
+      }
+    ]
+  },
+  {
+    "id": "mymi-003",
+    "eventId": "myevt-010",
+    "summary": "2021년 군부 쿠데타로 미얀마 경제가 붕괴하고 동남아 지역 투자 심리가 일시적으로 위축되었다. 천연가스 공급 불안으로 에너지 가격에 소폭 영향이 있었다.",
+    "analysisDate": "2021-02-01",
+    "sectors": [
+      {
+        "sector": "아시아 증시",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "미얀마 쿠데타 → 동남아 정치 리스크 부각 → 지역 투자 심리 일시 위축",
+        "region": "아시아",
+        "stocks": [
+          { "ticker": "VWO", "name": "Vanguard FTSE Emerging Markets ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "미얀마 쿠데타로 신흥시장 정치 리스크 부각" }
+        ]
+      },
+      {
+        "sector": "천연가스",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "미얀마 가스전 운영 불확실성 → 천연가스 공급 우려",
+        "region": "아시아",
+        "stocks": [
+          { "ticker": "UNG", "name": "United States Natural Gas Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "미얀마 가스전 운영 불안으로 공급 우려" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mymi-004",
+    "eventId": "myevt-012",
+    "summary": "2023년 1027 작전으로 미얀마 내전이 격화되어 중국-미얀마 국경 무역이 중단되고 지역 경제 불안이 확대되었다.",
+    "analysisDate": "2023-10-27",
+    "sectors": [
+      {
+        "sector": "미얀마 경제",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "1027 대공세 → 주요 교역로 차단 → 중국-미얀마 국경 무역 중단 → 경제 불안",
+        "region": "동남아시아",
+        "stocks": []
+      }
+    ]
+  }
+]

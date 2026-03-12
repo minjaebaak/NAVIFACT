@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mylink-001",
+    "source": "myevt-001",
+    "target": "myevt-002",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "독립 후 소수민족 갈등·정치 불안정 → 군부 쿠데타 명분 제공"
+  },
+  {
+    "id": "mylink-002",
+    "source": "myevt-002",
+    "target": "myevt-003",
+    "causalType": "enabling",
+    "confidence": 90,
+    "mechanism": "26년 군사 독재 → 경제 파탄·정치 억압 → 대규모 민주화 시위 폭발"
+  },
+  {
+    "id": "mylink-003",
+    "source": "myevt-003",
+    "target": "myevt-004",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "8888 항쟁 → 군부 유혈 진압 → SLORC 재집권"
+  },
+  {
+    "id": "mylink-004",
+    "source": "myevt-004",
+    "target": "myevt-005",
+    "causalType": "enabling",
+    "confidence": 85,
+    "mechanism": "군부 재집권 → 정당성 위기 → 총선 실시 → NLD 압승(결과 무시)"
+  },
+  {
+    "id": "mylink-005",
+    "source": "myevt-005",
+    "target": "myevt-006",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "선거 결과 무시 → 17년 군부 통치 지속 → 경제 악화 → 사프란 혁명"
+  },
+  {
+    "id": "mylink-006",
+    "source": "myevt-006",
+    "target": "myevt-007",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "사프란 혁명 → 국제 압력 강화 → 군부 점진적 개혁 → 수치 석방"
+  },
+  {
+    "id": "mylink-007",
+    "source": "myevt-007",
+    "target": "myevt-008",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "아웅산 수치 정치 활동 재개 → NLD 총선 승리 → 민간 정부 수립"
+  },
+  {
+    "id": "mylink-008",
+    "source": "myevt-008",
+    "target": "myevt-009",
+    "causalType": "enabling",
+    "confidence": 70,
+    "mechanism": "민주 정부하 군부 자율성 유지 → 로힝야 대상 군사 작전 자행"
+  },
+  {
+    "id": "mylink-009",
+    "source": "myevt-008",
+    "target": "myevt-010",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "NLD 2020 재집권 → 군부 권력 상실 우려 → 선거 부정 명분 → 쿠데타"
+  },
+  {
+    "id": "mylink-010",
+    "source": "myevt-010",
+    "target": "myevt-011",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "쿠데타 → 대규모 시민불복종 운동 → 군부 무력 진압 → 대량 학살"
+  },
+  {
+    "id": "mylink-011",
+    "source": "myevt-011",
+    "target": "myevt-012",
+    "causalType": "enabling",
+    "confidence": 85,
+    "mechanism": "군부 폭력 → 시민 무장 저항 확산 → 소수민족 연합 → 1027 대공세"
+  }
+]

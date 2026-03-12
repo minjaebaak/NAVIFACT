@@ -1,0 +1,58 @@
+[
+  {
+    "id": "myclm-001",
+    "text": "미얀마 군부가 2021년 쿠데타 이후 3,000명 이상을 살해했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "myclm-002",
+    "text": "아웅산 수치가 로힝야 학살을 용인했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "myclm-003",
+    "text": "70만 명 이상의 로힝야가 방글라데시로 피난했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "myclm-004",
+    "text": "8888 항쟁에서 군부가 수천 명의 시위대를 학살했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "myclm-005",
+    "text": "중국과 러시아가 미얀마 군부를 지원하고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "myclm-006",
+    "text": "미얀마 저항군이 국토의 상당 부분을 장악하고 있다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "myclm-007",
+    "text": "미얀마 군부가 소수민족 지역에서 공습을 자행하고 있다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  }
+]
