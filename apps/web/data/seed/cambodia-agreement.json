@@ -1,0 +1,51 @@
+{
+  "id": "agr-cambodia",
+  "title": "캄보디아 분쟁의 포괄적 정치해결에 관한 파리 협정",
+  "date": "1991-10-23",
+  "summary": "캄보디아 4개 분쟁 당사자와 18개국이 서명한 포괄적 평화협정. UN 과도통치기구(UNTAC)의 감독 하에 정전, 무장해제, 난민 귀환, 자유선거 실시를 규정했다.",
+  "status": "partially_implemented",
+  "parties": [
+    { "id": "cbpty-001", "name": "캄보디아 인민당(SOC)", "role": "서명국" },
+    { "id": "cbpty-002", "name": "FUNCINPEC", "role": "서명국" },
+    { "id": "cbpty-003", "name": "크메르루주(PDK)", "role": "서명국" },
+    { "id": "cbpty-004", "name": "KPNLF", "role": "서명국" },
+    { "id": "cbpty-005", "name": "유엔(UNTAC)", "role": "감독기구" }
+  ],
+  "obligations": [
+    {
+      "id": "cbobl-001",
+      "description": "모든 당사자는 정전을 준수하고 무장해제에 응한다",
+      "deadline": "1993-05-23",
+      "status": "partial",
+      "assignedTo": { "id": "cbpty-001", "name": "캄보디아 인민당(SOC)", "role": "서명국" }
+    },
+    {
+      "id": "cbobl-002",
+      "description": "UNTAC 감독 하에 자유·공정한 총선거를 실시한다",
+      "deadline": "1993-05-23",
+      "status": "fulfilled",
+      "assignedTo": { "id": "cbpty-005", "name": "유엔(UNTAC)", "role": "감독기구" }
+    },
+    {
+      "id": "cbobl-003",
+      "description": "크메르루주는 무장을 해제하고 선거에 참여한다",
+      "deadline": "1993-05-23",
+      "status": "violated",
+      "assignedTo": { "id": "cbpty-003", "name": "크메르루주(PDK)", "role": "서명국" }
+    },
+    {
+      "id": "cbobl-004",
+      "description": "36만 난민의 안전한 귀환을 보장한다",
+      "deadline": "1993-03-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "cbpty-005", "name": "유엔(UNTAC)", "role": "감독기구" }
+    },
+    {
+      "id": "cbobl-005",
+      "description": "인권 존중과 민주주의 원칙을 수호한다",
+      "deadline": "1993-12-31",
+      "status": "partial",
+      "assignedTo": { "id": "cbpty-001", "name": "캄보디아 인민당(SOC)", "role": "서명국" }
+    }
+  ]
+}

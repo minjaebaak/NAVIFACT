@@ -203,6 +203,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "외교·정치",
     bottomLabel: "군사 행동",
   },
+  cambodia: {
+    topIds: ["cbevt-009", "cbevt-010", "cbevt-011", "cbevt-012"],
+    centerIds: ["cbevt-003"],
+    topLabel: "외교·재판",
+    bottomLabel: "군사·사회",
+  },
 };
 
 export default async function TimelinePage({
@@ -403,6 +409,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "ethiopia"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "cambodia"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },

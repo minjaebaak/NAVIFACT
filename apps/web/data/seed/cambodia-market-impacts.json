@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cbmi-001",
+    "eventId": "cbevt-003",
+    "summary": "크메르루주의 프놈펜 함락과 자급자족 정책으로 캄보디아 경제가 완전히 붕괴하고 국제 무역이 중단되었다.",
+    "analysisDate": "1975-04-17",
+    "sectors": [
+      {
+        "sector": "동남아 증시",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "크메르루주 집권 → 인도차이나 공산화 도미노 우려 → 동남아 투자 심리 위축",
+        "region": "동남아시아",
+        "stocks": [
+          { "ticker": "EWT", "name": "iShares MSCI Taiwan ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "인도차이나 공산화에 따른 아시아 지정학 리스크 확대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-002",
+    "eventId": "cbevt-007",
+    "summary": "베트남의 캄보디아 침공으로 동남아 안보 위기가 고조되고 난민 사태로 인도적 비용이 급증했다.",
+    "analysisDate": "1978-12-25",
+    "sectors": [
+      {
+        "sector": "국방·방산",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "베트남 침공 → ASEAN 안보 위기 고조 → 역내 국방비 증가 기대",
+        "region": "동남아시아",
+        "stocks": [
+          { "ticker": "ITA", "name": "iShares U.S. Aerospace & Defense ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "동남아 군사 긴장 고조로 방산 수요 증가 기대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-003",
+    "eventId": "cbevt-009",
+    "summary": "파리 평화협정 체결로 캄보디아에 대한 국제 원조와 투자가 재개되기 시작했다.",
+    "analysisDate": "1991-10-23",
+    "sectors": [
+      {
+        "sector": "신흥시장",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "파리 협정 → 캄보디아 시장경제 전환 기대 → 아시아 신흥시장 투자 심리 개선",
+        "region": "동남아시아",
+        "stocks": [
+          { "ticker": "VWO", "name": "Vanguard FTSE Emerging Markets ETF", "exchange": "NYSE", "direction": "positive", "reasoning": "캄보디아 평화 정착으로 아시아 신흥시장 투자 기대 상승" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbmi-004",
+    "eventId": "cbevt-010",
+    "summary": "UNTAC 총선거와 민주 정부 수립으로 국제 제재가 해제되고 시장경제 전환이 가속화되었다.",
+    "analysisDate": "1993-05-23",
+    "sectors": [
+      {
+        "sector": "아시아 증시",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "민주 정부 수립 → 캄보디아 국제사회 복귀 → 동남아 안정성 개선",
+        "region": "동남아시아",
+        "stocks": [
+          { "ticker": "AAXJ", "name": "iShares MSCI All Country Asia ex Japan ETF", "exchange": "NASDAQ", "direction": "positive", "reasoning": "캄보디아 민주화로 동남아 정치 리스크 감소" }
+        ]
+      }
+    ]
+  }
+]

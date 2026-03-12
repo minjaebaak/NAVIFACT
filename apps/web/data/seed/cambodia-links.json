@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cblink-001",
+    "source": "cbevt-001",
+    "target": "cbevt-002",
+    "confidence": 75,
+    "mechanism": "론놀 쿠데타로 캄보디아가 반공 진영에 편입되면서 미국의 폭격 작전이 공식화되었다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cblink-002",
+    "source": "cbevt-001",
+    "target": "cbevt-003",
+    "confidence": 85,
+    "mechanism": "쿠데타로 시아누크가 크메르루주와 동맹하면서 크메르루주의 세력이 급성장했다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cblink-003",
+    "source": "cbevt-002",
+    "target": "cbevt-003",
+    "confidence": 80,
+    "mechanism": "미국 폭격으로 농촌 인구가 급진화되어 크메르루주 신병 모집이 급증했다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cblink-004",
+    "source": "cbevt-003",
+    "target": "cbevt-004",
+    "confidence": 95,
+    "mechanism": "프놈펜 함락 직후 크메르루주가 원년 정책의 일환으로 도시 강제소개를 명령했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-005",
+    "source": "cbevt-003",
+    "target": "cbevt-005",
+    "confidence": 90,
+    "mechanism": "크메르루주 정권 수립 후 반혁명 분자 색출을 위한 보안 수용소 체계가 구축되었다",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-006",
+    "source": "cbevt-005",
+    "target": "cbevt-006",
+    "confidence": 70,
+    "mechanism": "내부 숙청 과정에서 반베트남 편집증이 심화되어 국경 도발로 이어졌다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cblink-007",
+    "source": "cbevt-006",
+    "target": "cbevt-007",
+    "confidence": 90,
+    "mechanism": "반복적인 국경 공격과 베트남계 학살이 베트남의 침공을 직접 유발했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-008",
+    "source": "cbevt-007",
+    "target": "cbevt-008",
+    "confidence": 95,
+    "mechanism": "베트남 침공군이 2주 만에 프놈펜을 점령하고 크메르루주 정권을 축출했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-009",
+    "source": "cbevt-008",
+    "target": "cbevt-009",
+    "confidence": 75,
+    "mechanism": "베트남 점령 이후 10여 년간의 내전과 국제 압력이 파리 평화협정으로 귀결되었다",
+    "causalType": "indirect"
+  },
+  {
+    "id": "cblink-010",
+    "source": "cbevt-009",
+    "target": "cbevt-010",
+    "confidence": 95,
+    "mechanism": "파리 협정에 따라 UNTAC 감독 하에 자유 총선거가 실시되었다",
+    "causalType": "direct"
+  },
+  {
+    "id": "cblink-011",
+    "source": "cbevt-010",
+    "target": "cbevt-011",
+    "confidence": 80,
+    "mechanism": "민주 정부 수립 후 크메르루주 잔당이 점차 와해되어 최종 항복했다",
+    "causalType": "indirect"
+  },
+  {
+    "id": "cblink-012",
+    "source": "cbevt-011",
+    "target": "cbevt-012",
+    "confidence": 85,
+    "mechanism": "크메르루주 해체 후 국제사회와 캄보디아 정부가 특별재판소를 설립하여 지도부를 재판했다",
+    "causalType": "indirect"
+  }
+]

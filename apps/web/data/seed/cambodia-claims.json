@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cbclm-001",
+    "text": "크메르루주 통치 기간 170만~220만 명이 사망했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "cbclm-002",
+    "text": "미국 폭격으로 최소 15만 명의 캄보디아 민간인이 사망했다",
+    "status": "disputed",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "cbclm-003",
+    "text": "크메르루주가 참족·베트남계 등 소수민족에 대한 집단학살을 자행했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cbclm-004",
+    "text": "서방 국가들이 냉전 논리로 크메르루주의 UN 의석을 1982년까지 지지했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cbclm-005",
+    "text": "베트남의 캄보디아 침공은 인도적 개입이었다",
+    "status": "disputed",
+    "confidence": 55,
+    "sourcesFor": 3,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "cbclm-006",
+    "text": "킬링필드 특별재판소가 정의 실현에 충분했다",
+    "status": "disputed",
+    "confidence": 45,
+    "sourcesFor": 2,
+    "sourcesAgainst": 4
+  },
+  {
+    "id": "cbclm-007",
+    "text": "훈센 정권이 크메르루주 재판을 정치적으로 이용했다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  }
+]
