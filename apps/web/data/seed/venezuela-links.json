@@ -1,0 +1,106 @@
+[
+  {
+    "id": "vzlink-001",
+    "source": "vzevt-001",
+    "target": "vzevt-002",
+    "confidence": 95,
+    "mechanism": "차베스가 대통령에 당선된 뒤 권력 기반 강화를 위해 새 헌법 제정을 추진했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "vzlink-002",
+    "source": "vzevt-002",
+    "target": "vzevt-003",
+    "confidence": 80,
+    "mechanism": "대통령 권한을 확대한 볼리바르 헌법이 기존 엘리트·군부의 반발을 촉발하여 쿠데타 시도로 이어졌다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vzlink-003",
+    "source": "vzevt-003",
+    "target": "vzevt-004",
+    "confidence": 75,
+    "mechanism": "쿠데타 실패 후 반차베스 세력이 PDVSA 총파업이라는 경제적 수단으로 전환했다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vzlink-004",
+    "source": "vzevt-004",
+    "target": "vzevt-005",
+    "confidence": 70,
+    "mechanism": "PDVSA 장악 후 석유 수입이 사회 프로그램에 전용되며 차베스 지지 기반이 공고해졌으나, 기술 인력 유출로 장기적 생산 역량이 훼손되어 경제 위기의 구조적 원인이 되었다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "vzlink-005",
+    "source": "vzevt-005",
+    "target": "vzevt-006",
+    "confidence": 80,
+    "mechanism": "차베스 사후 마두로의 리더십 부재와 유가 폭락이 결합하여 심각한 경제 위기가 발생했고, 이에 대한 국민의 심판이 야당 압승으로 나타났다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vzlink-006",
+    "source": "vzevt-006",
+    "target": "vzevt-007",
+    "confidence": 90,
+    "mechanism": "야당이 국회를 장악하자 마두로가 국회 권한을 무력화하기 위해 대법원과 제헌의회를 동원했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "vzlink-007",
+    "source": "vzevt-007",
+    "target": "vzevt-008",
+    "confidence": 90,
+    "mechanism": "제헌의회가 국회를 사실상 해체하면서 과이도가 헌법에 근거하여 임시 대통령을 선언하는 계기가 되었다",
+    "causalType": "direct"
+  },
+  {
+    "id": "vzlink-008",
+    "source": "vzevt-008",
+    "target": "vzevt-009",
+    "confidence": 70,
+    "mechanism": "과이도 인정 실패와 외교적 교착 상태를 타개하기 위해 노르웨이 중재의 바베이도스 협상이 추진되었다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "vzlink-009",
+    "source": "vzevt-009",
+    "target": "vzevt-010",
+    "confidence": 85,
+    "mechanism": "바베이도스 합의로 2024년 대선이 실시되었으나 마두로 정부가 합의를 위반하여 부정선거 논란이 발생했다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vzlink-010",
+    "source": "vzevt-010",
+    "target": "vzevt-011",
+    "confidence": 90,
+    "mechanism": "부정선거 논란에도 불구하고 마두로가 3기 대통령으로 취임하며 국제적 정당성 위기가 심화되었다",
+    "causalType": "direct"
+  },
+  {
+    "id": "vzlink-011",
+    "source": "vzevt-011",
+    "target": "vzevt-012",
+    "confidence": 85,
+    "mechanism": "마두로 3기 정권이 야당 배제와 공포 정치를 지속하며 국회·주지사 선거에서도 여당이 압승했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "vzlink-012",
+    "source": "vzevt-011",
+    "target": "vzevt-013",
+    "confidence": 80,
+    "mechanism": "마두로의 3기 취임과 민주주의 완전 붕괴에 대응하여 트럼프 행정부가 군사적 옵션을 실행했다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "vzlink-013",
+    "source": "vzevt-013",
+    "target": "vzevt-014",
+    "confidence": 95,
+    "mechanism": "마두로 체포로 권력 공백이 발생하여 헌법 절차에 따라 국회의장 로드리게스가 임시 대통령에 취임했다",
+    "causalType": "direct"
+  }
+]

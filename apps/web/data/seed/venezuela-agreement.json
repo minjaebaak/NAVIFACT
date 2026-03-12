@@ -1,0 +1,43 @@
+{
+  "id": "agr-venezuela",
+  "title": "바베이도스 합의 (Barbados Agreement)",
+  "date": "2023-10-17",
+  "summary": "노르웨이 중재로 마두로 정부와 야당 연합(PUD)이 2024년 자유·공정 대선 실시에 합의했다. 후보 자격 박탈 금지, 국제 감시단 초청, 미국의 석유·가스·금 제재 6개월 완화(GL 44)를 포함했으나, 마두로 정부가 핵심 조항을 위반하여 사실상 붕괴했다.",
+  "status": "violated",
+  "parties": [
+    { "id": "vzpty-001", "name": "마두로 정부", "role": "서명국" },
+    { "id": "vzpty-002", "name": "야당연합 통합플랫폼 (PUD)", "role": "서명국" },
+    { "id": "vzpty-003", "name": "미국", "role": "이해관계자" },
+    { "id": "vzpty-004", "name": "노르웨이", "role": "중재자" }
+  ],
+  "obligations": [
+    {
+      "id": "vzobl-001",
+      "description": "2024년 하반기 자유·공정 대통령 선거 실시",
+      "deadline": "2024-12-31",
+      "status": "violated",
+      "assignedTo": { "id": "vzpty-001", "name": "마두로 정부", "role": "서명국" }
+    },
+    {
+      "id": "vzobl-002",
+      "description": "야당 후보 자격 박탈 금지",
+      "deadline": "2024-04-30",
+      "status": "violated",
+      "assignedTo": { "id": "vzpty-001", "name": "마두로 정부", "role": "서명국" }
+    },
+    {
+      "id": "vzobl-003",
+      "description": "EU·카터센터 등 국제 선거 감시단 초청",
+      "deadline": "2024-07-28",
+      "status": "partial",
+      "assignedTo": { "id": "vzpty-001", "name": "마두로 정부", "role": "서명국" }
+    },
+    {
+      "id": "vzobl-004",
+      "description": "석유·가스·금 제재 6개월 완화 (GL 44)",
+      "deadline": "2024-04-18",
+      "status": "fulfilled",
+      "assignedTo": { "id": "vzpty-003", "name": "미국", "role": "이해관계자" }
+    }
+  ]
+}

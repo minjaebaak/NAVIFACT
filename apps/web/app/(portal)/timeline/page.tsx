@@ -215,6 +215,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "외교·사회",
     bottomLabel: "군사",
   },
+  venezuela: {
+    topIds: ["vzevt-002", "vzevt-008", "vzevt-009", "vzevt-014"],
+    centerIds: ["vzevt-010", "vzevt-013"],
+    topLabel: "외교·사회",
+    bottomLabel: "경제·군사",
+  },
 };
 
 export default async function TimelinePage({
@@ -431,6 +437,13 @@ export default async function TimelinePage({
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
         { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "venezuela"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+        { color: "bg-green-500", label: "경제" },
       ]
     : [
         { color: "bg-blue-500", label: "외교" },

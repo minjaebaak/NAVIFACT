@@ -1,0 +1,58 @@
+[
+  {
+    "id": "vzclm-001",
+    "text": "2024년 대선에서 마두로가 정당하게 승리했다",
+    "status": "false",
+    "confidence": 85,
+    "sourcesFor": 1,
+    "sourcesAgainst": 7
+  },
+  {
+    "id": "vzclm-002",
+    "text": "베네수엘라의 하이퍼인플레이션이 누적 100만%를 초과했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 6,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "vzclm-003",
+    "text": "780만 명 이상의 베네수엘라인이 해외로 이주했다",
+    "status": "verified",
+    "confidence": 92,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "vzclm-004",
+    "text": "PDVSA 석유 생산이 최고점 대비 75% 이상 감소했다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 6,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "vzclm-005",
+    "text": "미국 제재가 베네수엘라 경제 붕괴의 주된 원인이다",
+    "status": "partly_true",
+    "confidence": 40,
+    "sourcesFor": 3,
+    "sourcesAgainst": 5
+  },
+  {
+    "id": "vzclm-006",
+    "text": "2026년 마두로 체포 작전에서 100명 이상이 사망했다",
+    "status": "disputed",
+    "confidence": 65,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "vzclm-007",
+    "text": "로드리게스 임시 대통령이 자유·공정 선거를 실시할 의지가 있다",
+    "status": "unverified",
+    "confidence": 30,
+    "sourcesFor": 2,
+    "sourcesAgainst": 3
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "vzpred-001",
+    "question": "2026년 내에 베네수엘라에서 자유·공정 선거가 실시될까?",
+    "yesPool": 6000,
+    "noPool": 14000,
+    "deadline": "2026-12-31"
+  },
+  {
+    "id": "vzpred-002",
+    "question": "마차도 또는 곤살레스 계열 인사가 2027년까지 대통령에 취임할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2027-12-31"
+  },
+  {
+    "id": "vzpred-003",
+    "question": "PDVSA 석유 생산이 2027년까지 150만 bpd를 회복할까?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2027-12-31"
+  },
+  {
+    "id": "vzpred-004",
+    "question": "로드리게스가 2026년 6월까지 임시 대통령직을 유지할까?",
+    "yesPool": 12000,
+    "noPool": 8000,
+    "deadline": "2026-06-30"
+  }
+]

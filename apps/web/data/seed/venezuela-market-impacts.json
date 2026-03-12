@@ -1,0 +1,79 @@
+[
+  {
+    "id": "vzmi-001",
+    "eventId": "vzevt-010",
+    "summary": "2024년 대선 부정선거 논란으로 베네수엘라 석유 제재 재강화 우려가 확산되며 유가가 소폭 상승했다. 남미 이머징 마켓에서 자금 유출이 발생하고 베네수엘라 디아스포라 관련 송금·항공 업종이 영향을 받았다.",
+    "analysisDate": "2024-07-28",
+    "sectors": [
+      {
+        "sector": "원유·에너지",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "베네수엘라 석유 제재 재강화 가능성으로 글로벌 공급 불확실성 소폭 증가",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "베네수엘라 제재 재강화 시 공급 감소 기대" },
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "positive", "reasoning": "유가 상승 수혜 및 베네수엘라 자산 재평가" }
+        ]
+      },
+      {
+        "sector": "남미 이머징 마켓",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "정치 불안정이 남미 전체 투자심리에 악영향, 콜롬비아·브라질 난민 유입 비용 증가",
+        "region": "남미",
+        "stocks": [
+          { "ticker": "ILF", "name": "iShares Latin America 40 ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "남미 정치 리스크 프리미엄 확대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vzmi-002",
+    "eventId": "vzevt-013",
+    "summary": "미군의 마두로 체포 작전은 유가에 미치는 영향이 제한적(WTI 1.1% 미만 변동)이었으나, 방산주가 강세를 보였고 라틴아메리카 이머징 마켓에서 단기 자금 유출이 발생했다.",
+    "analysisDate": "2026-01-03",
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "미군 해외 작전 확대로 방산 예산 증가 기대",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "미군 작전 확대에 따른 방산 수요 증가" },
+          { "ticker": "RTX", "name": "RTX Corporation", "exchange": "NYSE", "direction": "positive", "reasoning": "특수부대 장비·통신 시스템 수요" }
+        ]
+      },
+      {
+        "sector": "남미 이머징 마켓",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "미국의 남미 군사 개입 선례가 지역 불안정 인식을 높임",
+        "region": "남미",
+        "stocks": [
+          { "ticker": "EWZ", "name": "iShares MSCI Brazil ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "남미 지정학 리스크 확대로 자금 유출" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vzmi-003",
+    "eventId": "vzevt-014",
+    "summary": "로드리게스 임시 대통령의 외국 기업 석유 투자 확대법 서명으로 PDVSA 장기 생산 회복 기대감이 형성되었다. 정치범 석방과 대외 개방 시그널이 이머징 마켓에 긍정적 영향을 주었다.",
+    "analysisDate": "2026-01-05",
+    "sectors": [
+      {
+        "sector": "원유·에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "베네수엘라 석유 투자 개방으로 장기 생산 회복 가능성 (세계 최대 원유 매장량)",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "SLB", "name": "Schlumberger", "exchange": "NYSE", "direction": "positive", "reasoning": "베네수엘라 유전 서비스 계약 재개 기대" },
+          { "ticker": "HAL", "name": "Halliburton", "exchange": "NYSE", "direction": "positive", "reasoning": "오리노코 벨트 중질유 개발 참여 가능성" }
+        ]
+      }
+    ]
+  }
+]
