@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ymmi-001",
+    "eventId": "ymevt-007",
+    "summary": "2015년 사우디 주도 연합군의 예멘 군사 개입으로 중동 불안정이 확대되어 유가가 상승 압력을 받았다.",
+    "analysisDate": "2015-03-26",
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "사우디 군사 개입 → 중동 불안정 확대 → 원유 공급 불안 → 유가 상승",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "중동 군사 충돌로 유가 상승 압력" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ymmi-002",
+    "eventId": "ymevt-008",
+    "summary": "2016년 사나 장례식 공습으로 국제적 비난이 확산되어 사우디 무기 판매 논란이 불거지고 방산주가 영향을 받았다.",
+    "analysisDate": "2016-10-08",
+    "sectors": [
+      {
+        "sector": "방산",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "민간인 피해 → 무기 판매 논란 → 규제 논의 vs 방산 수요 지속",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "사우디 무기 판매 논란에도 방산 수요 지속" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ymmi-003",
+    "eventId": "ymevt-011",
+    "summary": "2022년 유엔 중재 휴전으로 중동 긴장이 완화되어 유가 안정화에 기여했다.",
+    "analysisDate": "2022-04-02",
+    "sectors": [
+      {
+        "sector": "에너지",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "예멘 휴전 → 중동 긴장 일부 완화 → 유가 안정화 기여",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "negative", "reasoning": "예멘 휴전으로 지정학 리스크 프리미엄 감소" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ymmi-004",
+    "eventId": "ymevt-012",
+    "summary": "2023년 후티 반군의 홍해 상선 공격으로 글로벌 해운 루트가 교란되어 운임이 급등하고 에너지 공급 불안이 확산되었다.",
+    "analysisDate": "2023-11-19",
+    "sectors": [
+      {
+        "sector": "해운",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "홍해 봉쇄 → 수에즈 운하 우회 → 운송 비용 급등 → 해운사 경영 불확실성",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "ZIM", "name": "ZIM Integrated Shipping", "exchange": "NYSE", "direction": "negative", "reasoning": "홍해 항로 차단으로 해운 루트 교란" }
+        ]
+      },
+      {
+        "sector": "에너지",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "홍해 통과 에너지 수송 위험 → 공급 불안 → 유가 상승 압력",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "USO", "name": "United States Oil Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "홍해 에너지 수송로 위협으로 유가 상승" }
+        ]
+      }
+    ]
+  }
+]

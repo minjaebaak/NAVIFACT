@@ -1,0 +1,34 @@
+{
+  "id": "agr-yemen-001",
+  "title": "스톡홀름 협정 (Stockholm Agreement)",
+  "date": "2018-12-13",
+  "summary": "유엔 중재 아래 스웨덴에서 체결된 예멘 내전 부분 휴전 협정으로, 호데이다 항구 휴전·타이즈 인도주의 통로 개방·포로 교환을 합의했다.",
+  "status": "partially_fulfilled",
+  "parties": [
+    { "id": "agr-yemen-p1", "name": "예멘 정부", "flag": "🇾🇪" },
+    { "id": "agr-yemen-p2", "name": "후티 반군 (안사르 알라)", "flag": "🇾🇪" }
+  ],
+  "obligations": [
+    {
+      "id": "ymobl-001",
+      "description": "호데이다 항구 통제권 이양 및 양측 병력 철수",
+      "deadline": "2019-06-13",
+      "status": "partial",
+      "assignedTo": { "id": "agr-yemen-p2", "name": "후티 반군 (안사르 알라)", "flag": "🇾🇪" }
+    },
+    {
+      "id": "ymobl-002",
+      "description": "타이즈 시 인도주의 통로 개방",
+      "deadline": "2019-03-13",
+      "status": "pending",
+      "assignedTo": { "id": "agr-yemen-p2", "name": "후티 반군 (안사르 알라)", "flag": "🇾🇪" }
+    },
+    {
+      "id": "ymobl-003",
+      "description": "포로 교환 협정 이행",
+      "deadline": "2019-06-13",
+      "status": "partial",
+      "assignedTo": { "id": "agr-yemen-p1", "name": "예멘 정부", "flag": "🇾🇪" }
+    }
+  ]
+}

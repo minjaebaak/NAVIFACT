@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ymlink-001",
+    "source": "ymevt-001",
+    "target": "ymevt-002",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "후티 봉기 → 정부 취약성 노출 → 아랍의 봄 시위 확산 배경"
+  },
+  {
+    "id": "ymlink-002",
+    "source": "ymevt-002",
+    "target": "ymevt-003",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "대규모 반정부 시위 → GCC 중재 개입 → 살레 퇴진 합의"
+  },
+  {
+    "id": "ymlink-003",
+    "source": "ymevt-003",
+    "target": "ymevt-004",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "살레 퇴진 합의 → 과도 정부 구성 → 하디 대통령 취임"
+  },
+  {
+    "id": "ymlink-004",
+    "source": "ymevt-004",
+    "target": "ymevt-005",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "하디 정부 약체 → 국민대화 교착 → 후티 남하 공세 → 사나 장악"
+  },
+  {
+    "id": "ymlink-005",
+    "source": "ymevt-005",
+    "target": "ymevt-006",
+    "causalType": "direct",
+    "confidence": 95,
+    "mechanism": "후티 사나 장악 → 대통령궁 포위 → 하디 가택연금 → 정부 붕괴"
+  },
+  {
+    "id": "ymlink-006",
+    "source": "ymevt-006",
+    "target": "ymevt-007",
+    "causalType": "direct",
+    "confidence": 90,
+    "mechanism": "하디 정부 붕괴 → 사우디 안보 위협 인식 → 아랍 연합군 군사 개입"
+  },
+  {
+    "id": "ymlink-007",
+    "source": "ymevt-007",
+    "target": "ymevt-008",
+    "causalType": "enabling",
+    "confidence": 85,
+    "mechanism": "사우디 공습 확대 → 표적 선정 오류 반복 → 장례식 민간인 대량 살상"
+  },
+  {
+    "id": "ymlink-008",
+    "source": "ymevt-007",
+    "target": "ymevt-009",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "전쟁 교착·국제 인도주의 압력 → 유엔 중재 → 스톡홀름 협정"
+  },
+  {
+    "id": "ymlink-009",
+    "source": "ymevt-007",
+    "target": "ymevt-010",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "내전 장기화 → 분파 간 갈등 심화 → 아덴 공항 공격"
+  },
+  {
+    "id": "ymlink-010",
+    "source": "ymevt-009",
+    "target": "ymevt-011",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "스톡홀름 협정 부분 이행 → 교전 지속 → 유엔 중재 전국 휴전"
+  },
+  {
+    "id": "ymlink-011",
+    "source": "ymevt-007",
+    "target": "ymevt-012",
+    "causalType": "enabling",
+    "confidence": 80,
+    "mechanism": "사우디 연합군 개입 장기화 → 후티-이란 연계 강화 → 가자 연대 명분 → 홍해 상선 공격"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ymclm-001",
+    "text": "예멘 내전으로 40만 명 이상이 사망했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "ymclm-002",
+    "text": "사우디 연합군이 학교·병원을 포함한 민간 시설을 공습했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ymclm-003",
+    "text": "이란이 후티 반군에 무기를 공급하고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ymclm-004",
+    "text": "예멘에서 세계 최악의 인도주의 위기가 발생했다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ymclm-005",
+    "text": "후티 반군이 아동 병사를 동원하고 있다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ymclm-006",
+    "text": "사우디 공습에 미국산 무기가 사용되었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "ymclm-007",
+    "text": "후티 반군의 홍해 공격이 글로벌 해운에 심각한 영향을 미쳤다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  }
+]

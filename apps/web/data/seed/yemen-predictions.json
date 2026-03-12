@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ympred-001",
+    "question": "예멘에서 2030년까지 포괄적 평화 협정이 체결될까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2030-12-31"
+  },
+  {
+    "id": "ympred-002",
+    "question": "후티 반군이 2028년까지 국제적으로 인정받는 정부와 권력을 공유할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2028-12-31"
+  },
+  {
+    "id": "ympred-003",
+    "question": "예멘 홍해 봉쇄가 2026년까지 종료될까?",
+    "yesPool": 5000,
+    "noPool": 15000,
+    "deadline": "2026-12-31"
+  },
+  {
+    "id": "ympred-004",
+    "question": "예멘에서 2035년까지 통합 정부가 수립될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2035-12-31"
+  }
+]

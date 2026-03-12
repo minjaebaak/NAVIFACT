@@ -179,6 +179,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "정치·외교",
     bottomLabel: "전쟁·무장 분쟁",
   },
+  yemen: {
+    topIds: ["ymevt-002", "ymevt-003", "ymevt-009", "ymevt-011"],
+    centerIds: ["ymevt-007"],
+    topLabel: "외교·정치",
+    bottomLabel: "군사 행동",
+  },
 };
 
 export default async function TimelinePage({
@@ -355,6 +361,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "congo"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "yemen"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },
