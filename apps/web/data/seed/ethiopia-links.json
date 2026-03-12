@@ -94,5 +94,21 @@
     "causalType": "contributing",
     "confidence": 80,
     "mechanism": "교착 상태와 인도주의 위기가 AU 중재 평화협정을 이끌어냄"
+  },
+  {
+    "id": "etlink-013",
+    "source": "etevt-012",
+    "target": "etevt-013",
+    "causalType": "indirect",
+    "confidence": 75,
+    "mechanism": "프레토리아 협정의 영토 분쟁 미해결이 TDF 첼레멧 탈환 시도로 이어짐"
+  },
+  {
+    "id": "etlink-014",
+    "source": "etevt-013",
+    "target": "etevt-014",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "TDF-정부군 교전 재발에 에리트레아가 군사 개입 재개"
   }
 ]

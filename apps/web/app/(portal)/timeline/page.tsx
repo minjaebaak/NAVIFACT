@@ -18,14 +18,14 @@ const SIDE_CONFIG: Record<ScenarioId, {
   bottomLabel: string;
 }> = {
   tariff: {
-    topIds: ["evt-002", "evt-003"],
-    centerIds: ["evt-001"],
+    topIds: ["evt-002", "evt-003", "evt-006"],
+    centerIds: ["evt-001", "evt-008"],
     topLabel: "한국측 행동",
     bottomLabel: "미국측 행동",
   },
   iran: {
     topIds: ["ievt-001", "ievt-004", "ievt-007", "ievt-010", "ievt-013"],
-    centerIds: [],
+    centerIds: ["ievt-014"],
     topLabel: "이란/프록시 행동",
     bottomLabel: "이스라엘/미국 행동",
   },

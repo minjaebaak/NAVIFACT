@@ -94,5 +94,21 @@
     "confidence": 95,
     "mechanism": "최고지도자 사살 → 즉각 보복 선언",
     "causalType": "direct"
+  },
+  {
+    "id": "ilink-013",
+    "source": "ievt-012",
+    "target": "ievt-014",
+    "confidence": 90,
+    "mechanism": "이란 최고지도자 암살에 대한 헤즈볼라의 동맹 의무 이행으로 대이스라엘 공격 개시",
+    "causalType": "direct"
+  },
+  {
+    "id": "ilink-014",
+    "source": "ievt-014",
+    "target": "ievt-015",
+    "confidence": 85,
+    "mechanism": "헤즈볼라 전쟁 참전과 이스라엘 대규모 보복 공습으로 레바논 정부가 헤즈볼라 무장해제 결단",
+    "causalType": "direct"
   }
 ]

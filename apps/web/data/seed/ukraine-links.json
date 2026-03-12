@@ -86,5 +86,21 @@
     "confidence": 85,
     "mechanism": "전쟁 장기화 → 국제사회 평화 해결 모색 → 정상회의 개최",
     "causalType": "contributing"
+  },
+  {
+    "id": "ulink-012",
+    "source": "uevt-012",
+    "target": "uevt-013",
+    "confidence": 75,
+    "mechanism": "뷔르겐슈토크 정상회의의 외교적 모멘텀이 미국 중재 3자 회담으로 발전",
+    "causalType": "indirect"
+  },
+  {
+    "id": "ulink-013",
+    "source": "uevt-010",
+    "target": "uevt-014",
+    "confidence": 70,
+    "mechanism": "러시아 전면침공에 대한 우크라이나의 장기적 반격 역량 구축이 영토 수복으로 결실",
+    "causalType": "indirect"
   }
 ]

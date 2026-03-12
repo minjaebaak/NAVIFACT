@@ -38,5 +38,29 @@
     "confidence": 75,
     "mechanism": "근본 원인",
     "causalType": "indirect"
+  },
+  {
+    "id": "link-006",
+    "source": "evt-005",
+    "target": "evt-006",
+    "confidence": 80,
+    "mechanism": "IEEPA 기반 관세 남용에 대한 법적 도전이 대법원 위헌 판결로 이어짐",
+    "causalType": "indirect"
+  },
+  {
+    "id": "link-007",
+    "source": "evt-006",
+    "target": "evt-007",
+    "confidence": 95,
+    "mechanism": "IEEPA 위헌 판결로 기존 관세 근거 상실 → Section 122 대체 관세 긴급 발동",
+    "causalType": "direct"
+  },
+  {
+    "id": "link-008",
+    "source": "evt-007",
+    "target": "evt-008",
+    "confidence": 85,
+    "mechanism": "일괄 관세와 무역 불확실성 심화가 주식시장 조정으로 직결",
+    "causalType": "direct"
   }
 ]

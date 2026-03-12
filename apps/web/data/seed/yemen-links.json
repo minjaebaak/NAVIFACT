@@ -86,5 +86,21 @@
     "causalType": "enabling",
     "confidence": 80,
     "mechanism": "사우디 연합군 개입 장기화 → 후티-이란 연계 강화 → 가자 연대 명분 → 홍해 상선 공격"
+  },
+  {
+    "id": "ymlink-012",
+    "source": "ymevt-007",
+    "target": "ymevt-013",
+    "causalType": "indirect",
+    "confidence": 75,
+    "mechanism": "사우디 군사 개입 경험이 STC 군사 대응 능력과 의지를 형성"
+  },
+  {
+    "id": "ymlink-013",
+    "source": "ymevt-012",
+    "target": "ymevt-014",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "홍해 상선 공격으로 형성된 후티의 해상 봉쇄 역량이 이란 전쟁 연대 위협의 기반"
   }
 ]

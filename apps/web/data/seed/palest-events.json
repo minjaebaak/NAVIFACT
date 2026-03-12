@@ -106,5 +106,23 @@
     "category": "군사",
     "confidence": 90,
     "status": "verified"
+  },
+  {
+    "id": "plevt-013",
+    "title": "가자 휴전 Phase 2 교착",
+    "description": "2025년 1월 가자 휴전 1단계가 발효되었으나, 영구 휴전과 이스라엘군 완전 철수를 포함하는 2단계 협상이 교착 상태에 빠졌다. 이스라엘은 하마스 잔존 세력 제거를 주장하며 철수를 거부했다.",
+    "date": "2026-01-15",
+    "category": "외교",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "plevt-014",
+    "title": "이란 전쟁으로 가자 인도적 위기 심화",
+    "description": "2026년 2월 미-이스라엘의 이란 공격과 후속 지역 전쟁으로 국제사회의 관심이 분산되면서 가자 지구 인도적 지원이 급감했다. 200만 주민의 식량·의약품 부족이 극한에 달했다.",
+    "date": "2026-03-01",
+    "category": "사회",
+    "confidence": 80,
+    "status": "verified"
   }
 ]

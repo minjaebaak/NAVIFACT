@@ -106,5 +106,14 @@
     "category": "군사",
     "confidence": 85,
     "status": "verified"
+  },
+  {
+    "id": "myevt-013",
+    "title": "군사정부 사실상 총선거 실시",
+    "description": "군사정부가 2025년 12월~2026년 1월 3차에 걸쳐 총선거를 실시했다. 국제사회는 이를 사실상의 선거(sham elections)로 규정했으며 저항 세력은 불참했다.",
+    "date": "2025-12-28",
+    "category": "외교",
+    "confidence": 85,
+    "status": "verified"
   }
 ]

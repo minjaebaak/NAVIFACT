@@ -106,5 +106,23 @@
     "category": "군사",
     "confidence": 90,
     "status": "verified"
+  },
+  {
+    "id": "syevt-013",
+    "title": "SDF-임시정부 미국 중재 통합 합의",
+    "description": "미국 중재로 쿠르드 주도의 시리아민주군(SDF)과 시리아 임시정부가 포괄적 합의에 서명했다. SDF의 정부 기관 통합, 자원 풍부한 동북부 지역 관할권 이양 등이 포함되었다.",
+    "date": "2026-01-30",
+    "category": "외교",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "syevt-014",
+    "title": "동북부 3개 주 의회선거 추진 발표",
+    "description": "시리아 UN대사가 안보리 회의에서 라카·데이르에조르·하사카 3개 주에서 곧 의회선거를 실시하겠다고 발표했다. 2025년 10월 선거에서 보안 우려로 제외되었던 지역.",
+    "date": "2026-02-13",
+    "category": "외교",
+    "confidence": 80,
+    "status": "verified"
   }
 ]

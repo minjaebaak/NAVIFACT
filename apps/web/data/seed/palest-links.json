@@ -86,5 +86,21 @@
     "confidence": 90,
     "mechanism": "하마스 가자 집권 → 이스라엘 봉쇄 강화 → 로켓 공격 격화 → 이스라엘 캐스트 레드 작전·가자 전쟁",
     "causalType": "direct"
+  },
+  {
+    "id": "pllink-012",
+    "source": "plevt-012",
+    "target": "plevt-013",
+    "confidence": 75,
+    "mechanism": "가자 전쟁 반복 → 2023 10·7 공격 → 대규모 가자 전쟁 → 1단계 휴전 → 2단계 교착",
+    "causalType": "indirect"
+  },
+  {
+    "id": "pllink-013",
+    "source": "plevt-013",
+    "target": "plevt-014",
+    "confidence": 70,
+    "mechanism": "휴전 교착으로 가자 복구 지연 + 이란 전쟁 발발로 국제 관심 분산 → 인도적 위기 심화",
+    "causalType": "contributing"
   }
 ]

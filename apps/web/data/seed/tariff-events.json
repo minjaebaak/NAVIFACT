@@ -43,5 +43,32 @@
     "category": "경제",
     "confidence": 97,
     "status": "verified"
+  },
+  {
+    "id": "evt-006",
+    "title": "미 대법원, IEEPA 관세 위헌 판결",
+    "description": "미국 대법원이 대통령의 국제긴급경제권한법(IEEPA) 활용 관세 부과가 위헌이라고 판결했다. 이로 인해 국가별 차등 관세가 무효화되어 무역 정책의 근본적 전환이 불가피해졌다.",
+    "date": "2026-02-20",
+    "category": "경제",
+    "confidence": 95,
+    "status": "verified"
+  },
+  {
+    "id": "evt-007",
+    "title": "Section 122 일괄 관세 발동 (10→15%)",
+    "description": "대법원 판결 이후 트럼프 행정부가 1974년 무역법 Section 122를 근거로 모든 교역국에 10% 일괄 관세를 부과하고 15%로 인상했다. 법적 상한이 150일인 임시 조치.",
+    "date": "2026-03-04",
+    "category": "경제",
+    "confidence": 90,
+    "status": "verified"
+  },
+  {
+    "id": "evt-008",
+    "title": "S&P 500 조정 진입 (시가총액 $4조 상실)",
+    "description": "무역 불확실성 심화로 S&P 500이 1.4% 추가 하락하며 공식 조정 국면에 진입했다. 시가총액 약 4조 달러가 증발하며 글로벌 투자 심리가 급격히 위축되었다.",
+    "date": "2026-03-10",
+    "category": "경제",
+    "confidence": 95,
+    "status": "verified"
   }
 ]

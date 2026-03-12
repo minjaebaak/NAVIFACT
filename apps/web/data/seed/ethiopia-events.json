@@ -106,5 +106,23 @@
     "category": "외교",
     "confidence": 90,
     "status": "verified"
+  },
+  {
+    "id": "etevt-013",
+    "title": "에티오피아군-TDF 교전 재발",
+    "description": "TDF가 분쟁 지역 첼레멧 탈환을 시도하면서 에티오피아 정부군과 무력 충돌이 재발했다. UN 인권최고대표가 상황 악화를 경고했다.",
+    "date": "2026-01-29",
+    "category": "군사",
+    "confidence": 85,
+    "status": "verified"
+  },
+  {
+    "id": "etevt-014",
+    "title": "에리트레아군 티그라이 국경 진입·중무기 이동",
+    "description": "에리트레아군이 티그라이 국경 지역에 진입하고 에티오피아 정부군도 중무기를 서부 티그라이로 이동시키면서 전면전 재발 우려가 고조되었다.",
+    "date": "2026-02-06",
+    "category": "군사",
+    "confidence": 80,
+    "status": "verified"
   }
 ]

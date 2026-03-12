@@ -86,5 +86,13 @@
     "causalType": "enabling",
     "confidence": 85,
     "mechanism": "군부 폭력 → 시민 무장 저항 확산 → 소수민족 연합 → 1027 대공세"
+  },
+  {
+    "id": "mylink-012",
+    "source": "myevt-010",
+    "target": "myevt-013",
+    "causalType": "indirect",
+    "confidence": 80,
+    "mechanism": "2021 쿠데타로 집권한 군부가 정당성 확보를 위해 사실상 선거 강행"
   }
 ]

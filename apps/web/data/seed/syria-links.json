@@ -86,5 +86,21 @@
     "confidence": 60,
     "mechanism": "지진 복구 실패 + 경제 붕괴 + HTS 재편 → 아사드 정권 최종 붕괴",
     "causalType": "contributing"
+  },
+  {
+    "id": "sylink-012",
+    "source": "syevt-012",
+    "target": "syevt-013",
+    "confidence": 85,
+    "mechanism": "아사드 정권 붕괴 후 새 임시정부가 SDF와의 통합 협상에 나섬",
+    "causalType": "direct"
+  },
+  {
+    "id": "sylink-013",
+    "source": "syevt-013",
+    "target": "syevt-014",
+    "confidence": 80,
+    "mechanism": "SDF 통합 합의로 동북부 지역에 대한 정부 관할이 확보되어 선거 추진 가능",
+    "causalType": "direct"
   }
 ]
