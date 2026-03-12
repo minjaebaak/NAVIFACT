@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sdpred-001",
+    "question": "2027년까지 수단이 사실상 두 개의 독립 정치체로 분단될까?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2027-12-31"
+  },
+  {
+    "id": "sdpred-002",
+    "question": "RSF가 국제사회로부터 다르푸르 통치 정당성을 인정받을까?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2027-06-30"
+  },
+  {
+    "id": "sdpred-003",
+    "question": "SAF 주도 하르툼 정부가 2028년까지 민주적 선거를 실시할까?",
+    "yesPool": 4000,
+    "noPool": 16000,
+    "deadline": "2028-12-31"
+  },
+  {
+    "id": "sdpred-004",
+    "question": "2026년 내에 SAF-RSF 간 공식 휴전 합의가 성사될까?",
+    "yesPool": 2000,
+    "noPool": 18000,
+    "deadline": "2026-12-31"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sdmi-001",
+    "eventId": "sdevt-010",
+    "summary": "SAF-RSF 내전 발발로 수단 경제가 붕괴되었다. 금 밀수 경제가 RSF 전쟁 자금원으로 고착화되고, 아프리카 식량 가격이 급등하며, 인접국(차드·이집트·남수단)에 난민 위기가 확산되었다.",
+    "analysisDate": "2023-04-15",
+    "sectors": [
+      {
+        "sector": "금·귀금속",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "수단 합법 금 수출 중단으로 공급 불확실성 증대, RSF 밀수 금은 UAE 시장 경유",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "GLD", "name": "SPDR Gold Trust", "exchange": "NYSE", "direction": "positive", "reasoning": "지정학 불확실성 + 공급 교란으로 금 가격 상승" },
+          { "ticker": "NEM", "name": "Newmont Corp", "exchange": "NYSE", "direction": "positive", "reasoning": "금 가격 상승 수혜" }
+        ]
+      },
+      {
+        "sector": "아프리카 농산물·식량",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "수단은 아프리카 최대 농업국 중 하나. 내전으로 농경지 파괴, 식량 가격 40-60% 폭등",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "WEAT", "name": "Teucrium Wheat Fund", "exchange": "NYSE", "direction": "positive", "reasoning": "글로벌 곡물 공급 불확실성 증대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sdmi-002",
+    "eventId": "sdevt-011",
+    "summary": "RSF의 다르푸르 5개 주도 장악으로 금 밀수 경제가 확대되고 식량 위기가 극한에 달했다. 다르푸르 기근 선언으로 국제 식량 원조 수요가 급증했다.",
+    "analysisDate": "2025-10-27",
+    "sectors": [
+      {
+        "sector": "식량·곡물",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "다르푸르 기근 선언, 2,460만 명 급성 식량 불안정 → 국제 식량 원조 수요 급증",
+        "region": "아프리카·중동",
+        "stocks": [
+          { "ticker": "ADM", "name": "Archer-Daniels-Midland", "exchange": "NYSE", "direction": "positive", "reasoning": "곡물 가격 상승과 국제 식량 원조 물량 증가 수혜" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sdmi-003",
+    "eventId": "sdevt-013",
+    "summary": "수단의 사실상 분단과 코르도판 드론전 격화로 나일강 수자원 지정학이 불안정해지고 이집트 경제에 간접 영향을 미치고 있다. 수단 원유 생산은 내전 전 대비 50% 이상 감소했다.",
+    "analysisDate": "2026-03-01",
+    "sectors": [
+      {
+        "sector": "원유·에너지",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "수단 원유 생산 7만 배럴/일로 급감, 분단으로 송유관 운영 불확실",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "XOM", "name": "Exxon Mobil", "exchange": "NYSE", "direction": "negative", "reasoning": "수단 투자 자산 손실, 아프리카 에너지 불확실성" }
+        ]
+      },
+      {
+        "sector": "이집트 경제",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "수단 불안정이 나일강 수자원 협상과 남부 국경 안보에 영향",
+        "region": "중동·북아프리카",
+        "stocks": [
+          { "ticker": "EGPT", "name": "VanEck Egypt Index ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "난민 유입, 국경 안보 비용, 나일 수자원 불확실성" }
+        ]
+      }
+    ]
+  }
+]

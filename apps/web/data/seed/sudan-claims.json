@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sdclm-001",
+    "text": "다르푸르 분쟁으로 약 30만 명이 사망하고 270만 명이 난민이 되었다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "sdclm-002",
+    "text": "RSF는 연간 60억 달러 규모의 금 밀수 네트워크를 운영하며 주로 UAE로 반출한다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "sdclm-003",
+    "text": "UAE가 차드·리비아를 경유하여 RSF에 무기·탄약·자금을 지원하고 있다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "sdclm-004",
+    "text": "러시아 바그너 그룹(현 아프리카군단)이 RSF에 미사일·무기를 공급하고 금 채굴 이권을 확보했다",
+    "status": "verified",
+    "confidence": 80,
+    "sourcesFor": 4,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "sdclm-005",
+    "text": "2025년 알파셰르 함락 과정에서 RSF가 조직적 학살·성폭력을 자행했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "sdclm-006",
+    "text": "SAF의 바이락타르 드론 공습으로 코르도판 민간인 피해가 급증하고 있다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "sdclm-007",
+    "text": "수단은 사실상 분단 상태이며 RSF 다르푸르와 SAF 하르툼이 별도 정치체로 기능한다",
+    "status": "partly_true",
+    "confidence": 75,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "agr-sudan",
+  "title": "주바 평화협정 (Juba Peace Agreement)",
+  "date": "2020-10-03",
+  "summary": "수단 과도정부와 다르푸르·남코르도판·청나일 반군 연합이 체결한 포괄적 평화협정. 연방제, 부의 공유, 안보 개혁, 인권 메커니즘을 포함하나 주요 반군의 불참과 2021 쿠데타로 이행이 사실상 중단되었다.",
+  "status": "partially_implemented",
+  "parties": [
+    { "id": "sdpty-001", "name": "수단 과도정부 (주권위원회)", "role": "서명국" },
+    { "id": "sdpty-002", "name": "정의평등운동 (JEM)", "role": "서명국" },
+    { "id": "sdpty-003", "name": "수단해방운동-미나위 분파 (SLM-MM)", "role": "서명국" },
+    { "id": "sdpty-004", "name": "수단인민해방운동-북부 (SPLM-N)", "role": "서명국" }
+  ],
+  "obligations": [
+    {
+      "id": "sdobl-001",
+      "description": "영구 정전 및 적대 행위 중단",
+      "deadline": "2021-04-03",
+      "status": "violated",
+      "assignedTo": { "id": "sdpty-001", "name": "수단 과도정부", "role": "서명국" }
+    },
+    {
+      "id": "sdobl-002",
+      "description": "반군 무장해제 및 국군 통합",
+      "deadline": "2023-10-03",
+      "status": "violated",
+      "assignedTo": { "id": "sdpty-002", "name": "정의평등운동 (JEM)", "role": "서명국" }
+    },
+    {
+      "id": "sdobl-003",
+      "description": "다르푸르 연방 자치권 보장 및 부의 공유",
+      "deadline": "2022-10-03",
+      "status": "partial",
+      "assignedTo": { "id": "sdpty-001", "name": "수단 과도정부", "role": "서명국" }
+    },
+    {
+      "id": "sdobl-004",
+      "description": "과도기 정의 메커니즘 및 인권위원회 설립",
+      "deadline": "2021-10-03",
+      "status": "violated",
+      "assignedTo": { "id": "sdpty-001", "name": "수단 과도정부", "role": "서명국" }
+    }
+  ]
+}

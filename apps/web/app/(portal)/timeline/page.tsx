@@ -209,6 +209,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "외교·재판",
     bottomLabel: "군사·사회",
   },
+  sudan: {
+    topIds: ["sdevt-005", "sdevt-006", "sdevt-007", "sdevt-008"],
+    centerIds: ["sdevt-010"],
+    topLabel: "외교·사회",
+    bottomLabel: "군사",
+  },
 };
 
 export default async function TimelinePage({
@@ -415,6 +421,12 @@ export default async function TimelinePage({
         { color: "bg-purple-500", label: "사회" },
       ]
     : scenarioId === "cambodia"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
+      ]
+    : scenarioId === "sudan"
     ? [
         { color: "bg-red-500", label: "군사" },
         { color: "bg-blue-500", label: "외교" },

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sdlink-001",
+    "source": "sdevt-001",
+    "target": "sdevt-002",
+    "confidence": 70,
+    "mechanism": "독립 후 남북 갈등·경제 실패·민주주의 좌절 → 이슬람주의 군부 쿠데타 명분",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sdlink-002",
+    "source": "sdevt-002",
+    "target": "sdevt-003",
+    "confidence": 80,
+    "mechanism": "알바시르 정권의 주변부 차별·잔자위드 민병대 활용 → 다르푸르 반군 봉기 → 인종 청소",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sdlink-003",
+    "source": "sdevt-003",
+    "target": "sdevt-004",
+    "confidence": 90,
+    "mechanism": "다르푸르 대량 학살·270만 난민 → ICC 조사 → 현직 대통령 체포영장 발부",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-004",
+    "source": "sdevt-002",
+    "target": "sdevt-005",
+    "confidence": 75,
+    "mechanism": "알바시르 이슬람화 정책 → 남부 기독교·전통 종교 탄압 → 2차 내전 → CPA → 남수단 독립",
+    "causalType": "contributing"
+  },
+  {
+    "id": "sdlink-005",
+    "source": "sdevt-002",
+    "target": "sdevt-006",
+    "confidence": 85,
+    "mechanism": "30년 독재·경제 파탄·남수단 독립 후 석유 수입 상실 → 생활비 폭등 → 민주화 혁명",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sdlink-006",
+    "source": "sdevt-006",
+    "target": "sdevt-007",
+    "confidence": 95,
+    "mechanism": "알바시르 축출 → 군-민 협상 → 헌법 선언·과도정부 수립",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-007",
+    "source": "sdevt-007",
+    "target": "sdevt-008",
+    "confidence": 80,
+    "mechanism": "과도정부 수립 → 민주 전환 일환으로 주변부 반군과 평화 협상 → 주바 협정",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-008",
+    "source": "sdevt-007",
+    "target": "sdevt-009",
+    "confidence": 85,
+    "mechanism": "헌법 선언의 RSF 통합 조항 이행 교착 → 알부르한-헤메디티 권력 투쟁 → 쿠데타",
+    "causalType": "enabling"
+  },
+  {
+    "id": "sdlink-009",
+    "source": "sdevt-009",
+    "target": "sdevt-010",
+    "confidence": 93,
+    "mechanism": "2021 쿠데타 후 RSF 통합 협상 결렬 → 금 자원·권력 경쟁 → 전면 무력 충돌",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-010",
+    "source": "sdevt-010",
+    "target": "sdevt-011",
+    "confidence": 85,
+    "mechanism": "내전 발발 → RSF 기동력 우위로 다르푸르 지방 수도 순차 점령 → 알파셰르 함락",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-011",
+    "source": "sdevt-010",
+    "target": "sdevt-012",
+    "confidence": 80,
+    "mechanism": "내전 발발 → SAF 이집트 군사 지원·드론 전력 확보 → 하르툼 점진적 탈환",
+    "causalType": "direct"
+  },
+  {
+    "id": "sdlink-012",
+    "source": "sdevt-011",
+    "target": "sdevt-013",
+    "confidence": 75,
+    "mechanism": "RSF 다르푸르 장악 + SAF 하르툼 탈환 → 양측 영토 고착 → 코르도판 접경 드론전 격화",
+    "causalType": "enabling"
+  }
+]

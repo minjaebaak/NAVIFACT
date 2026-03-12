@@ -1,0 +1,49 @@
+[
+  {
+    "id": "sdnar-001",
+    "title": "SAF는 국가 제도를 수호하는 정통 군대다",
+    "source": "수단군(SAF)·알부르한 장군·이집트·사우디아라비아",
+    "sourceType": "media",
+    "framing": "SAF를 수단의 합법적 국가 기관이자 영토 보전의 수호자로 프레이밍하며, RSF를 국가를 분열시키는 무장 민병대로 규정한다.",
+    "claims": [
+      {
+        "text": "RSF는 잔자위드에서 비롯된 비국가 민병대로 정당성이 없다",
+        "status": "partly_true",
+        "confidence": 75
+      },
+      {
+        "text": "SAF는 헌법 질서와 수단 통일을 수호한다",
+        "status": "disputed",
+        "confidence": 50
+      }
+    ],
+    "missingContext": [
+      "SAF도 2021년 쿠데타의 공동 주체로 헌법 선언의 민주 전환을 스스로 파괴했다",
+      "SAF의 드론 공습으로 코르도판 민간인 피해가 급증하고 있다"
+    ]
+  },
+  {
+    "id": "sdnar-002",
+    "title": "RSF는 이슬람주의에 맞서는 세속 개혁 세력이다",
+    "source": "신속지원군(RSF)·헤메디티 사령관·UAE",
+    "sourceType": "media",
+    "framing": "RSF를 알바시르 잔재 세력(이슬람주의자)에 맞서 싸우는 개혁 세력으로 프레이밍하며, 민간인 통치와 세속 국가를 지지한다고 주장한다.",
+    "claims": [
+      {
+        "text": "SAF 내부에 알바시르 시대 이슬람주의자들이 복귀했다",
+        "status": "verified",
+        "confidence": 80
+      },
+      {
+        "text": "RSF는 민주주의와 민간 정부를 지지한다",
+        "status": "false",
+        "confidence": 30
+      }
+    ],
+    "missingContext": [
+      "RSF도 2021년 쿠데타에 참여하여 민간 정부를 전복했다",
+      "RSF의 다르푸르 점령 과정에서 대량 학살·성폭력이 조직적으로 자행되었다",
+      "RSF는 연간 60억 달러 추정의 금 밀수로 전쟁을 자금 조달한다"
+    ]
+  }
+]
