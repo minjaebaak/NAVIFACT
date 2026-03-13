@@ -102,5 +102,13 @@
     "confidence": 70,
     "mechanism": "러시아 전면침공에 대한 우크라이나의 장기적 반격 역량 구축이 영토 수복으로 결실",
     "causalType": "indirect"
+  },
+  {
+    "id": "ulink-014",
+    "source": "uevt-014",
+    "target": "uevt-015",
+    "confidence": 82,
+    "mechanism": "영토 수복 성과로 얻은 전술적 자신감이 러시아 내륙 전략 목표물에 대한 장거리 타격으로 이어졌다",
+    "causalType": "contributing"
   }
 ]

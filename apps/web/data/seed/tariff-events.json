@@ -88,5 +88,14 @@
     "category": "경제",
     "confidence": 85,
     "status": "verified"
+  },
+  {
+    "id": "evt-011",
+    "title": "한국 국회, 대미 투자 $350B 특별법 통과",
+    "description": "한국 국회가 대미 투자 3,500억 달러 실행을 위한 특별법을 통과시켰다. 반도체·배터리·자동차 등 핵심 산업의 미국 현지 투자를 가속화하여 Section 301 조사에 대응하고 한미 무역 마찰을 완화하려는 전략적 조치였다.",
+    "date": "2026-03-12",
+    "category": "경제",
+    "confidence": 92,
+    "status": "verified"
   }
 ]

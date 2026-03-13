@@ -124,5 +124,14 @@
     "category": "군사",
     "confidence": 85,
     "status": "verified"
+  },
+  {
+    "id": "uevt-015",
+    "title": "Storm Shadow 미사일로 러시아 전자부품 공장 타격",
+    "description": "우크라이나군이 영국 제공 Storm Shadow 순항미사일로 러시아 내륙의 핵심 전자부품 생산 공장을 타격했다. 이 공장은 러시아 정밀유도무기와 드론의 핵심 부품을 생산하던 시설로, 러시아의 전쟁 수행 능력에 직접적 타격을 가했다.",
+    "date": "2026-03-12",
+    "category": "군사",
+    "confidence": 88,
+    "status": "verified"
   }
 ]

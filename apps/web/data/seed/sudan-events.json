@@ -115,5 +115,14 @@
     "category": "군사",
     "confidence": 80,
     "status": "verified"
+  },
+  {
+    "id": "sdevt-014",
+    "title": "RSF 드론 학교·보건센터 공격, 17명 사망",
+    "description": "신속지원군(RSF)의 드론이 화이트나일주의 학교와 보건센터를 공격하여 여학생을 포함한 17명이 사망했다. RSF의 드론 전쟁 확대와 민간 시설 표적화가 국제적 비난을 받았다. 수단군은 같은 시기 북코르도판 바라 시를 탈환하며 반격했다.",
+    "date": "2026-03-12",
+    "category": "군사",
+    "confidence": 90,
+    "status": "verified"
   }
 ]

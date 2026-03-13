@@ -78,5 +78,13 @@
     "confidence": 85,
     "mechanism": "대법원 IEEPA 위헌 판결로 호혜 관세 법적 근거 상실 → Section 301 대체 전략 추진",
     "causalType": "direct"
+  },
+  {
+    "id": "link-011",
+    "source": "evt-010",
+    "target": "evt-011",
+    "confidence": 90,
+    "mechanism": "트럼프의 Section 301 조사 발표가 한국 정부의 대미 투자 특별법 신속 통과를 촉진했다",
+    "causalType": "direct"
   }
 ]

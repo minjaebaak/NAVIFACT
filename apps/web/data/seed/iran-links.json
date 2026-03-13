@@ -126,5 +126,13 @@
     "confidence": 85,
     "mechanism": "헤즈볼라 미사일·드론 이스라엘 공격 → 이스라엘 보복 확대 → 남레바논 지상 침공",
     "causalType": "direct"
+  },
+  {
+    "id": "ilink-017",
+    "source": "ievt-016",
+    "target": "ievt-018",
+    "confidence": 80,
+    "mechanism": "모즈타바 하메네이의 최고지도자 취임과 지속되는 공습이 이란 정부의 종전 협상 압력을 높였다",
+    "causalType": "contributing"
   }
 ]

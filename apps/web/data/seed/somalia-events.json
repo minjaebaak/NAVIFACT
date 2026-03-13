@@ -124,5 +124,14 @@
     "category": "군사",
     "confidence": 85,
     "status": "developing"
+  },
+  {
+    "id": "smevt-015",
+    "title": "Operation Rolling Thunder: 알샤바브 거점 탈환",
+    "description": "소말리아 국군과 AUSSOM이 합동 작전 'Operation Rolling Thunder'를 개시하여 다라살람, 무바라크 등 알샤바브 주요 거점을 해방했다. 미 AFRICOM의 공습 지원 하에 라마단 기간 중 수행된 대규모 군사 작전으로, 2025년 알샤바브 공세의 영토 상실을 일부 만회했다.",
+    "date": "2026-03-11",
+    "category": "군사",
+    "confidence": 85,
+    "status": "developing"
   }
 ]

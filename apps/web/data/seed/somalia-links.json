@@ -110,5 +110,13 @@
     "confidence": 80,
     "mechanism": "MOU로 인한 역내 공조 균열과 ATMIS→AUSSOM 전환 혼란이 알샤바브 대공세의 기회를 제공했다",
     "causalType": "contributing"
+  },
+  {
+    "id": "smlink-015",
+    "source": "smevt-014",
+    "target": "smevt-015",
+    "confidence": 88,
+    "mechanism": "알샤바브의 2025년 대공세에 대한 AUSSOM-소말리아군 합동 반격 작전이 개시되었다",
+    "causalType": "direct"
   }
 ]

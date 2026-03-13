@@ -426,5 +426,33 @@
         ]
       }
     ]
+  },
+  {
+    "id": "imi-014",
+    "eventId": "ievt-018",
+    "summary": "이란의 종전 조건 제시로 유가가 소폭 하락하며 평화 기대감이 형성되었다. 방산주는 전쟁 장기화 가능성 약화로 차익실현 매물이 출회되었고, 이머징 마켓에서 소폭 반등이 나타났다.",
+    "analysisDate": "2026-03-12",
+    "sectors": [
+      {
+        "sector": "원유·에너지",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "종전 협상 시작 기대로 지정학적 프리미엄 일부 해소",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "CL=F", "name": "WTI 원유 선물", "exchange": "NYMEX", "direction": "negative", "reasoning": "평화 협상 기대로 유가 프리미엄 축소" }
+        ]
+      },
+      {
+        "sector": "방위산업",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "전쟁 종료 기대로 단기 차익실현 매물 출회",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "negative", "reasoning": "이란전 종료 시 방산 수요 감소 전망" }
+        ]
+      }
+    ]
   }
 ]

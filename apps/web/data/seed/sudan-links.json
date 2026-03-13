@@ -94,5 +94,13 @@
     "confidence": 75,
     "mechanism": "RSF 다르푸르 장악 + SAF 하르툼 탈환 → 양측 영토 고착 → 코르도판 접경 드론전 격화",
     "causalType": "enabling"
+  },
+  {
+    "id": "sdlink-013",
+    "source": "sdevt-013",
+    "target": "sdevt-014",
+    "confidence": 85,
+    "mechanism": "드론전 격화의 연장선에서 RSF가 민간 시설까지 드론 공격 대상으로 확대했다",
+    "causalType": "direct"
   }
 ]
