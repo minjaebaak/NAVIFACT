@@ -102,5 +102,13 @@
     "causalType": "direct",
     "confidence": 85,
     "mechanism": "홍해 상선 공격으로 형성된 후티의 해상 봉쇄 역량이 이란 전쟁 연대 위협의 기반"
+  },
+  {
+    "id": "ymlink-014",
+    "source": "ymevt-014",
+    "target": "ymevt-015",
+    "confidence": 88,
+    "mechanism": "이란 전쟁 확대로 후티가 '저항 축' 연대를 공식화하며 홍해 공격 재개를 위협했다",
+    "causalType": "direct"
   }
 ]

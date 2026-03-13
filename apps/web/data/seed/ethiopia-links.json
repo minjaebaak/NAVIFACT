@@ -110,5 +110,13 @@
     "causalType": "direct",
     "confidence": 85,
     "mechanism": "TDF-정부군 교전 재발에 에리트레아가 군사 개입 재개"
+  },
+  {
+    "id": "etlink-015",
+    "source": "etevt-014",
+    "target": "etevt-015",
+    "confidence": 82,
+    "mechanism": "에리트레아군의 국경 진입이 에티오피아와의 홍해 접근권 분쟁으로 확대되었다",
+    "causalType": "direct"
   }
 ]
