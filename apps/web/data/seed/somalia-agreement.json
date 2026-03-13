@@ -1,0 +1,57 @@
+{
+  "id": "agr-somalia",
+  "title": "지부티 협정",
+  "date": "2008-08-19",
+  "summary": "유엔 중재로 소말리아 과도연방정부(TFG)와 소말리아재해방동맹(ARS) 간 체결된 평화 협정. 에티오피아 군 철수, 적대행위 중지, 의회 확대 등을 합의했으나 알샤바브 강경파의 참여 거부로 근본적 한계가 있었다.",
+  "status": "partial",
+  "parties": [
+    { "id": "smpty-001", "name": "소말리아 과도연방정부 (TFG)", "role": "서명국" },
+    { "id": "smpty-002", "name": "소말리아재해방동맹 (ARS)", "role": "서명국" },
+    { "id": "smpty-003", "name": "유엔", "role": "중재자" },
+    { "id": "smpty-004", "name": "지부티", "role": "개최국" }
+  ],
+  "obligations": [
+    {
+      "id": "smobl-001",
+      "description": "에티오피아 군대 철수를 위한 일정에 합의한다",
+      "deadline": "2009-01-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "smpty-001", "name": "소말리아 과도연방정부 (TFG)", "role": "서명국" }
+    },
+    {
+      "id": "smobl-002",
+      "description": "모든 적대행위를 즉시 중지한다",
+      "deadline": "2008-09-19",
+      "status": "partial",
+      "assignedTo": { "id": "smpty-002", "name": "소말리아재해방동맹 (ARS)", "role": "서명국" }
+    },
+    {
+      "id": "smobl-003",
+      "description": "인도주의적 구호 활동에 대한 자유로운 접근을 보장한다",
+      "deadline": "2008-10-19",
+      "status": "partial",
+      "assignedTo": { "id": "smpty-001", "name": "소말리아 과도연방정부 (TFG)", "role": "서명국" }
+    },
+    {
+      "id": "smobl-004",
+      "description": "AU 평화유지군 배치를 지원하고 유엔 평화유지 전환을 추진한다",
+      "deadline": "2009-06-30",
+      "status": "partial",
+      "assignedTo": { "id": "smpty-003", "name": "유엔", "role": "중재자" }
+    },
+    {
+      "id": "smobl-005",
+      "description": "과도 의회 의석을 200석에서 550석으로 확대하여 ARS 대표를 포함한다",
+      "deadline": "2009-03-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "smpty-001", "name": "소말리아 과도연방정부 (TFG)", "role": "서명국" }
+    },
+    {
+      "id": "smobl-006",
+      "description": "무장 민병대를 해산하고 정부 안보 기구에 통합한다",
+      "deadline": "2009-06-30",
+      "status": "violated",
+      "assignedTo": { "id": "smpty-002", "name": "소말리아재해방동맹 (ARS)", "role": "서명국" }
+    }
+  ]
+}

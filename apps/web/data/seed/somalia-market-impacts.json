@@ -1,0 +1,99 @@
+[
+  {
+    "id": "smmi-001",
+    "eventId": "smevt-005",
+    "summary": "모가디슈 전투(블랙호크 다운)는 미 방산주에 단기 약세를 유발했으나, 이후 특수작전 중심 군사 전략 전환으로 특수전 장비·무인기 분야가 장기 수혜를 받았다. 아프리카 이머징 마켓 투자심리가 악화되었다.",
+    "analysisDate": "1993-10-03",
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "미군 사상자 발생에 따른 해외 파병 축소 우려로 단기 방산주 약세",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "negative", "reasoning": "미군 해외 개입 축소 가능성으로 단기 약세" },
+          { "ticker": "NOC", "name": "Northrop Grumman", "exchange": "NYSE", "direction": "positive", "reasoning": "특수전·무인 정찰 수요 장기 증가 전환" }
+        ]
+      },
+      {
+        "sector": "아프리카 이머징 마켓",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "소말리아 위기가 아프리카 전체 투자 리스크 인식에 부정적 영향",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "AFK", "name": "VanEck Africa Index ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "아프리카 지정학 리스크 프리미엄 확대" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "smmi-002",
+    "eventId": "smevt-013",
+    "summary": "에티오피아-소말릴란드 항구 MOU는 동아프리카 물류 재편 기대와 함께 역내 지정학적 긴장을 고조시켰다. 홍해 안보 리스크와 맞물려 해운·보험 비용 상승 우려가 확산되었다.",
+    "analysisDate": "2024-01-01",
+    "sectors": [
+      {
+        "sector": "해운·물류",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "아덴만·홍해 리스크 확대로 해운 보험료 상승, 항로 우회 비용 증가",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "ZIM", "name": "ZIM Integrated Shipping", "exchange": "NYSE", "direction": "negative", "reasoning": "홍해 항로 위험 증가에 따른 운항 비용 상승" },
+          { "ticker": "AAWW", "name": "Atlas Air Worldwide", "exchange": "NASDAQ", "direction": "positive", "reasoning": "해운 대안으로 항공 화물 수요 증가 기대" }
+        ]
+      },
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "동아프리카 해양 안보 수요 증가로 해군 장비·감시 시스템 수혜",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "HII", "name": "Huntington Ingalls Industries", "exchange": "NYSE", "direction": "positive", "reasoning": "아프리카 연안 해군 순찰 수요 증가" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "smmi-003",
+    "eventId": "smevt-014",
+    "summary": "알샤바브의 2025년 대공세와 AUSSOM 출범 난항은 동아프리카 안보 환경을 악화시켰다. 방산주가 소폭 수혜를 받았고, 아덴만 해운 리스크가 재부각되며 동아프리카 이머징 마켓에서 자금 유출이 발생했다.",
+    "analysisDate": "2025-02-20",
+    "sectors": [
+      {
+        "sector": "방위산업",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "알샤바브 재부상으로 대테러 군사 장비·드론 수요 증가",
+        "region": "미국",
+        "stocks": [
+          { "ticker": "LMT", "name": "Lockheed Martin", "exchange": "NYSE", "direction": "positive", "reasoning": "아프리카 대테러 작전 확대에 따른 방산 수요" },
+          { "ticker": "KTOS", "name": "Kratos Defense & Security", "exchange": "NASDAQ", "direction": "positive", "reasoning": "무인 전투기·드론 시스템 수요 증가" }
+        ]
+      },
+      {
+        "sector": "해운·물류",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "알샤바브-후티 협력 우려로 아덴만 해운 리스크 재부각",
+        "region": "글로벌",
+        "stocks": [
+          { "ticker": "HLAG", "name": "Hapag-Lloyd", "exchange": "XETRA", "direction": "negative", "reasoning": "아덴만 항로 보험료 추가 인상 우려" }
+        ]
+      },
+      {
+        "sector": "동아프리카 이머징 마켓",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "소말리아 불안정 확산이 케냐·에티오피아·지부티 투자 심리에 부정적 영향",
+        "region": "아프리카",
+        "stocks": [
+          { "ticker": "AFK", "name": "VanEck Africa Index ETF", "exchange": "NYSE", "direction": "negative", "reasoning": "동아프리카 지정학 리스크 확대로 자금 유출" }
+        ]
+      }
+    ]
+  }
+]

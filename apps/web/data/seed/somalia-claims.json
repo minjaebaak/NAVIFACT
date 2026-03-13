@@ -1,0 +1,58 @@
+[
+  {
+    "id": "smclm-001",
+    "text": "소말리아는 1991년부터 2012년까지 21년간 중앙 정부가 없는 무정부 상태였다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 8,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "smclm-002",
+    "text": "2011년 소말리아 기근으로 약 258,000명이 사망했으며 절반 이상이 5세 미만 아동이었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 6,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "smclm-003",
+    "text": "2017년 모가디슈 트럭 폭탄 테러로 587명 이상이 사망하여 소말리아 역사상 최악의 단일 테러 공격이었다",
+    "status": "verified",
+    "confidence": 88,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "smclm-004",
+    "text": "알샤바브가 2025년 공세로 2022년 이후 상실한 영토의 상당 부분을 재장악했다",
+    "status": "verified",
+    "confidence": 85,
+    "sourcesFor": 5,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "smclm-005",
+    "text": "에티오피아-소말릴란드 MOU는 소말리아의 영토 주권을 침해하는 불법 합의이다",
+    "status": "disputed",
+    "confidence": 55,
+    "sourcesFor": 4,
+    "sourcesAgainst": 3
+  },
+  {
+    "id": "smclm-006",
+    "text": "AUSSOM은 충분한 재정과 병력을 확보하지 못해 전임 AMISOM/ATMIS보다 약화되었다",
+    "status": "partly_true",
+    "confidence": 70,
+    "sourcesFor": 4,
+    "sourcesAgainst": 2
+  },
+  {
+    "id": "smclm-007",
+    "text": "알샤바브가 예멘 후티 반군과 무기·정보 협력을 확대하고 있다",
+    "status": "partly_true",
+    "confidence": 72,
+    "sourcesFor": 3,
+    "sourcesAgainst": 2
+  }
+]

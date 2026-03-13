@@ -1,0 +1,46 @@
+[
+  {
+    "id": "smpred-001",
+    "question": "알샤바브가 2026년 말까지 모가디슈를 점령할 수 있을까?",
+    "yesPool": 30,
+    "noPool": 70,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "resolution": null,
+    "resolutionDate": null,
+    "tags": ["소말리아", "알샤바브", "군사"]
+  },
+  {
+    "id": "smpred-002",
+    "question": "소말리아 연방 선거가 2026년 상반기 내에 실시될 것인가?",
+    "yesPool": 25,
+    "noPool": 75,
+    "deadline": "2026-06-30",
+    "status": "active",
+    "resolution": null,
+    "resolutionDate": null,
+    "tags": ["소말리아", "선거", "정치"]
+  },
+  {
+    "id": "smpred-003",
+    "question": "에티오피아-소말릴란드 MOU가 2026년까지 이행 또는 공식 철회될 것인가?",
+    "yesPool": 35,
+    "noPool": 65,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "resolution": null,
+    "resolutionDate": null,
+    "tags": ["소말리아", "에티오피아", "소말릴란드", "외교"]
+  },
+  {
+    "id": "smpred-004",
+    "question": "AUSSOM이 2026년 말까지 알샤바브를 주요 도시에서 축출할 수 있을까?",
+    "yesPool": 20,
+    "noPool": 80,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "resolution": null,
+    "resolutionDate": null,
+    "tags": ["소말리아", "AUSSOM", "알샤바브", "군사"]
+  }
+]

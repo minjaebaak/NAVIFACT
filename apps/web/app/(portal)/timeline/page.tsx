@@ -221,6 +221,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "외교·사회",
     bottomLabel: "경제·군사",
   },
+  somalia: {
+    topIds: ["smevt-004", "smevt-006", "smevt-008", "smevt-010"],
+    centerIds: ["smevt-005", "smevt-011"],
+    topLabel: "외교·사회",
+    bottomLabel: "군사",
+  },
 };
 
 export default async function TimelinePage({
@@ -444,6 +450,12 @@ export default async function TimelinePage({
         { color: "bg-blue-500", label: "외교" },
         { color: "bg-purple-500", label: "사회" },
         { color: "bg-green-500", label: "경제" },
+      ]
+    : scenarioId === "somalia"
+    ? [
+        { color: "bg-red-500", label: "군사" },
+        { color: "bg-blue-500", label: "외교" },
+        { color: "bg-purple-500", label: "사회" },
       ]
     : [
         { color: "bg-blue-500", label: "외교" },

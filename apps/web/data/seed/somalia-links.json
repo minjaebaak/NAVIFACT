@@ -1,0 +1,114 @@
+[
+  {
+    "id": "smlink-001",
+    "source": "smevt-001",
+    "target": "smevt-002",
+    "confidence": 90,
+    "mechanism": "바레의 군사독재 체제가 '대소말리아' 민족주의를 동원하여 오가덴 전쟁을 촉발했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-002",
+    "source": "smevt-002",
+    "target": "smevt-003",
+    "confidence": 92,
+    "mechanism": "오가덴 전쟁 패배로 군부 내 불만이 폭발하고 씨족 기반 반군이 조직되어 정권 붕괴로 이어졌다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-003",
+    "source": "smevt-003",
+    "target": "smevt-004",
+    "confidence": 95,
+    "mechanism": "내전으로 인한 대규모 기근과 인도주의 위기가 유엔의 미군 중심 다국적군 파병을 촉발했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-004",
+    "source": "smevt-004",
+    "target": "smevt-005",
+    "confidence": 88,
+    "mechanism": "인도적 구호에서 군벌 무장 해제로 임무가 확대되면서 소말리아 군벌과의 직접 교전이 발생했다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-005",
+    "source": "smevt-005",
+    "target": "smevt-006",
+    "confidence": 95,
+    "mechanism": "블랙호크 다운의 충격적 영상이 미국 여론을 급변시켜 클린턴 행정부의 철군 결정과 UNOSOM 철수로 이어졌다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-006",
+    "source": "smevt-006",
+    "target": "smevt-007",
+    "confidence": 85,
+    "mechanism": "국제사회 철수 후 10년간의 권력 공백에서 이슬람법원연합이 치안 제공자로 부상했다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "smlink-007",
+    "source": "smevt-007",
+    "target": "smevt-008",
+    "confidence": 90,
+    "mechanism": "에티오피아의 ICU 축출 후 안보 공백을 메우기 위해 아프리카연합 평화유지군이 배치되었다",
+    "causalType": "direct"
+  },
+  {
+    "id": "smlink-008",
+    "source": "smevt-007",
+    "target": "smevt-009",
+    "confidence": 80,
+    "mechanism": "ICU 축출 과정에서 분리된 알샤바브가 남부 소말리아를 장악하여 2011년 기근 시 구호 차단이 가능해졌다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "smlink-009",
+    "source": "smevt-009",
+    "target": "smevt-010",
+    "confidence": 75,
+    "mechanism": "기근으로 인한 국제적 관심 증대가 소말리아 정치 과정 촉진과 연방정부 수립을 앞당겼다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "smlink-010",
+    "source": "smevt-008",
+    "target": "smevt-010",
+    "confidence": 85,
+    "mechanism": "AMISOM의 모가디슈 안보 확보가 연방정부 수립을 위한 정치 과정의 물리적 기반을 제공했다",
+    "causalType": "enabling"
+  },
+  {
+    "id": "smlink-011",
+    "source": "smevt-010",
+    "target": "smevt-011",
+    "confidence": 70,
+    "mechanism": "연방정부 수립 후에도 알샤바브를 완전히 제압하지 못해 대규모 보복 테러가 가능했다",
+    "causalType": "indirect"
+  },
+  {
+    "id": "smlink-012",
+    "source": "smevt-011",
+    "target": "smevt-012",
+    "confidence": 72,
+    "mechanism": "모가디슈 대테러와 파르마조 정권의 안보 실패가 모하무드 재선과 '전면전' 선언의 배경이 되었다",
+    "causalType": "contributing"
+  },
+  {
+    "id": "smlink-013",
+    "source": "smevt-012",
+    "target": "smevt-013",
+    "confidence": 65,
+    "mechanism": "모하무드의 에티오피아 협력 의존이 에티오피아에 협상력을 제공하여 소말릴란드 MOU를 촉진했다",
+    "causalType": "indirect"
+  },
+  {
+    "id": "smlink-014",
+    "source": "smevt-013",
+    "target": "smevt-014",
+    "confidence": 80,
+    "mechanism": "MOU로 인한 역내 공조 균열과 ATMIS→AUSSOM 전환 혼란이 알샤바브 대공세의 기회를 제공했다",
+    "causalType": "contributing"
+  }
+]
