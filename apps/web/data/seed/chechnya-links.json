@@ -86,5 +86,13 @@
     "confidence": 90,
     "mechanism": "카디로프 충성 체제 공고화 → 푸틴 전쟁 요청 수락 → 카디로프 부대 우크라이나 파병",
     "causalType": "direct"
+  },
+  {
+    "id": "chlink-012",
+    "source": "chevt-012",
+    "target": "chevt-013",
+    "confidence": 68,
+    "mechanism": "우크라이나 참전으로 국제적 위상 확보 → 걸프 국가들과 독자 외교 → 이란-걸프 분쟁에서 걸프 편 공개 지지.",
+    "causalType": "indirect"
   }
 ]

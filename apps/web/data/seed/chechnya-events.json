@@ -106,5 +106,14 @@
     "category": "군사",
     "confidence": 95,
     "status": "verified"
+  },
+  {
+    "id": "chevt-013",
+    "title": "카디로프, 이란의 UAE 공습 '용납 불가' 비난",
+    "description": "체첸 지도자 카디로프가 이란의 UAE 및 걸프 국가 미사일 공격을 강력 비난하며 민간 인프라 공격은 '용납할 수 없다'고 밝혔다. UAE 대통령 무함마드 빈 자이드를 '형님'이라 칭하며 지지를 표명했다. 카디로프의 걸프 국가들과의 독자적 외교 관계를 보여주는 사례다.",
+    "date": "2026-03-12",
+    "category": "외교",
+    "confidence": 80,
+    "status": "developing"
   }
 ]

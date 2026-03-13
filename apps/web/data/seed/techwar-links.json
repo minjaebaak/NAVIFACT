@@ -86,5 +86,13 @@
     "confidence": 82,
     "mechanism": "첨단 GPU(H100) 접근 차단이 제한된 컴퓨팅 자원으로 효율적 AI 모델을 개발하는 DeepSeek의 동기 부여",
     "causalType": "contributing"
+  },
+  {
+    "id": "twlink-012",
+    "source": "twevt-012",
+    "target": "twevt-013",
+    "confidence": 70,
+    "mechanism": "DeepSeek 충격으로 미국 의원들의 기술 보호주의 강화 → RISC-V 등 오픈 표준까지 규제 대상으로 확대.",
+    "causalType": "contributing"
   }
 ]

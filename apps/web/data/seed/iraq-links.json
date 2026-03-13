@@ -86,5 +86,13 @@
     "confidence": 80,
     "mechanism": "모술 탈환·IS 영토 상실 → 잔존 세력 소탕 지속 → 이라크 치안 안정 → 미군 전투임무 종료 합의",
     "causalType": "contributing"
+  },
+  {
+    "id": "iqlink-012",
+    "source": "iqevt-012",
+    "target": "iqevt-013",
+    "confidence": 75,
+    "mechanism": "미군 전투임무 종료에도 잔류 병력 유지 → 이란 전쟁 확대로 이란계 민병대 위협 재고조 → 미 대사관 대피 명령.",
+    "causalType": "contributing"
   }
 ]

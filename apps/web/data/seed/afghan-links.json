@@ -86,5 +86,13 @@
     "confidence": 98,
     "mechanism": "카불 함락 → 카불 공항 대피작전(NEO) → 12만 명 공수 → 미군 마지막 철수",
     "causalType": "direct"
+  },
+  {
+    "id": "aflink-012",
+    "source": "afevt-011",
+    "target": "afevt-013",
+    "confidence": 78,
+    "mechanism": "탈레반 정권 장악 후 국경 통제 강화 → 두란드선 분쟁 재점화 → 파키스탄-아프간 전면 무력 충돌.",
+    "causalType": "contributing"
   }
 ]

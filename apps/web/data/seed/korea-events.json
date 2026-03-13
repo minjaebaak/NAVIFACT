@@ -106,5 +106,14 @@
     "category": "외교",
     "confidence": 95,
     "status": "verified"
+  },
+  {
+    "id": "krevt-013",
+    "title": "미군 THAAD 중동 전환배치 — 한미동맹 균열 조짐",
+    "description": "미 국방부가 주한미군 배치 THAAD 구성요소와 패트리어트 PAC-3를 이란 위협 대응을 위해 중동으로 전환 배치하기 시작했다. 이재명 대통령은 반대 의사를 표명했으나 미국의 결정을 수용할 수밖에 없는 현실을 인정했다. 한미동맹의 균열 조짐으로 평가된다.",
+    "date": "2026-03-10",
+    "category": "군사",
+    "confidence": 85,
+    "status": "developing"
   }
 ]

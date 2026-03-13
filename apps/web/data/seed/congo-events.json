@@ -106,5 +106,14 @@
     "category": "군사",
     "confidence": 85,
     "status": "verified"
+  },
+  {
+    "id": "cgevt-013",
+    "title": "콩고 정부군 고마 드론 공습 — UNICEF 직원 사망",
+    "description": "콩고 정부군(FARDC)이 M23 반군이 장악한 고마 시내에 드론 공습을 감행하여 프랑스 국적 UNICEF 직원 카린 뷔세를 포함한 민간인 최소 3명이 사망했다. 2025년 1월 M23의 고마 함락 이후 시내에 대한 첫 공습이며, 아프리카연합은 민간인 공격을 강력 규탄했다.",
+    "date": "2026-03-11",
+    "category": "군사",
+    "confidence": 88,
+    "status": "developing"
   }
 ]

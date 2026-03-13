@@ -106,5 +106,14 @@
     "category": "군사",
     "confidence": 93,
     "status": "verified"
+  },
+  {
+    "id": "taievt-013",
+    "title": "미 해군 P-8A 대만해협 통과 — 트럼프 방중 전 신호",
+    "description": "미 해군 7함대 소속 P-8A 포세이돈 해상초계기가 국제 공역으로서 대만해협을 통과 비행했다. 트럼프 대통령의 3월 중 방중 계획이 예고된 가운데 이루어져 미중 관계의 미묘한 균형을 보여주었다.",
+    "date": "2026-03-11",
+    "category": "군사",
+    "confidence": 85,
+    "status": "developing"
   }
 ]

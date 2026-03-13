@@ -86,5 +86,13 @@
     "confidence": 90,
     "mechanism": "역대 가장 독립 성향 강한 라이칭더 취임 → 중국, 연합이검-2024B 대만 봉쇄 군사훈련으로 경고.",
     "causalType": "direct"
+  },
+  {
+    "id": "tailink-012",
+    "source": "taievt-012",
+    "target": "taievt-013",
+    "confidence": 72,
+    "mechanism": "중국 봉쇄 훈련 이후에도 미국이 대만해협 통과로 항행의 자유 원칙을 재확인하며 억지력 유지.",
+    "causalType": "contributing"
   }
 ]

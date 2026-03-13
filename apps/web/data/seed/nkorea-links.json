@@ -86,5 +86,13 @@
     "confidence": 70,
     "mechanism": "비핵화 협상 완전 중단 → 한국을 '적대적 국가'로 규정, 70년 통일 정책 공식 폐기.",
     "causalType": "contributing"
+  },
+  {
+    "id": "nklink-012",
+    "source": "nkevt-011",
+    "target": "nkevt-013",
+    "confidence": 82,
+    "mechanism": "고체연료 ICBM 질적 도약에 이어 해군 플랫폼(구축함) 발사 능력까지 확보하며 핵 투발수단 다양화.",
+    "causalType": "direct"
   }
 ]

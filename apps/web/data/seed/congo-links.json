@@ -86,5 +86,13 @@
     "causalType": "direct",
     "confidence": 85,
     "mechanism": "M23 동부 장악 패턴 반복 → 코발트·콜탄 자원 통제 → 2023 재점령 위기"
+  },
+  {
+    "id": "cglink-012",
+    "source": "cgevt-012",
+    "target": "cgevt-013",
+    "causalType": "direct",
+    "confidence": 85,
+    "mechanism": "M23 고마 장악 → 정부군 드론 공습으로 탈환 시도 → UNICEF 직원 포함 민간인 사망"
   }
 ]

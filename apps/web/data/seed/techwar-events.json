@@ -106,5 +106,14 @@
     "category": "기술",
     "confidence": 95,
     "status": "verified"
+  },
+  {
+    "id": "twevt-013",
+    "title": "RISC-V 오픈 표준, 미중 칩 패권 새 전선으로 부상",
+    "description": "오픈소스 칩 아키텍처 RISC-V가 미중 기술 패권 경쟁의 새로운 전선으로 부상했다. 미 의원들은 RISC-V가 중국의 반도체 혁신을 돕고 있다고 문제를 제기했으며, RISC-V 재단은 중립성을 위해 스위스로 법적 등록지를 이전한 상태다.",
+    "date": "2026-03-11",
+    "category": "기술",
+    "confidence": 82,
+    "status": "developing"
   }
 ]
