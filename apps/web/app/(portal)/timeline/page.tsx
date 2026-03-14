@@ -233,6 +233,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "계엄·체포",
     bottomLabel: "탄핵·대선",
   },
+  gwangju: {
+    topIds: ["gjevt-002", "gjevt-003", "gjevt-004", "gjevt-005"],
+    centerIds: ["gjevt-007", "gjevt-008"],
+    topLabel: "신군부·진압",
+    bottomLabel: "민주화·처벌",
+  },
 };
 
 export default async function TimelinePage({

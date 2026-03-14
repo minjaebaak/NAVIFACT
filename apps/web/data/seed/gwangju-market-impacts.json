@@ -1,0 +1,48 @@
+[
+  {
+    "id": "gjmi-001",
+    "eventId": "gjevt-004",
+    "summary": "광주 민주화 운동으로 정치 불안정이 고조. 외국인 투자 심리 위축과 원화 약세 압력 발생.",
+    "analysisDate": "1980-05-18",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "대규모 시위와 군사 진압으로 한국 정치 리스크 부각, 외국인 투자 심리 악화",
+        "region": "KR",
+        "stocks": []
+      }
+    ],
+    "actualSummary": "1980년 광주 사태 기간 주식시장은 제한적 영향을 받았으나, 정치적 불안정이 해외 투자 유치에 부정적 영향을 미쳤다.",
+    "actualDate": "1980-06-01",
+    "predictionAccuracy": 70
+  },
+  {
+    "id": "gjmi-002",
+    "eventId": "gjevt-008",
+    "summary": "6·29 민주화 선언으로 정치 안정화 기대감 상승. 한국 자산 재평가와 외국인 투자 확대 전망.",
+    "analysisDate": "1987-06-29",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "민주화 이행으로 정치 리스크 해소, 88 서울 올림픽 기대감과 시너지",
+        "region": "KR",
+        "stocks": []
+      },
+      {
+        "sector": "건설",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "민주화 이후 경제 개방 확대와 올림픽 인프라 투자 기대",
+        "region": "KR",
+        "stocks": []
+      }
+    ],
+    "actualSummary": "6·29 선언 이후 KOSPI가 강세를 보이며 1988년 올림픽까지 상승세를 이어갔다. 외국인 투자도 크게 확대되었다.",
+    "actualDate": "1987-07-15",
+    "predictionAccuracy": 85
+  }
+]

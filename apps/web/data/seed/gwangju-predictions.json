@@ -1,0 +1,29 @@
+[
+  {
+    "id": "gjpred-001",
+    "question": "5·18 당시 계엄군 발포 명령자가 최종적으로 밝혀질 것인가?",
+    "yesPool": 7000,
+    "noPool": 13000,
+    "deadline": "2030-12-31",
+    "status": "active",
+    "settlementCriteria": "발포 명령 최종 책임자가 공식 조사 또는 사법 판결에 의해 확인되면 YES."
+  },
+  {
+    "id": "gjpred-002",
+    "question": "5·18 민주화 운동이 유네스코 세계기록유산에 등재되었는가?",
+    "yesPool": 18000,
+    "noPool": 2000,
+    "deadline": "2011-05-31",
+    "status": "settled",
+    "settlementCriteria": "유네스코 세계기록유산 등재 결정 여부 기준. 2011년 등재되어 YES로 결산."
+  },
+  {
+    "id": "gjpred-003",
+    "question": "전두환이 5·18 관련 사죄를 공식적으로 한 적이 있는가?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2021-11-23",
+    "status": "settled",
+    "settlementCriteria": "전두환 사망 시까지 공식 사죄 여부. 사죄 없이 2021.11.23 사망하여 NO로 결산."
+  }
+]

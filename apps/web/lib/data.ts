@@ -291,6 +291,14 @@ import yoonPredictions from "@/data/seed/yoon-predictions.json";
 import yoonNarratives from "@/data/seed/yoon-narratives.json";
 import yoonClaims from "@/data/seed/yoon-claims.json";
 
+// Gwangju Democratization scenario seed data
+import gwangjuEvents from "@/data/seed/gwangju-events.json";
+import gwangjuLinks from "@/data/seed/gwangju-links.json";
+import gwangjuAgreement from "@/data/seed/gwangju-agreement.json";
+import gwangjuPredictions from "@/data/seed/gwangju-predictions.json";
+import gwangjuNarratives from "@/data/seed/gwangju-narratives.json";
+import gwangjuClaims from "@/data/seed/gwangju-claims.json";
+
 // Market impact seed data
 import seedMarketImpacts from "@/data/seed/tariff-market-impacts.json";
 import iranMarketImpacts from "@/data/seed/iran-market-impacts.json";
@@ -328,6 +336,7 @@ import sudanMarketImpacts from "@/data/seed/sudan-market-impacts.json";
 import venezuelaMarketImpacts from "@/data/seed/venezuela-market-impacts.json";
 import somaliaMarketImpacts from "@/data/seed/somalia-market-impacts.json";
 import yoonMarketImpacts from "@/data/seed/yoon-market-impacts.json";
+import gwangjuMarketImpacts from "@/data/seed/gwangju-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -456,14 +465,14 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar" | "libya" | "ethiopia" | "cambodia" | "sudan" | "venezuela" | "somalia" | "yoon";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar" | "libya" | "ethiopia" | "cambodia" | "sudan" | "venezuela" | "somalia" | "yoon" | "gwangju";
 
 const SCENARIO_IDS = new Set<string>([
   "tariff", "iran", "ukraine", "techwar", "nkorea", "taiwan",
   "syria", "brexit", "afghan", "iraq", "arabspring", "yugo",
   "rwanda", "cuba", "soviet", "vietnam", "korea", "iranrev",
   "palest", "tiananmen", "indpak", "falklands", "safrica",
-  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar", "libya", "ethiopia", "cambodia", "sudan", "venezuela", "somalia", "yoon",
+  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar", "libya", "ethiopia", "cambodia", "sudan", "venezuela", "somalia", "yoon", "gwangju",
 ]);
 
 export function parseScenarioParam(param?: string): ScenarioId {
@@ -731,6 +740,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇰🇷",
     description: "이태원 참사→특검법 거부→12·3 비상계엄→국회 해제 의결→탄핵·체포→헌재 인용→조기 대선까지 대한민국 헌정 위기의 인과관계",
     dateRange: "2022.05 - 2026.03",
+  },
+  {
+    id: "gwangju",
+    title: "5·18 광주 민주화 운동",
+    flag: "🇰🇷",
+    description: "10·26→12·12 반란→5·17 계엄→5·18 항쟁→진압→6월 항쟁→6·29 선언→특별법→유죄 판결→국가기념일까지 한국 민주주의의 뿌리",
+    dateRange: "1979.10 - 1997.04",
   },
 ];
 
@@ -1069,6 +1085,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: yoonClaims as SeedClaim[],
     marketImpacts: yoonMarketImpacts as SeedMarketImpact[],
   },
+  gwangju: {
+    events: gwangjuEvents as SeedEvent[],
+    links: gwangjuLinks as SeedLink[],
+    agreement: gwangjuAgreement as SeedAgreement,
+    predictions: gwangjuPredictions as SeedPrediction[],
+    narratives: gwangjuNarratives as SeedNarrative[],
+    claims: gwangjuClaims as SeedClaim[],
+    marketImpacts: gwangjuMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -1176,6 +1201,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("ynevt-") || eventId.startsWith("ynlink-") || eventId.startsWith("ynpred-") || eventId.startsWith("ynnar-") || eventId.startsWith("ynclm-") || eventId.startsWith("agr-yoon") || eventId.startsWith("ynmi-") || eventId.startsWith("ynobl-")) {
     return "yoon";
+  }
+  if (eventId.startsWith("gjevt-") || eventId.startsWith("gjlink-") || eventId.startsWith("gjpred-") || eventId.startsWith("gjnar-") || eventId.startsWith("gjclm-") || eventId.startsWith("agr-gwangju") || eventId.startsWith("gjmi-") || eventId.startsWith("gjobl-")) {
+    return "gwangju";
   }
   return "tariff";
 }
@@ -1522,6 +1550,16 @@ const allShortIds = [
   ...yoonPredictions.map((p) => p.id),
   ...yoonNarratives.map((n) => n.id),
   ...yoonClaims.map((c) => c.id),
+  // Gwangju scenario
+  ...gwangjuEvents.map((e) => e.id),
+  ...gwangjuLinks.map((l) => l.id),
+  gwangjuAgreement.id,
+  ...gwangjuAgreement.parties.map((p: { id: string }) => p.id),
+  ...gwangjuAgreement.obligations.map((o: { id: string }) => o.id),
+  ...gwangjuMarketImpacts.map((m) => m.id),
+  ...gwangjuPredictions.map((p) => p.id),
+  ...gwangjuNarratives.map((n) => n.id),
+  ...gwangjuClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API

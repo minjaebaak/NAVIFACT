@@ -1,0 +1,36 @@
+{
+  "id": "agr-gwangju-001",
+  "title": "5·18 민주화운동 등에 관한 특별법",
+  "date": "1995-12-21",
+  "summary": "12·12 군사 반란과 5·18 내란에 대한 공소시효를 정지시키고, 관련자 처벌의 법적 근거를 마련한 특별법. 이를 통해 전두환·노태우 등 신군부 핵심 인사들에 대한 사법 처리가 가능해졌다.",
+  "status": "active",
+  "parties": [
+    { "id": "actor-assembly-kr", "name": "대한민국 국회", "flag": "🇰🇷" },
+    { "id": "actor-gov-kr", "name": "대한민국 정부", "flag": "🇰🇷" }
+  ],
+  "obligations": [
+    {
+      "id": "gjobl-001",
+      "description": "12·12 반란 및 5·18 내란 관련자에 대한 공소시효 정지",
+      "deadline": "1995-12-21",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-assembly-kr", "name": "대한민국 국회", "flag": "🇰🇷" },
+      "consequenceEventId": "gjevt-010"
+    },
+    {
+      "id": "gjobl-002",
+      "description": "관련자에 대한 사법 처리 진행",
+      "deadline": "1996-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-gov-kr", "name": "대한민국 정부", "flag": "🇰🇷" },
+      "consequenceEventId": "gjevt-011"
+    },
+    {
+      "id": "gjobl-003",
+      "description": "5·18 피해자 명예 회복 및 보상",
+      "deadline": "상시",
+      "status": "partial",
+      "assignedTo": { "id": "actor-gov-kr", "name": "대한민국 정부", "flag": "🇰🇷" }
+    }
+  ]
+}

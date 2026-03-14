@@ -1,0 +1,90 @@
+[
+  {
+    "id": "gjlink-001",
+    "source": "gjevt-001",
+    "target": "gjevt-002",
+    "confidence": 90,
+    "mechanism": "박정희 피살로 권력 공백이 발생하자 전두환 등 신군부가 12·12 반란으로 군권을 장악했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-002",
+    "source": "gjevt-002",
+    "target": "gjevt-003",
+    "confidence": 90,
+    "mechanism": "12·12로 군권을 장악한 신군부가 5·17 비상계엄 확대로 정치적 권력까지 완전히 장악했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-003",
+    "source": "gjevt-003",
+    "target": "gjevt-004",
+    "confidence": 95,
+    "mechanism": "비상계엄 확대와 민주 인사 체포에 항의하여 광주에서 민주화 운동이 시작되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-004",
+    "source": "gjevt-004",
+    "target": "gjevt-005",
+    "confidence": 95,
+    "mechanism": "시위 확산에 계엄군이 무력 진압으로 대응, 시민군의 무장 저항과 최후 항전으로 이어졌다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-005",
+    "source": "gjevt-005",
+    "target": "gjevt-006",
+    "confidence": 85,
+    "mechanism": "광주를 무력으로 진압한 전두환이 저항 세력을 제거한 뒤 대통령에 취임, 5공화국을 수립했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-006",
+    "source": "gjevt-006",
+    "target": "gjevt-007",
+    "confidence": 80,
+    "mechanism": "전두환 독재 7년간 축적된 민주화 열망과 5·18 진상 규명 요구가 6월 항쟁으로 폭발했다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "gjlink-007",
+    "source": "gjevt-007",
+    "target": "gjevt-008",
+    "confidence": 90,
+    "mechanism": "전국적 민주화 시위의 압력에 굴복한 여당이 직선제 개헌을 수용하는 6·29 선언을 발표했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-008",
+    "source": "gjevt-008",
+    "target": "gjevt-009",
+    "confidence": 75,
+    "mechanism": "민주화 이후 국회가 개원하면서 5·18 진상 규명을 위한 청문회가 실현되었다.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "gjlink-009",
+    "source": "gjevt-009",
+    "target": "gjevt-010",
+    "confidence": 70,
+    "mechanism": "청문회에서 드러난 진상을 바탕으로 공소시효 문제를 해결하기 위한 5·18 특별법이 제정되었다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "gjlink-010",
+    "source": "gjevt-010",
+    "target": "gjevt-011",
+    "confidence": 95,
+    "mechanism": "특별법으로 공소시효가 정지되어 전두환·노태우에 대한 사법 처리가 가능해졌다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "gjlink-011",
+    "source": "gjevt-011",
+    "target": "gjevt-012",
+    "confidence": 75,
+    "mechanism": "전두환·노태우 유죄 판결 이후 5·18의 역사적 의의가 공식적으로 인정되어 국가기념일로 지정되었다.",
+    "causalType": "contributing"
+  }
+]

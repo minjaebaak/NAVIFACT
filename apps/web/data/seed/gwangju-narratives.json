@@ -1,0 +1,53 @@
+[
+  {
+    "id": "gjnar-001",
+    "title": "5·18은 북한군 개입에 의한 폭동이었다",
+    "source": "극우 논평",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "북한 특수부대 600명이 광주에 침투하여 폭동을 주도했다",
+        "status": "false",
+        "confidence": 95
+      },
+      {
+        "text": "시민군은 무장 폭도이며 민주화 운동이 아니었다",
+        "status": "false",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [
+      "국방부·국정원 등 모든 공식 조사에서 북한 개입 증거를 찾지 못했음",
+      "5·18 기록물은 유네스코 세계기록유산에 등재(2011년)되어 국제적으로 인정받음",
+      "헌법재판소·대법원이 5·18을 민주화 운동으로 인정"
+    ],
+    "sources": ["일부 극우 유튜브·서적", "지만원 주장(명예훼손으로 유죄 확정)"]
+  },
+  {
+    "id": "gjnar-002",
+    "title": "NAVIFACT 사실 검증: 5·18 광주 민주화 운동의 역사적 사실",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "5·18은 계엄군의 과잉 진압에 항의한 시민들의 민주화 운동이다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "전두환은 내란죄로 유죄 판결을 받았다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "공식 사망자 수(165명)는 실제보다 적을 가능성이 높다",
+        "status": "verified",
+        "confidence": 85
+      }
+    ],
+    "missingContext": [],
+    "sources": ["5·18 민주화운동 기록관", "유네스코 세계기록유산 등재 심사 보고서", "대법원 판결문"]
+  }
+]
