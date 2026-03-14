@@ -94,5 +94,13 @@
     "confidence": 78,
     "mechanism": "탈레반 정권 장악 후 국경 통제 강화 → 두란드선 분쟁 재점화 → 파키스탄-아프간 전면 무력 충돌.",
     "causalType": "contributing"
+  },
+  {
+    "id": "aflink-013",
+    "source": "afevt-013",
+    "target": "afevt-014",
+    "confidence": 92,
+    "mechanism": "국경 포격에 이어 파키스탄이 카불·칸다하르 심장부까지 야간 공습을 확대하며 전면전 수준으로 격화.",
+    "causalType": "direct"
   }
 ]

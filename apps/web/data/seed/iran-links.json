@@ -134,5 +134,13 @@
     "confidence": 80,
     "mechanism": "모즈타바 하메네이의 최고지도자 취임과 지속되는 공습이 이란 정부의 종전 협상 압력을 높였다",
     "causalType": "contributing"
+  },
+  {
+    "id": "ilink-018",
+    "source": "ievt-018",
+    "target": "ievt-019",
+    "confidence": 90,
+    "mechanism": "이란의 종전 조건 제시에도 미국이 하르그섬 석유 인프라까지 타격을 확대하며 군사적 압박을 극대화했다.",
+    "causalType": "direct"
   }
 ]

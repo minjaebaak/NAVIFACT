@@ -115,5 +115,14 @@
     "category": "군사",
     "confidence": 88,
     "status": "developing"
+  },
+  {
+    "id": "iqevt-014",
+    "title": "이란계 민병대 미군 KC-135 격추 주장 — 승무원 4명 사망",
+    "description": "이라크 이슬람 저항군(IRI)이 서부 이라크 상공에서 미군 KC-135 공중급유기를 격추했다고 주장했다. 미 중부사령부는 KC-135 2대가 사고에 연루되어 1대 추락, 승무원 4명 사망을 확인했으나 '적대 사격에 의한 것이 아니다'라고 반박했다.",
+    "date": "2026-03-13",
+    "category": "군사",
+    "confidence": 82,
+    "status": "developing"
   }
 ]

@@ -94,5 +94,13 @@
     "confidence": 75,
     "mechanism": "미군 전투임무 종료에도 잔류 병력 유지 → 이란 전쟁 확대로 이란계 민병대 위협 재고조 → 미 대사관 대피 명령.",
     "causalType": "contributing"
+  },
+  {
+    "id": "iqlink-013",
+    "source": "iqevt-013",
+    "target": "iqevt-014",
+    "confidence": 85,
+    "mechanism": "대피소 대기 명령이 발령된 고위험 상황에서 이란계 민병대가 미군 항공기를 직접 공격(또는 사고 유발).",
+    "causalType": "direct"
   }
 ]

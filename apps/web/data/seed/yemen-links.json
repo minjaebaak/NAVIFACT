@@ -110,5 +110,13 @@
     "confidence": 88,
     "mechanism": "이란 전쟁 확대로 후티가 '저항 축' 연대를 공식화하며 홍해 공격 재개를 위협했다",
     "causalType": "direct"
+  },
+  {
+    "id": "ymlink-015",
+    "source": "ymevt-015",
+    "target": "ymevt-016",
+    "confidence": 88,
+    "mechanism": "후티 연대 선언에도 직접 참전을 유보하는 가운데 미군이 선제적으로 대함미사일·무인기 거점을 타격.",
+    "causalType": "direct"
   }
 ]

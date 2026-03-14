@@ -133,5 +133,14 @@
     "category": "군사",
     "confidence": 82,
     "status": "developing"
+  },
+  {
+    "id": "ymevt-016",
+    "title": "미군, 후티 대함미사일 9기·UAV 2기 타격",
+    "description": "미군이 후티 통제 지역에서 대함미사일 9기와 무인기 2기를 타격했다. 후티 지도자 압둘말릭 알후티는 '방아쇠에 손을 올려놓고 있다'고 경고하면서도 이란전쟁에 직접 참전하지 않고 있어 전략적 참전 유보의 이유와 시점이 주목되고 있다.",
+    "date": "2026-03-14",
+    "category": "군사",
+    "confidence": 85,
+    "status": "developing"
   }
 ]

@@ -94,5 +94,13 @@
     "confidence": 82,
     "mechanism": "고체연료 ICBM 질적 도약에 이어 해군 플랫폼(구축함) 발사 능력까지 확보하며 핵 투발수단 다양화.",
     "causalType": "direct"
+  },
+  {
+    "id": "nklink-013",
+    "source": "nkevt-013",
+    "target": "nkevt-014",
+    "confidence": 88,
+    "mechanism": "구축함 순항미사일 시험 직후 프리덤실드 훈련에 맞춰 KN-25 SRBM 발사로 연속적 무력 시위.",
+    "causalType": "direct"
   }
 ]
