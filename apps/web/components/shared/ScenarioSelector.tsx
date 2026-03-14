@@ -24,7 +24,7 @@ export default function ScenarioSelector({ current }: ScenarioSelectorProps) {
         <button
           key={s.id}
           onClick={() => handleSelect(s.id)}
-          className={`whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-colors border ${
+          className={`shrink-0 whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-colors border ${
             current === s.id
               ? "bg-accent text-accent-foreground border-accent"
               : "bg-card border-border text-muted hover:text-foreground hover:bg-white/5"
