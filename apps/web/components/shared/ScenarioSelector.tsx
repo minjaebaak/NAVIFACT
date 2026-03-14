@@ -19,7 +19,7 @@ export default function ScenarioSelector({ current }: ScenarioSelectorProps) {
   }
 
   return (
-    <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
+    <div className="flex gap-2 mb-6 overflow-x-auto pb-2 max-w-full">
       {SCENARIOS.map((s) => (
         <button
           key={s.id}
