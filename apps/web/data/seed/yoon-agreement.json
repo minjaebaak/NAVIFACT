@@ -1,0 +1,46 @@
+{
+  "id": "agr-yoon-001",
+  "title": "대한민국 헌법 제77조 (계엄 조항)",
+  "date": "1987-10-29",
+  "summary": "대통령은 전시·사변 또는 이에 준하는 국가비상사태에 한해 계엄을 선포할 수 있으나, 국회가 재적의원 과반수 출석과 출석의원 과반수 찬성으로 해제를 요구하면 대통령은 이를 해제해야 한다. 이 조항은 12·3 계엄 사태에서 민주주의 방어 장치로 작동했다.",
+  "status": "active",
+  "parties": [
+    { "id": "actor-president", "name": "대한민국 대통령", "flag": "🇰🇷" },
+    { "id": "actor-assembly", "name": "대한민국 국회", "flag": "🇰🇷" },
+    { "id": "actor-court", "name": "헌법재판소", "flag": "🇰🇷" }
+  ],
+  "obligations": [
+    {
+      "id": "ynobl-001",
+      "description": "대통령은 계엄 선포 시 지체 없이 국회에 통고해야 한다",
+      "deadline": "즉시",
+      "status": "violated",
+      "assignedTo": { "id": "actor-president", "name": "대한민국 대통령", "flag": "🇰🇷" },
+      "consequenceEventId": "ynevt-005"
+    },
+    {
+      "id": "ynobl-002",
+      "description": "국회가 계엄 해제를 요구하면 대통령은 이를 해제해야 한다",
+      "deadline": "즉시",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-president", "name": "대한민국 대통령", "flag": "🇰🇷" },
+      "consequenceEventId": "ynevt-006"
+    },
+    {
+      "id": "ynobl-003",
+      "description": "헌법재판소는 탄핵심판 청구 시 180일 이내 결정해야 한다",
+      "deadline": "2025-06-14",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-court", "name": "헌법재판소", "flag": "🇰🇷" },
+      "consequenceEventId": "ynevt-011"
+    },
+    {
+      "id": "ynobl-004",
+      "description": "대통령 궐위 시 60일 이내 후임 대통령 선거를 실시해야 한다",
+      "deadline": "2025-06-03",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-assembly", "name": "대한민국 국회", "flag": "🇰🇷" },
+      "consequenceEventId": "ynevt-012"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ynpred-001",
+    "question": "윤석열 내란죄 재판에서 1심 유죄 판결이 선고될 것인가?",
+    "yesPool": 15000,
+    "noPool": 5000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "서울중앙지법이 내란죄에 대해 유죄 판결을 선고하면 YES로 결산."
+  },
+  {
+    "id": "ynpred-002",
+    "question": "2025년 대선에서 이재명 후보가 당선될 것인가?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2025-06-03",
+    "status": "settled",
+    "settlementCriteria": "중앙선거관리위원회의 공식 당선 확정 결과 기준. YES로 결산됨."
+  },
+  {
+    "id": "ynpred-003",
+    "question": "헌법재판소가 윤석열 탄핵을 인용할 것인가?",
+    "yesPool": 16000,
+    "noPool": 4000,
+    "deadline": "2025-06-14",
+    "status": "settled",
+    "settlementCriteria": "헌재 탄핵심판 결정문 기준. 인용(파면)이면 YES. YES로 결산됨."
+  },
+  {
+    "id": "ynpred-004",
+    "question": "12·3 계엄 관련 군 지휘관(김용현 등)이 내란죄로 실형을 선고받을 것인가?",
+    "yesPool": 12000,
+    "noPool": 8000,
+    "deadline": "2026-12-31",
+    "status": "active",
+    "settlementCriteria": "계엄 실행에 관여한 군 지휘관 중 1명 이상이 내란죄로 실형(집행유예 제외) 선고 시 YES."
+  }
+]

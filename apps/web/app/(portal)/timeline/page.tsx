@@ -227,6 +227,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "외교·사회",
     bottomLabel: "군사",
   },
+  yoon: {
+    topIds: ["ynevt-005", "ynevt-006", "ynevt-009", "ynevt-010"],
+    centerIds: ["ynevt-007", "ynevt-011"],
+    topLabel: "계엄·체포",
+    bottomLabel: "탄핵·대선",
+  },
 };
 
 export default async function TimelinePage({

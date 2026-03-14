@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ynmi-001",
+    "eventId": "ynevt-005",
+    "summary": "비상계엄 선포로 원/달러 환율 급등, KOSPI 급락 예상. 정치적 불확실성이 외국인 투자 심리를 악화시킬 것.",
+    "analysisDate": "2024-12-03",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "정치적 불안정이 금융 시스템 신뢰도를 훼손하고 외국인 자금 유출을 가속화",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "055550", "name": "신한지주", "exchange": "KOSPI", "direction": "negative", "reasoning": "외국인 매도세 집중 대형 금융주" },
+          { "ticker": "105560", "name": "KB금융", "exchange": "KOSPI", "direction": "negative", "reasoning": "금융 시스템 불확실성으로 은행주 하락 압력" }
+        ]
+      },
+      {
+        "sector": "반도체",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "한국 정치 리스크로 글로벌 반도체 공급망 우려 부각",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "005930", "name": "삼성전자", "exchange": "KOSPI", "direction": "negative", "reasoning": "외국인 비중 높은 대표주로 매도세 집중" },
+          { "ticker": "000660", "name": "SK하이닉스", "exchange": "KOSPI", "direction": "negative", "reasoning": "정치 불안에 따른 투자 심리 악화" }
+        ]
+      }
+    ],
+    "actualSummary": "12월 4일 KOSPI 1.44% 하락, 원/달러 환율 1,430원대로 급등. 외국인 순매도 1조원 이상. 계엄 해제 후 다소 회복.",
+    "actualDate": "2024-12-04",
+    "predictionAccuracy": 85
+  },
+  {
+    "id": "ynmi-002",
+    "eventId": "ynevt-007",
+    "summary": "탄핵 가결로 단기 정치 불확실성 지속되나, 헌정 질서 회복 기대감으로 시장 안정화 가능.",
+    "analysisDate": "2024-12-14",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "neutral",
+        "magnitude": "medium",
+        "reasoning": "탄핵으로 정치 불확실성 해소 기대와 권력 공백 우려가 상충",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "055550", "name": "신한지주", "exchange": "KOSPI", "direction": "neutral", "reasoning": "헌정 절차 정상화 기대감과 불확실성이 균형" }
+        ]
+      },
+      {
+        "sector": "건설·부동산",
+        "direction": "negative",
+        "magnitude": "medium",
+        "reasoning": "정책 공백 기간 부동산 규제 방향 불확실성으로 건설주 약세",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "000720", "name": "현대건설", "exchange": "KOSPI", "direction": "negative", "reasoning": "정책 방향 불확실성으로 건설 투자 지연 우려" }
+        ]
+      }
+    ],
+    "actualSummary": "탄핵 가결 당일 KOSPI 소폭 상승. 시장은 이미 탄핵을 선반영하여 오히려 불확실성 해소로 반응.",
+    "actualDate": "2024-12-16",
+    "predictionAccuracy": 60
+  },
+  {
+    "id": "ynmi-003",
+    "eventId": "ynevt-011",
+    "summary": "헌재 탄핵 인용으로 정치 불확실성 해소. 조기 대선 기대감이 시장에 긍정적으로 작용할 전망.",
+    "analysisDate": "2025-04-04",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "정치 리스크 해소로 외국인 투자 심리 회복 기대",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "055550", "name": "신한지주", "exchange": "KOSPI", "direction": "positive", "reasoning": "정치 안정화로 금융 섹터 회복" },
+          { "ticker": "105560", "name": "KB금융", "exchange": "KOSPI", "direction": "positive", "reasoning": "외국인 자금 유입 기대" }
+        ]
+      },
+      {
+        "sector": "소비재",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "정치 안정화에 따른 소비 심리 회복 기대",
+        "region": "KR",
+        "stocks": [
+          { "ticker": "004170", "name": "신세계", "exchange": "KOSPI", "direction": "positive", "reasoning": "소비 심리 회복 수혜" }
+        ]
+      }
+    ],
+    "actualSummary": "탄핵 인용 후 KOSPI 상승. 원/달러 환율 하락. 외국인 순매수 전환으로 시장 안정화.",
+    "actualDate": "2025-04-07",
+    "predictionAccuracy": 80
+  }
+]

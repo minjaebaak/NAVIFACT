@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ynlink-001",
+    "source": "ynevt-001",
+    "target": "ynevt-002",
+    "confidence": 55,
+    "mechanism": "윤석열 정부 출범 후 안전 관리 체계의 허점이 이태원 압사 참사로 드러났다.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "ynlink-002",
+    "source": "ynevt-002",
+    "target": "ynevt-003",
+    "confidence": 60,
+    "mechanism": "이태원 참사 책임론과 함께 채상병 순직 사건 수사 외압 의혹이 불거지며 특검법 추진이 가속화되었다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ynlink-003",
+    "source": "ynevt-003",
+    "target": "ynevt-004",
+    "confidence": 80,
+    "mechanism": "채상병 특검법 거부에 이어 김건희 특검법까지 거부하면서 '거부권 남용' 비판과 여론 악화가 심화되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-004",
+    "source": "ynevt-004",
+    "target": "ynevt-005",
+    "confidence": 75,
+    "mechanism": "연이은 특검법 거부로 여론 지지율이 바닥을 치고 야당의 입법 공세가 거세지자, 윤석열이 비상계엄이라는 극단적 선택을 내렸다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "ynlink-005",
+    "source": "ynevt-005",
+    "target": "ynevt-006",
+    "confidence": 95,
+    "mechanism": "비상계엄 선포에 국회의원들이 헌법 제77조에 따라 긴급 소집, 계엄 해제를 의결했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-006",
+    "source": "ynevt-006",
+    "target": "ynevt-007",
+    "confidence": 90,
+    "mechanism": "계엄 해제 후 위헌적 계엄 선포의 책임을 묻기 위해 국회가 탄핵소추를 추진하여 가결시켰다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-007",
+    "source": "ynevt-007",
+    "target": "ynevt-008",
+    "confidence": 85,
+    "mechanism": "탄핵 인용에 필요한 헌재 재판관 임명을 권한대행이 거부하자 국회가 권한대행까지 탄핵하여 직무 승계가 발생했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-008",
+    "source": "ynevt-007",
+    "target": "ynevt-009",
+    "confidence": 90,
+    "mechanism": "탄핵으로 직무정지된 대통령에 대한 내란죄 수사가 진행되어 공수처가 체포를 시도했으나 경호처에 저지되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-009",
+    "source": "ynevt-009",
+    "target": "ynevt-010",
+    "confidence": 90,
+    "mechanism": "1차 체포 실패 후 공수처가 경찰과 합동 병력으로 재시도하여 윤석열을 체포·구금하는 데 성공했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-010",
+    "source": "ynevt-010",
+    "target": "ynevt-011",
+    "confidence": 85,
+    "mechanism": "구속 상태에서 헌재 심리가 진행되어 재판관 전원일치로 탄핵 인용, 대통령 파면이 결정되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-011",
+    "source": "ynevt-011",
+    "target": "ynevt-012",
+    "confidence": 95,
+    "mechanism": "헌재 탄핵 인용으로 대통령직이 공석이 되어 헌법에 따라 60일 이내 대선이 실시되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-012",
+    "source": "ynevt-012",
+    "target": "ynevt-013",
+    "confidence": 95,
+    "mechanism": "대선에서 이재명 후보가 당선되어 새 정부가 출범했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "ynlink-013",
+    "source": "ynevt-013",
+    "target": "ynevt-014",
+    "confidence": 80,
+    "mechanism": "새 정부 출범 후 계엄 사태 관련자 처벌이 본격화되면서 윤석열 내란죄 재판이 진행되고 있다.",
+    "causalType": "direct"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ynnar-001",
+    "title": "계엄은 반국가 세력 척결을 위한 불가피한 결단이었다",
+    "source": "보수 논평",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "야당이 탄핵·특검으로 국정을 마비시켜 계엄이 불가피했다",
+        "status": "false",
+        "confidence": 90
+      },
+      {
+        "text": "선거 부정이 계엄의 정당한 사유에 해당한다",
+        "status": "false",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [
+      "헌법상 계엄은 전시·사변·이에 준하는 국가비상사태에만 허용",
+      "야당의 입법 활동은 헌법이 보장하는 정당한 의회 권한",
+      "선거 부정 주장에 대한 객관적 증거가 제시되지 않았음"
+    ],
+    "sources": ["대통령 대국민담화(2024.12.03)", "일부 보수 언론 사설"]
+  },
+  {
+    "id": "ynnar-002",
+    "title": "NAVIFACT 사실 검증: 12·3 계엄 사태의 위헌성",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "헌법 제77조의 계엄 요건(전시·사변 등)이 충족되지 않았다",
+        "status": "verified",
+        "confidence": 95
+      },
+      {
+        "text": "국회의원 190명이 본회의에서 합법적으로 계엄 해제를 의결했다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "계엄군이 국회를 물리적으로 봉쇄하여 의원들의 입장을 저지하려 시도했다",
+        "status": "verified",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [],
+    "sources": ["헌법재판소 탄핵 인용 결정문(2025.04.04)", "국회 회의록(2024.12.04)", "CCTV 영상 및 증인 진술"]
+  }
+]
