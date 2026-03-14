@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cdlink-001",
+    "source": "cdevt-001",
+    "target": "cdevt-002",
+    "confidence": 50,
+    "mechanism": "박근혜 정부의 관료적 무능과 위기관리 실패가 세월호 참사의 구조 실패로 드러났다.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "cdlink-002",
+    "source": "cdevt-002",
+    "target": "cdevt-003",
+    "confidence": 65,
+    "mechanism": "세월호 참사에서 드러난 정부 불신이 최순실 국정농단 폭로에 대한 국민적 분노를 증폭시켰다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cdlink-003",
+    "source": "cdevt-003",
+    "target": "cdevt-004",
+    "confidence": 95,
+    "mechanism": "태블릿 PC 보도로 국정농단 실체가 확인되자 국민들이 촛불집회를 시작했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-004",
+    "source": "cdevt-004",
+    "target": "cdevt-005",
+    "confidence": 80,
+    "mechanism": "거세지는 촛불 시위 압력에 박근혜가 대국민담화로 대응했으나 분노를 잠재우지 못했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-005",
+    "source": "cdevt-005",
+    "target": "cdevt-006",
+    "confidence": 85,
+    "mechanism": "대국민담화의 불성실한 대응에 국회가 탄핵소추안을 가결시켰다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "cdlink-006",
+    "source": "cdevt-004",
+    "target": "cdevt-007",
+    "confidence": 90,
+    "mechanism": "첫 촛불집회를 시작으로 매주 집회가 확대되어 누적 1,700만 명이 참가했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-007",
+    "source": "cdevt-006",
+    "target": "cdevt-008",
+    "confidence": 95,
+    "mechanism": "국회의 탄핵소추로 헌재 심판이 진행되어 전원일치 탄핵 인용 결정이 내려졌다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-008",
+    "source": "cdevt-008",
+    "target": "cdevt-009",
+    "confidence": 90,
+    "mechanism": "파면 결정 직후 검찰이 박근혜를 소환·구속했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-009",
+    "source": "cdevt-008",
+    "target": "cdevt-010",
+    "confidence": 95,
+    "mechanism": "탄핵 인용으로 대통령직 공석이 발생하여 60일 이내 조기 대선이 실시되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-010",
+    "source": "cdevt-010",
+    "target": "cdevt-011",
+    "confidence": 85,
+    "mechanism": "문재인 정부가 국정농단 관련자 수사를 적폐청산이라는 이름으로 본격 추진했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "cdlink-011",
+    "source": "cdevt-009",
+    "target": "cdevt-012",
+    "confidence": 90,
+    "mechanism": "구속 수감된 박근혜에 대한 재판이 진행되어 1심 유죄 판결이 선고되었다.",
+    "causalType": "direct"
+  }
+]

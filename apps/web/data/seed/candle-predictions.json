@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cdpred-001",
+    "question": "헌법재판소가 박근혜 탄핵을 인용했는가?",
+    "yesPool": 16000,
+    "noPool": 4000,
+    "deadline": "2017-06-09",
+    "status": "settled",
+    "settlementCriteria": "헌재 탄핵심판 결정문 기준. 인용(파면)이면 YES. YES로 결산됨."
+  },
+  {
+    "id": "cdpred-002",
+    "question": "박근혜가 실형을 선고받았는가?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "2018-12-31",
+    "status": "settled",
+    "settlementCriteria": "1심 판결에서 실형 선고 여부. 징역 24년 선고되어 YES로 결산."
+  },
+  {
+    "id": "cdpred-003",
+    "question": "촛불집회 기간 중 대규모 폭력 사태가 발생했는가?",
+    "yesPool": 3000,
+    "noPool": 17000,
+    "deadline": "2017-03-31",
+    "status": "settled",
+    "settlementCriteria": "촛불집회 기간 10명 이상 사상자 발생 시 YES. 평화 시위로 NO 결산."
+  }
+]

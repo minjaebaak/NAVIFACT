@@ -1,0 +1,53 @@
+[
+  {
+    "id": "cdnar-001",
+    "title": "촛불은 좌파 선동에 의한 정치 공작이었다",
+    "source": "보수 논평",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "촛불집회는 좌파 세력이 조직적으로 동원한 정치 공작이다",
+        "status": "false",
+        "confidence": 90
+      },
+      {
+        "text": "탄핵은 정당한 절차가 아니라 국회의 월권이었다",
+        "status": "false",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [
+      "촛불집회는 자발적 시민 참여가 압도적으로 많았음 (경찰 추산 누적 1,700만)",
+      "헌법재판소가 전원일치로 탄핵을 인용하여 합헌적 절차임을 확인",
+      "탄핵 사유(뇌물·직권남용)가 사법부에 의해 유죄로 인정됨"
+    ],
+    "sources": ["일부 보수 유튜브·논평"]
+  },
+  {
+    "id": "cdnar-002",
+    "title": "NAVIFACT 사실 검증: 촛불혁명과 헌정 절차",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "촛불집회는 누적 1,700만 명이 참가한 세계 최대 규모의 평화 시위였다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "국회 탄핵소추(234표)와 헌재 인용(8-0)은 헌법에 명시된 합법적 절차였다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "박근혜는 뇌물수수·직권남용 등으로 1심 징역 24년을 선고받았다",
+        "status": "verified",
+        "confidence": 97
+      }
+    ],
+    "missingContext": [],
+    "sources": ["헌법재판소 탄핵 인용 결정문(2017.03.10)", "서울중앙지법 판결문(2018.04.06)"]
+  }
+]

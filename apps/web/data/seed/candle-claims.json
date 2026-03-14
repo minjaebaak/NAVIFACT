@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cdclm-001",
+    "text": "최순실이 대통령 연설문과 국정 기밀을 사전에 전달받아 수정했다",
+    "status": "verified",
+    "confidence": 97,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cdclm-002",
+    "text": "촛불집회 누적 참가 인원은 1,700만 명을 넘었다",
+    "status": "verified",
+    "confidence": 90,
+    "sourcesFor": 3,
+    "sourcesAgainst": 1
+  },
+  {
+    "id": "cdclm-003",
+    "text": "박근혜 탄핵은 헌법재판소 재판관 전원일치(8-0)로 인용되었다",
+    "status": "verified",
+    "confidence": 97,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cdclm-004",
+    "text": "촛불집회 기간 중 시위대에 의한 대규모 폭력 사태는 없었다",
+    "status": "verified",
+    "confidence": 95,
+    "sourcesFor": 4,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cdclm-005",
+    "text": "박근혜는 대한민국 역사상 최초로 탄핵으로 파면된 대통령이다",
+    "status": "verified",
+    "confidence": 97,
+    "sourcesFor": 5,
+    "sourcesAgainst": 0
+  },
+  {
+    "id": "cdclm-006",
+    "text": "세월호 참사 당시 정부가 구조 활동을 적극적으로 수행했다",
+    "status": "false",
+    "confidence": 90,
+    "sourcesFor": 1,
+    "sourcesAgainst": 4
+  }
+]

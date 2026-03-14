@@ -1,0 +1,38 @@
+{
+  "id": "agr-candle-001",
+  "title": "대한민국 헌법 탄핵 조항 (제65조·제111조)",
+  "date": "1987-10-29",
+  "summary": "국회는 대통령이 헌법이나 법률을 위배한 때 재적의원 과반수 발의, 재적의원 3분의 2 이상 찬성으로 탄핵소추를 의결할 수 있으며, 헌법재판소가 탄핵 여부를 심판한다. 2016-17년 박근혜 탄핵에서 이 절차가 대한민국 역사상 처음으로 완결되었다.",
+  "status": "active",
+  "parties": [
+    { "id": "actor-assembly-kr2", "name": "대한민국 국회", "flag": "🇰🇷" },
+    { "id": "actor-court-kr2", "name": "헌법재판소", "flag": "🇰🇷" },
+    { "id": "actor-pres-kr2", "name": "대한민국 대통령", "flag": "🇰🇷" }
+  ],
+  "obligations": [
+    {
+      "id": "cdobl-001",
+      "description": "탄핵소추 의결 시 대통령 권한이 즉시 정지된다",
+      "deadline": "즉시",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-pres-kr2", "name": "대한민국 대통령", "flag": "🇰🇷" },
+      "consequenceEventId": "cdevt-006"
+    },
+    {
+      "id": "cdobl-002",
+      "description": "헌법재판소는 탄핵심판 청구 후 180일 이내 결정해야 한다",
+      "deadline": "2017-06-09",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-court-kr2", "name": "헌법재판소", "flag": "🇰🇷" },
+      "consequenceEventId": "cdevt-008"
+    },
+    {
+      "id": "cdobl-003",
+      "description": "대통령 궐위 시 60일 이내 후임 대통령 선거를 실시해야 한다",
+      "deadline": "2017-05-09",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-assembly-kr2", "name": "대한민국 국회", "flag": "🇰🇷" },
+      "consequenceEventId": "cdevt-010"
+    }
+  ]
+}

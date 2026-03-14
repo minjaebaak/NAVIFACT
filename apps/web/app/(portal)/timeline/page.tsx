@@ -239,6 +239,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "신군부·진압",
     bottomLabel: "민주화·처벌",
   },
+  candle: {
+    topIds: ["cdevt-003", "cdevt-004", "cdevt-006", "cdevt-007"],
+    centerIds: ["cdevt-008"],
+    topLabel: "시민·국회",
+    bottomLabel: "사법·정권교체",
+  },
 };
 
 export default async function TimelinePage({
