@@ -110,5 +110,13 @@
     "confidence": 90,
     "mechanism": "아사드 정권 붕괴 후 HTS 주도 과도정부 수립 → 5년 전환체제 선언",
     "causalType": "direct"
+  },
+  {
+    "id": "sylink-015",
+    "source": "syevt-015",
+    "target": "syevt-016",
+    "confidence": 80,
+    "mechanism": "과도정부 출범으로 유엔 조사위의 접근이 가능해져 다마스쿠스 현지조사가 실현되었다",
+    "causalType": "direct"
   }
 ]

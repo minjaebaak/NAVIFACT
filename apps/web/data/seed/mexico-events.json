@@ -106,5 +106,14 @@
     "category": "군사",
     "confidence": 95,
     "status": "verified"
+  },
+  {
+    "id": "mxevt-013",
+    "title": "엘멘초 사살 후 20개 주 보복 폭력, 70명 사망",
+    "description": "할리스코 신세대 카르텔(CJNG) 수장 '엘멘초(El Mencho)' 사살 이후 멕시코 20개 주에서 카르텔의 보복 폭력이 확산되어 3주간 70명 이상이 사망했다. 군 초소 공격, 차량 방화, 도로 봉쇄 등 조직적 보복이 이어지며 멕시코 치안이 최악의 상황에 처했다.",
+    "date": "2026-03-13",
+    "category": "군사",
+    "confidence": 82,
+    "status": "developing"
   }
 ]

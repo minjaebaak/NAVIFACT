@@ -86,5 +86,13 @@
     "causalType": "contributing",
     "confidence": 70,
     "mechanism": "IS 위협과 지속적 내전이 양측의 휴전 합의 필요성을 높였다."
+  },
+  {
+    "id": "lylink-012",
+    "source": "lyevt-012",
+    "target": "lyevt-013",
+    "causalType": "enabling",
+    "confidence": 75,
+    "mechanism": "2020년 휴전 이후 정치적 교착이 지속되어 유엔이 폭발 위기를 경고했다"
   }
 ]

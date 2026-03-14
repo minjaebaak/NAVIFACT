@@ -86,5 +86,13 @@
     "confidence": 90,
     "mechanism": "쿨리아칸 굴욕 → 국내외 비판 → 체면 회복 2차 작전 → 오비디오 최종 체포",
     "causalType": "direct"
+  },
+  {
+    "id": "mxlink-012",
+    "source": "mxevt-012",
+    "target": "mxevt-013",
+    "confidence": 78,
+    "mechanism": "구스만 체포로 카르텔 수장 제거 패턴이 확립된 가운데, CJNG 수장 사살이 전례 없는 규모의 보복 폭력을 유발했다",
+    "causalType": "indirect"
   }
 ]

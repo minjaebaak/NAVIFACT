@@ -102,5 +102,13 @@
     "confidence": 95,
     "mechanism": "마두로 체포로 권력 공백이 발생하여 헌법 절차에 따라 국회의장 로드리게스가 임시 대통령에 취임했다",
     "causalType": "direct"
+  },
+  {
+    "id": "vzlink-014",
+    "source": "vzevt-014",
+    "target": "vzevt-015",
+    "confidence": 82,
+    "mechanism": "로드리게스 임시 정부의 야당 배제 지속으로 미국이 마차도 귀국 위험을 공식 경고했다",
+    "causalType": "direct"
   }
 ]
