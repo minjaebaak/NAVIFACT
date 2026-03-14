@@ -110,5 +110,13 @@
     "confidence": 90,
     "mechanism": "이란전으로 국제사회의 관심이 분산된 틈에 이스라엘이 가자 공격을 전면 재개했다",
     "causalType": "direct"
+  },
+  {
+    "id": "pllink-015",
+    "source": "plevt-015",
+    "target": "plevt-016",
+    "confidence": 85,
+    "mechanism": "가자 휴전 파기와 대규모 공습 재개로 지역 전체 안보 상황이 악화되어 미국 대사관이 전역 대피 경보를 발령했다",
+    "causalType": "direct"
   }
 ]

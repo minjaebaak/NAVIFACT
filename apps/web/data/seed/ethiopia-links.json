@@ -118,5 +118,13 @@
     "confidence": 82,
     "mechanism": "에리트레아군의 국경 진입이 에티오피아와의 홍해 접근권 분쟁으로 확대되었다",
     "causalType": "direct"
+  },
+  {
+    "id": "etlink-016",
+    "source": "etevt-015",
+    "target": "etevt-016",
+    "confidence": 82,
+    "mechanism": "홍해 접근권 분쟁과 에리트레아-에티오피아 긴장 고조가 에리트레아군의 티그라이 대규모 재진입으로 격화되었다",
+    "causalType": "direct"
   }
 ]

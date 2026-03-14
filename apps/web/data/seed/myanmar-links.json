@@ -102,5 +102,13 @@
     "confidence": 80,
     "mechanism": "1027 작전의 군사적 성과 → 저항군 연합 역량 강화 → 팔람 전투 대규모 격퇴",
     "causalType": "enabling"
+  },
+  {
+    "id": "mylink-014",
+    "source": "myevt-014",
+    "target": "myevt-015",
+    "confidence": 82,
+    "mechanism": "팔람 전투 대패로 수세에 몰린 군부가 보복으로 민간 인구 밀집 지역에 대한 무차별 공습을 확대했다",
+    "causalType": "direct"
   }
 ]

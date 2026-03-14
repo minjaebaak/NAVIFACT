@@ -97,5 +97,14 @@
     "category": "경제",
     "confidence": 92,
     "status": "verified"
+  },
+  {
+    "id": "evt-012",
+    "title": "USTR, 한국 포함 60개국 강제노동 Section 301 조사",
+    "description": "미 무역대표부(USTR)가 한국을 포함한 60개 이상 교역국을 대상으로 강제노동 관행에 대한 Section 301 무역 조사를 개시했다. 기존의 불공정 무역 관행 조사에 더해 인권·노동 이슈를 무역 제재의 새로운 근거로 활용하려는 전략으로, 글로벌 공급망 전반에 영향을 미칠 전망이다.",
+    "date": "2026-03-13",
+    "category": "경제",
+    "confidence": 85,
+    "status": "developing"
   }
 ]

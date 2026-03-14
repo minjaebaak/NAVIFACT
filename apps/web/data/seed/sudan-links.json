@@ -102,5 +102,13 @@
     "confidence": 85,
     "mechanism": "드론전 격화의 연장선에서 RSF가 민간 시설까지 드론 공격 대상으로 확대했다",
     "causalType": "direct"
+  },
+  {
+    "id": "sdlink-014",
+    "source": "sdevt-014",
+    "target": "sdevt-015",
+    "confidence": 80,
+    "mechanism": "RSF 드론 민간 시설 공격 확대 추세가 국경 지역까지 확산되어 수단-차드 국경 검문소 공습으로 이어졌다",
+    "causalType": "enabling"
   }
 ]

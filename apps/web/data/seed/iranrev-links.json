@@ -86,5 +86,13 @@
     "confidence": 90,
     "mechanism": "8년 소모전·100만+ 사망 → 이란항공 655편 미군 격추 충격 → 호메이니 '독배' 결단 → 전쟁 종결 수용",
     "causalType": "direct"
+  },
+  {
+    "id": "irvlink-012",
+    "source": "irvevt-012",
+    "target": "irvevt-013",
+    "confidence": 72,
+    "mechanism": "이란-이라크 전쟁 종결 후 혁명 체제의 장기 존속이 2026년 미-이란 전쟁에서 혁명 2세대의 저항 계승 선언으로 이어졌다",
+    "causalType": "indirect"
   }
 ]

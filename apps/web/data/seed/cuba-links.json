@@ -86,5 +86,13 @@
     "confidence": 80,
     "mechanism": "PTBT → 핵 군축 기조 확산 → 핵비확산조약(NPT) 체결 → 글로벌 핵 질서 수립",
     "causalType": "enabling"
+  },
+  {
+    "id": "cblink-012",
+    "source": "cbevt-012",
+    "target": "cbevt-013",
+    "confidence": 70,
+    "mechanism": "NPT 체제하 미-쿠바 관계 장기 교착이 쿠바 에너지 위기와 지정학 변화로 협상 재개 국면으로 전환되었다",
+    "causalType": "indirect"
   }
 ]

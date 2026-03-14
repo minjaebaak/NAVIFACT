@@ -86,5 +86,13 @@
     "confidence": 90,
     "mechanism": "트럼프의 Section 301 조사 발표가 한국 정부의 대미 투자 특별법 신속 통과를 촉진했다",
     "causalType": "direct"
+  },
+  {
+    "id": "link-012",
+    "source": "evt-010",
+    "target": "evt-012",
+    "confidence": 88,
+    "mechanism": "Section 301 무역 조사 프레임워크를 강제노동 이슈까지 확대 적용하여 60개국 대상 새 조사를 개시했다",
+    "causalType": "direct"
   }
 ]

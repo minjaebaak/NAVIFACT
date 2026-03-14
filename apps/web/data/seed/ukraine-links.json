@@ -110,5 +110,13 @@
     "confidence": 82,
     "mechanism": "영토 수복 성과로 얻은 전술적 자신감이 러시아 내륙 전략 목표물에 대한 장거리 타격으로 이어졌다",
     "causalType": "contributing"
+  },
+  {
+    "id": "ulink-015",
+    "source": "uevt-015",
+    "target": "uevt-016",
+    "confidence": 78,
+    "mechanism": "전장에서의 군사적 성과를 외교적 레버리지로 전환하기 위해 유럽 순방 외교를 전개했다",
+    "causalType": "contributing"
   }
 ]
