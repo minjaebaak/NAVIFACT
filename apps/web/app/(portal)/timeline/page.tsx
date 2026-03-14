@@ -245,6 +245,12 @@ const SIDE_CONFIG: Record<ScenarioId, {
     topLabel: "시민·국회",
     bottomLabel: "사법·정권교체",
   },
+  imfcrisis: {
+    topIds: ["imevt-002", "imevt-004", "imevt-005", "imevt-010"],
+    centerIds: ["imevt-006", "imevt-011"],
+    topLabel: "위기·부도",
+    bottomLabel: "구조조정·회복",
+  },
 };
 
 export default async function TimelinePage({

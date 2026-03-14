@@ -1,0 +1,53 @@
+[
+  {
+    "id": "imnar-001",
+    "title": "IMF는 한국 경제를 약탈하기 위한 서방의 음모였다",
+    "source": "민족주의 논평",
+    "sourceType": "media",
+    "framing": "emotional",
+    "claims": [
+      {
+        "text": "IMF 조건은 한국 기업을 헐값에 외국 자본에 넘기기 위한 것이었다",
+        "status": "partly_true",
+        "confidence": 65
+      },
+      {
+        "text": "한국 경제의 기초 체력은 건전했으며 외부 충격만이 위기의 원인이었다",
+        "status": "false",
+        "confidence": 85
+      }
+    ],
+    "missingContext": [
+      "재벌의 과잉 차입 경영과 부실 금융 감독이 핵심 내부 원인이었음",
+      "IMF 조건 중 자본시장 개방은 외국 자본의 한국 기업 인수를 용이하게 한 측면이 있음",
+      "구조조정의 고통은 노동자에게 집중되었으나, 장기적으로 한국 경제 체질 개선에 기여"
+    ],
+    "sources": ["일부 민족주의 서적·칼럼"]
+  },
+  {
+    "id": "imnar-002",
+    "title": "NAVIFACT 사실 검증: IMF 외환위기의 원인과 결과",
+    "source": "NAVIFACT 사실 검증",
+    "sourceType": "verified",
+    "framing": "factual",
+    "claims": [
+      {
+        "text": "위기의 핵심 원인은 재벌의 과잉 차입, 금융 감독 부재, 급속한 자본 자유화였다",
+        "status": "verified",
+        "confidence": 90
+      },
+      {
+        "text": "한국은 IMF 구제금융을 3년 8개월 만에 조기 상환하여 위기에서 벗어났다",
+        "status": "verified",
+        "confidence": 97
+      },
+      {
+        "text": "구조조정 과정에서 대량 실업과 비정규직 확대라는 사회적 비용이 발생했다",
+        "status": "verified",
+        "confidence": 95
+      }
+    ],
+    "missingContext": [],
+    "sources": ["한국은행 보고서", "IMF Independent Evaluation Office 보고서", "통계청 실업률 통계"]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "impred-001",
+    "question": "한국이 IMF 구제금융을 예정보다 조기 상환했는가?",
+    "yesPool": 15000,
+    "noPool": 5000,
+    "deadline": "2004-12-31",
+    "status": "settled",
+    "settlementCriteria": "구제금융 전액 상환 일자 기준. 2001.08.23 조기 상환되어 YES로 결산."
+  },
+  {
+    "id": "impred-002",
+    "question": "IMF 구조조정으로 실업률이 5%를 초과했는가?",
+    "yesPool": 16000,
+    "noPool": 4000,
+    "deadline": "1999-12-31",
+    "status": "settled",
+    "settlementCriteria": "통계청 공식 실업률 기준. 1999년 8.7%를 기록하여 YES로 결산."
+  },
+  {
+    "id": "impred-003",
+    "question": "금 모으기 운동으로 100톤 이상의 금이 수집되었는가?",
+    "yesPool": 14000,
+    "noPool": 6000,
+    "deadline": "1998-06-30",
+    "status": "settled",
+    "settlementCriteria": "금 모으기 운동 최종 집계 기준. 약 227톤이 수집되어 YES로 결산."
+  }
+]

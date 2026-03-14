@@ -1,0 +1,83 @@
+[
+  {
+    "id": "immi-001",
+    "eventId": "imevt-005",
+    "summary": "IMF 구제금융 요청으로 원/달러 환율 폭등, KOSPI 폭락 예상. 한국 경제에 대한 신뢰 붕괴.",
+    "analysisDate": "1997-11-21",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "은행·증권사 부실 채권 급증, 금융 시스템 위기로 금융주 폭락",
+        "region": "KR",
+        "stocks": []
+      },
+      {
+        "sector": "건설",
+        "direction": "negative",
+        "magnitude": "high",
+        "reasoning": "부동산 가격 폭락과 건설사 연쇄 부도 위험",
+        "region": "KR",
+        "stocks": []
+      }
+    ],
+    "actualSummary": "원/달러 환율이 1,000원에서 1,700원대로 폭등. KOSPI가 1997년 말 350포인트대로 폭락. 은행·건설주 80% 이상 하락.",
+    "actualDate": "1997-12-31",
+    "predictionAccuracy": 95
+  },
+  {
+    "id": "immi-002",
+    "eventId": "imevt-008",
+    "summary": "금 모으기 운동은 경제적 효과보다 국민적 단결과 심리적 회복에 기여할 전망.",
+    "analysisDate": "1998-01-05",
+    "sectors": [
+      {
+        "sector": "금",
+        "direction": "negative",
+        "magnitude": "low",
+        "reasoning": "대량의 금이 시장에 공급되면서 국내 금 가격 하락 압력",
+        "region": "KR",
+        "stocks": []
+      },
+      {
+        "sector": "소비재",
+        "direction": "positive",
+        "magnitude": "low",
+        "reasoning": "국민적 위기 극복 의지가 소비 심리 바닥을 형성하는 데 기여",
+        "region": "KR",
+        "stocks": []
+      }
+    ],
+    "actualSummary": "약 21억 달러 상당의 금이 수집되어 외채 상환에 부분적으로 기여. 경제적 효과보다 심리적·상징적 효과가 컸다.",
+    "actualDate": "1998-03-31",
+    "predictionAccuracy": 70
+  },
+  {
+    "id": "immi-003",
+    "eventId": "imevt-011",
+    "summary": "IMF 조기 상환으로 한국 경제 신뢰 회복. 원화 강세와 주식시장 상승 기대.",
+    "analysisDate": "2001-08-23",
+    "sectors": [
+      {
+        "sector": "금융",
+        "direction": "positive",
+        "magnitude": "high",
+        "reasoning": "IMF 졸업으로 국가 신용등급 상승 기대, 외국인 투자 확대",
+        "region": "KR",
+        "stocks": []
+      },
+      {
+        "sector": "IT",
+        "direction": "positive",
+        "magnitude": "medium",
+        "reasoning": "구조조정 후 재편된 한국 IT 산업의 경쟁력이 국제적으로 인정",
+        "region": "KR",
+        "stocks": []
+      }
+    ],
+    "actualSummary": "IMF 졸업 이후 한국 국가 신용등급이 투자적격으로 상향되고, KOSPI가 회복세를 이어갔다.",
+    "actualDate": "2001-09-01",
+    "predictionAccuracy": 80
+  }
+]

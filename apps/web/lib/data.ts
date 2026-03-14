@@ -291,6 +291,14 @@ import yoonPredictions from "@/data/seed/yoon-predictions.json";
 import yoonNarratives from "@/data/seed/yoon-narratives.json";
 import yoonClaims from "@/data/seed/yoon-claims.json";
 
+// IMF Crisis scenario seed data
+import imfcrisisEvents from "@/data/seed/imfcrisis-events.json";
+import imfcrisisLinks from "@/data/seed/imfcrisis-links.json";
+import imfcrisisAgreement from "@/data/seed/imfcrisis-agreement.json";
+import imfcrisisPredictions from "@/data/seed/imfcrisis-predictions.json";
+import imfcrisisNarratives from "@/data/seed/imfcrisis-narratives.json";
+import imfcrisisClaims from "@/data/seed/imfcrisis-claims.json";
+
 // Candlelight Revolution scenario seed data
 import candleEvents from "@/data/seed/candle-events.json";
 import candleLinks from "@/data/seed/candle-links.json";
@@ -346,6 +354,7 @@ import somaliaMarketImpacts from "@/data/seed/somalia-market-impacts.json";
 import yoonMarketImpacts from "@/data/seed/yoon-market-impacts.json";
 import gwangjuMarketImpacts from "@/data/seed/gwangju-market-impacts.json";
 import candleMarketImpacts from "@/data/seed/candle-market-impacts.json";
+import imfcrisisMarketImpacts from "@/data/seed/imfcrisis-market-impacts.json";
 
 const FETCH_TIMEOUT_MS = 3_000; // API 3초 타임아웃 → seed 폴백
 
@@ -474,14 +483,14 @@ export interface SeedMarketImpact {
 // Scenario system
 // ---------------------------------------------------------------------------
 
-export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar" | "libya" | "ethiopia" | "cambodia" | "sudan" | "venezuela" | "somalia" | "yoon" | "gwangju" | "candle";
+export type ScenarioId = "tariff" | "iran" | "ukraine" | "techwar" | "nkorea" | "taiwan" | "syria" | "brexit" | "afghan" | "iraq" | "arabspring" | "yugo" | "rwanda" | "cuba" | "soviet" | "vietnam" | "korea" | "iranrev" | "palest" | "tiananmen" | "indpak" | "falklands" | "safrica" | "mexico" | "chechnya" | "nireland" | "congo" | "yemen" | "myanmar" | "libya" | "ethiopia" | "cambodia" | "sudan" | "venezuela" | "somalia" | "yoon" | "gwangju" | "candle" | "imfcrisis";
 
 const SCENARIO_IDS = new Set<string>([
   "tariff", "iran", "ukraine", "techwar", "nkorea", "taiwan",
   "syria", "brexit", "afghan", "iraq", "arabspring", "yugo",
   "rwanda", "cuba", "soviet", "vietnam", "korea", "iranrev",
   "palest", "tiananmen", "indpak", "falklands", "safrica",
-  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar", "libya", "ethiopia", "cambodia", "sudan", "venezuela", "somalia", "yoon", "gwangju", "candle",
+  "mexico", "chechnya", "nireland", "congo", "yemen", "myanmar", "libya", "ethiopia", "cambodia", "sudan", "venezuela", "somalia", "yoon", "gwangju", "candle", "imfcrisis",
 ]);
 
 export function parseScenarioParam(param?: string): ScenarioId {
@@ -763,6 +772,13 @@ export const SCENARIOS: Scenario[] = [
     flag: "🇰🇷",
     description: "세월호→국정농단→촛불집회 1,700만→탄핵 가결→헌재 인용→파면·구속→조기 대선까지 시민 주권의 승리",
     dateRange: "2012.12 - 2018.04",
+  },
+  {
+    id: "imfcrisis",
+    title: "IMF 외환위기",
+    flag: "🇰🇷",
+    description: "금융 자유화→재벌 부도→아시아 위기→외환 고갈→IMF 구제금융→금 모으기→구조조정→대우 해체→조기 상환까지 국가 경제 위기의 인과관계",
+    dateRange: "1993.03 - 2001.08",
   },
 ];
 
@@ -1119,6 +1135,15 @@ const SEED_DATA: Record<ScenarioId, ScenarioSeedData> = {
     claims: candleClaims as SeedClaim[],
     marketImpacts: candleMarketImpacts as SeedMarketImpact[],
   },
+  imfcrisis: {
+    events: imfcrisisEvents as SeedEvent[],
+    links: imfcrisisLinks as SeedLink[],
+    agreement: imfcrisisAgreement as SeedAgreement,
+    predictions: imfcrisisPredictions as SeedPrediction[],
+    narratives: imfcrisisNarratives as SeedNarrative[],
+    claims: imfcrisisClaims as SeedClaim[],
+    marketImpacts: imfcrisisMarketImpacts as SeedMarketImpact[],
+  },
 };
 
 export function detectScenario(eventId: string): ScenarioId {
@@ -1232,6 +1257,9 @@ export function detectScenario(eventId: string): ScenarioId {
   }
   if (eventId.startsWith("cdevt-") || eventId.startsWith("cdlink-") || eventId.startsWith("cdpred-") || eventId.startsWith("cdnar-") || eventId.startsWith("cdclm-") || eventId.startsWith("agr-candle") || eventId.startsWith("cdmi-") || eventId.startsWith("cdobl-")) {
     return "candle";
+  }
+  if (eventId.startsWith("imevt-") || eventId.startsWith("imlink-") || eventId.startsWith("impred-") || eventId.startsWith("imnar-") || eventId.startsWith("imclm-") || eventId.startsWith("agr-imfcrisis") || eventId.startsWith("immi-") || eventId.startsWith("imobl-")) {
+    return "imfcrisis";
   }
   return "tariff";
 }
@@ -1598,6 +1626,16 @@ const allShortIds = [
   ...candlePredictions.map((p) => p.id),
   ...candleNarratives.map((n) => n.id),
   ...candleClaims.map((c) => c.id),
+  // IMF Crisis scenario
+  ...imfcrisisEvents.map((e) => e.id),
+  ...imfcrisisLinks.map((l) => l.id),
+  imfcrisisAgreement.id,
+  ...imfcrisisAgreement.parties.map((p: { id: string }) => p.id),
+  ...imfcrisisAgreement.obligations.map((o: { id: string }) => o.id),
+  ...imfcrisisMarketImpacts.map((m) => m.id),
+  ...imfcrisisPredictions.map((p) => p.id),
+  ...imfcrisisNarratives.map((n) => n.id),
+  ...imfcrisisClaims.map((c) => c.id),
 ];
 
 // We can't compute UUID5 in the browser easily, so we rely on the API

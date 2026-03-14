@@ -1,0 +1,44 @@
+{
+  "id": "agr-imfcrisis-001",
+  "title": "IMF 구제금융 협약 (Stand-By Arrangement)",
+  "date": "1997-12-03",
+  "summary": "한국 정부와 IMF 간 580억 달러 규모의 구제금융 협약. 자금 지원 대가로 고금리 정책, 재벌 구조조정, 금융기관 퇴출, 노동시장 유연화, 자본시장 전면 개방 등의 조건이 부과되었다. 2001년 8월 조기 상환으로 종료.",
+  "status": "collapsed",
+  "parties": [
+    { "id": "actor-imf", "name": "국제통화기금(IMF)", "flag": "🌐" },
+    { "id": "actor-rok-gov", "name": "대한민국 정부", "flag": "🇰🇷" }
+  ],
+  "obligations": [
+    {
+      "id": "imobl-001",
+      "description": "IMF는 한국에 580억 달러 규모의 구제금융을 제공한다",
+      "deadline": "1997-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-imf", "name": "국제통화기금(IMF)", "flag": "🌐" },
+      "consequenceEventId": "imevt-006"
+    },
+    {
+      "id": "imobl-002",
+      "description": "한국은 금리를 인상하고 긴축 재정 정책을 시행한다",
+      "deadline": "1998-03-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-rok-gov", "name": "대한민국 정부", "flag": "🇰🇷" }
+    },
+    {
+      "id": "imobl-003",
+      "description": "한국은 부실 재벌과 금융기관에 대한 구조조정을 실시한다",
+      "deadline": "1999-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-rok-gov", "name": "대한민국 정부", "flag": "🇰🇷" },
+      "consequenceEventId": "imevt-009"
+    },
+    {
+      "id": "imobl-004",
+      "description": "한국은 구제금융을 상환한다",
+      "deadline": "2004-12-31",
+      "status": "fulfilled",
+      "assignedTo": { "id": "actor-rok-gov", "name": "대한민국 정부", "flag": "🇰🇷" },
+      "consequenceEventId": "imevt-011"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "imlink-001",
+    "source": "imevt-001",
+    "target": "imevt-002",
+    "confidence": 75,
+    "mechanism": "급속한 금융 자유화가 재벌의 무분별한 차입 경영을 방치하여 한보철강 부도로 이어졌다.",
+    "causalType": "enabling"
+  },
+  {
+    "id": "imlink-002",
+    "source": "imevt-002",
+    "target": "imevt-004",
+    "confidence": 80,
+    "mechanism": "한보 부도 이후 재벌 연쇄 부도가 발생하여 기아그룹까지 도미노 붕괴했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-003",
+    "source": "imevt-003",
+    "target": "imevt-005",
+    "confidence": 85,
+    "mechanism": "아시아 금융위기가 한국으로 전파되면서 외국인 투자금이 급속히 유출되고 외환보유고가 고갈되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-004",
+    "source": "imevt-004",
+    "target": "imevt-005",
+    "confidence": 80,
+    "mechanism": "기아 부도 등 재벌 연쇄 부실이 한국 경제에 대한 국제 신뢰를 붕괴시켜 외자 유출을 가속화했다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "imlink-005",
+    "source": "imevt-005",
+    "target": "imevt-006",
+    "confidence": 95,
+    "mechanism": "외환보유고 고갈로 IMF에 구제금융을 요청하여 580억 달러 협약이 체결되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-006",
+    "source": "imevt-005",
+    "target": "imevt-007",
+    "confidence": 70,
+    "mechanism": "IMF 위기에 대한 현 정권 책임론이 최초의 여야 정권교체를 이끌어냈다.",
+    "causalType": "contributing"
+  },
+  {
+    "id": "imlink-007",
+    "source": "imevt-006",
+    "target": "imevt-008",
+    "confidence": 75,
+    "mechanism": "IMF 구제금융의 충격과 외채 상환 부담이 국민적 금 모으기 운동을 촉발했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-008",
+    "source": "imevt-007",
+    "target": "imevt-009",
+    "confidence": 90,
+    "mechanism": "김대중 정부가 IMF 조건에 따라 재벌 빅딜·정리해고 법제화 등 대대적 구조조정을 단행했다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-009",
+    "source": "imevt-009",
+    "target": "imevt-010",
+    "confidence": 85,
+    "mechanism": "구조조정 과정에서 부채 비율이 과다한 대우그룹이 최종 해체되었다.",
+    "causalType": "direct"
+  },
+  {
+    "id": "imlink-010",
+    "source": "imevt-009",
+    "target": "imevt-011",
+    "confidence": 80,
+    "mechanism": "강도 높은 구조조정으로 경제가 빠르게 회복되어 IMF 구제금융을 조기 상환할 수 있었다.",
+    "causalType": "direct"
+  }
+]
