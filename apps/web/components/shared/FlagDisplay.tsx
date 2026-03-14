@@ -30,8 +30,7 @@ export default function FlagDisplay({
       {codes.map((code) => (
         <img
           key={code}
-          src={`https://flagcdn.com/w${width * 2}/${code.toLowerCase()}.png`}
-          srcSet={`https://flagcdn.com/w${width * 2}/${code.toLowerCase()}.png 2x`}
+          src={`https://flagcdn.com/${code.toLowerCase()}.svg`}
           width={width}
           height={height}
           alt={flag}
