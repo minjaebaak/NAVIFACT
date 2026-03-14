@@ -94,5 +94,13 @@
     "confidence": 72,
     "mechanism": "중국 봉쇄 훈련 이후에도 미국이 대만해협 통과로 항행의 자유 원칙을 재확인하며 억지력 유지.",
     "causalType": "contributing"
+  },
+  {
+    "id": "tailink-013",
+    "source": "taievt-013",
+    "target": "taievt-014",
+    "confidence": 80,
+    "mechanism": "미국의 대만해협 항행 자유 시위로 확인된 안보 공약에 이어, 대만이 마감 직전 $9B 무기 구매를 승인하여 방위력을 강화했다",
+    "causalType": "direct"
   }
 ]
